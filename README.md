@@ -106,3 +106,11 @@ Recipe state changes synchronously. Drop, swirl and pour animations never schedu
 Tests preserve the original Color Lab suite and cover smoothie quantities, order independence, OKLab conversion and weights, balanced names, dominance changes in both directions, undo/reset, serving/restarting, rapid taps and late animation events. `scripts/check-build.js` checks each generated HTML page, asset prefix, actual asset file and required third-party license. Physical iPhone Safari testing remains a user-device check; desktop mobile viewport inspection is documented separately.
 
 For the original paint model and naming details, see [Color Lab model](docs/color-lab-model.md).
+
+## Christmas Tree Decorator
+
+New route: `christmas-tree/`. Source modules are in `src/games/christmas-tree/`: catalog, normalized state and undo history, SVG scene, pointer controls and PNG export. Twenty ornaments and three gift options can be selected, tapped into place, dragged, selected again, moved or removed. Keyboard users can focus placed objects, use arrow keys to move them, and Delete to remove them. The tree has three styles, three toppers (star, snowflake and an illustrated Santa hat), five light modes (scattered multicolor, warm white, icy blue, off, and scattered blue-and-white), day/night and a celebration view. Reset requires a confirmation dialog and preserves the tree style; Undo can restore a reset.
+
+Progress saves to browser localStorage under `levis-tree`. Invalid/unavailable storage falls back safely. Only saved normalized positions and customization persist, not undo history. Save Picture renders a standalone SVG into a 1200×1500 PNG and opens a preview/download dialog; on iPhone, touch and hold the preview if downloads are restricted. System emoji artwork may look different across devices. Audio is not implemented. Desktop PNG preview/export and save restoration were checked; physical iPhone/Android download and touchscreen behavior still require device testing.
+
+Run `pnpm run dev` and open `/christmas-tree/`, or build with `PAGES_BASE_PATH=/levis-games/` and preview `/levis-games/christmas-tree/`. Publishing uses the existing Actions workflow after review: `git add .`, `git commit -m "Add Christmas Tree Decorator"`, then `git push origin main`. The approved Christmas game is published through this same workflow.

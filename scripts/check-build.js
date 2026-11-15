@@ -5,6 +5,7 @@ if (!base.startsWith("/") || !base.endsWith("/"))
   throw new Error("The production base must start and end with /");
 const root = resolve("dist");
 for (const [path, title] of [
+  ["christmas-tree/index.html", "Levi's Christmas Tree"],
   ["index.html", "Levi's Games"],
   ["color-lab/index.html", "Levi's Color Lab"],
   ["smoothie-station/index.html", "Levi's Smoothie Station"],
@@ -24,5 +25,5 @@ for (const name of ["spectral.js", "color-name"])
   if (!existsSync(resolve(root, `licenses/${name}.txt`)))
     throw new Error(`Missing license for ${name}`);
 console.log(
-  `Verified all three static entries, local assets and licenses under ${base}`,
+  `Verified all static entries, local assets and licenses under ${base}`,
 );
