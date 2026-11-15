@@ -4,9 +4,9 @@ A local, toddler-friendly paint playground. No accounts, backend, ads, tracking,
 
 ## GitHub Pages
 
-Repository: https://github.com/MaxAultKodev/levis-color-lab
+Repository: https://github.com/SofaKoDev/levis-color-lab
 
-Website address: https://MaxAultKodev.github.io/levis-color-lab/
+Website address: https://SofaKoDev.github.io/levis-color-lab/
 
 The address is live only after the **Deploy Levi's Color Lab** workflow completes successfully. On an iPhone, open that HTTPS address in Safari; no login or shared Wi-Fi is needed for the published game. Safari's Share menu offers **Add to Home Screen** as a shortcut. This project does not currently implement a PWA manifest, service worker, or offline caching of the hosted site.
 
@@ -98,5 +98,6 @@ Names use nearest Euclidean OKLab matching against the CSS named-color palette f
 `npm.cmd test` runs Vitest checks for all requested pair families with OKLab tolerances, first-through-tenth Blue dominance, 100-drop stability, exact identical pigments, order independence, Undo/Empty and naming. At high counts, 8-bit RGB rounding can make adjacent drops visually identical; tests allow quantization tolerance after ten drops. A jsdom interaction test covers fast additions, undo restoration, empty state and selector synchronization.
 
 Large touch targets, a labeled native keyboard-accessible rainbow slider, focus outlines, live result announcements, safe-area padding, portrait responsive layouts and reduced-motion support are included. No audio is implemented. The layout compacts on short screens; vertical scrolling remains available when accessibility text sizes require it. Desktop browser phone-size review is not a substitute for testing on a physical iPhone Safari.
+
 
 
