@@ -3,6 +3,7 @@ import {presets,hueOf,hueToHex} from './colorPresets.js';
 import {colorName} from './colorNames.js';
 import {createBowl} from './colorMixing.js';
 import {animatePaint} from './animations.js';
+import {addHomeLink} from './shared/navigation.js';
 document.querySelector('#app').innerHTML=`
 <main class="lab"><header><span class="brand-mark" aria-hidden="true">✳</span><h1>Levi's <span>Color Lab</span></h1><p>A little paint. A big discovery.</p></header>
 <section class="mixing" aria-label="Mixing bowl"><div class="eyebrow">LOOK WHAT YOU MADE</div><h2 id="result" aria-live="polite">Let's make a color!</h2>
@@ -21,3 +22,6 @@ $('#rainbow').addEventListener('input',e=>select(hueToHex(Number(e.target.value)
 document.querySelectorAll('.preset').forEach(b=>b.addEventListener('click',()=>select(b.dataset.color)));
 $('#add').addEventListener('click',()=>{bowl.add(selected);render();animatePaint($('.bowl-stage'),selected)});
 $('#undo').addEventListener('click',()=>{bowl.undo();render()});$('#empty').addEventListener('click',()=>{bowl.empty();render()});select(selected);
+addHomeLink($('.lab'));
+// Browsers can restore a range value after loading a page from history.
+window.addEventListener('pageshow',()=>select(selected));

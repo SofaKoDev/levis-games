@@ -1,55 +1,31 @@
-# Levi's Color Lab
+# Levi's Games
 
-A local, toddler-friendly paint playground. No accounts, backend, ads, tracking, remote fonts, or runtime internet requests. Paint resets when the page reloads.
+**Little games. Big imagination.** A free collection of toddler-friendly browser games, designed for iPhone Safari. No accounts, advertising, analytics, external APIs or backend.
 
-## GitHub Pages
+- **Color Lab:** the original paint-mixing game, preserved with its own spectral mixing and naming engines.
+- **Smoothie Station:** a cozy fruit-mixing kitchen (Phase 2 follows the verified website migration).
 
-Repository: https://github.com/SofaKoDev/levis-color-lab
+## Publication and migration
 
-Website address: https://SofaKoDev.github.io/levis-color-lab/
+Migration target repository: https://github.com/SofaKoDev/levis-games
 
-The address is live only after the **Deploy Levi's Color Lab** workflow completes successfully. On an iPhone, open that HTTPS address in Safari; no login or shared Wi-Fi is needed for the published game. Safari's Share menu offers **Add to Home Screen** as a shortcut. This project does not currently implement a PWA manifest, service worker, or offline caching of the hosted site.
+Migration target website: https://sofakodev.github.io/levis-games/
 
-GitHub Free Pages hosting requires a public repository, so the source is publicly readable. No credentials belong in this project.
+Game routes: `color-lab/` and `smoothie-station/` below the website root. The repository rename requires owner approval. Until it is renamed and successfully deployed, the existing site remains at https://sofakodev.github.io/levis-color-lab/.
 
-The workflow in `.github/workflows/deploy.yml` runs on pushes to `main` and supports manual runs from Actions. It installs pnpm 11.25.0 on Node 22, installs from `pnpm-lock.yaml` with `--frozen-lockfile`, runs all tests, builds the production site, uploads `dist`, and deploys only after the build job succeeds. Deployment permissions are restricted to the deployment job. Deployments run one at a time.
+## Local development (Windows PowerShell)
 
-In repository **Settings → Pages**, select **GitHub Actions** as the publishing source. The workflow sets `PAGES_BASE_PATH=/levis-color-lab/`, while local builds default to `/`. If the repository is renamed, update that workflow value and these URLs. For a future custom domain, configure the domain in Pages, add its CNAME file in `public`, and set `PAGES_BASE_PATH=/`.
-
-To publish future changes from this checkout:
-
-```powershell
-pnpm run test
-pnpm run build
-git add .
-git commit -m "Describe the update"
-git push origin main
-```
-
-Git must be authenticated to GitHub (for example with `gh auth login`). Review the staged files with `git diff --cached` before committing. Follow the run in the repository's **Actions** tab; a failed test/build leaves the previous deployment intact. You can also use **Actions → Deploy Levi's Color Lab → Run workflow** to redeploy `main`.
-
-Troubleshooting:
-
-- **404:** Wait for the deployment to succeed, confirm the public repository and Pages source, and use the full URL including `/levis-color-lab/`.
-- **Blank page or missing assets:** Check the workflow base path, rebuild and redeploy; do not publish source files directly as the site.
-- **Lockfile mismatch:** Run the pinned pnpm version locally, update `pnpm-lock.yaml` intentionally, and commit it with `package.json`. CI never bypasses the frozen lockfile.
-- **Pages permission failure:** Confirm Actions is enabled and Pages uses GitHub Actions. The deploy job needs Pages write and OIDC token write permissions.
-- **Old content on Safari:** Reload after the successful deployment; if needed close and reopen the tab. There is no service worker to unregister.
-
-## Windows PowerShell setup
-
-Install Node.js 22 LTS or later from https://nodejs.org (includes npm), then reopen PowerShell:
+Install Node.js 22 or later, including npm, then open PowerShell in your checkout:
 
 ```powershell
-Set-Location 'PATH-TO-YOUR-CHECKOUT'
-npm.cmd install
-npm.cmd test
-npm.cmd run dev
+npm.cmd install --global pnpm@11.25.0
+pnpm install --frozen-lockfile
+pnpm run dev
 ```
 
-Open http://localhost:5173 on the computer. Leave the terminal running; Ctrl+C stops the server. The `.cmd` form avoids PowerShell script execution-policy issues. Dependencies are only downloaded during initial setup. A pnpm lockfile is also included; pnpm users can run `pnpm install --store-dir .pnpm-store --node-linker=hoisted` and `pnpm run dev`.
+Open http://localhost:5173/. To use an iPhone on the same trusted Wi-Fi, open `http://YOUR-PC-IP:5173/` in Safari. Find the Wi-Fi IPv4 address using `ipconfig`. Allow Node through Windows Firewall on Private networks only; never forward the development port through the router. The computer must remain awake. Ctrl+C stops the server.
 
-In the prepared Codex environment, dependencies are already installed and these direct commands also work without npm:
+In the prepared environment, dependencies are installed. Direct alternatives:
 
 ```powershell
 node node_modules/vite/bin/vite.js --host 0.0.0.0
@@ -58,46 +34,57 @@ node node_modules/vite/bin/vite.js build
 node scripts/copy-licenses.js
 ```
 
-## Play on an iPhone
-
-Connect the computer and iPhone to the same trusted home Wi-Fi (avoid guest-network client isolation). Run the development command above, then find the computer's Wi-Fi IPv4 address:
+## Test and production build
 
 ```powershell
-ipconfig
+pnpm run test
+pnpm run build
+pnpm run preview
 ```
 
-In Safari open `http://YOUR-IP:5173`, for example `http://192.168.1.100:5173`. IP addresses can change. The computer must stay awake. If Windows Firewall prompts, allow Node.js on **Private networks only**. If blocked, use Windows Defender Firewall's allowed-app settings to allow Node.js on Private networks, or create an inbound TCP rule for the chosen port scoped to Private profile and Local subnet. Do not disable the firewall. No router port forwarding or public exposure is needed.
-
-The server listens on all interfaces for LAN access. To limit it to the computer, use `npm.cmd run dev -- --host 127.0.0.1`. To choose a port, use `npm.cmd run dev -- --port 5174` and use that port on the phone. Ports are strict so an occupied port produces an error rather than a surprising new address.
-
-## Production build and local hosting
+Preview defaults to http://localhost:4173/. To verify the exact Pages subpath locally:
 
 ```powershell
-npm.cmd run build
-npm.cmd run preview
+$env:PAGES_BASE_PATH='/levis-games/'
+pnpm run build
+pnpm run preview
 ```
 
-Open http://localhost:4173 or `http://YOUR-IP:4173` from Safari. Preview is convenient for home use; it is not a hardened public production server. It serves the built `dist` folder without requiring internet. Dependencies must remain installed for this preview command. Alternatively serve `dist` using an existing local static web server. Opening index.html directly via file:// is unsupported.
+Then open http://localhost:4173/levis-games/. Remove the override with `Remove-Item Env:PAGES_BASE_PATH` to return to root hosting. The built `dist` folder contains all runtime assets and license notices; it needs no internet or Node runtime when served by a local static server. Vite preview is for local review, not public server hosting. A future Ubuntu server can serve `dist` with Nginx; use `/` as the base when hosting at a domain root.
 
-For future Ubuntu deployment, build here, copy the **contents** of `dist` to an Nginx document root such as `/var/www/levis-color-lab`, and configure Nginx to serve that root with `index index.html;` and `try_files $uri $uri/ =404;`. Keep the server on the home LAN; restrict its firewall to the LAN subnet. Node and npm are not needed on Ubuntu to serve the built static files.
+## Static routing and project layout
 
-## Mixing model and dependency evaluation
+Vite builds three actual HTML entries: `index.html`, `color-lab/index.html`, and `smoothie-station/index.html`. GitHub Pages serves each directory's index directly, including on refresh and direct navigation. Ordinary anchor links support browser back/forward without a routing framework or a 404 redirect workaround. Reloading or leaving a game resets its current recipe; nothing is stored remotely.
 
-Spectral.js 3.0.0 (https://github.com/rvanwijnen/spectral.js), MIT, is a small dependency-free JavaScript library. Its browser-compatible UMD module is bundled locally by Vite. It reconstructs reflectance from sRGB and uses a Kubelka–Munk inspired spectral model rather than summing or multiplying RGB channels. This was preferred over a custom artist-wheel approximation because it supplies documented spectral behavior and supports simultaneous weighted mixtures. Package source and license are included in node_modules; see THIRD_PARTY_NOTICES.md.
+- `src/home/`: home page, original SVG illustrations and reusable game registry.
+- `src/shared/`: shared Home navigation.
+- `src/main.js`, `src/styles.css`: preserved Color Lab interface, with Home navigation added.
+- `src/colorMixing.js`, `src/colorNames.js`, `src/colorPresets.js`, `src/animations.js`: existing independent Color Lab modules.
+- `src/games/smoothie-station/`: separate Smoothie Station logic and interface.
+- `tests/`: regression, state, naming, color and UI checks.
+- `.github/workflows/deploy.yml`: test, build and Pages deployment.
 
-Every drop has equal quantity. Original pigments are grouped by hex, normalized by total count, sorted deterministically and mixed simultaneously. The adapter compensates for Spectral.js squaring input factors and applying luminance weights: each factor is sqrt(drop fraction / pigment luminance), yielding an equal-volume spectral K/S average. Undo recalculates from the remaining original drops. Identical paints return their original hex. No combination-presence rules or accumulation of rounded intermediate mixtures are used. Cached pigment reconstruction keeps repeated taps inexpensive. The animations are decorative and cannot change the state.
+To add a game, create a directory with its `index.html` entry and independent source module, register that HTML in `vite.config.js`, then add its title, description, illustration and route to `src/home/gameRegistry.js`. Use `import.meta.env.BASE_URL` for navigation. The registry automatically updates the home cards. Artwork is original local SVG; no remotely hosted images or fonts are needed.
 
-This is a **display-color approximation**, not a simulation of measured physical paint. Real tubes, scattering, opacity, lighting and displays differ. Complementary mixtures may be muted. The defined Red is a cool red (#ff2255), chosen to give useful violet mixtures with Blue (#3455eb). These presets are display pigments rather than scientific spectral primaries. The slider is a fully saturated hue spectrum; selecting a preset positions its thumb at that preset's hue, while retaining the preset's exact RGB. Moving the slider selects a new fully saturated color.
+## GitHub Pages and future updates
 
-## Naming
+The public repository uses free GitHub Pages hosting. Settings → Pages → Source must be **GitHub Actions**. Pushes to `main` and manual workflow dispatches run locked dependency installation, all tests, a multi-page build and deployment. The production base path derives from the actual repository name, so a rename does not require hardcoding a username or path in the workflow. Deployment waits for successful tests and build; concurrent deployments are serialized. Runtime dependencies and their MIT notices are bundled locally.
 
-Names use nearest Euclidean OKLab matching against the CSS named-color palette from `color-name` (MIT), additional descriptive anchors, and programmatically derived light/pale/deep/dark shades (several hundred candidates). Presets and exact descriptive anchors take priority. All three perceptual coordinates participate, preventing a dark teal from being confused with bright turquoise. Generated labels describe approximations; no Pantone or other licensed matching is claimed. Adjacent colors can share a name while their hex and bowl color change.
+After editing:
 
-## Verification and accessibility
+```powershell
+pnpm run test
+pnpm run build
+git add .
+git diff --cached
+git commit -m "Describe the update"
+git push origin main
+```
 
-`npm.cmd test` runs Vitest checks for all requested pair families with OKLab tolerances, first-through-tenth Blue dominance, 100-drop stability, exact identical pigments, order independence, Undo/Empty and naming. At high counts, 8-bit RGB rounding can make adjacent drops visually identical; tests allow quantization tolerance after ten drops. A jsdom interaction test covers fast additions, undo restoration, empty state and selector synchronization.
+Follow the run in the repository's Actions tab. If Git uses a different credential manager from GitHub CLI, authenticate that manager or use `git -c credential.helper= -c 'credential.helper=!gh auth git-credential' push origin main` after `gh auth login`. Never put credentials in files or remote URLs.
 
-Large touch targets, a labeled native keyboard-accessible rainbow slider, focus outlines, live result announcements, safe-area padding, portrait responsive layouts and reduced-motion support are included. No audio is implemented. The layout compacts on short screens; vertical scrolling remains available when accessibility text sizes require it. Desktop browser phone-size review is not a substitute for testing on a physical iPhone Safari.
+For a custom domain, configure it in Pages, add `public/CNAME`, and change the workflow base path to `/`. For 404s, verify the full repository subpath, trailing slash, Pages source and successful workflow. For blank pages, inspect asset URLs and rebuild with the right base. For lockfile errors, update the lockfile intentionally with the pinned pnpm; CI must retain `--frozen-lockfile`. GitHub may redirect a renamed repository's source URL, but old Pages bookmarks should be updated explicitly.
 
+## Accessibility and verification
 
-
+Large touch targets, safe-area spacing, keyboard focus indicators, live status announcements and reduced-motion support are included. No audio, login, service worker, PWA manifest or offline caching is introduced. Safari can add the site to the Home Screen as a shortcut. Desktop checks at 375px and 390px are not physical iPhone Safari testing.

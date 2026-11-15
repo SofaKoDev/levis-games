@@ -1,0 +1,12 @@
+// @vitest-environment jsdom
+import {it,expect} from 'vitest';
+import {games} from '../src/home/gameRegistry.js';
+it('shows every registered game with real static-page links',async()=>{
+  document.body.innerHTML='<div id="app"></div>';
+  await import('../src/home/main.js');
+  expect(document.querySelector('h1').textContent).toContain("Levi's");
+  expect(document.querySelector('.tagline').textContent).toBe('Little games. Big imagination.');
+  const cards=[...document.querySelectorAll('.game-card')];
+  expect(cards).toHaveLength(games.length);
+  for(const game of games){const card=cards.find(c=>c.textContent.includes(game.title));expect(card.getAttribute('href')).toBe(`/${game.id}/`);expect(card.getAttribute('aria-label')).toBe(game.label);}
+});

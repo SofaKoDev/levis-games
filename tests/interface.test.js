@@ -6,6 +6,7 @@ it('handles fast taps, undo, empty, and synchronized selection',async()=>{
   await import('../src/main.js');
   const $=s=>document.querySelector(s);
   expect(document.querySelector('h1').textContent).toContain("Levi's");
+  expect(document.querySelector('.home-link').getAttribute('href')).toBe('/');
   document.querySelector('[aria-label="Cyan"]').click();$('#add').click();
   expect($('#selected-name').textContent).toBe('Cyan');expect(Number($('#rainbow').value)).toBe(180);
   document.querySelector('[aria-label="Yellow"]').click();$('#add').click();
@@ -15,4 +16,5 @@ it('handles fast taps, undo, empty, and synchronized selection',async()=>{
   for(let i=0;i<10;i++)$('#undo').click();expect($('#hex').textContent).toBe(before);
   $('#empty').click();expect($('#count').textContent).toBe('0 drops');expect($('#undo').disabled).toBe(true);
   $('#rainbow').value='30';$('#rainbow').dispatchEvent(new Event('input'));expect($('#selected-name').textContent).not.toBe('Blue');
+  const selectedHue=$('#rainbow').value;$('#rainbow').value='229';window.dispatchEvent(new Event('pageshow'));expect($('#rainbow').value).toBe(selectedHue);
 });

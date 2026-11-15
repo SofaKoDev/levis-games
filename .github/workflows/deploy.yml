@@ -1,4 +1,4 @@
-name: Deploy Levi's Color Lab
+name: Deploy Levi's Games
 
 on:
   push:
@@ -31,7 +31,7 @@ jobs:
       - name: Build for GitHub Pages
         run: pnpm run build
         env:
-          PAGES_BASE_PATH: /levis-color-lab/
+          PAGES_BASE_PATH: /${{ github.event.repository.name }}/
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
         with:

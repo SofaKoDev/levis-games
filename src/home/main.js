@@ -1,0 +1,4 @@
+import './styles.css';
+import {games,gameUrl} from './gameRegistry.js';
+import {illustrations} from './illustrations.js';
+document.querySelector('#app').innerHTML=`<main class="games-home"><header class="welcome"><div class="sun" aria-hidden="true">✳</div><p class="welcome-kicker">A LITTLE WORLD OF WONDER</p><h1>Levi's <span>Games</span></h1><p class="tagline">Little games. Big imagination.</p></header><section class="game-grid" aria-label="Choose a game">${games.map(game=>`<a class="game-card ${game.accent}" href="${gameUrl(game.id)}" aria-label="${game.label}"><div class="card-art">${illustrations[game.art]}</div><div class="card-copy"><h2>${game.title}</h2><p>${game.description}</p><span class="play-pill">Let's play <span aria-hidden="true">↗</span></span></div></a>`).join('')}</section><footer class="home-footer"><span aria-hidden="true">✦</span> Made for curious little hands <span aria-hidden="true">✦</span></footer></main>`;
