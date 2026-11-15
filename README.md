@@ -3,15 +3,18 @@
 **Little games. Big imagination.** A free collection of toddler-friendly browser games, designed for iPhone Safari. No accounts, advertising, analytics, external APIs or backend.
 
 - **Color Lab:** the original paint-mixing game, preserved with its own spectral mixing and naming engines.
-- **Smoothie Station:** a cozy fruit-mixing kitchen (Phase 2 follows the verified website migration).
+- **Smoothie Station:** a cozy fruit-mixing kitchen with six fruits, quantity-aware colors and playful recipe names.
 
 ## Publication and migration
 
-Migration target repository: https://github.com/SofaKoDev/levis-games
+Repository: https://github.com/SofaKoDev/levis-games
 
-Migration target website: https://sofakodev.github.io/levis-games/
+Website: https://sofakodev.github.io/levis-games/
 
-Game routes: `color-lab/` and `smoothie-station/` below the website root. The repository rename requires owner approval. Until it is renamed and successfully deployed, the existing site remains at https://sofakodev.github.io/levis-color-lab/.
+- Color Lab: https://sofakodev.github.io/levis-games/color-lab/
+- Smoothie Station: https://sofakodev.github.io/levis-games/smoothie-station/
+
+The existing public repository was renamed with owner approval; its history was preserved. Update old `/levis-color-lab/` bookmarks to the new website address. The final publication is confirmed only by a successful Actions deployment.
 
 ## Local development (Windows PowerShell)
 
@@ -32,6 +35,7 @@ node node_modules/vite/bin/vite.js --host 0.0.0.0
 node node_modules/vitest/vitest.mjs run
 node node_modules/vite/bin/vite.js build
 node scripts/copy-licenses.js
+node scripts/check-build.js
 ```
 
 ## Test and production build
@@ -68,7 +72,7 @@ To add a game, create a directory with its `index.html` entry and independent so
 
 ## GitHub Pages and future updates
 
-The public repository uses free GitHub Pages hosting. Settings → Pages → Source must be **GitHub Actions**. Pushes to `main` and manual workflow dispatches run locked dependency installation, all tests, a multi-page build and deployment. The production base path derives from the actual repository name, so a rename does not require hardcoding a username or path in the workflow. Deployment waits for successful tests and build; concurrent deployments are serialized. Runtime dependencies and their MIT notices are bundled locally.
+The public repository uses free GitHub Pages hosting. Settings → Pages → Source must be **GitHub Actions**. Pushes to `main` and manual workflow dispatches run locked dependency installation, all tests, a multi-page build, generated-page/asset checks, and deployment. The production base path derives from the actual repository name, so a rename does not require hardcoding a username or path in the workflow. Deployment waits for successful tests and build; concurrent deployments are serialized. Runtime dependencies and their MIT notices are bundled locally.
 
 After editing:
 
@@ -88,3 +92,17 @@ For a custom domain, configure it in Pages, add `public/CNAME`, and change the w
 ## Accessibility and verification
 
 Large touch targets, safe-area spacing, keyboard focus indicators, live status announcements and reduced-motion support are included. No audio, login, service worker, PWA manifest or offline caching is introduced. Safari can add the site to the Home Screen as a shortcut. Desktop checks at 375px and 390px are not physical iPhone Safari testing.
+
+## Smoothie Station models and behavior
+
+Tap one of six original illustrated fruit buttons to add an equal portion. Blend turns the recipe into liquid and reveals its name and cup. Continue experimenting by tapping more fruit, or Serve Smoothie for a happy cup reveal. Undo removes exactly the last portion, including after blending. Empty Blender and Make Another clear all portions. Serving preserves the recipe until Make Another starts fresh. Current recipes reset on reload or navigation; no data is stored.
+
+`ingredients.js` defines Strawberry, Banana, Blueberry, Mango, Grape and Kiwi colors. `color.js` averages original fruit colors by quantity in OKLab, then converts to clamped displayable sRGB. This independent engine does not use or alter Color Lab's spectral paint model. It is a playful display approximation, not a claim about the appearance or nutrition of real smoothies. [OKLab matrices and explanation](https://bottosson.github.io/posts/oklab/).
+
+`naming.js` uses exact fruit sets and proportions for special names: balanced Strawberry + Banana becomes Strawberry Banana Swirl, Mango + Banana becomes Sunshine Shake, and so on. Two-fruit specials apply only up to a 2:1 ratio. The exact four-fruit Rainbow Rocket requires every fruit to have at least 15% and none above 40%. Outside those bounds, dominant fruits (60% or more) lead generated names. Other recipes use their actual fruits, perceptual color and playful endings. Counts and sorted IDs make names repeatable and independent of ingredient order. A token blueberry cannot hijack a banana-heavy smoothie.
+
+Recipe state changes synchronously. Drop, swirl and pour animations never schedule state mutations. Reset removes decorative drops, and late animation events cannot restore fruit. The jar draws up to 15 pieces for performance, while counts, mixtures and naming retain every portion. Tapping is the primary input; drag-and-drop, audio and a service worker are intentionally not implemented. All artwork is original inline SVG.
+
+Tests preserve the original Color Lab suite and cover smoothie quantities, order independence, OKLab conversion and weights, balanced names, dominance changes in both directions, undo/reset, serving/restarting, rapid taps and late animation events. `scripts/check-build.js` checks each generated HTML page, asset prefix, actual asset file and required third-party license. Physical iPhone Safari testing remains a user-device check; desktop mobile viewport inspection is documented separately.
+
+For the original paint model and naming details, see [Color Lab model](docs/color-lab-model.md).
