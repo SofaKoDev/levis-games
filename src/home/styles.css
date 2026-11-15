@@ -1,7 +1,7 @@
 :root{
   font-family:ui-rounded,'Trebuchet MS',system-ui,sans-serif;
   color:#35483f;
-  background:#fbf5e9;
+  background:#182b2b;
   font-synthesis:none
 }
 *{
@@ -9,6 +9,8 @@
 }
 body{
   margin:0;
+  min-height:100vh;
+  background:radial-gradient(ellipse at top,#29443f 0%,#182b2b 70%);
   -webkit-tap-highlight-color:transparent
 }
 .games-home{
@@ -17,6 +19,7 @@ body{
   padding:36px 24px max(20px,env(safe-area-inset-bottom))
 }
 .welcome{
+  color:#fff1d9;
   text-align:center
 }
 .sun{
@@ -35,7 +38,7 @@ body{
   font-size:10px;
   letter-spacing:2.5px;
   font-weight:800;
-  color:#7c8871
+  color:#a9bbae
 }
 h1{
   font-size:52px;
@@ -44,10 +47,10 @@ h1{
   line-height:1.1
 }
 h1 span{
-  color:#538e78
+  color:#9bd3b6
 }
 .tagline{
-  color:#747f72;
+  color:#bdcbbf;
   font-size:16px;
   margin:0 0 32px
 }
@@ -63,7 +66,7 @@ h1 span{
   border:1px solid #e3e7da;
   background:#fffdf7;
   text-decoration:none;
-  color:inherit;
+  color:#35483f;
   box-shadow:0 9px 0 #dfdfcc60;
   transition:transform .2s,box-shadow .2s;
   touch-action:manipulation;
@@ -126,7 +129,7 @@ h1 span{
   text-align:center;
   margin-top:32px;
   font-size:11px;
-  color:#7f8776
+  color:#a9bbae
 }
 .home-footer span{
   color:#cba958;
