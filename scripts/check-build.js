@@ -6,6 +6,7 @@ if (!base.startsWith("/") || !base.endsWith("/"))
 const root = resolve("dist");
 for (const [path, title] of [
   ["christmas-tree/index.html", "Levi's Christmas Tree"],
+  ["snow-run/index.html", "Levi's Snow Run"],
   ["index.html", "Levi's Games"],
   ["color-lab/index.html", "Levi's Color Lab"],
   ["smoothie-station/index.html", "Levi's Smoothie Station"],

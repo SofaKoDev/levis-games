@@ -114,3 +114,7 @@ New route: `christmas-tree/`. Source modules are in `src/games/christmas-tree/`:
 Progress saves to browser localStorage under `levis-tree`. Invalid/unavailable storage falls back safely. Only saved normalized positions and customization persist, not undo history. Save Picture renders a standalone SVG into a 1200×1500 PNG and opens a preview/download dialog; on iPhone, touch and hold the preview if downloads are restricted. System emoji artwork may look different across devices. Audio is not implemented. Desktop PNG preview/export and save restoration were checked; physical iPhone/Android download and touchscreen behavior still require device testing.
 
 Run `pnpm run dev` and open `/christmas-tree/`, or build with `PAGES_BASE_PATH=/levis-games/` and preview `/levis-games/christmas-tree/`. Publishing uses the existing Actions workflow after review: `git add .`, `git commit -m "Add Christmas Tree Decorator"`, then `git push origin main`. The approved Christmas game is published through this same workflow.
+
+## Snow Run
+
+Snow Run's homepage card and static route are at `snow-run/`. Christmas Tree remains the final card. The game includes keyboard, button and drag steering; a 500-meter course; collectible multipliers; collision slowdown/recovery; pause, restart and a final tally. Sound is optional and initially off. Source and review instructions: [Snow Run](snow-run/README.md). The owner approved preview integration and publication through the existing GitHub Pages workflow. Game URL: https://sofakodev.github.io/levis-games/snow-run/.
