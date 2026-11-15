@@ -1,0 +1,21 @@
+{
+  "name": "levis-color-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build && node scripts/copy-licenses.js",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "spectral.js": "3.0.0",
+    "color-name": "2.0.0"
+  },
+  "devDependencies": {
+    "vite": "6.4.1",
+    "vitest": "3.2.4",
+    "jsdom": "26.1.0"
+  }
+}
