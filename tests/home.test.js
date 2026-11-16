@@ -8,5 +8,6 @@ it('shows every registered game with real static-page links',async()=>{
   expect(document.querySelector('.tagline').textContent).toBe('Little games. Big imagination.');
   const cards=[...document.querySelectorAll('.game-card')];
   expect(cards).toHaveLength(games.length);
+  expect(games.slice(0,2).map(game=>game.id)).toEqual(['number-blaster','sound-lab']);
   for(const game of games){const card=cards.find(c=>c.textContent.includes(game.title));expect(card.getAttribute('href')).toBe(`/${game.id}/`);expect(card.getAttribute('aria-label')).toBe(game.label);}
 });

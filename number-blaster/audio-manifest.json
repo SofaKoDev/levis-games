@@ -1,0 +1,1527 @@
+{
+  "voice": "en-US-JennyNeural",
+  "status": "locally generated; pronunciation review pending",
+  "files": {
+    "add-1-1.wav": {
+      "spoken": "Add 1! 1 plus 1 equals what?",
+      "sha256": "a562cd5ea41c15006056c9bba3b25bac2efe6cc15f87f27839cf65006b3fbce2"
+    },
+    "add-1-2.wav": {
+      "spoken": "Add 2! 1 plus 2 equals what?",
+      "sha256": "325b29533ef834d275dcedda785266341b709b26f4c0146f1df3e7a54b042412"
+    },
+    "add-1-3.wav": {
+      "spoken": "Add 3! 1 plus 3 equals what?",
+      "sha256": "80575cecf13d7d6daafce8839a8ffcbf5018df6f2c386b21ec4831f9bd99a393"
+    },
+    "add-1-4.wav": {
+      "spoken": "Add 4! 1 plus 4 equals what?",
+      "sha256": "de6662c1d2de8e0da89f0f2daa4c2d8b30a04cad7dc2e491214550aa718cbe18"
+    },
+    "add-1-5.wav": {
+      "spoken": "Add 5! 1 plus 5 equals what?",
+      "sha256": "9d6594ddb1ff288fbc30e4fabe7140714cc570e05c3aad00ace0c196b7f93c91"
+    },
+    "add-1-6.wav": {
+      "spoken": "Add 6! 1 plus 6 equals what?",
+      "sha256": "f8c1738395373ede6c7f0caf584ad358184ea26c335f589aba6c17fc79d8d216"
+    },
+    "add-1-7.wav": {
+      "spoken": "Add 7! 1 plus 7 equals what?",
+      "sha256": "4a3d867a6df1dbed58b740929af02ae541b1d94483e414e8bf62a808f71f759a"
+    },
+    "add-1-8.wav": {
+      "spoken": "Add 8! 1 plus 8 equals what?",
+      "sha256": "01a72da31b42ade82d9b3a8c7373b4df7a4e8b14a5c49a82d781b54c60fadaac"
+    },
+    "add-1-9.wav": {
+      "spoken": "Add 9! 1 plus 9 equals what?",
+      "sha256": "1607859fb867723599bc1fd38fd160e904f6305f566d29c9b2fc115517ca9145"
+    },
+    "add-1-10.wav": {
+      "spoken": "Add 10! 1 plus 10 equals what?",
+      "sha256": "396cc2b0391f7eeca29950c12d38675ca1f22a36e6bbf613c0ccc93aaa161411"
+    },
+    "add-1-11.wav": {
+      "spoken": "Add 11! 1 plus 11 equals what?",
+      "sha256": "380ecb4dae4c7bc458a2241de0b914894b4bc5b73ae0d4e1095e47fc17e6f553"
+    },
+    "add-1-12.wav": {
+      "spoken": "Add 12! 1 plus 12 equals what?",
+      "sha256": "628bb6a72ab411f42bbfbfdbbd72afcd90946d9216504b4f7a69c09f7e62e156"
+    },
+    "add-1-13.wav": {
+      "spoken": "Add 13! 1 plus 13 equals what?",
+      "sha256": "444c4246d781f033f8c6772761f9e43472e65f79adbce803a5de1bd0c7f91069"
+    },
+    "add-1-14.wav": {
+      "spoken": "Add 14! 1 plus 14 equals what?",
+      "sha256": "3c87171e148c50a75ab5728c56f343d5739f6cc12490dd5fae7cdef4b1dc30f8"
+    },
+    "add-1-15.wav": {
+      "spoken": "Add 15! 1 plus 15 equals what?",
+      "sha256": "4681950857fd7f337fd5b2972e74ecc1f1c6f50f9399b518f0a00144620aa529"
+    },
+    "add-1-16.wav": {
+      "spoken": "Add 16! 1 plus 16 equals what?",
+      "sha256": "94f80e77e1c91d4d0f94f4dc27df59e5da68bff345dac2c33b49fc8bf4b470f2"
+    },
+    "add-1-17.wav": {
+      "spoken": "Add 17! 1 plus 17 equals what?",
+      "sha256": "149aa868629ce9d3afe312cca7349ae154c805c88a74faf7dcfa79e18fd8c420"
+    },
+    "add-1-18.wav": {
+      "spoken": "Add 18! 1 plus 18 equals what?",
+      "sha256": "2933e3119048bb29afa5558391b676349e85a85bbed580efc474163ecccfe1cb"
+    },
+    "add-1-19.wav": {
+      "spoken": "Add 19! 1 plus 19 equals what?",
+      "sha256": "06c61f830e97399014720a6241bd577d94f9f75b921912b155ed5847b62a4907"
+    },
+    "add-2-1.wav": {
+      "spoken": "Add 1! 2 plus 1 equals what?",
+      "sha256": "3bea4c38d1094532fcd2f148211935589f6e7a2c40af183f8c2436e68157fa48"
+    },
+    "add-2-2.wav": {
+      "spoken": "Add 2! 2 plus 2 equals what?",
+      "sha256": "4b6562e30c1f0819697f113d39397f0629eb590ca43486adc234dcd00dd654ba"
+    },
+    "add-2-3.wav": {
+      "spoken": "Add 3! 2 plus 3 equals what?",
+      "sha256": "f12fb0bd3525a58bbeedee39cdaad732461673dbe790ed525cccde192243962c"
+    },
+    "add-2-4.wav": {
+      "spoken": "Add 4! 2 plus 4 equals what?",
+      "sha256": "e943e9bccabf577e5d281a2110c5b6751f73847b635b75260b8824294e4f149d"
+    },
+    "add-2-5.wav": {
+      "spoken": "Add 5! 2 plus 5 equals what?",
+      "sha256": "6269a0f62b53a13122e02ad3271c237cbffb27dbf85beab96a77d9fd91aba8c4"
+    },
+    "add-2-6.wav": {
+      "spoken": "Add 6! 2 plus 6 equals what?",
+      "sha256": "9b6f8db28cef95e113fe71346ec2cd9361034ce3efb5e982b8cdedfe3ef534b6"
+    },
+    "add-2-7.wav": {
+      "spoken": "Add 7! 2 plus 7 equals what?",
+      "sha256": "ca49e764d48e2c1acffd3177a080bdf0163a52d5db1ee7d0925b34f4a3dad3b4"
+    },
+    "add-2-8.wav": {
+      "spoken": "Add 8! 2 plus 8 equals what?",
+      "sha256": "81de26729cd267d00e06b28c8dd22c219b5ef142d66d2ca4d5d38a6647fa822d"
+    },
+    "add-2-9.wav": {
+      "spoken": "Add 9! 2 plus 9 equals what?",
+      "sha256": "b936a85bb2e4ab4081c37ac6b8cb882cbeb6c05d58153aac82958db4829f8888"
+    },
+    "add-2-10.wav": {
+      "spoken": "Add 10! 2 plus 10 equals what?",
+      "sha256": "ea234f8eeb9330347e3bf510e677ed17e7d6d724935d13be1b4ff2a69c1540d5"
+    },
+    "add-2-11.wav": {
+      "spoken": "Add 11! 2 plus 11 equals what?",
+      "sha256": "17494141b563b12583808e6bcc88a8ebb64851ae4dd9930cdb171b19f4c1e57a"
+    },
+    "add-2-12.wav": {
+      "spoken": "Add 12! 2 plus 12 equals what?",
+      "sha256": "384c73bda22acee66ec769e5f9cef4362b6318a8fcccb1cc07f32109a0e1f455"
+    },
+    "add-2-13.wav": {
+      "spoken": "Add 13! 2 plus 13 equals what?",
+      "sha256": "13fcb3609d5f400e6f2f2394378d3940627e25617c1ee422fef517b2494b4571"
+    },
+    "add-2-14.wav": {
+      "spoken": "Add 14! 2 plus 14 equals what?",
+      "sha256": "cabbcec91bb80638413883c4f485626f9ca51b412dbd65b830317ac25d46ddc3"
+    },
+    "add-2-15.wav": {
+      "spoken": "Add 15! 2 plus 15 equals what?",
+      "sha256": "f6458d5462eec7572fc7c619e83ecba4f51188700186a39d5e0e7a407d44dc88"
+    },
+    "add-2-16.wav": {
+      "spoken": "Add 16! 2 plus 16 equals what?",
+      "sha256": "70a50e35b7d3886e2ea60da6323bb4e309400f2b88838865e0a52e9e57cf90ea"
+    },
+    "add-2-17.wav": {
+      "spoken": "Add 17! 2 plus 17 equals what?",
+      "sha256": "660636fbfab812072e7529cd81f0af9616dfc3b0ff7d3cbb4fa79a46034bc336"
+    },
+    "add-2-18.wav": {
+      "spoken": "Add 18! 2 plus 18 equals what?",
+      "sha256": "d9a7c0cb0682aed0ba4ac12304ae26053694564ade1bee07c8c28453481e0212"
+    },
+    "subtract-2-1.wav": {
+      "spoken": "Take away 1! 2 minus 1 equals what?",
+      "sha256": "3f314464d4d619572e44c7abbf261c04bf0824a3b0a95e71180091956c8584d5"
+    },
+    "add-3-1.wav": {
+      "spoken": "Add 1! 3 plus 1 equals what?",
+      "sha256": "ab60b5364eb7305f812390f09879b93c33b0fb333682a8fd806c7e33ea83dc08"
+    },
+    "add-3-2.wav": {
+      "spoken": "Add 2! 3 plus 2 equals what?",
+      "sha256": "12f76f99932927cf412aa49b66565791717c28030d6e2eeb3f9c635007171c6b"
+    },
+    "add-3-3.wav": {
+      "spoken": "Add 3! 3 plus 3 equals what?",
+      "sha256": "f304723142f5bacf457caa00312e58c747e6bad14cfb38877d5b6f2aafb091aa"
+    },
+    "add-3-4.wav": {
+      "spoken": "Add 4! 3 plus 4 equals what?",
+      "sha256": "b179767a906ba077a31f003ee7a4d2a5cfd62c81f25fcaef448a0dbb4951953a"
+    },
+    "add-3-5.wav": {
+      "spoken": "Add 5! 3 plus 5 equals what?",
+      "sha256": "65a4d893547dd6c0d00dd55e35433fb2f24e9c5cb3fd06770a1b72e6a9824498"
+    },
+    "add-3-6.wav": {
+      "spoken": "Add 6! 3 plus 6 equals what?",
+      "sha256": "5d0500d0ad5ecca6e26f91bb818a994ff5ba6c60b411b5ae94c054b4d6962481"
+    },
+    "add-3-7.wav": {
+      "spoken": "Add 7! 3 plus 7 equals what?",
+      "sha256": "8d390d47784c177ef61ea502e6b1382c520683a5d00b041fe45bdd888361bb80"
+    },
+    "add-3-8.wav": {
+      "spoken": "Add 8! 3 plus 8 equals what?",
+      "sha256": "1e540075951105c211a21f94a1aea79a95f12aabfff07226214e8ca2bc1a4518"
+    },
+    "add-3-9.wav": {
+      "spoken": "Add 9! 3 plus 9 equals what?",
+      "sha256": "fe908b4f62286161df72bb4f49d3af1ff42efb82b4bb5eb3ab54fc72e0d90ee3"
+    },
+    "add-3-10.wav": {
+      "spoken": "Add 10! 3 plus 10 equals what?",
+      "sha256": "ca4d49f1ac52ac89eb3296a2818b517ebcba7d887547e6854f89ab43e891ed93"
+    },
+    "add-3-11.wav": {
+      "spoken": "Add 11! 3 plus 11 equals what?",
+      "sha256": "9c53b2e340f0a9a2c882dd840d50cd9f5af1c1c8ea057daaa9b42369d12905b3"
+    },
+    "add-3-12.wav": {
+      "spoken": "Add 12! 3 plus 12 equals what?",
+      "sha256": "003a022aba5b3f4794d8cfa13452e96df2c081e2d9256775a1729946468ebb31"
+    },
+    "add-3-13.wav": {
+      "spoken": "Add 13! 3 plus 13 equals what?",
+      "sha256": "3b9146f7cbd7260482a92aab582c4bec5d39ce2ef556a4063690edc91e066fb6"
+    },
+    "add-3-14.wav": {
+      "spoken": "Add 14! 3 plus 14 equals what?",
+      "sha256": "b500d5aa74b6ccbc6602117e880dff95a5a65e5dc95d78d9977cab4f956dee11"
+    },
+    "add-3-15.wav": {
+      "spoken": "Add 15! 3 plus 15 equals what?",
+      "sha256": "9395185cbd63bfc3a5b3fd92337b646563d1a843fa1be14c2486365be10029c3"
+    },
+    "add-3-16.wav": {
+      "spoken": "Add 16! 3 plus 16 equals what?",
+      "sha256": "f4b6e76f94ad5ad0d3e79bed229b1a1a0845a4c3ab4a3b4d33fd9ccf13274c45"
+    },
+    "add-3-17.wav": {
+      "spoken": "Add 17! 3 plus 17 equals what?",
+      "sha256": "56b3cc766ab6897849a74b270dab8ff8542ba079f63e75d227b16509dfd64155"
+    },
+    "subtract-3-1.wav": {
+      "spoken": "Take away 1! 3 minus 1 equals what?",
+      "sha256": "a806ca1005a933c6a0140bb0c2d5245afca3a331b383b992daaa378b67571e0b"
+    },
+    "subtract-3-2.wav": {
+      "spoken": "Take away 2! 3 minus 2 equals what?",
+      "sha256": "644166015ab6e3d392eef7b1373567c57db854ef50b6b6f48ee0fc4fedaac710"
+    },
+    "add-4-1.wav": {
+      "spoken": "Add 1! 4 plus 1 equals what?",
+      "sha256": "4aff73327c3f604ba5f3afa9f12095a5ac8d5ef6f349584f228a2f7dd46f7926"
+    },
+    "add-4-2.wav": {
+      "spoken": "Add 2! 4 plus 2 equals what?",
+      "sha256": "aa76cff00f96cfd18e814feb3a4ce8513e5e923fd92aab3ee970632e4e6800ba"
+    },
+    "add-4-3.wav": {
+      "spoken": "Add 3! 4 plus 3 equals what?",
+      "sha256": "5d0d32cdb2f06ddfd3757a666b9d4deb6c3850ad22dc7f031054b126c2a50a43"
+    },
+    "add-4-4.wav": {
+      "spoken": "Add 4! 4 plus 4 equals what?",
+      "sha256": "15c47e54b7eb42a0238de338fdde74cd1e0b9c8045d2da8ffefa1f10c8b7444e"
+    },
+    "add-4-5.wav": {
+      "spoken": "Add 5! 4 plus 5 equals what?",
+      "sha256": "48d36f653fbceeae3edeb3ed49321451dd30e25dbd7666b41fb58f1c77c7fa4f"
+    },
+    "add-4-6.wav": {
+      "spoken": "Add 6! 4 plus 6 equals what?",
+      "sha256": "10f372b46d289434b59b2a9028ad679fe8e56c1f8248ca80f3eb66a96bbcca0a"
+    },
+    "add-4-7.wav": {
+      "spoken": "Add 7! 4 plus 7 equals what?",
+      "sha256": "c83b9ea82d67ba5960171495ce9589157a8ce3b39dfa2b6953552933a1057457"
+    },
+    "add-4-8.wav": {
+      "spoken": "Add 8! 4 plus 8 equals what?",
+      "sha256": "6339fee7235e78499f8d8999d5c058734ffbce330fb245f67d1db3c923b88c72"
+    },
+    "add-4-9.wav": {
+      "spoken": "Add 9! 4 plus 9 equals what?",
+      "sha256": "8a52a4260d700b9d0c1d3605158500f5e036b6d72b49c2f7a0584f3a2711fe59"
+    },
+    "add-4-10.wav": {
+      "spoken": "Add 10! 4 plus 10 equals what?",
+      "sha256": "fb69a6775dfd7ddc104ccd28541d5c6de0cf46d1767b63718db0f71559cf030e"
+    },
+    "add-4-11.wav": {
+      "spoken": "Add 11! 4 plus 11 equals what?",
+      "sha256": "8a46621fafca3ddc351c0fede5c973206a62f4f74a361e831a920c60c1849d34"
+    },
+    "add-4-12.wav": {
+      "spoken": "Add 12! 4 plus 12 equals what?",
+      "sha256": "780eb65195665c4c2b0b9788586609b8acd62c022cfc5a2147dd63d1e0f669be"
+    },
+    "add-4-13.wav": {
+      "spoken": "Add 13! 4 plus 13 equals what?",
+      "sha256": "ad8a4095bb0c7e1aad123ec640bd13130e032472d118de0b8393db57bd328687"
+    },
+    "add-4-14.wav": {
+      "spoken": "Add 14! 4 plus 14 equals what?",
+      "sha256": "5096e3693698cb2ae57b787a41999d204ac85238dab52251b7772f8163716da0"
+    },
+    "add-4-15.wav": {
+      "spoken": "Add 15! 4 plus 15 equals what?",
+      "sha256": "cbff87b414cd7db83b317d645ada37d744f6a1a1944cbaedc561f8fe8350ee86"
+    },
+    "add-4-16.wav": {
+      "spoken": "Add 16! 4 plus 16 equals what?",
+      "sha256": "9689871551a057e4d469364f9e1c6d213ab57f91016026230571d35b5c3e6a03"
+    },
+    "subtract-4-1.wav": {
+      "spoken": "Take away 1! 4 minus 1 equals what?",
+      "sha256": "5108022b258a9833ad9bf4f7228bbc06135254de162f987d2ea9275ee4bf67f8"
+    },
+    "subtract-4-2.wav": {
+      "spoken": "Take away 2! 4 minus 2 equals what?",
+      "sha256": "556240d5172dddf67444f6e1eebb7ec229943592534e98629923ae51436b0d37"
+    },
+    "subtract-4-3.wav": {
+      "spoken": "Take away 3! 4 minus 3 equals what?",
+      "sha256": "6a3636c2d8d0589a6d0e5fbcf2a8e0d865e7bd15f3acd4b76629607e80c8b228"
+    },
+    "add-5-1.wav": {
+      "spoken": "Add 1! 5 plus 1 equals what?",
+      "sha256": "ac065f58a20806ecb980d6be51e31f6bb2cd60c5f04ccf212e55869356220d0a"
+    },
+    "add-5-2.wav": {
+      "spoken": "Add 2! 5 plus 2 equals what?",
+      "sha256": "75ee7f340a53fd501ee84657fea430bd38f74704879a8fde90a991348c550b30"
+    },
+    "add-5-3.wav": {
+      "spoken": "Add 3! 5 plus 3 equals what?",
+      "sha256": "3fa48bc914ab78a072a2071512c791ac0bd4e3a30f81cf5ccf5756059eda5a2b"
+    },
+    "add-5-4.wav": {
+      "spoken": "Add 4! 5 plus 4 equals what?",
+      "sha256": "80f953423ae03797e6d2a2487c66f84d0a1979d116411e7fec1d7c9cebb8a544"
+    },
+    "add-5-5.wav": {
+      "spoken": "Add 5! 5 plus 5 equals what?",
+      "sha256": "232ab6113c65d37b575dc7c60ead58d027c6e4d9ec6560cec59409aeee18681f"
+    },
+    "add-5-6.wav": {
+      "spoken": "Add 6! 5 plus 6 equals what?",
+      "sha256": "901edcb7874a128f85eaaa95dc840f41a34a9de69605ea5f9c9d5e3a87daece4"
+    },
+    "add-5-7.wav": {
+      "spoken": "Add 7! 5 plus 7 equals what?",
+      "sha256": "43d4f356941049389994bd58e14f72df63b833b5322b56e28d1a952edb17e71f"
+    },
+    "add-5-8.wav": {
+      "spoken": "Add 8! 5 plus 8 equals what?",
+      "sha256": "c8041f9fee060228ca56ec88a52e6c6997d8df8feab59e872ab5305449a94ca2"
+    },
+    "add-5-9.wav": {
+      "spoken": "Add 9! 5 plus 9 equals what?",
+      "sha256": "f3f78a5e629e36260be9c28d0b67f037288f08ddf1cce5af679e219a441f7b15"
+    },
+    "add-5-10.wav": {
+      "spoken": "Add 10! 5 plus 10 equals what?",
+      "sha256": "cc50a03e9830298d99ba0e3d3be66dc8392cf1d1aaccfee6e942015b8a5f0999"
+    },
+    "add-5-11.wav": {
+      "spoken": "Add 11! 5 plus 11 equals what?",
+      "sha256": "ba5eb6aca06f0ca81731e3110793f0e87adf77e8cec4b07bb357ebb2a76065f6"
+    },
+    "add-5-12.wav": {
+      "spoken": "Add 12! 5 plus 12 equals what?",
+      "sha256": "4c93192e652746bf8e096f05d071bcfd13423e9d7cc07bb90846f34f77b8c381"
+    },
+    "add-5-13.wav": {
+      "spoken": "Add 13! 5 plus 13 equals what?",
+      "sha256": "d1590c52c43d56a0e6d50d19460ed2d0f9147883bd3efef79d2ce0bd4c006942"
+    },
+    "add-5-14.wav": {
+      "spoken": "Add 14! 5 plus 14 equals what?",
+      "sha256": "998a29a8503b2aca948a6950a59c6e681c5cb1aa6622d5e6db1b5e366dd84dfd"
+    },
+    "add-5-15.wav": {
+      "spoken": "Add 15! 5 plus 15 equals what?",
+      "sha256": "147e88a8279b248fd8967ff4059f43938ead0ae8e4b3c027baaaa50fee1f35ef"
+    },
+    "subtract-5-1.wav": {
+      "spoken": "Take away 1! 5 minus 1 equals what?",
+      "sha256": "87d5c8c504116d64bf3d4ea3cd807eaf25495ef1de710b56c9fe43187e86ea21"
+    },
+    "subtract-5-2.wav": {
+      "spoken": "Take away 2! 5 minus 2 equals what?",
+      "sha256": "76d991ed68e6a46bc9197cac9451d5ea8fad34ffb6754a4bf14dea761c098d5e"
+    },
+    "subtract-5-3.wav": {
+      "spoken": "Take away 3! 5 minus 3 equals what?",
+      "sha256": "e207ea3c2c2a3fb570f2b4be75bf9b1dae9346f7b8029e82ef4f80645dfaa995"
+    },
+    "subtract-5-4.wav": {
+      "spoken": "Take away 4! 5 minus 4 equals what?",
+      "sha256": "6c5bfaf62c07060243a7cdb4d16af6f2868bf357f75a47eb6df86e576bb038e5"
+    },
+    "add-6-1.wav": {
+      "spoken": "Add 1! 6 plus 1 equals what?",
+      "sha256": "b081fafe2ed23b9d4204448e1dbf2405ca2038d0c762c775f2f2d7b3997b1ab6"
+    },
+    "add-6-2.wav": {
+      "spoken": "Add 2! 6 plus 2 equals what?",
+      "sha256": "8cfcde5096e290798edffc3277082d216adcdd8596c440c03874d7637a79c0f7"
+    },
+    "add-6-3.wav": {
+      "spoken": "Add 3! 6 plus 3 equals what?",
+      "sha256": "af676ee217faf64135f5000c00630c0cb0342707075a6ea673a498511508dd11"
+    },
+    "add-6-4.wav": {
+      "spoken": "Add 4! 6 plus 4 equals what?",
+      "sha256": "4079591bb9b6c7d3103a494a72b53553da6a2beb7a29cb3100596d87b7039ac9"
+    },
+    "add-6-5.wav": {
+      "spoken": "Add 5! 6 plus 5 equals what?",
+      "sha256": "0513f3cec97163c6838c42c3ced9cc8d55914f6fd97672a82b1c9564070d7d4e"
+    },
+    "add-6-6.wav": {
+      "spoken": "Add 6! 6 plus 6 equals what?",
+      "sha256": "c4b5914971601ce93b09c2a7c2b061246870f671a6ce08e00dbf1ab1ff526476"
+    },
+    "add-6-7.wav": {
+      "spoken": "Add 7! 6 plus 7 equals what?",
+      "sha256": "64dbaf70c41708923dcdf6001d30adb907d21de52d4b7c2a650bdf9e81e97cad"
+    },
+    "add-6-8.wav": {
+      "spoken": "Add 8! 6 plus 8 equals what?",
+      "sha256": "72440d0d919e9183ba3c495e3199cac1e74d90ac92ec81f5065caaf8f842fd84"
+    },
+    "add-6-9.wav": {
+      "spoken": "Add 9! 6 plus 9 equals what?",
+      "sha256": "75bc99b25b3e2349b9d03461a11dce92460a948fa296f77af048bb6988488205"
+    },
+    "add-6-10.wav": {
+      "spoken": "Add 10! 6 plus 10 equals what?",
+      "sha256": "ac59d3e818a175a2883b92fbc2f1ffdcc0fafd9cfeda80a86083683329e79c23"
+    },
+    "add-6-11.wav": {
+      "spoken": "Add 11! 6 plus 11 equals what?",
+      "sha256": "39458ad067831ef6c9c437f52be5a10a3da66312c27642cbf037e4f0d08f50a0"
+    },
+    "add-6-12.wav": {
+      "spoken": "Add 12! 6 plus 12 equals what?",
+      "sha256": "50d2ce5a77c45ec310862adb1f80f1be1d0cca43534f60731a6046a1785768d6"
+    },
+    "add-6-13.wav": {
+      "spoken": "Add 13! 6 plus 13 equals what?",
+      "sha256": "4ee759620bedaa1bb74027efe91be599c883dc2c45bb0c1e3c2f1956f69089b0"
+    },
+    "add-6-14.wav": {
+      "spoken": "Add 14! 6 plus 14 equals what?",
+      "sha256": "e0f316894f060a5545549d8225795becfd82475463d89aec2d319a21d67116eb"
+    },
+    "subtract-6-1.wav": {
+      "spoken": "Take away 1! 6 minus 1 equals what?",
+      "sha256": "b764a1cd63e280b736cf87f08819db736c658a100ab610db2dc318637cc2aca8"
+    },
+    "subtract-6-2.wav": {
+      "spoken": "Take away 2! 6 minus 2 equals what?",
+      "sha256": "5c32ef1188f11861e290d1b5ae3cce3571e2e6c6b08fcecc31b42983d11c0b8b"
+    },
+    "subtract-6-3.wav": {
+      "spoken": "Take away 3! 6 minus 3 equals what?",
+      "sha256": "60276517f9e4ddae209c2470b22104f27aeb532869a2e937243df2d9f1981c94"
+    },
+    "subtract-6-4.wav": {
+      "spoken": "Take away 4! 6 minus 4 equals what?",
+      "sha256": "33e35e6bd0e8243ae003f377841837cb549bb21338ab351ef38fc3121a21e777"
+    },
+    "subtract-6-5.wav": {
+      "spoken": "Take away 5! 6 minus 5 equals what?",
+      "sha256": "640b4ce9299c869db50caf6480ed501de2415e2aaf70b77a357566bbe1dcbc1a"
+    },
+    "add-7-1.wav": {
+      "spoken": "Add 1! 7 plus 1 equals what?",
+      "sha256": "d7021428e80a5a23bb55cffc7d2f4b99160778e25290ce0e252ca6e778af7627"
+    },
+    "add-7-2.wav": {
+      "spoken": "Add 2! 7 plus 2 equals what?",
+      "sha256": "de3a275750fd73308df8fab0ef74ade8660f82ca77a63ad338b91740f46ab64e"
+    },
+    "add-7-3.wav": {
+      "spoken": "Add 3! 7 plus 3 equals what?",
+      "sha256": "56c9851e9b09243db77f74fc9cb5e9be2d34805908b8f608b8163767699ed762"
+    },
+    "add-7-4.wav": {
+      "spoken": "Add 4! 7 plus 4 equals what?",
+      "sha256": "368d88b5090565f3c5f56f11f54e33e55f0af150e65163aaaa4057ab36a251d5"
+    },
+    "add-7-5.wav": {
+      "spoken": "Add 5! 7 plus 5 equals what?",
+      "sha256": "c1415e4649ac395a9603b2d58d9eb9eac9e0c249a0f00e3fcc24d87e1bb1d42d"
+    },
+    "add-7-6.wav": {
+      "spoken": "Add 6! 7 plus 6 equals what?",
+      "sha256": "0f08ea5fa8febbba396c62eb42cab8bf988cd16a65d3cc6e7fea1d4714fd63e7"
+    },
+    "add-7-7.wav": {
+      "spoken": "Add 7! 7 plus 7 equals what?",
+      "sha256": "9351a0abd2f123fdacfedfe1c993040371d6ea1f62b0da70629d28983ab15270"
+    },
+    "add-7-8.wav": {
+      "spoken": "Add 8! 7 plus 8 equals what?",
+      "sha256": "15ef5bc722bf41723c42cdf87daa4d3d6709dfd39c2b353fcdf903fcd66bee32"
+    },
+    "add-7-9.wav": {
+      "spoken": "Add 9! 7 plus 9 equals what?",
+      "sha256": "7d1ab610bd56591e03aede8b477f186101d11d628eeda4316a03ea7a37ca1d98"
+    },
+    "add-7-10.wav": {
+      "spoken": "Add 10! 7 plus 10 equals what?",
+      "sha256": "3d50789d73ba22a3ce92378a63315912fee3f40275312a7006278a5c3f8002bb"
+    },
+    "add-7-11.wav": {
+      "spoken": "Add 11! 7 plus 11 equals what?",
+      "sha256": "322a3f4671580796dad6ffdc9df4fefd88fe930e6ab788dc78399907da0f021a"
+    },
+    "add-7-12.wav": {
+      "spoken": "Add 12! 7 plus 12 equals what?",
+      "sha256": "a38f187619e34ad8e5ec9b371a21b9b484d216430d145294ecbca864523a8dc1"
+    },
+    "add-7-13.wav": {
+      "spoken": "Add 13! 7 plus 13 equals what?",
+      "sha256": "074615567069d6d77c27c5a630eec83ad0e5662f96d85141337e422efb37230e"
+    },
+    "subtract-7-1.wav": {
+      "spoken": "Take away 1! 7 minus 1 equals what?",
+      "sha256": "fe1e31923ed98926ff74dd12e594a70ca5906e7e5091b78832f63b82fb04983b"
+    },
+    "subtract-7-2.wav": {
+      "spoken": "Take away 2! 7 minus 2 equals what?",
+      "sha256": "30b35b014f6aa13b8fac5a0b6086f92d0bb0c7427fc22fe10d21c9049d76eadb"
+    },
+    "subtract-7-3.wav": {
+      "spoken": "Take away 3! 7 minus 3 equals what?",
+      "sha256": "060b14ce0a0c86196b755d91912675e308127d134096e110a0827b81b3bd0b9f"
+    },
+    "subtract-7-4.wav": {
+      "spoken": "Take away 4! 7 minus 4 equals what?",
+      "sha256": "15dcf778d382cf2e757edefc5a5c6b73e8bcff19e1547883bd331f33ce289190"
+    },
+    "subtract-7-5.wav": {
+      "spoken": "Take away 5! 7 minus 5 equals what?",
+      "sha256": "e96527b4ccf08513c2eadadc6e13bff8504f08835f31c564bf8a641c41e9c66c"
+    },
+    "subtract-7-6.wav": {
+      "spoken": "Take away 6! 7 minus 6 equals what?",
+      "sha256": "40fb009e3b12a90b7b530351b2d082b49667631a828b36179cada5576230dc2c"
+    },
+    "add-8-1.wav": {
+      "spoken": "Add 1! 8 plus 1 equals what?",
+      "sha256": "f1e4d9e3172d2591ebca38ca6b3e77137b717f64443faef90c19d9e4cb311318"
+    },
+    "add-8-2.wav": {
+      "spoken": "Add 2! 8 plus 2 equals what?",
+      "sha256": "2bcaf589344e8a27c2897241fa348c8b419062c1c8149355a68c12e2c66dca50"
+    },
+    "add-8-3.wav": {
+      "spoken": "Add 3! 8 plus 3 equals what?",
+      "sha256": "5b62d89a2a31e9e6ad31f4cf817a00fd729835b9b1de63bb665fed04f934a339"
+    },
+    "add-8-4.wav": {
+      "spoken": "Add 4! 8 plus 4 equals what?",
+      "sha256": "0fd43665daaf7d0de0940f41c4c83fdd4c72a412d6fd0bdcdc4f1111b06ccd9c"
+    },
+    "add-8-5.wav": {
+      "spoken": "Add 5! 8 plus 5 equals what?",
+      "sha256": "a905d46c949e170d9756084476ac9b801fe6d82e31b9a475035cc3e545dc6e6c"
+    },
+    "add-8-6.wav": {
+      "spoken": "Add 6! 8 plus 6 equals what?",
+      "sha256": "42645fa68dff8f68d47b9fcb532d46149d9c737492a3a54d9e06b489c026a6c6"
+    },
+    "add-8-7.wav": {
+      "spoken": "Add 7! 8 plus 7 equals what?",
+      "sha256": "400a61591fa2a0d572b4a879ea0c003fbd099d150fba711c678f458ca14d3260"
+    },
+    "add-8-8.wav": {
+      "spoken": "Add 8! 8 plus 8 equals what?",
+      "sha256": "1debca1c7b0f7a32866b4406d1e534db5d87dfa45df47af1c08090d385dc5c3e"
+    },
+    "add-8-9.wav": {
+      "spoken": "Add 9! 8 plus 9 equals what?",
+      "sha256": "b7bdcabb80112855d8d8566179d7f5e0ab8a9c7b9fdd1244c229365a9baa8c13"
+    },
+    "add-8-10.wav": {
+      "spoken": "Add 10! 8 plus 10 equals what?",
+      "sha256": "02e6408234b23466f38f8009d9b9ceeeee2768e0b64b8f2baae93c5e18c38986"
+    },
+    "add-8-11.wav": {
+      "spoken": "Add 11! 8 plus 11 equals what?",
+      "sha256": "839cb6263d3913fa4aa6511c98c57adfbffecfd1ea8a3b617ac3cfe2c185fe13"
+    },
+    "add-8-12.wav": {
+      "spoken": "Add 12! 8 plus 12 equals what?",
+      "sha256": "0427af477c5331f729ca18f548b55dd7da017aa0abc0a892a433a3f6778ee2c4"
+    },
+    "subtract-8-1.wav": {
+      "spoken": "Take away 1! 8 minus 1 equals what?",
+      "sha256": "e65f9413b6d377a54cd610b785bae21efbf9388ab0a557e582d1b3ccc9636950"
+    },
+    "subtract-8-2.wav": {
+      "spoken": "Take away 2! 8 minus 2 equals what?",
+      "sha256": "9f6429493632da3aa3b68a82ea3d82bd3a2162eaa9a58f6da71a4af46eb1e4fd"
+    },
+    "subtract-8-3.wav": {
+      "spoken": "Take away 3! 8 minus 3 equals what?",
+      "sha256": "0269427c4efce61df7df02dc27684e07e209ef0ff923cb785056047b1495768d"
+    },
+    "subtract-8-4.wav": {
+      "spoken": "Take away 4! 8 minus 4 equals what?",
+      "sha256": "ca7ca82d647668fcef43b8cdb8deaed975b1af08cd21f2b03291e6b4249e5d55"
+    },
+    "subtract-8-5.wav": {
+      "spoken": "Take away 5! 8 minus 5 equals what?",
+      "sha256": "4601f32fdc831db572e100491f1a040c9a0e8aed54f9941ae2ee562df2d471b1"
+    },
+    "subtract-8-6.wav": {
+      "spoken": "Take away 6! 8 minus 6 equals what?",
+      "sha256": "eabfc19b075ca8c2b0fa28679b0f66074d733811010226175ae63f136fbcfa74"
+    },
+    "subtract-8-7.wav": {
+      "spoken": "Take away 7! 8 minus 7 equals what?",
+      "sha256": "55ba3fed5e51dfc406563a5257a1893510dd1214fa530babbb5a23dc656fda3a"
+    },
+    "add-9-1.wav": {
+      "spoken": "Add 1! 9 plus 1 equals what?",
+      "sha256": "db54c4eba1245ff17cf90552b567959c96af6677c830e8a99f4558eaa202eee9"
+    },
+    "add-9-2.wav": {
+      "spoken": "Add 2! 9 plus 2 equals what?",
+      "sha256": "6aa7338743d284c2a632931fcd0a072cead08d8d5fbad3c8119bb0d641ba04fc"
+    },
+    "add-9-3.wav": {
+      "spoken": "Add 3! 9 plus 3 equals what?",
+      "sha256": "5cd3f0c8c825d9ed9f6d7343a8298c139f72e2fb20896b3c48e8fb462cd5e2a9"
+    },
+    "add-9-4.wav": {
+      "spoken": "Add 4! 9 plus 4 equals what?",
+      "sha256": "4a81a8af2f35e833fa2ccc54840a8673d2443ff76e5504a1c6047fd9abbad031"
+    },
+    "add-9-5.wav": {
+      "spoken": "Add 5! 9 plus 5 equals what?",
+      "sha256": "a7161ddd6641a882ae91daed5afa1630532cc6db72d1bf4205f6829e80c01c99"
+    },
+    "add-9-6.wav": {
+      "spoken": "Add 6! 9 plus 6 equals what?",
+      "sha256": "d11e2bf28856fce23d2185b397aba9d3cc02cadabe11a66103820aa5ad5837a3"
+    },
+    "add-9-7.wav": {
+      "spoken": "Add 7! 9 plus 7 equals what?",
+      "sha256": "b0a6f0abdbc15ca839999f43331aa16ea09640060dbb4e455f1079122845fdf2"
+    },
+    "add-9-8.wav": {
+      "spoken": "Add 8! 9 plus 8 equals what?",
+      "sha256": "f7f082445ec8e8fd28d67983ded3d1be9405272687a935c04376e560faadbc3f"
+    },
+    "add-9-9.wav": {
+      "spoken": "Add 9! 9 plus 9 equals what?",
+      "sha256": "68bcfbf2b7b7ce2bc9a7bad522fec823b6691d7a873aa1e36e5f54716d350aa0"
+    },
+    "add-9-10.wav": {
+      "spoken": "Add 10! 9 plus 10 equals what?",
+      "sha256": "fe933b0cb32ad1efadec33ef99834080a3f0f810de6c6dfe9ec30254435e86e8"
+    },
+    "add-9-11.wav": {
+      "spoken": "Add 11! 9 plus 11 equals what?",
+      "sha256": "36de72f5e4108db217911886de95e74a6c42003d897594fd56c55601d68f5a02"
+    },
+    "subtract-9-1.wav": {
+      "spoken": "Take away 1! 9 minus 1 equals what?",
+      "sha256": "a5f89fc350210299146d9da89bd807d6b014250fa48d1d1a79f89d714ca733d9"
+    },
+    "subtract-9-2.wav": {
+      "spoken": "Take away 2! 9 minus 2 equals what?",
+      "sha256": "37350d2609ad12c341eafad63dcbcb3b61c067b6af1d8e05d8e0ad46685de6f2"
+    },
+    "subtract-9-3.wav": {
+      "spoken": "Take away 3! 9 minus 3 equals what?",
+      "sha256": "9d3dd7db1d73d0bc265f099290969195fed61add21bac76dc076691406538c0e"
+    },
+    "subtract-9-4.wav": {
+      "spoken": "Take away 4! 9 minus 4 equals what?",
+      "sha256": "289f8d0214335dea67dc00e6eeb055d0a02c95625af2ddfe9e5b9d4288998a6d"
+    },
+    "subtract-9-5.wav": {
+      "spoken": "Take away 5! 9 minus 5 equals what?",
+      "sha256": "c119a34223cc2ee1d682ff68cb8edf6bf38728c38e7526251272deaae6c924c3"
+    },
+    "subtract-9-6.wav": {
+      "spoken": "Take away 6! 9 minus 6 equals what?",
+      "sha256": "1553e39b44fe7d05550178a3765dbd249a33e17f14e23c93173641ab374396bf"
+    },
+    "subtract-9-7.wav": {
+      "spoken": "Take away 7! 9 minus 7 equals what?",
+      "sha256": "b946a0cb8c42c5e9d5d39cc9d19f4bb396eaa0c0aaca89cbf1e64fe7a11e3371"
+    },
+    "subtract-9-8.wav": {
+      "spoken": "Take away 8! 9 minus 8 equals what?",
+      "sha256": "e135615e9a89bcc59b487fa98eebd060bbe3547e756cc0409acec81120ba21d8"
+    },
+    "add-10-1.wav": {
+      "spoken": "Add 1! 10 plus 1 equals what?",
+      "sha256": "ea26a4daee04b4d7e6d6f5b07e89f5febaeef2c7f8e91096c51cd6956a8cc493"
+    },
+    "add-10-2.wav": {
+      "spoken": "Add 2! 10 plus 2 equals what?",
+      "sha256": "53e619b8f8d0faae65957b13781bde30bd5e5eb51334a7f761772529e1931b25"
+    },
+    "add-10-3.wav": {
+      "spoken": "Add 3! 10 plus 3 equals what?",
+      "sha256": "fd9409f777ff22b7865eb6690f3604219937f5540099bc4b7c487a7c2e39f30d"
+    },
+    "add-10-4.wav": {
+      "spoken": "Add 4! 10 plus 4 equals what?",
+      "sha256": "b5f085813d0d20eba7bb09d5800cf630fecbcca810795982a98047c2ab91e7f1"
+    },
+    "add-10-5.wav": {
+      "spoken": "Add 5! 10 plus 5 equals what?",
+      "sha256": "df4461d4a34ca6be30f021609364d47eaae9f8a789f7932d4970890af462f582"
+    },
+    "add-10-6.wav": {
+      "spoken": "Add 6! 10 plus 6 equals what?",
+      "sha256": "6d4ea39fb9c31d4528019f0b1483b2d4b128b01b9381dc9d26ec4d7f0138d1ea"
+    },
+    "add-10-7.wav": {
+      "spoken": "Add 7! 10 plus 7 equals what?",
+      "sha256": "7b5dd3ec08924d5fa2688f4bbc0e7301e4e02aba16351ee49e67452508285ce6"
+    },
+    "add-10-8.wav": {
+      "spoken": "Add 8! 10 plus 8 equals what?",
+      "sha256": "372c61c429cbb7fa4c906b1767026c280c4fe55587d212cd7c4375bb97fe0a88"
+    },
+    "add-10-9.wav": {
+      "spoken": "Add 9! 10 plus 9 equals what?",
+      "sha256": "f40f63ae1e540b653523dadffb7941ee80ac11b884defa046e4348dc567b78c3"
+    },
+    "add-10-10.wav": {
+      "spoken": "Add 10! 10 plus 10 equals what?",
+      "sha256": "4538b13635b320cc8f4b0f11596a893a2d23e8ad0e5abdb6b3802cfc972c3775"
+    },
+    "subtract-10-1.wav": {
+      "spoken": "Take away 1! 10 minus 1 equals what?",
+      "sha256": "27585536fa1ecb086eac7a8dc55c16fa9d1cfec96812a30d52fdd39a45a4acab"
+    },
+    "subtract-10-2.wav": {
+      "spoken": "Take away 2! 10 minus 2 equals what?",
+      "sha256": "94d659d628daa67727dca694adb09da82e10e3442870f18c71a8023177c743d1"
+    },
+    "subtract-10-3.wav": {
+      "spoken": "Take away 3! 10 minus 3 equals what?",
+      "sha256": "cfce4ad56e26c01c5a24be7d00ce468c8b363566ecccb68b1df65872b099d474"
+    },
+    "subtract-10-4.wav": {
+      "spoken": "Take away 4! 10 minus 4 equals what?",
+      "sha256": "8f00c58f19df9e8c7f6c02265b8a8bc3a6bb556109f143742c224056dcc6c42a"
+    },
+    "subtract-10-5.wav": {
+      "spoken": "Take away 5! 10 minus 5 equals what?",
+      "sha256": "452efcd820860328a5fc47c5c0ede5ffc0efdcf470d8d85e65ed6490497244f0"
+    },
+    "subtract-10-6.wav": {
+      "spoken": "Take away 6! 10 minus 6 equals what?",
+      "sha256": "1d935b13236d6752583abdc7b93a665d921c447da1ca1785414cad58432fa68b"
+    },
+    "subtract-10-7.wav": {
+      "spoken": "Take away 7! 10 minus 7 equals what?",
+      "sha256": "f4320332ee03ff06758b1585ae583af6bc19bc391fa4326eef984a7d1f888aec"
+    },
+    "subtract-10-8.wav": {
+      "spoken": "Take away 8! 10 minus 8 equals what?",
+      "sha256": "e19fccd79ba1210bfc8e6de3c5b71bd9bdc1987a3567d9358da1b538fc790066"
+    },
+    "subtract-10-9.wav": {
+      "spoken": "Take away 9! 10 minus 9 equals what?",
+      "sha256": "77d53b4d8be0ef98120d52ee651bed32f2858a17dc9b5136617ceb051591494f"
+    },
+    "add-11-1.wav": {
+      "spoken": "Add 1! 11 plus 1 equals what?",
+      "sha256": "0fb7b6c4fc1b7f3e96e047fe18d7ec9e8fcf402198ee8e007b2d1114415acb66"
+    },
+    "add-11-2.wav": {
+      "spoken": "Add 2! 11 plus 2 equals what?",
+      "sha256": "66651b8bd672d6ad26c68d97378a1900594de3ea030f4d16ef02b9435897d4d7"
+    },
+    "add-11-3.wav": {
+      "spoken": "Add 3! 11 plus 3 equals what?",
+      "sha256": "7946d628281e2e6788c700348509a86bf0acab3e1a49de4acf25ad634d41e23f"
+    },
+    "add-11-4.wav": {
+      "spoken": "Add 4! 11 plus 4 equals what?",
+      "sha256": "ffc499c7f7d2d7c3d601d8629bb45df0deced8d80f7c8c39a12176dcc4c014bc"
+    },
+    "add-11-5.wav": {
+      "spoken": "Add 5! 11 plus 5 equals what?",
+      "sha256": "fe10f2a1d359d98cd379d35490f66942d61502d60a61ed973aa037d81f2a2003"
+    },
+    "add-11-6.wav": {
+      "spoken": "Add 6! 11 plus 6 equals what?",
+      "sha256": "63f0be675ce3da89bfb127988d688fee63592125eed88593cd13b4a7df575596"
+    },
+    "add-11-7.wav": {
+      "spoken": "Add 7! 11 plus 7 equals what?",
+      "sha256": "7c96a09120d072d8bea74caccf4b972f23a8e247780d94d88d81aa3c316fcc95"
+    },
+    "add-11-8.wav": {
+      "spoken": "Add 8! 11 plus 8 equals what?",
+      "sha256": "96033d0171b8061cd8f2216c0a16a204a560a3efeee117f31d5e410c34935afa"
+    },
+    "add-11-9.wav": {
+      "spoken": "Add 9! 11 plus 9 equals what?",
+      "sha256": "6b3bbdec754eef77ce5865bec5b34000bdc1a7aada3ca046c178b7a0f7ae3604"
+    },
+    "subtract-11-1.wav": {
+      "spoken": "Take away 1! 11 minus 1 equals what?",
+      "sha256": "bd87c02a26cca49eec0359128ea598a4eae837a8a8d01fc60682ad2e42d13a9e"
+    },
+    "subtract-11-2.wav": {
+      "spoken": "Take away 2! 11 minus 2 equals what?",
+      "sha256": "6b5bceef7780b4a48752c72cf2e8d5faa50b91f058e76558c39bdb7b56d363c3"
+    },
+    "subtract-11-3.wav": {
+      "spoken": "Take away 3! 11 minus 3 equals what?",
+      "sha256": "232e289af566b2f8f5e5acf887e2be2f5bbc23e49ecbd589f9990e840ece53cc"
+    },
+    "subtract-11-4.wav": {
+      "spoken": "Take away 4! 11 minus 4 equals what?",
+      "sha256": "f81816265c61b0c69bce9def05b6e4b66f1e04515e6c76403dfeea9a450acfd4"
+    },
+    "subtract-11-5.wav": {
+      "spoken": "Take away 5! 11 minus 5 equals what?",
+      "sha256": "98c3d5a309e2301d03981079ad3e70b45528ff205a1faf42c569b89bb3860aa9"
+    },
+    "subtract-11-6.wav": {
+      "spoken": "Take away 6! 11 minus 6 equals what?",
+      "sha256": "b5fd6d2f8da6edd3f31538531f489a41d1f26f05de432a58cd153d5a4dfecd72"
+    },
+    "subtract-11-7.wav": {
+      "spoken": "Take away 7! 11 minus 7 equals what?",
+      "sha256": "7efc8f810be07e1250c23fdb7407e80445adc9e2b2d866b945cae5c5bdd8220d"
+    },
+    "subtract-11-8.wav": {
+      "spoken": "Take away 8! 11 minus 8 equals what?",
+      "sha256": "f9fb855fd8339f20652c74e128cc9b463346833b0bb8efe359ebadc466c10a17"
+    },
+    "subtract-11-9.wav": {
+      "spoken": "Take away 9! 11 minus 9 equals what?",
+      "sha256": "00fb1bc14b23f19486ce15ed9cba676cfd590f4a626a20def9ceb1818dc6d6ae"
+    },
+    "subtract-11-10.wav": {
+      "spoken": "Take away 10! 11 minus 10 equals what?",
+      "sha256": "d2f6987370a2f9706ab0a16e47b5b60acbe0fbe32f44042a17fb9f9312592a45"
+    },
+    "add-12-1.wav": {
+      "spoken": "Add 1! 12 plus 1 equals what?",
+      "sha256": "d28a8362df253eb841ed22a8d97a709d41e665e7e1d942006527432eddca8f0b"
+    },
+    "add-12-2.wav": {
+      "spoken": "Add 2! 12 plus 2 equals what?",
+      "sha256": "426ce69cc1c7555baa7877e274d7eccc5d4b9ceb5b34190165bab8480e536c50"
+    },
+    "add-12-3.wav": {
+      "spoken": "Add 3! 12 plus 3 equals what?",
+      "sha256": "640b3e21e23f8cc91a8ecd2a9a9bf7a955be47c783a2df86b9b78b0cd11d5176"
+    },
+    "add-12-4.wav": {
+      "spoken": "Add 4! 12 plus 4 equals what?",
+      "sha256": "8fce132463a1266dcc8e87030cc991aca8a100321a13d6fb648b89f16602a734"
+    },
+    "add-12-5.wav": {
+      "spoken": "Add 5! 12 plus 5 equals what?",
+      "sha256": "cce034bf00905f6e263895082194748ba4283be86e0e5d7ab64ae9ceab15c496"
+    },
+    "add-12-6.wav": {
+      "spoken": "Add 6! 12 plus 6 equals what?",
+      "sha256": "b5cf8f512aa242eb5a0209d319cc45901691e92bf253933c8c957494ca9d6e94"
+    },
+    "add-12-7.wav": {
+      "spoken": "Add 7! 12 plus 7 equals what?",
+      "sha256": "e1d733a396c27acf9a93ab489bab9ddda94b902805d972954cd2b202d90f3b6a"
+    },
+    "add-12-8.wav": {
+      "spoken": "Add 8! 12 plus 8 equals what?",
+      "sha256": "fc3d473e9a89e56554d9ba10ea2ac1bfd322c841c4d3b8067a3b9c6724c07f76"
+    },
+    "subtract-12-1.wav": {
+      "spoken": "Take away 1! 12 minus 1 equals what?",
+      "sha256": "f39c5cab2a2ba51fae4468dcf54ffd85e5c5c2b98fc5fb043241a9320818de14"
+    },
+    "subtract-12-2.wav": {
+      "spoken": "Take away 2! 12 minus 2 equals what?",
+      "sha256": "b0d236beea7e4ece2dbfac00514979f985f39ba9248de5c993e265f190640ee7"
+    },
+    "subtract-12-3.wav": {
+      "spoken": "Take away 3! 12 minus 3 equals what?",
+      "sha256": "98187fb27747c1b5dd8f67e3c57b73ad0c4cffdafbac794ff35f75920dbfeb47"
+    },
+    "subtract-12-4.wav": {
+      "spoken": "Take away 4! 12 minus 4 equals what?",
+      "sha256": "a792e459aa667ed7d5118cb6be2a7b376b4784e61cbde6729d83d1acf4b88126"
+    },
+    "subtract-12-5.wav": {
+      "spoken": "Take away 5! 12 minus 5 equals what?",
+      "sha256": "8f00f01516ffc280d201483eb1fbeedada796f5803bff7e704367c9ca4984612"
+    },
+    "subtract-12-6.wav": {
+      "spoken": "Take away 6! 12 minus 6 equals what?",
+      "sha256": "577857b3984d22063293e89ce794db663805d9135e059bd21e3ec53a6908cae4"
+    },
+    "subtract-12-7.wav": {
+      "spoken": "Take away 7! 12 minus 7 equals what?",
+      "sha256": "6fc064f6051c24dfcd8704ca0989220079a7864cdf841dd9bb2e21791e131f9a"
+    },
+    "subtract-12-8.wav": {
+      "spoken": "Take away 8! 12 minus 8 equals what?",
+      "sha256": "700568aca74cda81c989862093296253090cf66f08c8f83d9d9e39f7de38108f"
+    },
+    "subtract-12-9.wav": {
+      "spoken": "Take away 9! 12 minus 9 equals what?",
+      "sha256": "b23e748ae970d0fb71914fb489645bdaf638065cb89fa946c0fac580530d805c"
+    },
+    "subtract-12-10.wav": {
+      "spoken": "Take away 10! 12 minus 10 equals what?",
+      "sha256": "ba14f2f392b944a9a0b935ecee56cc79fc6f0b1764b7762922496e4be29ebcd2"
+    },
+    "subtract-12-11.wav": {
+      "spoken": "Take away 11! 12 minus 11 equals what?",
+      "sha256": "48b112fc5ea74742abb6b10742b0508034bd4786a3d419246c5868fd6bd039ff"
+    },
+    "add-13-1.wav": {
+      "spoken": "Add 1! 13 plus 1 equals what?",
+      "sha256": "e0061201616a019f6e597a94c71e603c3c83774084e30880f3595ba727ade3c4"
+    },
+    "add-13-2.wav": {
+      "spoken": "Add 2! 13 plus 2 equals what?",
+      "sha256": "a2467095fdea6e294ba8bcfbda84e6f4ce4adb31d95c62d74936b573349ebb81"
+    },
+    "add-13-3.wav": {
+      "spoken": "Add 3! 13 plus 3 equals what?",
+      "sha256": "81aad7b4884696d65baa09cbab91dc1e92c004299d0a1ff67f49e1a21bb8e97b"
+    },
+    "add-13-4.wav": {
+      "spoken": "Add 4! 13 plus 4 equals what?",
+      "sha256": "96d23d9925ad29313db09782c730a6cdf82b20cbff0ff0689fa90090c554c15a"
+    },
+    "add-13-5.wav": {
+      "spoken": "Add 5! 13 plus 5 equals what?",
+      "sha256": "964a65a3958e158a5d7217d84bbf17f041065c53fd527cf374df111276f0512d"
+    },
+    "add-13-6.wav": {
+      "spoken": "Add 6! 13 plus 6 equals what?",
+      "sha256": "9362045c7bfdcde9764e54970381bef2fcf5a6ac95b8816ec909caea2c773372"
+    },
+    "add-13-7.wav": {
+      "spoken": "Add 7! 13 plus 7 equals what?",
+      "sha256": "dca5bdd50b1d2a3bdf6d7b79e3fa50ac9b14fa87dca738ad7d534268888d8372"
+    },
+    "subtract-13-1.wav": {
+      "spoken": "Take away 1! 13 minus 1 equals what?",
+      "sha256": "9a5409a306a84f5a5c2249c555f609d34d9a2542ac6dc25736f7031e908fdbd6"
+    },
+    "subtract-13-2.wav": {
+      "spoken": "Take away 2! 13 minus 2 equals what?",
+      "sha256": "24f96f35692d82f2f2bbf06aadc5410237e845665178ab52591448be430533fc"
+    },
+    "subtract-13-3.wav": {
+      "spoken": "Take away 3! 13 minus 3 equals what?",
+      "sha256": "941f68cdb2ac5f9b3ec733b15bfc179b2398f00b2f76aa304da280a3fbc73eb7"
+    },
+    "subtract-13-4.wav": {
+      "spoken": "Take away 4! 13 minus 4 equals what?",
+      "sha256": "85fd583f22f6efcdd0c44860b58fb707b10f9b39aa3c02a4842169ea261ad1e9"
+    },
+    "subtract-13-5.wav": {
+      "spoken": "Take away 5! 13 minus 5 equals what?",
+      "sha256": "61ca5b53ee0ec2c97e4e2c0c8cbe971ff97483642156189045dae5f28e799bf9"
+    },
+    "subtract-13-6.wav": {
+      "spoken": "Take away 6! 13 minus 6 equals what?",
+      "sha256": "d729f8d5f6fcd6cb2adf6fc8ad8898d1e2d7ef6d495f841f29c4823e02d39bd4"
+    },
+    "subtract-13-7.wav": {
+      "spoken": "Take away 7! 13 minus 7 equals what?",
+      "sha256": "919d26c31ded4d0a62fffdd46889d2fa7d4873ec1d512ecc8ed606497e684410"
+    },
+    "subtract-13-8.wav": {
+      "spoken": "Take away 8! 13 minus 8 equals what?",
+      "sha256": "86867bd900273865498bff70f13d18d92265c7f9075ee0733c4a07bb90a6d506"
+    },
+    "subtract-13-9.wav": {
+      "spoken": "Take away 9! 13 minus 9 equals what?",
+      "sha256": "eaa8370a2dcd880f6d593eed5f0e8932b2d8321c09171209b532465ca08fcc3b"
+    },
+    "subtract-13-10.wav": {
+      "spoken": "Take away 10! 13 minus 10 equals what?",
+      "sha256": "353eb39ef38729475009804cb4ad08a433958c4b25a968b6f0680430c3c03fa7"
+    },
+    "subtract-13-11.wav": {
+      "spoken": "Take away 11! 13 minus 11 equals what?",
+      "sha256": "41063d433683d5b7e29f099ebae29bb979f5dac1df3c282e8bff82f61f56b919"
+    },
+    "subtract-13-12.wav": {
+      "spoken": "Take away 12! 13 minus 12 equals what?",
+      "sha256": "1a05229f936c8766573c3c27d5adc1c3d6ade6983b1deccae8179ed4dd4817b9"
+    },
+    "add-14-1.wav": {
+      "spoken": "Add 1! 14 plus 1 equals what?",
+      "sha256": "a27bcea06640b8050adec7ffcfe7a0f9034fd0796f8ee83f685d91d03fa1e444"
+    },
+    "add-14-2.wav": {
+      "spoken": "Add 2! 14 plus 2 equals what?",
+      "sha256": "4931eb090f7a73685995591a0745dd9c098b48241c9a81ab63603c2a30f95968"
+    },
+    "add-14-3.wav": {
+      "spoken": "Add 3! 14 plus 3 equals what?",
+      "sha256": "9660236ce4d3a2f2180e0d78f65ab6d131ed81a0aee3b9d8fb728050d6f9b412"
+    },
+    "add-14-4.wav": {
+      "spoken": "Add 4! 14 plus 4 equals what?",
+      "sha256": "4c34a5019420a9d097f145f93e0c5ea7ee2e0d2aac4d09cee0771437eb197086"
+    },
+    "add-14-5.wav": {
+      "spoken": "Add 5! 14 plus 5 equals what?",
+      "sha256": "9b6c18f9dac53c8a69b0ad22cfe2f47c02644c5324827ad0e148376d11edac7e"
+    },
+    "add-14-6.wav": {
+      "spoken": "Add 6! 14 plus 6 equals what?",
+      "sha256": "b00c85cd18054a6b6b9d35be42274ce49d08bfedd7280cea3705ed3980d18c0a"
+    },
+    "subtract-14-1.wav": {
+      "spoken": "Take away 1! 14 minus 1 equals what?",
+      "sha256": "affe2cdbd49339eef1d7ffe63a590a8dbe9f0ce6c62dfae72e54cb7267fd9085"
+    },
+    "subtract-14-2.wav": {
+      "spoken": "Take away 2! 14 minus 2 equals what?",
+      "sha256": "a881a70dc6cec639eb9c0066d44d43d3a574a26891dab4a55fd80a5af5ae4be5"
+    },
+    "subtract-14-3.wav": {
+      "spoken": "Take away 3! 14 minus 3 equals what?",
+      "sha256": "55a20b869dfd8655f103cc101d012d9ca8aacba0eae28a09663e74062f9d1fa8"
+    },
+    "subtract-14-4.wav": {
+      "spoken": "Take away 4! 14 minus 4 equals what?",
+      "sha256": "bf180ffeff4a3704e7a739a274fe4e31ec7d2fbcf7ea7b063c044c8e36396854"
+    },
+    "subtract-14-5.wav": {
+      "spoken": "Take away 5! 14 minus 5 equals what?",
+      "sha256": "dad7dff2b92edad79db17a4bc1f336f489e354df9fecb7c4bae1b8dc22cd7270"
+    },
+    "subtract-14-6.wav": {
+      "spoken": "Take away 6! 14 minus 6 equals what?",
+      "sha256": "e91308eeeabe93beb3c5b98f9c7432bc2aa24fe7a285e8f995ab2cfc15e5ab08"
+    },
+    "subtract-14-7.wav": {
+      "spoken": "Take away 7! 14 minus 7 equals what?",
+      "sha256": "90e1299fd3350948e265374b20057147ddec145cc367ffb503d6049d4688f4fb"
+    },
+    "subtract-14-8.wav": {
+      "spoken": "Take away 8! 14 minus 8 equals what?",
+      "sha256": "8ab3020f8354de426022f23aa2df8cf916ab4dc5bf48cc15350e4b26dcd2048a"
+    },
+    "subtract-14-9.wav": {
+      "spoken": "Take away 9! 14 minus 9 equals what?",
+      "sha256": "56aa61ae79d90ebfe0c86b8a842b128c08a3f47d488a88b9d094da16faa48dd3"
+    },
+    "subtract-14-10.wav": {
+      "spoken": "Take away 10! 14 minus 10 equals what?",
+      "sha256": "25e8e010c96d220b7314174c85da04c15fb02afdde14eecf55951dae0dfbca62"
+    },
+    "subtract-14-11.wav": {
+      "spoken": "Take away 11! 14 minus 11 equals what?",
+      "sha256": "8fbc5f3f8dfbd59a046f4af4f2f823df92288071b0414da9f9fa933735ffc460"
+    },
+    "subtract-14-12.wav": {
+      "spoken": "Take away 12! 14 minus 12 equals what?",
+      "sha256": "718e550df80015cf8b5c5ef163ce4906bcb8aea4ea599fd047a1582af162e7d4"
+    },
+    "subtract-14-13.wav": {
+      "spoken": "Take away 13! 14 minus 13 equals what?",
+      "sha256": "9b7a401469c05fa8943ad4e78ce41eb52090e0c1e9bd3c4b934364292e475b39"
+    },
+    "add-15-1.wav": {
+      "spoken": "Add 1! 15 plus 1 equals what?",
+      "sha256": "142762f91b2ad7c47d816c1a3140505d085ab15b951f6e72bee09c1c7216dcd4"
+    },
+    "add-15-2.wav": {
+      "spoken": "Add 2! 15 plus 2 equals what?",
+      "sha256": "91f151de1a3d5f5e951be65fa8a99171d0b55a0b1493996a9a1aa7aabe4486db"
+    },
+    "add-15-3.wav": {
+      "spoken": "Add 3! 15 plus 3 equals what?",
+      "sha256": "5501a300bf969622782c8347cde8d4b895212deebb8f8ffebd42275099028b13"
+    },
+    "add-15-4.wav": {
+      "spoken": "Add 4! 15 plus 4 equals what?",
+      "sha256": "5ebffe6df4e238aa2ece31dd80a1b9bf153fb313f5ca5d40fef2d56c95ed1acc"
+    },
+    "add-15-5.wav": {
+      "spoken": "Add 5! 15 plus 5 equals what?",
+      "sha256": "387f24bd685b4c0a2e52cce8238d837870de025df29f9fad8b5d7c785dfa034e"
+    },
+    "subtract-15-1.wav": {
+      "spoken": "Take away 1! 15 minus 1 equals what?",
+      "sha256": "e4086348472b57e7dae0601ad9bfaf2ab480dc94e7581e6ee6e9b11dda531655"
+    },
+    "subtract-15-2.wav": {
+      "spoken": "Take away 2! 15 minus 2 equals what?",
+      "sha256": "eb0e4796f598b463f75dcb5ca5fefc2932a72d6d92415c360e8717f6c7947f16"
+    },
+    "subtract-15-3.wav": {
+      "spoken": "Take away 3! 15 minus 3 equals what?",
+      "sha256": "9084c77904884c1810d6f1652509f217567b69e88ee5fe368a08199b059af9ca"
+    },
+    "subtract-15-4.wav": {
+      "spoken": "Take away 4! 15 minus 4 equals what?",
+      "sha256": "149e1e6ad901cbd67af9d4d033d04debf1ba517f7a10e07cb78e0f930efcb0e1"
+    },
+    "subtract-15-5.wav": {
+      "spoken": "Take away 5! 15 minus 5 equals what?",
+      "sha256": "e4bd2662b69ba64e2d632c8e232eb1581a84bca24ee06491ed5d944a94172bbd"
+    },
+    "subtract-15-6.wav": {
+      "spoken": "Take away 6! 15 minus 6 equals what?",
+      "sha256": "093c1c5ffb38c45fed1a4bb7da13c661385451b70151018340eacae7496eaa66"
+    },
+    "subtract-15-7.wav": {
+      "spoken": "Take away 7! 15 minus 7 equals what?",
+      "sha256": "01f063e244c9f74310ec48f15c8435ebf6a55372889b3febb653b88f297ced01"
+    },
+    "subtract-15-8.wav": {
+      "spoken": "Take away 8! 15 minus 8 equals what?",
+      "sha256": "d464a8244ae018a4311ac0c9b1a7d902b7ea8f692f7871c7dc2394e8223688d8"
+    },
+    "subtract-15-9.wav": {
+      "spoken": "Take away 9! 15 minus 9 equals what?",
+      "sha256": "53596c01f4571461e758697e32e881d2b9074529801d96c915db01408c55ade8"
+    },
+    "subtract-15-10.wav": {
+      "spoken": "Take away 10! 15 minus 10 equals what?",
+      "sha256": "94dfa45666023c5ee41bcc0a568b05d73414b8732aaa39a2925821581f962567"
+    },
+    "subtract-15-11.wav": {
+      "spoken": "Take away 11! 15 minus 11 equals what?",
+      "sha256": "00e2ea82af393bbbc8e30f33ac452c0435418b6d6fb26ac7c245f1c4fbfdd4b1"
+    },
+    "subtract-15-12.wav": {
+      "spoken": "Take away 12! 15 minus 12 equals what?",
+      "sha256": "92e4e726e34c012b25a2358a12441ee80ee67be58ed4b22dd72d7505d2e3be98"
+    },
+    "subtract-15-13.wav": {
+      "spoken": "Take away 13! 15 minus 13 equals what?",
+      "sha256": "a05d1bbdac5f84aaff2ce5d6b6d2f9d3ee0b637f1e0d875a7fa004d6f169f046"
+    },
+    "subtract-15-14.wav": {
+      "spoken": "Take away 14! 15 minus 14 equals what?",
+      "sha256": "5539110dede23d0c97c4c0177d546d869291c05fe57d64decd27d399ed6e60e1"
+    },
+    "add-16-1.wav": {
+      "spoken": "Add 1! 16 plus 1 equals what?",
+      "sha256": "fc0aaf104cc0f88942c6b5db0f73e4dd54de9707e85928e6f43cafe2e9857ae2"
+    },
+    "add-16-2.wav": {
+      "spoken": "Add 2! 16 plus 2 equals what?",
+      "sha256": "c275922db1ad08640cac7d9fb232a4e527ce7a6e0b9185435e27f8e660e57edb"
+    },
+    "add-16-3.wav": {
+      "spoken": "Add 3! 16 plus 3 equals what?",
+      "sha256": "bea477af063ef485e43cd0a28c92fe799384e4bde15173755724157092a64ae3"
+    },
+    "add-16-4.wav": {
+      "spoken": "Add 4! 16 plus 4 equals what?",
+      "sha256": "8beed32b38b966264d601bb33cbcf168ad6f64a11c1b1731c4a8593abda3cd1a"
+    },
+    "subtract-16-1.wav": {
+      "spoken": "Take away 1! 16 minus 1 equals what?",
+      "sha256": "8028a0aed22a77b8e40e5c1231682dd4bc0471bd6076ac8eccf8fc5452785c7b"
+    },
+    "subtract-16-2.wav": {
+      "spoken": "Take away 2! 16 minus 2 equals what?",
+      "sha256": "3aa91cfe45935fb170db9bbbe5bf2eaf1f9679c23bf1808a6aaf9147e3b98e80"
+    },
+    "subtract-16-3.wav": {
+      "spoken": "Take away 3! 16 minus 3 equals what?",
+      "sha256": "96b8b1bbe4c9d15f1351f4337aa39d0003c567fd9c48662ece0a93fe844248cb"
+    },
+    "subtract-16-4.wav": {
+      "spoken": "Take away 4! 16 minus 4 equals what?",
+      "sha256": "9ef1b36c066b9f44ee9f0188535d4c80ac37867412e818e13de066459d6a5b73"
+    },
+    "subtract-16-5.wav": {
+      "spoken": "Take away 5! 16 minus 5 equals what?",
+      "sha256": "dad6b8d43f427a6d954aca187bceb79beb817854e41fe0aaabf848f374871d75"
+    },
+    "subtract-16-6.wav": {
+      "spoken": "Take away 6! 16 minus 6 equals what?",
+      "sha256": "46d5efe1c51ff7149e7648963935e2f6f5059a557ef1751172578048960d5a0a"
+    },
+    "subtract-16-7.wav": {
+      "spoken": "Take away 7! 16 minus 7 equals what?",
+      "sha256": "0be2fa6db8713ea09ae2cea86aa9f2466d5e40c3b175e2121cb2853ea17407f2"
+    },
+    "subtract-16-8.wav": {
+      "spoken": "Take away 8! 16 minus 8 equals what?",
+      "sha256": "45d10939323ba7846dcf5f4885c03dab2e2be6c4a27220dc0e3c5e2c8c137796"
+    },
+    "subtract-16-9.wav": {
+      "spoken": "Take away 9! 16 minus 9 equals what?",
+      "sha256": "49e6d4f143f35c41fb1a0ff2515e7b9887ded729d97a0a03f6c4269e270d7f0b"
+    },
+    "subtract-16-10.wav": {
+      "spoken": "Take away 10! 16 minus 10 equals what?",
+      "sha256": "e7fc4531267676bc628d68db272ea8516f188f315b2b10512c2854b64d21c06c"
+    },
+    "subtract-16-11.wav": {
+      "spoken": "Take away 11! 16 minus 11 equals what?",
+      "sha256": "e0f2a41cad3561c613035a318a8208e7c7bf6820972c542d59d95454f4eeeb6b"
+    },
+    "subtract-16-12.wav": {
+      "spoken": "Take away 12! 16 minus 12 equals what?",
+      "sha256": "aa7ab453619bc301f1bf09ee2550202684364c780c73904b45b8d1c031cea1d5"
+    },
+    "subtract-16-13.wav": {
+      "spoken": "Take away 13! 16 minus 13 equals what?",
+      "sha256": "f93484e6aa8dda3384c4b5df4d3071de6c444e1ae9728229e4a2e0631d7292e6"
+    },
+    "subtract-16-14.wav": {
+      "spoken": "Take away 14! 16 minus 14 equals what?",
+      "sha256": "a907821040c9aee1f6d6b424366a0054d901c05d9f3a8143a1619379137abd91"
+    },
+    "subtract-16-15.wav": {
+      "spoken": "Take away 15! 16 minus 15 equals what?",
+      "sha256": "ef51beabadff1ebb1eb2cb3b25a921929e0b6a7ebaff8964d2b40f2e66afba64"
+    },
+    "add-17-1.wav": {
+      "spoken": "Add 1! 17 plus 1 equals what?",
+      "sha256": "599897ae72e9fab6ff255152f3ee13ddac6e0619af5097fec0f14169a33a2f88"
+    },
+    "add-17-2.wav": {
+      "spoken": "Add 2! 17 plus 2 equals what?",
+      "sha256": "7e607350796b4eb2e9b6ae7aa895fc53e06928acd146c9d1f8ad46f6e98388e0"
+    },
+    "add-17-3.wav": {
+      "spoken": "Add 3! 17 plus 3 equals what?",
+      "sha256": "918eac6099c479b00df2beacb5a295a401971c5a332ced63b82de919e67ab9e5"
+    },
+    "subtract-17-1.wav": {
+      "spoken": "Take away 1! 17 minus 1 equals what?",
+      "sha256": "44aebb6b8fc4827eb1592248cbefc3496be4f92489bfe93f363b19f1ca18d9e0"
+    },
+    "subtract-17-2.wav": {
+      "spoken": "Take away 2! 17 minus 2 equals what?",
+      "sha256": "3a33d62bf7a85dcbab0a40df18cff3d31a31eb5dbee3fab399a19f4f240f2e98"
+    },
+    "subtract-17-3.wav": {
+      "spoken": "Take away 3! 17 minus 3 equals what?",
+      "sha256": "b670f9c285666b1de24d9541c6cc39c996f313ae8bbd1dd59112f1d8301ae8af"
+    },
+    "subtract-17-4.wav": {
+      "spoken": "Take away 4! 17 minus 4 equals what?",
+      "sha256": "edd04fc1113c96bbf1a1a73a4b1a8dae57734849b417ad6a6e7a861550dbf958"
+    },
+    "subtract-17-5.wav": {
+      "spoken": "Take away 5! 17 minus 5 equals what?",
+      "sha256": "798c235e9f001f4ac9f0b5f9de50d4a37e650960097a10da21b043b75d4bfdb5"
+    },
+    "subtract-17-6.wav": {
+      "spoken": "Take away 6! 17 minus 6 equals what?",
+      "sha256": "a353eeabdca3d754fcd9352200aacfc8d25babe2693ef63780a4d8178635cf81"
+    },
+    "subtract-17-7.wav": {
+      "spoken": "Take away 7! 17 minus 7 equals what?",
+      "sha256": "466763344a988bf069f2747e01c91ed31004010bb3561a2d817201a64fadfe06"
+    },
+    "subtract-17-8.wav": {
+      "spoken": "Take away 8! 17 minus 8 equals what?",
+      "sha256": "5900792dc07bfb2bb35fc733a132dc049304f11cb271b4a330b54db7b7bc7b6f"
+    },
+    "subtract-17-9.wav": {
+      "spoken": "Take away 9! 17 minus 9 equals what?",
+      "sha256": "749b970c4bda7d9081ca65e5562c422f0bbce506d1807bd7f1a145918532bf78"
+    },
+    "subtract-17-10.wav": {
+      "spoken": "Take away 10! 17 minus 10 equals what?",
+      "sha256": "803c5ab8ecfee1e28a0c4341f9f93bedf6225515c37bb457e3c512beb10efe64"
+    },
+    "subtract-17-11.wav": {
+      "spoken": "Take away 11! 17 minus 11 equals what?",
+      "sha256": "e45c39a7ea89dde038d5935e8bcfeee5b3afa5552dd62d0ae858024d45516dcf"
+    },
+    "subtract-17-12.wav": {
+      "spoken": "Take away 12! 17 minus 12 equals what?",
+      "sha256": "215a26cede866540d14106bddbd2d0d7fce709c1848089daa099f2bc690a6f12"
+    },
+    "subtract-17-13.wav": {
+      "spoken": "Take away 13! 17 minus 13 equals what?",
+      "sha256": "008ff401666efd0d98f3a33f2d9872fbcca7f4711ba22514768bb35300ea8f65"
+    },
+    "subtract-17-14.wav": {
+      "spoken": "Take away 14! 17 minus 14 equals what?",
+      "sha256": "86aff391ad2a2af26571ed7622567d3eda1a52d7d8410ea0d8abac68b128fdcd"
+    },
+    "subtract-17-15.wav": {
+      "spoken": "Take away 15! 17 minus 15 equals what?",
+      "sha256": "db188f77784c97547e6f7549e9498cc8e4d94a0802b405b7a6ef2aa8bb0d89a4"
+    },
+    "subtract-17-16.wav": {
+      "spoken": "Take away 16! 17 minus 16 equals what?",
+      "sha256": "0218b8a79401ce1effb1220a5ed136cdbb49be86808f6a70df0052362400975e"
+    },
+    "add-18-1.wav": {
+      "spoken": "Add 1! 18 plus 1 equals what?",
+      "sha256": "f3d1f024b44a09afa83769c238ea839cf36a88fc66bdef7301279e6b806137f9"
+    },
+    "add-18-2.wav": {
+      "spoken": "Add 2! 18 plus 2 equals what?",
+      "sha256": "a396e4649552a234074f2517dead125fbf3ba648d36468960a3227f5a0be20ae"
+    },
+    "subtract-18-1.wav": {
+      "spoken": "Take away 1! 18 minus 1 equals what?",
+      "sha256": "0780803ccae2a1c3a25d834b767a007a681aff92af16134e48aac422b91db757"
+    },
+    "subtract-18-2.wav": {
+      "spoken": "Take away 2! 18 minus 2 equals what?",
+      "sha256": "a292423d3ef4b33d68fdf8f430027df1bd8e29b382965ca1d756dbe0f7eef589"
+    },
+    "subtract-18-3.wav": {
+      "spoken": "Take away 3! 18 minus 3 equals what?",
+      "sha256": "7dc5a3c4c24872c10bcd83ed38b4021f032840b95134dcec23a6e2ae701ad6f4"
+    },
+    "subtract-18-4.wav": {
+      "spoken": "Take away 4! 18 minus 4 equals what?",
+      "sha256": "46e564ce0f1892633c6c21a161e48e684868e6544ec07721aaabbb46e7aedc09"
+    },
+    "subtract-18-5.wav": {
+      "spoken": "Take away 5! 18 minus 5 equals what?",
+      "sha256": "51691f50182956d60358f1c6dafae0d3408e5f12eb05610ff548436b64e83b04"
+    },
+    "subtract-18-6.wav": {
+      "spoken": "Take away 6! 18 minus 6 equals what?",
+      "sha256": "803aecac20d51fb46ab4d1dce72d82342c24738bb00053f63364f1d5c01abe00"
+    },
+    "subtract-18-7.wav": {
+      "spoken": "Take away 7! 18 minus 7 equals what?",
+      "sha256": "d5f5f6927089b782451a4441606cef119e3c8c37463b0dff53f8838034d213d9"
+    },
+    "subtract-18-8.wav": {
+      "spoken": "Take away 8! 18 minus 8 equals what?",
+      "sha256": "e1b3f3ae692ae84ea1c914fc77fd58575b29c2ebe3eec45c23b6a7302f22c5c8"
+    },
+    "subtract-18-9.wav": {
+      "spoken": "Take away 9! 18 minus 9 equals what?",
+      "sha256": "658c19d1731165a997a679ce4b0cab383092551795158158f6c5cf2fec366b18"
+    },
+    "subtract-18-10.wav": {
+      "spoken": "Take away 10! 18 minus 10 equals what?",
+      "sha256": "5fd88c54b63033cd274916cc916ffc2cda8cac8e98f60520596e5eba4a1277ff"
+    },
+    "subtract-18-11.wav": {
+      "spoken": "Take away 11! 18 minus 11 equals what?",
+      "sha256": "6153afb302697b3f0958e0d4887135c47d4276aeace1de7da5fd639a71edfba7"
+    },
+    "subtract-18-12.wav": {
+      "spoken": "Take away 12! 18 minus 12 equals what?",
+      "sha256": "017648d26104b4aa8fcb555e77671a19a3132767b62030bd470266183b5518c2"
+    },
+    "subtract-18-13.wav": {
+      "spoken": "Take away 13! 18 minus 13 equals what?",
+      "sha256": "e0039e7cb339fa55ff753cc341919585592c0f74487568ae6560b95a5df8b9c5"
+    },
+    "subtract-18-14.wav": {
+      "spoken": "Take away 14! 18 minus 14 equals what?",
+      "sha256": "907ad12521ae9f6906aef89ac50226258d87d7ad566f113e22c89c581df40265"
+    },
+    "subtract-18-15.wav": {
+      "spoken": "Take away 15! 18 minus 15 equals what?",
+      "sha256": "cc32657e15fbbc14a1a281e9a797b557c6039d625a3460e4f825043f11b1a05c"
+    },
+    "subtract-18-16.wav": {
+      "spoken": "Take away 16! 18 minus 16 equals what?",
+      "sha256": "adb131465ed0d0ab29c218c95bd3f70462e25f6639e9efc66ada85e34d93e7a4"
+    },
+    "subtract-18-17.wav": {
+      "spoken": "Take away 17! 18 minus 17 equals what?",
+      "sha256": "25500ab20389bfe740e6c2bea959690131be3dbf9b94d1d42616c260ced0d408"
+    },
+    "add-19-1.wav": {
+      "spoken": "Add 1! 19 plus 1 equals what?",
+      "sha256": "fc8cbb6d2d5f8879542fb4bc03649a39597b5e404a01da67515136d45b37d8b8"
+    },
+    "subtract-19-1.wav": {
+      "spoken": "Take away 1! 19 minus 1 equals what?",
+      "sha256": "0054418c1a5f8aa4981aef3589abc8da9c743af500c8df16a3b3e486103954d0"
+    },
+    "subtract-19-2.wav": {
+      "spoken": "Take away 2! 19 minus 2 equals what?",
+      "sha256": "ab55aae677aec0613837adad059e460ee8d25e9984786694445a6a29a904dd22"
+    },
+    "subtract-19-3.wav": {
+      "spoken": "Take away 3! 19 minus 3 equals what?",
+      "sha256": "3a7e29f097e1a9a34ff19f9d4cddedb22fa72178e5e6efbe50171fd115edf11b"
+    },
+    "subtract-19-4.wav": {
+      "spoken": "Take away 4! 19 minus 4 equals what?",
+      "sha256": "e725afdf368e42493db10ede530d28ec0ada92e2a7aa5ff8ad724cc8a3ba7416"
+    },
+    "subtract-19-5.wav": {
+      "spoken": "Take away 5! 19 minus 5 equals what?",
+      "sha256": "e7e964690f7a08d6a75458428ed5251d17186a38b64065a61b8c08562350e62b"
+    },
+    "subtract-19-6.wav": {
+      "spoken": "Take away 6! 19 minus 6 equals what?",
+      "sha256": "65ca0c37407efae5a61c85dccba77b39e33a7f632335db4fe1585e32a8233ee3"
+    },
+    "subtract-19-7.wav": {
+      "spoken": "Take away 7! 19 minus 7 equals what?",
+      "sha256": "d7abe0972e6823eb8486a04d63dd84d408e2a242edee3cd9876964a19d092db5"
+    },
+    "subtract-19-8.wav": {
+      "spoken": "Take away 8! 19 minus 8 equals what?",
+      "sha256": "4e534b877691bb32cd360fe98ad01d247bc86f3bf4265e9d337e2231eda5dc6a"
+    },
+    "subtract-19-9.wav": {
+      "spoken": "Take away 9! 19 minus 9 equals what?",
+      "sha256": "2ee5bc9bcf5208d40b05042ffe22f56e8a476c437ebbadb39eca6c3ca688d4eb"
+    },
+    "subtract-19-10.wav": {
+      "spoken": "Take away 10! 19 minus 10 equals what?",
+      "sha256": "4fe6e4f1f4dac8927d3cb6bdb32e9972da9f03a91980ed7ce564f5aee9ab95ec"
+    },
+    "subtract-19-11.wav": {
+      "spoken": "Take away 11! 19 minus 11 equals what?",
+      "sha256": "3ba2ce10917189366203fa7b6ca4986ad016cff0a37eeb0691d6c448b9b3b40e"
+    },
+    "subtract-19-12.wav": {
+      "spoken": "Take away 12! 19 minus 12 equals what?",
+      "sha256": "2bafdd7763259e1a1fb58d66eba58b5b9a10afbf82c40a3ed3352c302c543104"
+    },
+    "subtract-19-13.wav": {
+      "spoken": "Take away 13! 19 minus 13 equals what?",
+      "sha256": "0779d92256f63d5865579d19b3a6f32d2b39ca533239a946d9ce2e0cc01c1f28"
+    },
+    "subtract-19-14.wav": {
+      "spoken": "Take away 14! 19 minus 14 equals what?",
+      "sha256": "83e1e451219410af2dcfcce0aa4ebe534ae00e2e243566297fc91c383b93113a"
+    },
+    "subtract-19-15.wav": {
+      "spoken": "Take away 15! 19 minus 15 equals what?",
+      "sha256": "c106b68cab17be6b1029ac53f71b7e6a196b0e9d28ce63905e3a99d376d6d60e"
+    },
+    "subtract-19-16.wav": {
+      "spoken": "Take away 16! 19 minus 16 equals what?",
+      "sha256": "d2db540154330c85ac1036406d98bbdc90b7e8e136db26f95c1b2938a3fce669"
+    },
+    "subtract-19-17.wav": {
+      "spoken": "Take away 17! 19 minus 17 equals what?",
+      "sha256": "e026f1b1345b6a362ac6b00b774febf06dc4f68ef0ec13a61ed381dd68180086"
+    },
+    "subtract-19-18.wav": {
+      "spoken": "Take away 18! 19 minus 18 equals what?",
+      "sha256": "4ac5c2854fdf6b0914f2eea6f96577eced437f40ab9249a5073213b7090ba5a2"
+    },
+    "subtract-20-1.wav": {
+      "spoken": "Take away 1! 20 minus 1 equals what?",
+      "sha256": "3ec73a550db7c68a91c9c9067cfbbde76bc396ca63c004e50fa29fdf956f658b"
+    },
+    "subtract-20-2.wav": {
+      "spoken": "Take away 2! 20 minus 2 equals what?",
+      "sha256": "bd7401dc568d1fd307ac2f22bb9a1116a00eb2928f3c3bd4eec7e2d23c23c6a1"
+    },
+    "subtract-20-3.wav": {
+      "spoken": "Take away 3! 20 minus 3 equals what?",
+      "sha256": "d5806baf1b847858a4a5d128bb7182374aa66c21805a467db531d8186cda7fa0"
+    },
+    "subtract-20-4.wav": {
+      "spoken": "Take away 4! 20 minus 4 equals what?",
+      "sha256": "ba172eb527e4ec4f27886b2648ab1b4b314f789659e4ab4e0af0c4c7c483c7ea"
+    },
+    "subtract-20-5.wav": {
+      "spoken": "Take away 5! 20 minus 5 equals what?",
+      "sha256": "dd88d38ea6a4d66e54490684b8b123c47d77366633e5a7ee2a74144b6fbf3483"
+    },
+    "subtract-20-6.wav": {
+      "spoken": "Take away 6! 20 minus 6 equals what?",
+      "sha256": "b864deeef435c01657d9a3be151e938deb24e91857d6ebbd71ed7ebd1543dc71"
+    },
+    "subtract-20-7.wav": {
+      "spoken": "Take away 7! 20 minus 7 equals what?",
+      "sha256": "e1601460f9a1c98c1372957cc5d2ab7cd27057540e40a723246d6c86192509ab"
+    },
+    "subtract-20-8.wav": {
+      "spoken": "Take away 8! 20 minus 8 equals what?",
+      "sha256": "1dbde986e8b7399c47610df1c9527c5c62274f8465a1c402469f3fcd6bf279d4"
+    },
+    "subtract-20-9.wav": {
+      "spoken": "Take away 9! 20 minus 9 equals what?",
+      "sha256": "ec2a1488513417654411de93f6c1c01318ea8974eb9ceb4d7e5cc89616945c49"
+    },
+    "subtract-20-10.wav": {
+      "spoken": "Take away 10! 20 minus 10 equals what?",
+      "sha256": "ffa064b2fa0b7e8a54f4d34a4d5e913721f359bcca58c15e548fd93a49eccf2f"
+    },
+    "subtract-20-11.wav": {
+      "spoken": "Take away 11! 20 minus 11 equals what?",
+      "sha256": "4cbda4381c058cec6166c519945c54ca66fa5939e5295f2a72dd9e5c3a1f3e39"
+    },
+    "subtract-20-12.wav": {
+      "spoken": "Take away 12! 20 minus 12 equals what?",
+      "sha256": "307d5c0e5eeaa9387515142ce00335222d03900c6bb59ac18d9d47da482dd27f"
+    },
+    "subtract-20-13.wav": {
+      "spoken": "Take away 13! 20 minus 13 equals what?",
+      "sha256": "f8b57d9b571859b6510c6711f940ea5b8441ad12f65dbdb2ec3147eba07c3d6c"
+    },
+    "subtract-20-14.wav": {
+      "spoken": "Take away 14! 20 minus 14 equals what?",
+      "sha256": "8b8c08d91a5e4d3ea0759fcdade2f8646f8ace4c583b52db6aa5a5e3216b9227"
+    },
+    "subtract-20-15.wav": {
+      "spoken": "Take away 15! 20 minus 15 equals what?",
+      "sha256": "ed961b3b919d3ce929abd5374b1982a12492c646489b4b68b88a768efc6ed665"
+    },
+    "subtract-20-16.wav": {
+      "spoken": "Take away 16! 20 minus 16 equals what?",
+      "sha256": "3365224fac0eeeb0be303acf6bf4503fe61c59c0e1b6805960f5f5c91cb58c0c"
+    },
+    "subtract-20-17.wav": {
+      "spoken": "Take away 17! 20 minus 17 equals what?",
+      "sha256": "43189b48f8dadbfe6d16b30845dad090f14af85f96c79d6dd5601f347438af6e"
+    },
+    "subtract-20-18.wav": {
+      "spoken": "Take away 18! 20 minus 18 equals what?",
+      "sha256": "84227918d49b469aeb5af461744466b36a49b88087c96b7b9a175b19ab3484c6"
+    },
+    "subtract-20-19.wav": {
+      "spoken": "Take away 19! 20 minus 19 equals what?",
+      "sha256": "18843d579643edac5893a7ab027111bed1200438a96c81772675e81e0f3c2e67"
+    }
+  },
+  "conservativeTotalEstimateUsd": 1.104
+}
