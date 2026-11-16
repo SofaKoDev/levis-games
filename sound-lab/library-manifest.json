@@ -1,0 +1,1439 @@
+{
+  "voice": "en-US-JennyNeural",
+  "status": "Candidates require human pronunciation and illustration review",
+  "processing": "Raw synthesis; intro files concatenate isolated phonemes with their original pauses. No synthetic blend splicing.",
+  "files": {
+    "01-intro.wav": {
+      "sha256": "f99c8b42382a35b744c596ac1a5e994296344aa0e9a01d65081e8d07d48a9696",
+      "seconds": 5.84,
+      "activeSpanSeconds": 4.007,
+      "peak": 0.60336,
+      "reviewed": false,
+      "processing": "Approved raw longer M/N; separated introductions concatenate unchanged source PCM with pauses"
+    },
+    "02-s.wav": {
+      "sha256": "c6a9291ce85e6f57a976760e8e4e4552c2202f9446e424a738148390a50cd27c",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.206,
+      "peak": 0.17749,
+      "reviewed": false
+    },
+    "03-u.wav": {
+      "sha256": "3f56dbabf4ae84731eec0be807d87738384aaf1bf31a36fc91fa1c1b97e7e1cb",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.412,
+      "peak": 0.60336,
+      "reviewed": false
+    },
+    "04-n.wav": {
+      "sha256": "c0c84db304ea8337d0d008f0f061e3274d0c63c5ae31851f536697bf908d93f3",
+      "seconds": 2.2,
+      "activeSpanSeconds": 0.288,
+      "peak": 0.27985,
+      "reviewed": true,
+      "processing": "Byte-for-byte copy of owner-approved fresh Jenny recording"
+    },
+    "05-partial-su.wav": {
+      "sha256": "900df5895a1c3c8327a587eb044718c362bc0bfad29cb94a4b97ea86e0894d21",
+      "seconds": 1.627,
+      "activeSpanSeconds": 0.462,
+      "peak": 0.67722,
+      "reviewed": false
+    },
+    "06-connected-sun.wav": {
+      "sha256": "9447d7ba889d850e05eaa298369df654ea94fb2f564b0474e78cb89c54766e2c",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.568,
+      "peak": 0.61096,
+      "reviewed": false
+    },
+    "07-word-sun.wav": {
+      "sha256": "9721042370b9f6d4f9b6036b310f16501f4f743e4c4a5d875eefae4a6664cf96",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.464,
+      "peak": 0.53925,
+      "reviewed": false
+    },
+    "library/am-blend-2.wav": {
+      "sha256": "38b98d4bcde45fd57180f1fa8cb491ab3089efffb82e37fef810898e24bbfa22",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.415,
+      "peak": 0.49158,
+      "reviewed": false
+    },
+    "library/am-intro.wav": {
+      "sha256": "8ea78a9a1750225da038b9e47e9c7dec543418561f7661d9b1efc4bfa1ec65f7",
+      "seconds": 3.974,
+      "activeSpanSeconds": 2.176,
+      "peak": 0.4707,
+      "reviewed": false,
+      "processing": "Approved raw longer M/N; separated introductions concatenate unchanged source PCM with pauses"
+    },
+    "library/am-word.wav": {
+      "sha256": "4011adce87fb656843071fcb27cb316bf931298c10c0dc715a465e60ceb81b31",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.357,
+      "peak": 0.52338,
+      "reviewed": false
+    },
+    "library/bat-blend-2.wav": {
+      "sha256": "055ed8dd196efd2a6fdac06e3af2d9ef298dcb4004d5ce9da9cbdc508298772c",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.395,
+      "peak": 0.50098,
+      "reviewed": false
+    },
+    "library/bat-blend-3.wav": {
+      "sha256": "672f081532cbb278b94451d2cc0511c25280a0e42a79f2f4b88e619fd7fe3f92",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.53,
+      "peak": 0.5329,
+      "reviewed": false
+    },
+    "library/bat-intro.wav": {
+      "sha256": "f44af99d353875722d01fe2b04e21be91b3d1e3646f463f65462b31064ae5f77",
+      "seconds": 5.464,
+      "activeSpanSeconds": 3.795,
+      "peak": 0.4707,
+      "reviewed": false
+    },
+    "library/bat-word.wav": {
+      "sha256": "6984853c04355822b6bf68f53166fd3ff1d8d675b548537acda44e146b2288c1",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.435,
+      "peak": 0.57401,
+      "reviewed": false
+    },
+    "library/bed-blend-2.wav": {
+      "sha256": "382db287aa9530dddcd081053df2dc868d36859358f53824f3918d58541d9ba4",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.379,
+      "peak": 0.5824,
+      "reviewed": false
+    },
+    "library/bed-blend-3.wav": {
+      "sha256": "d70b8f4e355ba478641e77c313acad49e5b2174a797190419de6dd809ba2561f",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.429,
+      "peak": 0.57477,
+      "reviewed": false
+    },
+    "library/bed-intro.wav": {
+      "sha256": "e666043a6a2db043856faf3c12ae0eed121034b03f35ff59057954b56dd95c95",
+      "seconds": 5.46,
+      "activeSpanSeconds": 3.737,
+      "peak": 0.45395,
+      "reviewed": false
+    },
+    "library/bed-word.wav": {
+      "sha256": "041e75f11d576d53dd80afbb9a7aa6fd902db8571ef894e0fabf0e8a7304f09b",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.36,
+      "peak": 0.5744,
+      "reviewed": false
+    },
+    "library/can-blend-2.wav": {
+      "sha256": "267b8299e55eb47a7fc58aa443b5ab605033aab688e00caafd3728dc8298c1c9",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.395,
+      "peak": 0.55908,
+      "reviewed": false
+    },
+    "library/can-blend-3.wav": {
+      "sha256": "ffdebb5f64f30f5431dcf84eba8611bc24829b238ef986f4508c05f4d3823301",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.498,
+      "peak": 0.48657,
+      "reviewed": false
+    },
+    "library/can-intro.wav": {
+      "sha256": "62177f188a5db5f8bc89fba255c18f74339987cd17cc57cd745fc82b2474d7fe",
+      "seconds": 5.844,
+      "activeSpanSeconds": 4.003,
+      "peak": 0.4707,
+      "reviewed": false,
+      "processing": "Approved raw longer M/N; separated introductions concatenate unchanged source PCM with pauses"
+    },
+    "library/can-word.wav": {
+      "sha256": "b8dc75f6e48eee5f7a9d89846c83a35005a138381a7a13932f1eba7804d71498",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.397,
+      "peak": 0.4985,
+      "reviewed": false
+    },
+    "library/cat-blend-2.wav": {
+      "sha256": "d0dba097fcc86c237064e204ef3a67949a3dae90f50d1522268b4f27b932a040",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.395,
+      "peak": 0.55908,
+      "reviewed": false
+    },
+    "library/cat-blend-3.wav": {
+      "sha256": "89736808caf9c84ff86942425aa4d11291dcf1706f5da1a1d600c8f0e80bca4d",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.534,
+      "peak": 0.59219,
+      "reviewed": false
+    },
+    "library/cat-intro.wav": {
+      "sha256": "cd8e0e6a447980a34a6ec0fe8feda3c83dd4dd6c9faddff81c094194a1b905e8",
+      "seconds": 5.464,
+      "activeSpanSeconds": 3.81,
+      "peak": 0.4707,
+      "reviewed": false
+    },
+    "library/cat-word.wav": {
+      "sha256": "6a440daf69e5ded311c97441726d20f149dcfeea4e0e14009a72cc45bace0872",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.441,
+      "peak": 0.62482,
+      "reviewed": false
+    },
+    "library/cup-blend-2.wav": {
+      "sha256": "fbce002788016b6588c81c1ba62e60d05a9d3c834032efdd987ace16e2ff6fb2",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.382,
+      "peak": 0.53342,
+      "reviewed": false
+    },
+    "library/cup-blend-3.wav": {
+      "sha256": "75713250076d3f6e8fd3bab2de7723097da1f54e23c98a0a949bc48373c4053b",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.429,
+      "peak": 0.6207,
+      "reviewed": false
+    },
+    "library/cup-intro.wav": {
+      "sha256": "8d54f3342a12e0d14bd10e84c1cbc3f3790d1ee1225ad7e946f2d6902bfa955a",
+      "seconds": 5.46,
+      "activeSpanSeconds": 3.738,
+      "peak": 0.60336,
+      "reviewed": false
+    },
+    "library/cup-word.wav": {
+      "sha256": "d00cb5d76470af427a414a7e705c7cb2ede64b04d1b1fca7299d53f60d576787",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.345,
+      "peak": 0.64047,
+      "reviewed": false
+    },
+    "library/dog-blend-2.wav": {
+      "sha256": "af6817840576fddfafa775472aa7bbbd80cf509b9f7fb58b9bd31dfc9a502727",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.46,
+      "peak": 0.55695,
+      "reviewed": false
+    },
+    "library/dog-blend-3.wav": {
+      "sha256": "4f59777d5185590307fca3a4a2dbbcd56b30f70228b1d96f3c6e4bd87531c092",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.532,
+      "peak": 0.46124,
+      "reviewed": false
+    },
+    "library/dog-intro.wav": {
+      "sha256": "938d66bf9f6212976e1b229ccf1c3d8a5f8cbf513aa2accd30dd4b771a2ba0e0",
+      "seconds": 5.537,
+      "activeSpanSeconds": 3.808,
+      "peak": 0.56427,
+      "reviewed": false
+    },
+    "library/dog-word.wav": {
+      "sha256": "a72913e065d5d2ecd1c4b39595c9ad05e3fe0887e0c5b12efe972c2015735a3c",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.413,
+      "peak": 0.4476,
+      "reviewed": false
+    },
+    "library/eggs-blend-2.wav": {
+      "sha256": "c85a710bf69edff8e5ebc2b7f4223b2b024ba43ad3255424122cdae6bd8e3086",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.452,
+      "peak": 0.52325,
+      "reviewed": false
+    },
+    "library/eggs-blend-3.wav": {
+      "sha256": "1c5f5b719ca5288667d1c9ea9bb04ec8060a6d1ccd82067da03196feff98c774",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.537,
+      "peak": 0.56622,
+      "reviewed": false
+    },
+    "library/eggs-intro.wav": {
+      "sha256": "cbdf4e1b03e7019832b16a446cda306cd714fc4e09e7f914c2f1a43b78991760",
+      "seconds": 5.46,
+      "activeSpanSeconds": 3.841,
+      "peak": 0.45395,
+      "reviewed": false
+    },
+    "library/eggs-word.wav": {
+      "sha256": "3676d1709e0ab63f6e4f54725d1ef5b562a6349cf8a22a23b3d1666c53a6392e",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.454,
+      "peak": 0.59631,
+      "reviewed": false
+    },
+    "library/fan-blend-2.wav": {
+      "sha256": "4daa3956cb5a3f1430baa06c9c8ca801a399ca3b60f78935cc9dafd2ee9aacf3",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.442,
+      "peak": 0.56598,
+      "reviewed": false
+    },
+    "library/fan-blend-3.wav": {
+      "sha256": "65d6601c15624f2cfd1e848533881d38694a17d8672c727656ded418c9ad9376",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.58,
+      "peak": 0.56052,
+      "reviewed": false
+    },
+    "library/fan-intro.wav": {
+      "sha256": "b9fb658deb5b18efe7535c86197bf6cef271887ef91daa86c16251ee1b88264d",
+      "seconds": 5.844,
+      "activeSpanSeconds": 3.998,
+      "peak": 0.4707,
+      "reviewed": false,
+      "processing": "Approved raw longer M/N; separated introductions concatenate unchanged source PCM with pauses"
+    },
+    "library/fan-word.wav": {
+      "sha256": "8c4a322a559f0afb29eeadd73138db2e4384077232902d1d8cd5591ca039738f",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.458,
+      "peak": 0.55487,
+      "reviewed": false
+    },
+    "library/fin-blend-2.wav": {
+      "sha256": "dd4fd9a4e1a99a5a5aa700f42bcc3be71d60937fa1c78775b63a4876b7f39748",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.262,
+      "peak": 0.56393,
+      "reviewed": false,
+      "processing": "Connected FIN prefix through 0.45s with 8ms fade before final consonant; owner review pending",
+      "source": "fin-blend-3.wav"
+    },
+    "library/fin-blend-3.wav": {
+      "sha256": "0221e345849e2129092c434f91b86d02dd467090c324589147a30a5474a8be52",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.478,
+      "peak": 0.56393,
+      "reviewed": false
+    },
+    "library/fin-intro.wav": {
+      "sha256": "b868129b66702f9f2bd41b3e3b0f852b4adc56c8f7132a6e6d52cfe5b0e39e37",
+      "seconds": 4.14,
+      "activeSpanSeconds": 2.293,
+      "peak": 0.59866,
+      "reviewed": false,
+      "processing": "Separated sounds with approved short I; owner review pending"
+    },
+    "library/fin-word.wav": {
+      "sha256": "2c14230e0617147540d60ebb19a01aea05dfa894cb39e991f6b41878fc5e8520",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.415,
+      "peak": 0.54709,
+      "reviewed": false
+    },
+    "library/green-blend-2.wav": {
+      "sha256": "518f4545e953fd4c86cbcf5c02b3beb76faff34b7543e91c7df0b6c358e042fe",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.36,
+      "peak": 0.46072,
+      "reviewed": false
+    },
+    "library/green-blend-3.wav": {
+      "sha256": "c75748067156834ddd30b258079fc84b173560f1610dd05e07d44d5e322bc40e",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.491,
+      "peak": 0.46924,
+      "reviewed": false
+    },
+    "library/green-blend-4.wav": {
+      "sha256": "73cda41b551f9221173cf47b3bab1fa3a8b998b6c8f88968496073123fae7f92",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.541,
+      "peak": 0.38385,
+      "reviewed": false
+    },
+    "library/green-intro.wav": {
+      "sha256": "64718999ec82dd0eacb9a4470808f37a2d7e3bedd460a2830589fb85a5768474",
+      "seconds": 7.66,
+      "activeSpanSeconds": 5.818,
+      "peak": 0.47531,
+      "reviewed": false,
+      "processing": "Approved raw longer M/N; separated introductions concatenate unchanged source PCM with pauses"
+    },
+    "library/green-word.wav": {
+      "sha256": "62a1f505ebe3a7d4544e936f6253833aac54737db5352f9a6131fe64dcf08ed6",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.442,
+      "peak": 0.35709,
+      "reviewed": false
+    },
+    "library/ham-blend-2.wav": {
+      "sha256": "b623244535be05bee5f694a2e0de65a3a68c680f8cb9987a61671959237c017b",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.354,
+      "peak": 0.55829,
+      "reviewed": false
+    },
+    "library/ham-blend-3.wav": {
+      "sha256": "8ea48beb8ebbbfbc99c23226c04205be6f52eaee2e9d0b0aca93f4a65ce0db16",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.472,
+      "peak": 0.48007,
+      "reviewed": false
+    },
+    "library/ham-intro.wav": {
+      "sha256": "79b754931e2949d043006c96b041e42fef6af34cdb99b2529a1366f32752907c",
+      "seconds": 5.794,
+      "activeSpanSeconds": 3.977,
+      "peak": 0.4707,
+      "reviewed": false,
+      "processing": "Approved raw longer M/N; separated introductions concatenate unchanged source PCM with pauses"
+    },
+    "library/ham-word.wav": {
+      "sha256": "fb48aa66f68f92666794fc7f8617a7b22c5fb3eef87b88eff33192071eb77d7c",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.374,
+      "peak": 0.47159,
+      "reviewed": false
+    },
+    "library/hat-blend-2.wav": {
+      "sha256": "a1b6308258a954fc6e0d8151fd44c1bb88fa18ec15ae92c143daa9fd87b8d8ff",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.354,
+      "peak": 0.55829,
+      "reviewed": false
+    },
+    "library/hat-blend-3.wav": {
+      "sha256": "030f976929e6716de00ae08ef0df11e0929cf709fea293cf6cc8763333171db5",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.506,
+      "peak": 0.58142,
+      "reviewed": false
+    },
+    "library/hat-intro.wav": {
+      "sha256": "3767f077bb8b519db2b5094c7608890c7d35017aec0629dc859898cc3749bd3c",
+      "seconds": 5.464,
+      "activeSpanSeconds": 3.788,
+      "peak": 0.4707,
+      "reviewed": false
+    },
+    "library/hat-word.wav": {
+      "sha256": "08c4561a98c60b3daf6c27a6cbc35503314c7279c92fcc847660d11b4e579738",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.435,
+      "peak": 0.57773,
+      "reviewed": false
+    },
+    "library/hen-blend-2.wav": {
+      "sha256": "43278b0e7e6eaddbda6ebe6d533bf4bd0a511fb80ab827b405d544cab32c1b2d",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.351,
+      "peak": 0.54761,
+      "reviewed": false
+    },
+    "library/hen-blend-3.wav": {
+      "sha256": "9c2a9246de12535ebae2cc2fb5dd856a936f0fd14e8180da3c4f767b1733b343",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.431,
+      "peak": 0.65503,
+      "reviewed": false
+    },
+    "library/hen-intro.wav": {
+      "sha256": "9560087e324160e499cb9f3b7cf6bfae221317accbfb9cea31ca0bca9ae8c5f3",
+      "seconds": 5.84,
+      "activeSpanSeconds": 3.977,
+      "peak": 0.45395,
+      "reviewed": false,
+      "processing": "Approved raw longer M/N; separated introductions concatenate unchanged source PCM with pauses"
+    },
+    "library/hen-word.wav": {
+      "sha256": "d59948786c61558d9c59c275c056c9e58f8f06df93a659fa668dd2a8f41b099e",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.374,
+      "peak": 0.60901,
+      "reviewed": false
+    },
+    "library/hop-blend-2.wav": {
+      "sha256": "715a7871202c096b3c8c6e250e9c039dc3d24498369c9921591c1e800674875c",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.357,
+      "peak": 0.5018,
+      "reviewed": false
+    },
+    "library/hop-blend-3.wav": {
+      "sha256": "74cc6e52b4494976447cd97466c44a4d5f3269756eb42559b6e397082dcf5b97",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.448,
+      "peak": 0.4838,
+      "reviewed": false
+    },
+    "library/hop-intro.wav": {
+      "sha256": "c11ac64cf594908a928fb06f4b4a78fdeabf40a29e3d39ffb65b815f818fb06a",
+      "seconds": 5.46,
+      "activeSpanSeconds": 3.716,
+      "peak": 0.5484,
+      "reviewed": false
+    },
+    "library/hop-word.wav": {
+      "sha256": "eef1bc3fc67a9fe3ab6f659ef2a36c58bf70e899a3930b83b4b2e58dda376224",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.36,
+      "peak": 0.49112,
+      "reviewed": false
+    },
+    "library/hot-blend-2.wav": {
+      "sha256": "f344af6219512991b99b177df8d3da163b3c79cc746b7ca82473c52da388970d",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.357,
+      "peak": 0.5018,
+      "reviewed": false
+    },
+    "library/hot-blend-3.wav": {
+      "sha256": "faf8e4a86ba01bd7a99ea931293678830dcd6e9cdec7a9bbf4843100268450ac",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.51,
+      "peak": 0.48859,
+      "reviewed": false
+    },
+    "library/hot-intro.wav": {
+      "sha256": "ad143ed37460c3ad35728922a781b4b7ba6d4b06806e131f6b5db47af9c799b3",
+      "seconds": 5.46,
+      "activeSpanSeconds": 3.784,
+      "peak": 0.5484,
+      "reviewed": false
+    },
+    "library/hot-word.wav": {
+      "sha256": "c19f73b8579c6612391263a809e8e4464d97957cf98ea2e01b5aa64681330bd2",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.407,
+      "peak": 0.50256,
+      "reviewed": false
+    },
+    "library/jam-blend-2.wav": {
+      "sha256": "fee84604fd6a5abc6072091bfdca110c2358710d2640e5d17013c9fe842fc33a",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.455,
+      "peak": 0.51407,
+      "reviewed": false
+    },
+    "library/jam-blend-3.wav": {
+      "sha256": "c9725d9f9d82b1f65d9489391c952d5dedb6338e4f0eac130a59e7d0771d0189",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.512,
+      "peak": 0.40686,
+      "reviewed": false
+    },
+    "library/jam-intro.wav": {
+      "sha256": "8ec09d5a82e334ca4aa13f2395ad3a6cf33a8814fc51657c47fadbd542f68d69",
+      "seconds": 5.794,
+      "activeSpanSeconds": 4.008,
+      "peak": 0.4707,
+      "reviewed": false,
+      "processing": "Approved raw longer M/N; separated introductions concatenate unchanged source PCM with pauses"
+    },
+    "library/jam-word.wav": {
+      "sha256": "ed28ef787811350686dcd6fbed2d27af50a67a5c15baa821cd1359928f104c8c",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.393,
+      "peak": 0.41397,
+      "reviewed": false
+    },
+    "library/man-blend-2.wav": {
+      "sha256": "26265202c9f206e7053a4f4b8563896e5b925272f171dca90ed4d91c14c87c52",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.371,
+      "peak": 0.49637,
+      "reviewed": false
+    },
+    "library/man-blend-3.wav": {
+      "sha256": "878cb2282cb754dd423b85e77ce5c6db2510b765bbb8f42fe22d30b07233eb16",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.507,
+      "peak": 0.41888,
+      "reviewed": false
+    },
+    "library/man-intro.wav": {
+      "sha256": "0e2a6d7b1a8900b676c2791bec0e9b362ae1ad28d74d4c3a6002f2f7a80abd1e",
+      "seconds": 6.174,
+      "activeSpanSeconds": 4.263,
+      "peak": 0.4707,
+      "reviewed": false,
+      "processing": "Approved raw longer M/N; separated introductions concatenate unchanged source PCM with pauses"
+    },
+    "library/man-word.wav": {
+      "sha256": "9e59712ad75809658a16221a46ba651be2c6ddc05bd0c18df5492407eed6d086",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.41,
+      "peak": 0.4158,
+      "reviewed": false
+    },
+    "library/map-blend-2.wav": {
+      "sha256": "4cb41fd8860b028a8f1fec8f27cfc5026bd7523e6ffcabc2aecfd8193c898ce5",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.371,
+      "peak": 0.49637,
+      "reviewed": false
+    },
+    "library/map-blend-3.wav": {
+      "sha256": "ed945b30ab0cce4a13c21249676a16a0f67cee07548c98407dac62520ad88cd9",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.47,
+      "peak": 0.37823,
+      "reviewed": false
+    },
+    "library/map-intro.wav": {
+      "sha256": "c05839e8630541f9dae2b65d1c91a5f6506ed2edc52a7e9e300b787eec4debe0",
+      "seconds": 5.794,
+      "activeSpanSeconds": 4.002,
+      "peak": 0.4707,
+      "reviewed": false,
+      "processing": "Approved raw longer M/N; separated introductions concatenate unchanged source PCM with pauses"
+    },
+    "library/map-word.wav": {
+      "sha256": "4fa980e08d0f07555a923b3881f8e9414d581e838d40d6399e99c15329e63bb5",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.38,
+      "peak": 0.38141,
+      "reviewed": false
+    },
+    "library/mat-blend-2.wav": {
+      "sha256": "e7a291f7bfb66599770aa92bce4754a585fdf5d8256c57ff80a8d1796e0827ac",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.371,
+      "peak": 0.49637,
+      "reviewed": false
+    },
+    "library/mat-blend-3.wav": {
+      "sha256": "59d03b41f4403485223897aa15edcd20479e9600f4c6cf850d8b8d11317d4b34",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.521,
+      "peak": 0.4548,
+      "reviewed": false
+    },
+    "library/mat-intro.wav": {
+      "sha256": "7f822eec23f4964cdac9b18b98b59ca316548dab327175b7d28fb1c2e23d054b",
+      "seconds": 5.794,
+      "activeSpanSeconds": 4.07,
+      "peak": 0.4707,
+      "reviewed": false,
+      "processing": "Approved raw longer M/N; separated introductions concatenate unchanged source PCM with pauses"
+    },
+    "library/mat-word.wav": {
+      "sha256": "b39019ce8ebe1fef9e82a61556111a9bc32f891a2ae9e122bfa854500033cd7c",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.451,
+      "peak": 0.423,
+      "reviewed": false
+    },
+    "library/me-blend-2.wav": {
+      "sha256": "24bf13666b6555421b6e30b89d65887b4d0ac0cfced7147d4bd4c4a90112de43",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.395,
+      "peak": 0.55133,
+      "reviewed": false
+    },
+    "library/me-intro.wav": {
+      "sha256": "395773e2ec487c1d0771e5c41d060ad8af35f3bf4422796e8b89fd4deaff2f54",
+      "seconds": 3.97,
+      "activeSpanSeconds": 2.443,
+      "peak": 0.47531,
+      "reviewed": false,
+      "processing": "Approved raw longer M/N; separated introductions concatenate unchanged source PCM with pauses"
+    },
+    "library/me-word.wav": {
+      "sha256": "0027af0156f12b2e8fe6cb6f85092e14e3a7e0020c2503ca660a03f5964c19da",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.312,
+      "peak": 0.55737,
+      "reviewed": false
+    },
+    "library/not-blend-2.wav": {
+      "sha256": "19b20ec7d4b3c554af767bc0470c3301cbc02213bbdc92c8b3a2ce968c4fc1e2",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.438,
+      "peak": 0.48315,
+      "reviewed": false
+    },
+    "library/not-blend-3.wav": {
+      "sha256": "31d2b8ff360ae6484cb89cb344b0ea5b11e93f9b64bc6b3d75e9ab5d9c956b8b",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.523,
+      "peak": 0.4686,
+      "reviewed": false
+    },
+    "library/not-intro.wav": {
+      "sha256": "cff348aefde9f66c9741400fb06425c5cdc4525ac086815aa8e3f0754f15212b",
+      "seconds": 5.84,
+      "activeSpanSeconds": 4.115,
+      "peak": 0.5484,
+      "reviewed": false,
+      "processing": "Approved raw longer M/N; separated introductions concatenate unchanged source PCM with pauses"
+    },
+    "library/not-word.wav": {
+      "sha256": "715cef100fc7afcf9618645b290206d663cc37392f237f20df9b47f4a8a72f31",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.442,
+      "peak": 0.40421,
+      "reviewed": false
+    },
+    "library/on-blend-2.wav": {
+      "sha256": "7eb93285b0adda54dbcf27420960b84d246e86290aa36d30bc7e7a166520abac",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.423,
+      "peak": 0.49008,
+      "reviewed": false
+    },
+    "library/on-intro.wav": {
+      "sha256": "fae4006d18efc57f366e08bdc4483be7cc4dbffac5a06908d0558cceb9827056",
+      "seconds": 4.02,
+      "activeSpanSeconds": 2.182,
+      "peak": 0.5484,
+      "reviewed": false,
+      "processing": "Approved raw longer M/N; separated introductions concatenate unchanged source PCM with pauses"
+    },
+    "library/on-word.wav": {
+      "sha256": "296aeba82d41549b1cf4d7f53e24f7e431902156ef735de8da0967710be0abc6",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.366,
+      "peak": 0.52701,
+      "reviewed": false
+    },
+    "library/pan-blend-2.wav": {
+      "sha256": "a747e1763e1b6f8a4ab20e7d850903785ee0a179c5e90d2c9e5e30f2b683a494",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.413,
+      "peak": 0.63773,
+      "reviewed": false
+    },
+    "library/pan-blend-3.wav": {
+      "sha256": "8e64c4e62b9395b6f210d61f6046d5814aaf3a261f55e1487aa4c3f807b9ae42",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.518,
+      "peak": 0.46909,
+      "reviewed": false
+    },
+    "library/pan-intro.wav": {
+      "sha256": "206e46dc924c772367367319dc56284a92a546e24548916a36f284cac21df88b",
+      "seconds": 5.844,
+      "activeSpanSeconds": 3.997,
+      "peak": 0.4707,
+      "reviewed": false,
+      "processing": "Approved raw longer M/N; separated introductions concatenate unchanged source PCM with pauses"
+    },
+    "library/pan-word.wav": {
+      "sha256": "a4703322afdf3a2b2f53723d62314ebebbca0635f86ba78c1ba944f8a7cf6453",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.42,
+      "peak": 0.48624,
+      "reviewed": false
+    },
+    "library/phoneme-a.wav": {
+      "sha256": "eef9f6f9bdac4e7cf3e89bfaf1d910334b81a6d9d06135d5d023ee78d8ee6376",
+      "seconds": 1.824,
+      "activeSpanSeconds": 0.451,
+      "peak": 0.4707,
+      "reviewed": false
+    },
+    "library/phoneme-ah.wav": {
+      "sha256": "f0ebf7ccfe70cb2c8a6ed06d722f9173416990ab851a51b4e8d26fb585730d5f",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.454,
+      "peak": 0.5484,
+      "reviewed": false
+    },
+    "library/phoneme-aw.wav": {
+      "sha256": "7e687a880fe204ca6c5b28a66970b52a262722c5ea46de1156da784a38b4b071",
+      "seconds": 1.897,
+      "activeSpanSeconds": 0.522,
+      "peak": 0.56427,
+      "reviewed": false
+    },
+    "library/phoneme-b.wav": {
+      "sha256": "7444188be615007049ba8502e61c7a25703a7d0e1c88b6d77409a53b8ac44f6f",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.089,
+      "peak": 0.05536,
+      "reviewed": false
+    },
+    "library/phoneme-d.wav": {
+      "sha256": "a6202251f015d682ca24e88d3913cbc4cce48e3aa1908c95f532051d870ab0d9",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.107,
+      "peak": 0.0892,
+      "reviewed": false
+    },
+    "library/phoneme-e.wav": {
+      "sha256": "af93ed71b5255ec47a0de9836803238dcbd8e65a72c5ec890f014b398cf4431d",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.402,
+      "peak": 0.45395,
+      "reviewed": false
+    },
+    "library/phoneme-ee.wav": {
+      "sha256": "4f6dc559ab9b3d8a49c27b7cad3bfbc824052209494dc85a74384fc1e8715c7c",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.409,
+      "peak": 0.47531,
+      "reviewed": false
+    },
+    "library/phoneme-f.wav": {
+      "sha256": "516080b486ee14dcf3efd5d45fb75655f6fbfabed85bff8cb9ec9a062bb20cdd",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.184,
+      "peak": 0.01971,
+      "reviewed": false
+    },
+    "library/phoneme-g.wav": {
+      "sha256": "c35da409a5369dd6bd8e059ac1efbbbb6489ced616dae542f521422e0ff8525a",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.096,
+      "peak": 0.0571,
+      "reviewed": false
+    },
+    "library/phoneme-h.wav": {
+      "sha256": "b3c43f03002882555292e6412db078e6929ebb577c8295f6e52265be5566832c",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.155,
+      "peak": 0.01007,
+      "reviewed": false
+    },
+    "library/phoneme-i.wav": {
+      "sha256": "22b106c086ef3f09bee00004302bd2061bf55752828de4745bbe7e8f251848f2",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.346,
+      "peak": 0.5679,
+      "reviewed": false
+    },
+    "library/phoneme-j.wav": {
+      "sha256": "a74cb593f8a3cb9d48143fe1a255ee69fbb6b8116fce22c4b5d0a4f8d43aa954",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.155,
+      "peak": 0.19003,
+      "reviewed": false
+    },
+    "library/phoneme-k.wav": {
+      "sha256": "1e9ebd5ff680c1a7224744906c707960123ea0c144be617c4df34ac266a452fe",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.157,
+      "peak": 0.05701,
+      "reviewed": false
+    },
+    "library/phoneme-m.wav": {
+      "sha256": "1805dfa2e79ec967be4f5139158af3a6ea73f3fc9b4e2876e7594bc335029005",
+      "seconds": 2.15,
+      "activeSpanSeconds": 0.285,
+      "peak": 0.21573,
+      "reviewed": true,
+      "processing": "Byte-for-byte copy of owner-approved fresh Jenny recording"
+    },
+    "library/phoneme-n.wav": {
+      "sha256": "c0c84db304ea8337d0d008f0f061e3274d0c63c5ae31851f536697bf908d93f3",
+      "seconds": 2.2,
+      "activeSpanSeconds": 0.288,
+      "peak": 0.27985,
+      "reviewed": true,
+      "processing": "Byte-for-byte copy of owner-approved fresh Jenny recording"
+    },
+    "library/phoneme-p.wav": {
+      "sha256": "95af726b015214ff4469c17adee58d8451a1f4b07cd19f56f30936da19e6561e",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.093,
+      "peak": 0.04276,
+      "reviewed": false
+    },
+    "library/phoneme-r.wav": {
+      "sha256": "c287ad88ad702a13d114601eb70e5526b26710bda38f8eb3bba3bd4fe2d43460",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.344,
+      "peak": 0.22858,
+      "reviewed": false
+    },
+    "library/phoneme-s.wav": {
+      "sha256": "c6a9291ce85e6f57a976760e8e4e4552c2202f9446e424a738148390a50cd27c",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.206,
+      "peak": 0.17749,
+      "reviewed": false
+    },
+    "library/phoneme-t.wav": {
+      "sha256": "94d7410b3010ac61fb372412d1a04b7b0ee96d579dae88e864d90f20558c4031",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.146,
+      "peak": 0.26068,
+      "reviewed": false
+    },
+    "library/phoneme-uh.wav": {
+      "sha256": "3f56dbabf4ae84731eec0be807d87738384aaf1bf31a36fc91fa1c1b97e7e1cb",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.412,
+      "peak": 0.60336,
+      "reviewed": false
+    },
+    "library/phoneme-z.wav": {
+      "sha256": "8d599e76e8d068bce3014844ee9683c42351cd46bc3574e41efa7bf17b765420",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.202,
+      "peak": 0.1651,
+      "reviewed": false
+    },
+    "library/pig-blend-2.wav": {
+      "sha256": "1233a98994a5f07a01745a042d3c3dfc9c1188cff7c4c0f74cb4177058cef7d1",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.216,
+      "peak": 0.59866,
+      "reviewed": false,
+      "source": "audio/library/pig-blend-3.wav",
+      "sourceSha256": "c5881f81d8b00978f5edd2657f703983c24e21cfe8a7920b7c471b631fb2e936",
+      "processing": "Single connected prefix through 405 ms; last 8 ms faded and rest silenced before G. No phoneme splicing or stretching.",
+      "reviewStatus": "Replacement short-I partial candidate awaiting owner listening review",
+      "cutSeconds": 0.405,
+      "fadeSeconds": 0.008
+    },
+    "library/pig-blend-3.wav": {
+      "sha256": "c5881f81d8b00978f5edd2657f703983c24e21cfe8a7920b7c471b631fb2e936",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.437,
+      "peak": 0.59866,
+      "reviewed": false
+    },
+    "library/pig-intro.wav": {
+      "sha256": "15c8486ca1218c0e17e4d786c7883914dd4e9f24d6cc4f7fd83deac01f20d845",
+      "seconds": 5.46,
+      "activeSpanSeconds": 3.731,
+      "peak": 0.5679,
+      "reviewed": false
+    },
+    "library/pig-word.wav": {
+      "sha256": "30daf78c907ef06b6e3fde0b76bb7bf18521c06441d4877ddbe8816174b0bc6b",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.374,
+      "peak": 0.55859,
+      "reviewed": false
+    },
+    "library/pin-blend-2.wav": {
+      "sha256": "2912259e3c66eb85ca21b6aac20405832b4aa5dac0053d3fd5f3b251aa665bef",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.216,
+      "peak": 0.49695,
+      "reviewed": false,
+      "scope": "PIN short-I connected partial candidate, awaiting owner review",
+      "source": "pin-blend-3.wav, prefix before N"
+    },
+    "library/pin-blend-3.wav": {
+      "sha256": "cd7f063c7c3e47f5a20f72a3068ff3c58d1731d91c82063aff7a3220b2069093",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.449,
+      "peak": 0.49695,
+      "reviewed": false
+    },
+    "library/pin-intro.wav": {
+      "sha256": "6989b3d741c304fa50f6e34300e60a0b161619934b3ee2e70a37d08ba4031fec",
+      "seconds": 4.14,
+      "activeSpanSeconds": 2.293,
+      "peak": 0.59866,
+      "reviewed": false,
+      "processing": "Separate pure P, owner-approved short I, longer N with source pauses; no connected blending",
+      "sources": [
+        "library/phoneme-p.wav",
+        "library/pig-short-i-demo.wav",
+        "library/phoneme-n.wav"
+      ]
+    },
+    "library/pin-word.wav": {
+      "sha256": "4f0f4d1c01c010170adf4ffd92874437dd38b82fd57620f0cdc096f066d47a38",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.373,
+      "peak": 0.5173,
+      "reviewed": false
+    },
+    "library/pop-blend-2.wav": {
+      "sha256": "9f2e15898df9fe0e2c61a78b6ae817aa11d29289420d12b1a3ecd6da76e17328",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.365,
+      "peak": 0.57816,
+      "reviewed": false
+    },
+    "library/pop-blend-3.wav": {
+      "sha256": "7e5df2af1bd48c52b69ccbd582cb7661e4c87c35189333407956e1f3f7839cf2",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.424,
+      "peak": 0.57571,
+      "reviewed": false
+    },
+    "library/pop-intro.wav": {
+      "sha256": "27fae8cf7a478e24f85c60d916680172bc2e93f68eda6225c8c2b684dbbd0956",
+      "seconds": 5.46,
+      "activeSpanSeconds": 3.733,
+      "peak": 0.5484,
+      "reviewed": false
+    },
+    "library/pop-word.wav": {
+      "sha256": "b67cddddacb9ff4c9b68f96ba2141b81a863e26a02c0c187e2727214718633bb",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.343,
+      "peak": 0.59106,
+      "reviewed": false
+    },
+    "library/pot-blend-2.wav": {
+      "sha256": "8ec1fa40a7d007f7cc07441bc347f19c3fa4ee962e9cae4f02ec6c81c50e6a5f",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.365,
+      "peak": 0.57816,
+      "reviewed": false
+    },
+    "library/pot-blend-3.wav": {
+      "sha256": "1f99f0d4ef8aef9b0ed3e81aad896311b8f3806847601a3682b73b1ec60e8943",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.516,
+      "peak": 0.58139,
+      "reviewed": false
+    },
+    "library/pot-intro.wav": {
+      "sha256": "148f47447cba5fb7a652ea8d935fe37c3cd58681a430187b4a3bd0106182e230",
+      "seconds": 5.46,
+      "activeSpanSeconds": 3.8,
+      "peak": 0.5484,
+      "reviewed": false
+    },
+    "library/pot-word.wav": {
+      "sha256": "413c649b7df442e2c505c2b9c2cd9431bb7771b6ef4d0c2a741e54fbc1d3b269",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.423,
+      "peak": 0.60513,
+      "reviewed": false
+    },
+    "library/rat-blend-2.wav": {
+      "sha256": "da3e7d61663c767fa7a6da34c190f25e3fd81dcf91eb2b3f0bec779a6650f2ad",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.402,
+      "peak": 0.52472,
+      "reviewed": false
+    },
+    "library/rat-blend-3.wav": {
+      "sha256": "f007fda5944806149b783389caebe9b13c1748fce338914dc0792dad42a4ad68",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.535,
+      "peak": 0.52585,
+      "reviewed": false
+    },
+    "library/rat-intro.wav": {
+      "sha256": "157a4dc09202aa9f709fbcc099419b1d25b971f5119dd4504037a99ca671d13c",
+      "seconds": 5.464,
+      "activeSpanSeconds": 3.799,
+      "peak": 0.4707,
+      "reviewed": false
+    },
+    "library/rat-word.wav": {
+      "sha256": "43dc8232f4308aae89301a0ae50a8c811dd3ddd56ecd84c56612c0568d3019e5",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.451,
+      "peak": 0.56012,
+      "reviewed": false
+    },
+    "library/red-blend-2.wav": {
+      "sha256": "2baa7b0903d062543b4e12d339c745308aabb314764dc9db476c16f0b1058876",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.388,
+      "peak": 0.56979,
+      "reviewed": false
+    },
+    "library/red-blend-3.wav": {
+      "sha256": "0f97bf6121abcca212be2b88c5bfc3b6c2cef11d1f2404ffea55e93c2bbb8802",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.483,
+      "peak": 0.54785,
+      "reviewed": false
+    },
+    "library/red-intro.wav": {
+      "sha256": "6000a404113dd8613f307f18f391ff075772079a8bfccb62eb539b961476626d",
+      "seconds": 5.46,
+      "activeSpanSeconds": 3.741,
+      "peak": 0.45395,
+      "reviewed": false
+    },
+    "library/red-word.wav": {
+      "sha256": "9461e8cec500a3ddc00f1c2410f8859fbd323d99800e1c34bffd319ba6730aa7",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.407,
+      "peak": 0.56152,
+      "reviewed": false
+    },
+    "library/sam-blend-2.wav": {
+      "sha256": "0b71e2cf65caa8ae6712d12aa611faa686d45c2f835f0c7c5cbf467b3c792898",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.471,
+      "peak": 0.63635,
+      "reviewed": false
+    },
+    "library/sam-blend-3.wav": {
+      "sha256": "1cba4ef975aa8e3ac4bfdcfebc30677158c23339b6c3647bb87235b526bb147a",
+      "seconds": 1.828,
+      "activeSpanSeconds": 0.585,
+      "peak": 0.56982,
+      "reviewed": false
+    },
+    "library/sam-intro.wav": {
+      "sha256": "59ba43267bb9724145cff2f36b400132fe5ad16a096b3ecd8813900cec1c1d4a",
+      "seconds": 5.794,
+      "activeSpanSeconds": 4.007,
+      "peak": 0.4707,
+      "reviewed": false,
+      "processing": "Approved raw longer M/N; separated introductions concatenate unchanged source PCM with pauses"
+    },
+    "library/sam-word.wav": {
+      "sha256": "853c4060dce978ad53df851c26a40ca14b0ff7f668fb16315cb463833f6dae24",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.46,
+      "peak": 0.56491,
+      "reviewed": false
+    },
+    "library/sat-blend-2.wav": {
+      "sha256": "c02303d7fb101b6e7f26a4a75568b81f793b25505cbf2eba9d7e1a658738d2ab",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.471,
+      "peak": 0.63635,
+      "reviewed": false
+    },
+    "library/sat-blend-3.wav": {
+      "sha256": "107d085dfc53e50e0c3d610bab02872d4de602632dc1d70c2259c4aaf808f703",
+      "seconds": 1.859,
+      "activeSpanSeconds": 0.642,
+      "peak": 0.60959,
+      "reviewed": false
+    },
+    "library/sat-intro.wav": {
+      "sha256": "ded63178f9e46883e789be224091408b3d6d1723ab7fbeeb1884ed75cd2f7f83",
+      "seconds": 5.464,
+      "activeSpanSeconds": 3.818,
+      "peak": 0.4707,
+      "reviewed": false
+    },
+    "library/sat-word.wav": {
+      "sha256": "8882743bd0ebe34cb95e84055ead187cd9e72ae99dfd646912b6d1d95aa3a5fe",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.525,
+      "peak": 0.58383,
+      "reviewed": false
+    },
+    "library/see-blend-2.wav": {
+      "sha256": "8f19ec72e912f80d35cc60514efe682a290f5b09892fd90463c0be80254cfbe7",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.454,
+      "peak": 0.70801,
+      "reviewed": false
+    },
+    "library/see-intro.wav": {
+      "sha256": "9b8c7582058fd1d7a9f007e8bfd7b8bff6f6a512114593d03a6f5fba301b2e95",
+      "seconds": 3.64,
+      "activeSpanSeconds": 2.191,
+      "peak": 0.47531,
+      "reviewed": false
+    },
+    "library/see-word.wav": {
+      "sha256": "86898452d4982f11a8eedcc6405bc769a5f495f9f639814d62ed12b92a15fa64",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.397,
+      "peak": 0.6684,
+      "reviewed": false
+    },
+    "library/sit-blend-2.wav": {
+      "sha256": "f846fbf329ec6136aadcfc4d7c0e9362d4b9d08b2e339942c8cdffb3ddb5a8c2",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.258,
+      "peak": 0.69662,
+      "reviewed": false,
+      "processing": "Connected SIT prefix through 0.43s with 8ms fade before final consonant; owner review pending",
+      "source": "sit-blend-3.wav"
+    },
+    "library/sit-blend-3.wav": {
+      "sha256": "e32498e453a8488bd7a9f8e8aef0cb8ba258ab9e161f9d9ef4ef9297335e4e37",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.593,
+      "peak": 0.69662,
+      "reviewed": false
+    },
+    "library/sit-intro.wav": {
+      "sha256": "b7e200376c58d72f0da5dbcc917c49e99605059e3a3a7a24853133d2cda01fea",
+      "seconds": 3.76,
+      "activeSpanSeconds": 2.114,
+      "peak": 0.59866,
+      "reviewed": false,
+      "processing": "Separated sounds with approved short I; owner review pending"
+    },
+    "library/sit-word.wav": {
+      "sha256": "bcc5199acf84cb3450dbd9f7153775a2e4c6a0be91f5dee9fc037b20500c04e6",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.484,
+      "peak": 0.64764,
+      "reviewed": false
+    },
+    "library/stop-blend-2.wav": {
+      "sha256": "d4128fe577b105f841126da9593e7161e76cef5b9f4bd5e9f0b4ed09d554c2d9",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.261,
+      "peak": 0.23364,
+      "reviewed": false
+    },
+    "library/stop-blend-3.wav": {
+      "sha256": "34d8d0a0435804e5291bad57c5f16153e5a165d1f425773a4d90d18137cd6310",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.576,
+      "peak": 0.61722,
+      "reviewed": false
+    },
+    "library/stop-blend-4.wav": {
+      "sha256": "80a37a1238aca81d04ef51ade49975de83a7ebf81f974a2df25b0a83e5d189ef",
+      "seconds": 1.844,
+      "activeSpanSeconds": 0.618,
+      "peak": 0.556,
+      "reviewed": false
+    },
+    "library/stop-intro.wav": {
+      "sha256": "e04dfdaec8c4c431ed2fb75851bcb9f5bb21e9113ff038dc6de610641a5ec711",
+      "seconds": 7.28,
+      "activeSpanSeconds": 5.566,
+      "peak": 0.5484,
+      "reviewed": false
+    },
+    "library/stop-word.wav": {
+      "sha256": "531f7dbadbc4ba423d56e9941d201709c0544b33807b90d1667c3522d89987cd",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.483,
+      "peak": 0.55191,
+      "reviewed": false
+    },
+    "library/top-blend-2.wav": {
+      "sha256": "df314586b5b04c706bc1ffed4a392ceb96422a32e3366cc0779b18661eaf4909",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.435,
+      "peak": 0.51898,
+      "reviewed": false
+    },
+    "library/top-blend-3.wav": {
+      "sha256": "5452ddad4ca341f25c95697e1e48f4f22ffd9b425d0e0885904227a189942c6a",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.452,
+      "peak": 0.52432,
+      "reviewed": false
+    },
+    "library/top-intro.wav": {
+      "sha256": "54b64fc540abce40624a545383ac3df434cdbc4961d50c2f82afaae618baeb78",
+      "seconds": 5.46,
+      "activeSpanSeconds": 3.718,
+      "peak": 0.5484,
+      "reviewed": false
+    },
+    "library/top-word.wav": {
+      "sha256": "da872d81358840f70a6bc7905e59d83de232e16008631f0b9b1d79edeb9b722b",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.353,
+      "peak": 0.52167,
+      "reviewed": false
+    },
+    "library/up-blend-2.wav": {
+      "sha256": "76c9da9eead3682b2763b1b8a53c789ba8d5a70582436044e797fdca8bd9c984",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.335,
+      "peak": 0.76917,
+      "reviewed": false
+    },
+    "library/up-intro.wav": {
+      "sha256": "5959ef471ec6dab9bab3736f3c9dddd64a2a58e7e751b8b45842152a2ee8b027",
+      "seconds": 3.64,
+      "activeSpanSeconds": 1.945,
+      "peak": 0.60336,
+      "reviewed": false
+    },
+    "library/up-word.wav": {
+      "sha256": "357036f951bc3b316f4ba8c2867620bb92f23cb1cbba69fc49da031a998148f5",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.255,
+      "peak": 0.70563,
+      "reviewed": false
+    },
+    "library/phoneme-p-demo.wav": {
+      "sha256": "618279318af4fdba06e3ff33e77b832643ff856ea18f02196e797953ac9bf46b",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.275,
+      "peak": 0.66592,
+      "reviewed": true,
+      "spokenIpa": "p\u0259",
+      "approvalScope": "Owner approved only for the standalone P demonstration, never merged words or blends",
+      "source": "pilot/fresh-consonants/p-with-schwa.wav"
+    },
+    "library/phoneme-g-demo-candidate.wav": {
+      "sha256": "608a3cf9e37dab99985aeabd7c593f2500d2818d5375b031fad5f0ea1e05164c",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.291,
+      "peak": 0.49188,
+      "reviewed": false,
+      "source": "pilot/g-consonant/g-with-schwa.wav",
+      "scope": "Comparison only; not used in playable stages or connected audio"
+    },
+    "library/phoneme-g-demo.wav": {
+      "sha256": "608a3cf9e37dab99985aeabd7c593f2500d2818d5375b031fad5f0ea1e05164c",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.291,
+      "peak": 0.49188,
+      "reviewed": true,
+      "spokenIpa": "\u0261\u0259",
+      "approvalScope": "Owner approved for standalone G only, never introductions, connected blends or natural words",
+      "source": "pilot/g-consonant/g-with-schwa.wav"
+    },
+    "library/pig-short-i-candidate.wav": {
+      "sha256": "992e71fdee6c30d9ea9b3834d21c29c0cc018fa13c4ec9f5a5749b75fa03a240",
+      "seconds": 0.12,
+      "activeSpanSeconds": 0.119,
+      "peak": 0.59866,
+      "reviewed": false,
+      "scope": "PIG standalone I comparison only",
+      "processing": "Single vowel segment from connected PIG with 8 ms edge fades; no stretch or loop"
+    },
+    "library/pig-short-i-demo.wav": {
+      "sha256": "992e71fdee6c30d9ea9b3834d21c29c0cc018fa13c4ec9f5a5749b75fa03a240",
+      "seconds": 0.12,
+      "activeSpanSeconds": 0.119,
+      "peak": 0.59866,
+      "reviewed": true,
+      "spokenIpa": "\u026a",
+      "source": "audio/library/pig-short-i-candidate.wav",
+      "approvalScope": "Owner approved for the standalone I in PIG only"
+    },
+    "library/phoneme-b-demo-candidate.wav": {
+      "sha256": "647a7e47edd5c51daffd6e2197c150d812fd6b2aaaa1bb294663f84a40ce3c35",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.319,
+      "peak": 0.52927,
+      "reviewed": false,
+      "source": "pilot/b-consonant/b-with-schwa.wav",
+      "scope": "Review comparison only; not used in playable lessons"
+    },
+    "library/phoneme-b-demo.wav": {
+      "sha256": "647a7e47edd5c51daffd6e2197c150d812fd6b2aaaa1bb294663f84a40ce3c35",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.319,
+      "peak": 0.52927,
+      "reviewed": true,
+      "spokenIpa": "b\u0259",
+      "source": "pilot/b-consonant/b-with-schwa.wav",
+      "approvalScope": "Standalone B only; introductions, connected blends, and whole words retain pure /b/"
+    },
+    "library/pin-short-i-demo.wav": {
+      "sha256": "5a5e4b1501cb1a2b4e9739f8fd4710a128943858400fb345f56f1fb5308e3373",
+      "seconds": 0.12,
+      "activeSpanSeconds": 0.119,
+      "peak": 0.49695,
+      "reviewed": false,
+      "scope": "PIN standalone short I candidate, awaiting owner review",
+      "source": "pin-blend-3.wav, vowel portion"
+    },
+    "library/phoneme-ks.wav": {
+      "sha256": "932c38578bf8a43649c830eb1ec05e02138014bdb56ceca4ee933e8602fee413",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.283,
+      "peak": 0.18234,
+      "reviewed": false
+    },
+    "library/box-blend-2.wav": {
+      "sha256": "ed3718dcdfbd95c3afae34061a0ca7e37e2b0d586aea337959067e32f4aa9d53",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.386,
+      "peak": 0.58371,
+      "reviewed": false
+    },
+    "library/box-blend-3.wav": {
+      "sha256": "bd2e807a9b59fa7751331d5afe12ccb61e299f8c5d2380a331ff78253e06f585",
+      "seconds": 1.859,
+      "activeSpanSeconds": 0.581,
+      "peak": 0.54089,
+      "reviewed": false
+    },
+    "library/box-word.wav": {
+      "sha256": "d3793d248d08373b370ab402c835e338ecdd5bc5272666bba35e5cc0bf32c9f5",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.469,
+      "peak": 0.55539,
+      "reviewed": false
+    },
+    "library/fox-blend-2.wav": {
+      "sha256": "3e6b5463388c63b061d6fa8c57e09f629437b7025f738a9845e9e925d5f88345",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.437,
+      "peak": 0.68173,
+      "reviewed": false
+    },
+    "library/fox-blend-3.wav": {
+      "sha256": "11147f83ba6fb91baafbf9011c2b2bffdfedd4b627e5c6d91d2cbfe901ddc214",
+      "seconds": 1.906,
+      "activeSpanSeconds": 0.632,
+      "peak": 0.71838,
+      "reviewed": false
+    },
+    "library/fox-word.wav": {
+      "sha256": "b325a600b4a91c92448bc76f6ee5e6423eccb1a0b7746b3d27faed5514741284",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.542,
+      "peak": 0.71396,
+      "reviewed": false
+    },
+    "library/box-intro.wav": {
+      "sha256": "6622b681148fea02b7a19dc2d7af451b41d5afc2de48794dcd5ace69f92667d7",
+      "seconds": 5.46,
+      "activeSpanSeconds": 3.902,
+      "peak": 0.5484,
+      "reviewed": false
+    },
+    "library/fox-intro.wav": {
+      "sha256": "b2466002fae014f114f53aa232ebc945eb9da3be37430b1a070a1c066198bfbf",
+      "seconds": 5.46,
+      "activeSpanSeconds": 3.912,
+      "peak": 0.5484,
+      "reviewed": false
+    }
+  },
+  "art": {
+    "am": "fd7cb052e967c98fe88da489b9f041df07eb0fb50e6d58f3f442e9bd30ab5d06",
+    "bat": "77418fe34084e5ecbc5fadb52b6f70ad02fa49b39afe7b5527ee2bd2ee5d1275",
+    "bed": "7d6cb64413fd8fd63426a1077a1026cec08d227a90fa282d3a29fd1d532f45a5",
+    "box": "88e9c611b86e9c7f5b06049aa91c8364e1bb013afb7f116f1ce12a5bd6cb3dca",
+    "can": "a80a915d0dd5ace58bc67c0f45cc3866f70c109201bc601cc61e98add44a28ed",
+    "cat": "2e57f03bfed7834d9691927f51c49fd45fbd5a2f434b8d79bdadac63d2a32a8e",
+    "cup": "c9ab8a9bb9b7ff5d82e866d775a0d85fb290cd5caca6f3229da8f140958b866c",
+    "dog": "de8000d1f498f7d99913001ed9131e6b0b72dcb84b6875cbb9a7ef4178af9e81",
+    "eggs": "bfcc07ab424ec21db14c7136e9be54b20e6afba681257d3232205d79864d764a",
+    "fan": "68dfd684bfdefc58b9eb00e594ac66d6f9aa9e35d38de6a18c52a2961b3b5b62",
+    "fin": "30a7eb28bf9f7ada31a28f384302ecd171eb23a9dd68b0a39c8bc8f65eac9ce5",
+    "fox": "4f786ac41eb05720a908c1ae42bea018d2e279fbd75045508afaa938eb77470c",
+    "green": "f2e7adc86cf2a6af328db1c6b0a06ac6f908ed3a871a0ca7702865d6e9453a3d",
+    "ham": "a0e8f8ec96674d09eac61a437c82103b45e377887afeec59c27608d99ab0c61a",
+    "hat": "1bdef0e4b8450e5c4331d58ce7b029519c2a476a2564d74f7d8cdb3c72ac1de0",
+    "hen": "23b139bc78f6abd8c931e9b2c38c30ae8079a07680c5fb16c7d17fec892216a9",
+    "hop": "132a2a7a7213aa70a71a3388352aeb09c2c8aa7dba51ce39dac3a708c5ab542c",
+    "hot": "8919a34f86f848eb2291b922de409ae9d8c19e34931c7234def0a0b0b2d09910",
+    "jam": "23a35930c4f51e03299d043de635b82caa321b8622241b21d699de9d218070f0",
+    "man": "25dffd3a44f92de707aa02529b0d5dd5a0e673541872bac39da7d03e5996d77a",
+    "map": "e98e6a97da7a0ff521f29a221314ca33e9b1a8456a1bb69993a6305c269d1c10",
+    "mat": "531e7e611b88aafe86476518e1da817582dd7c4d8d4db135a01a7bcf7987ce27",
+    "me": "5c6532064704a51fae0a7f39ee0cfc9fbbfa54c5ad7252d7ef56750bc82cecd0",
+    "not": "fa3ff939f09fb9fc6b21c6c00b6c678f98dd9a68c68406a1e78670e2a3c5b20f",
+    "on": "b2eca8f073a0c2dea8ff8098244db6b4fc690b5ac170ae5a62b21ff2b4f225ad",
+    "pan": "35a469e7d2983f20d2d90b7fb087064bb2ba4a9269a97c26c9f56ea77e19234b",
+    "pig": "529672c99232296c43371768e37472e4de450597e4e06e88b48fac58b053a74f",
+    "pin": "09d30f758868b35e7647c9082b17e2186c41da8ceaff76fc9880df06b3fc68ce",
+    "pop": "9940aeae141705395ba37e07065af162525d2b77b253278c3df46cbd1ff18b90",
+    "pot": "682ab623f3c30a0b6fce0cbac3a48395370fda425147f5f34aea20ffd0a86314",
+    "rat": "e3c6e699273028d79dad346cb11af8a4235b99fb13a000a8c639bb0442eb35f4",
+    "red": "7de260424fee3a253a31e1765ee584ea8e4523ba19914977f8d323fa3a8d8425",
+    "sam": "5a45358613d53d374cfde2140dbc0059c7430e9b5ba94e99691cab5f1b8bcb41",
+    "sat": "ab044778acd645b61a12b382962c089355e755e8eeced1aadab27bc4fcddc7e9",
+    "see": "134673c5d387f63e20cbcb35f1bc964f3aede64055211aaaf9541c264d7d991d",
+    "sit": "95c9c0eba892a29d4e31cf9d08008e87ad2b1c17151c25a0bdb9caa2f68ccd43",
+    "stop": "165f14e44e359f4b1377b80c0aeeea65b56506c62439a4cbc0a4e890181cbea9",
+    "top": "f6134b43b87b8d0484cb71fa27800b6317189b9924e661c013013b7663991ae0",
+    "up": "59f2109a06e038318574d7fc7effaa4c3069101da8687229106bb81230e0829c",
+    "sun": "5b6e470d10f1eb441b90bd89fdede03b438d2e348d14fd4f8c50b26abe316af2"
+  },
+  "conservativeTotalEstimateUsd": 0.427455
+}

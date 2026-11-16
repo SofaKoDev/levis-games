@@ -5,6 +5,7 @@ if (!base.startsWith("/") || !base.endsWith("/"))
   throw new Error("The production base must start and end with /");
 const root = resolve("dist");
 for (const [path, title] of [
+  ["sound-lab/index.html", "Levi's Sound It Out"],
   ["christmas-tree/index.html", "Levi's Christmas Tree"],
   ["snow-run/index.html", "Levi's Snow Run"],
   ["index.html", "Levi's Games"],

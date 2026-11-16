@@ -1,0 +1,1548 @@
+{
+  "voice": "en-US-JennyNeural",
+  "sources": {
+    "hop-official": {
+      "title": "Hop on Pop — official book description",
+      "url": "https://www.drseuss.com/books/hop-on-pop-9780394800295",
+      "scope": "Book description quotes/identifies the selected vocabulary; not a complete word index."
+    },
+    "green-title": {
+      "title": "Green Eggs and Ham — official book description",
+      "url": "https://www.drseuss.com/books/green-eggs-and-ham-9780394800165",
+      "scope": "Title and quoted opening establish green, eggs, ham, Sam, am and not."
+    },
+    "green-official": {
+      "title": "Green Eggs and Ham Book and CD — official description",
+      "url": "https://www.drseuss.com/books/green-eggs-and-ham-book-and-cd-9780375834950",
+      "scope": "Description explicitly identifies box, fox and on a boat."
+    }
+  },
+  "words": [
+    {
+      "id": "sun",
+      "word": "sun",
+      "origin": "initial-20",
+      "units": [
+        {
+          "text": "s",
+          "phoneme": "s",
+          "ipa": "s"
+        },
+        {
+          "text": "u",
+          "phoneme": "uh",
+          "ipa": "ʌ"
+        },
+        {
+          "text": "n",
+          "phoneme": "n",
+          "ipa": "n"
+        }
+      ],
+      "phonemes": [
+        "s",
+        "ʌ",
+        "n"
+      ],
+      "bookEvidence": {},
+      "bookVerification": "not verified in consulted sources; no book occurrence claimed",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "sun.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "map",
+      "word": "map",
+      "origin": "initial-20",
+      "units": [
+        {
+          "text": "m",
+          "phoneme": "m",
+          "ipa": "m"
+        },
+        {
+          "text": "a",
+          "phoneme": "a",
+          "ipa": "æ"
+        },
+        {
+          "text": "p",
+          "phoneme": "p",
+          "ipa": "p"
+        }
+      ],
+      "phonemes": [
+        "m",
+        "æ",
+        "p"
+      ],
+      "bookEvidence": {},
+      "bookVerification": "not verified in consulted sources; no book occurrence claimed",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "map.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "cat",
+      "word": "cat",
+      "origin": "initial-20",
+      "units": [
+        {
+          "text": "c",
+          "phoneme": "k",
+          "ipa": "k"
+        },
+        {
+          "text": "a",
+          "phoneme": "a",
+          "ipa": "æ"
+        },
+        {
+          "text": "t",
+          "phoneme": "t",
+          "ipa": "t"
+        }
+      ],
+      "phonemes": [
+        "k",
+        "æ",
+        "t"
+      ],
+      "bookEvidence": {
+        "hop-on-pop": "hop-official"
+      },
+      "bookVerification": "supported by official book description",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "cat.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "dog",
+      "word": "dog",
+      "origin": "initial-20",
+      "units": [
+        {
+          "text": "d",
+          "phoneme": "d",
+          "ipa": "d"
+        },
+        {
+          "text": "o",
+          "phoneme": "aw",
+          "ipa": "ɔ"
+        },
+        {
+          "text": "g",
+          "phoneme": "g",
+          "ipa": "ɡ"
+        }
+      ],
+      "phonemes": [
+        "d",
+        "ɔ",
+        "ɡ"
+      ],
+      "bookEvidence": {},
+      "bookVerification": "not verified in consulted sources; no book occurrence claimed",
+      "engineStatus": "supported",
+      "reviewNotes": [
+        "Check the vowel against the selected American English accent; pronunciation varies regionally."
+      ],
+      "illustration": "dog.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "pig",
+      "word": "pig",
+      "origin": "initial-20",
+      "units": [
+        {
+          "text": "p",
+          "phoneme": "p",
+          "ipa": "p"
+        },
+        {
+          "text": "i",
+          "phoneme": "i",
+          "ipa": "ɪ"
+        },
+        {
+          "text": "g",
+          "phoneme": "g",
+          "ipa": "ɡ"
+        }
+      ],
+      "phonemes": [
+        "p",
+        "ɪ",
+        "ɡ"
+      ],
+      "bookEvidence": {},
+      "bookVerification": "not verified in consulted sources; no book occurrence claimed",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "pig.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "hat",
+      "word": "hat",
+      "origin": "initial-20",
+      "units": [
+        {
+          "text": "h",
+          "phoneme": "h",
+          "ipa": "h"
+        },
+        {
+          "text": "a",
+          "phoneme": "a",
+          "ipa": "æ"
+        },
+        {
+          "text": "t",
+          "phoneme": "t",
+          "ipa": "t"
+        }
+      ],
+      "phonemes": [
+        "h",
+        "æ",
+        "t"
+      ],
+      "bookEvidence": {
+        "hop-on-pop": "hop-official"
+      },
+      "bookVerification": "supported by official book description",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "hat.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "bat",
+      "word": "bat",
+      "origin": "initial-20",
+      "units": [
+        {
+          "text": "b",
+          "phoneme": "b",
+          "ipa": "b"
+        },
+        {
+          "text": "a",
+          "phoneme": "a",
+          "ipa": "æ"
+        },
+        {
+          "text": "t",
+          "phoneme": "t",
+          "ipa": "t"
+        }
+      ],
+      "phonemes": [
+        "b",
+        "æ",
+        "t"
+      ],
+      "bookEvidence": {
+        "hop-on-pop": "hop-official"
+      },
+      "bookVerification": "supported by official book description",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "bat.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "rat",
+      "word": "rat",
+      "origin": "initial-20",
+      "units": [
+        {
+          "text": "r",
+          "phoneme": "r",
+          "ipa": "ɹ"
+        },
+        {
+          "text": "a",
+          "phoneme": "a",
+          "ipa": "æ"
+        },
+        {
+          "text": "t",
+          "phoneme": "t",
+          "ipa": "t"
+        }
+      ],
+      "phonemes": [
+        "ɹ",
+        "æ",
+        "t"
+      ],
+      "bookEvidence": {},
+      "bookVerification": "not verified in consulted sources; no book occurrence claimed",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "rat.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "mat",
+      "word": "mat",
+      "origin": "initial-20",
+      "units": [
+        {
+          "text": "m",
+          "phoneme": "m",
+          "ipa": "m"
+        },
+        {
+          "text": "a",
+          "phoneme": "a",
+          "ipa": "æ"
+        },
+        {
+          "text": "t",
+          "phoneme": "t",
+          "ipa": "t"
+        }
+      ],
+      "phonemes": [
+        "m",
+        "æ",
+        "t"
+      ],
+      "bookEvidence": {},
+      "bookVerification": "not verified in consulted sources; no book occurrence claimed",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "mat.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "sat",
+      "word": "sat",
+      "origin": "initial-20",
+      "units": [
+        {
+          "text": "s",
+          "phoneme": "s",
+          "ipa": "s"
+        },
+        {
+          "text": "a",
+          "phoneme": "a",
+          "ipa": "æ"
+        },
+        {
+          "text": "t",
+          "phoneme": "t",
+          "ipa": "t"
+        }
+      ],
+      "phonemes": [
+        "s",
+        "æ",
+        "t"
+      ],
+      "bookEvidence": {},
+      "bookVerification": "not verified in consulted sources; no book occurrence claimed",
+      "engineStatus": "supported",
+      "reviewNotes": [
+        "Review picture meaning with an adult: abstract/function words, tense, names, or multiple senses are not fully explained by a still image."
+      ],
+      "illustration": "sat.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "fan",
+      "word": "fan",
+      "origin": "initial-20",
+      "units": [
+        {
+          "text": "f",
+          "phoneme": "f",
+          "ipa": "f"
+        },
+        {
+          "text": "a",
+          "phoneme": "a",
+          "ipa": "æ"
+        },
+        {
+          "text": "n",
+          "phoneme": "n",
+          "ipa": "n"
+        }
+      ],
+      "phonemes": [
+        "f",
+        "æ",
+        "n"
+      ],
+      "bookEvidence": {},
+      "bookVerification": "not verified in consulted sources; no book occurrence claimed",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "fan.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "man",
+      "word": "man",
+      "origin": "initial-20",
+      "units": [
+        {
+          "text": "m",
+          "phoneme": "m",
+          "ipa": "m"
+        },
+        {
+          "text": "a",
+          "phoneme": "a",
+          "ipa": "æ"
+        },
+        {
+          "text": "n",
+          "phoneme": "n",
+          "ipa": "n"
+        }
+      ],
+      "phonemes": [
+        "m",
+        "æ",
+        "n"
+      ],
+      "bookEvidence": {},
+      "bookVerification": "not verified in consulted sources; no book occurrence claimed",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "man.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "pan",
+      "word": "pan",
+      "origin": "initial-20",
+      "units": [
+        {
+          "text": "p",
+          "phoneme": "p",
+          "ipa": "p"
+        },
+        {
+          "text": "a",
+          "phoneme": "a",
+          "ipa": "æ"
+        },
+        {
+          "text": "n",
+          "phoneme": "n",
+          "ipa": "n"
+        }
+      ],
+      "phonemes": [
+        "p",
+        "æ",
+        "n"
+      ],
+      "bookEvidence": {},
+      "bookVerification": "not verified in consulted sources; no book occurrence claimed",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "pan.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "can",
+      "word": "can",
+      "origin": "initial-20",
+      "units": [
+        {
+          "text": "c",
+          "phoneme": "k",
+          "ipa": "k"
+        },
+        {
+          "text": "a",
+          "phoneme": "a",
+          "ipa": "æ"
+        },
+        {
+          "text": "n",
+          "phoneme": "n",
+          "ipa": "n"
+        }
+      ],
+      "phonemes": [
+        "k",
+        "æ",
+        "n"
+      ],
+      "bookEvidence": {},
+      "bookVerification": "not verified in consulted sources; no book occurrence claimed",
+      "engineStatus": "supported",
+      "reviewNotes": [
+        "Review picture meaning with an adult: abstract/function words, tense, names, or multiple senses are not fully explained by a still image."
+      ],
+      "illustration": "can.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "pin",
+      "word": "pin",
+      "origin": "initial-20",
+      "units": [
+        {
+          "text": "p",
+          "phoneme": "p",
+          "ipa": "p"
+        },
+        {
+          "text": "i",
+          "phoneme": "i",
+          "ipa": "ɪ"
+        },
+        {
+          "text": "n",
+          "phoneme": "n",
+          "ipa": "n"
+        }
+      ],
+      "phonemes": [
+        "p",
+        "ɪ",
+        "n"
+      ],
+      "bookEvidence": {},
+      "bookVerification": "not verified in consulted sources; no book occurrence claimed",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "pin.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "fin",
+      "word": "fin",
+      "origin": "initial-20",
+      "units": [
+        {
+          "text": "f",
+          "phoneme": "f",
+          "ipa": "f"
+        },
+        {
+          "text": "i",
+          "phoneme": "i",
+          "ipa": "ɪ"
+        },
+        {
+          "text": "n",
+          "phoneme": "n",
+          "ipa": "n"
+        }
+      ],
+      "phonemes": [
+        "f",
+        "ɪ",
+        "n"
+      ],
+      "bookEvidence": {},
+      "bookVerification": "not verified in consulted sources; no book occurrence claimed",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "fin.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "sit",
+      "word": "sit",
+      "origin": "initial-20",
+      "units": [
+        {
+          "text": "s",
+          "phoneme": "s",
+          "ipa": "s"
+        },
+        {
+          "text": "i",
+          "phoneme": "i",
+          "ipa": "ɪ"
+        },
+        {
+          "text": "t",
+          "phoneme": "t",
+          "ipa": "t"
+        }
+      ],
+      "phonemes": [
+        "s",
+        "ɪ",
+        "t"
+      ],
+      "bookEvidence": {
+        "hop-on-pop": "hop-official"
+      },
+      "bookVerification": "supported by official book description",
+      "engineStatus": "supported",
+      "reviewNotes": [
+        "Review picture meaning with an adult: abstract/function words, tense, names, or multiple senses are not fully explained by a still image."
+      ],
+      "illustration": "sit.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "pot",
+      "word": "pot",
+      "origin": "initial-20",
+      "units": [
+        {
+          "text": "p",
+          "phoneme": "p",
+          "ipa": "p"
+        },
+        {
+          "text": "o",
+          "phoneme": "ah",
+          "ipa": "ɑ"
+        },
+        {
+          "text": "t",
+          "phoneme": "t",
+          "ipa": "t"
+        }
+      ],
+      "phonemes": [
+        "p",
+        "ɑ",
+        "t"
+      ],
+      "bookEvidence": {},
+      "bookVerification": "not verified in consulted sources; no book occurrence claimed",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "pot.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "hot",
+      "word": "hot",
+      "origin": "initial-20",
+      "units": [
+        {
+          "text": "h",
+          "phoneme": "h",
+          "ipa": "h"
+        },
+        {
+          "text": "o",
+          "phoneme": "ah",
+          "ipa": "ɑ"
+        },
+        {
+          "text": "t",
+          "phoneme": "t",
+          "ipa": "t"
+        }
+      ],
+      "phonemes": [
+        "h",
+        "ɑ",
+        "t"
+      ],
+      "bookEvidence": {},
+      "bookVerification": "not verified in consulted sources; no book occurrence claimed",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "hot.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "cup",
+      "word": "cup",
+      "origin": "initial-20",
+      "units": [
+        {
+          "text": "c",
+          "phoneme": "k",
+          "ipa": "k"
+        },
+        {
+          "text": "u",
+          "phoneme": "uh",
+          "ipa": "ʌ"
+        },
+        {
+          "text": "p",
+          "phoneme": "p",
+          "ipa": "p"
+        }
+      ],
+      "phonemes": [
+        "k",
+        "ʌ",
+        "p"
+      ],
+      "bookEvidence": {},
+      "bookVerification": "not verified in consulted sources; no book occurrence claimed",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "cup.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "hop",
+      "word": "hop",
+      "origin": "book-candidate",
+      "units": [
+        {
+          "text": "h",
+          "phoneme": "h",
+          "ipa": "h"
+        },
+        {
+          "text": "o",
+          "phoneme": "ah",
+          "ipa": "ɑ"
+        },
+        {
+          "text": "p",
+          "phoneme": "p",
+          "ipa": "p"
+        }
+      ],
+      "phonemes": [
+        "h",
+        "ɑ",
+        "p"
+      ],
+      "bookEvidence": {
+        "hop-on-pop": "hop-official"
+      },
+      "bookVerification": "supported by official book description",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "hop.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "pop",
+      "word": "pop",
+      "origin": "book-candidate",
+      "units": [
+        {
+          "text": "p",
+          "phoneme": "p",
+          "ipa": "p"
+        },
+        {
+          "text": "o",
+          "phoneme": "ah",
+          "ipa": "ɑ"
+        },
+        {
+          "text": "p",
+          "phoneme": "p",
+          "ipa": "p"
+        }
+      ],
+      "phonemes": [
+        "p",
+        "ɑ",
+        "p"
+      ],
+      "bookEvidence": {
+        "hop-on-pop": "hop-official"
+      },
+      "bookVerification": "supported by official book description",
+      "engineStatus": "supported",
+      "reviewNotes": [
+        "Review picture meaning with an adult: abstract/function words, tense, names, or multiple senses are not fully explained by a still image."
+      ],
+      "illustration": "pop.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "top",
+      "word": "top",
+      "origin": "book-candidate",
+      "units": [
+        {
+          "text": "t",
+          "phoneme": "t",
+          "ipa": "t"
+        },
+        {
+          "text": "o",
+          "phoneme": "ah",
+          "ipa": "ɑ"
+        },
+        {
+          "text": "p",
+          "phoneme": "p",
+          "ipa": "p"
+        }
+      ],
+      "phonemes": [
+        "t",
+        "ɑ",
+        "p"
+      ],
+      "bookEvidence": {
+        "hop-on-pop": "hop-official"
+      },
+      "bookVerification": "supported by official book description",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "top.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "stop",
+      "word": "stop",
+      "origin": "book-candidate",
+      "units": [
+        {
+          "text": "s",
+          "phoneme": "s",
+          "ipa": "s"
+        },
+        {
+          "text": "t",
+          "phoneme": "t",
+          "ipa": "t"
+        },
+        {
+          "text": "o",
+          "phoneme": "ah",
+          "ipa": "ɑ"
+        },
+        {
+          "text": "p",
+          "phoneme": "p",
+          "ipa": "p"
+        }
+      ],
+      "phonemes": [
+        "s",
+        "t",
+        "ɑ",
+        "p"
+      ],
+      "bookEvidence": {},
+      "bookVerification": "not verified in consulted sources; no book occurrence claimed",
+      "engineStatus": "supported",
+      "reviewNotes": [
+        "Review consonant-only partial blend carefully for added schwas and the separate consonant boundaries."
+      ],
+      "illustration": "stop.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "up",
+      "word": "up",
+      "origin": "book-candidate",
+      "units": [
+        {
+          "text": "u",
+          "phoneme": "uh",
+          "ipa": "ʌ"
+        },
+        {
+          "text": "p",
+          "phoneme": "p",
+          "ipa": "p"
+        }
+      ],
+      "phonemes": [
+        "ʌ",
+        "p"
+      ],
+      "bookEvidence": {},
+      "bookVerification": "not verified in consulted sources; no book occurrence claimed",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "up.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "on",
+      "word": "on",
+      "origin": "book-candidate",
+      "units": [
+        {
+          "text": "o",
+          "phoneme": "ah",
+          "ipa": "ɑ"
+        },
+        {
+          "text": "n",
+          "phoneme": "n",
+          "ipa": "n"
+        }
+      ],
+      "phonemes": [
+        "ɑ",
+        "n"
+      ],
+      "bookEvidence": {
+        "hop-on-pop": "hop-official",
+        "green-eggs-and-ham": "green-official"
+      },
+      "bookVerification": "supported by official book description",
+      "engineStatus": "supported",
+      "reviewNotes": [
+        "Review picture meaning with an adult: abstract/function words, tense, names, or multiple senses are not fully explained by a still image.",
+        "Check the vowel against the selected American English accent; pronunciation varies regionally."
+      ],
+      "illustration": "on.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "not",
+      "word": "not",
+      "origin": "book-candidate",
+      "units": [
+        {
+          "text": "n",
+          "phoneme": "n",
+          "ipa": "n"
+        },
+        {
+          "text": "o",
+          "phoneme": "ah",
+          "ipa": "ɑ"
+        },
+        {
+          "text": "t",
+          "phoneme": "t",
+          "ipa": "t"
+        }
+      ],
+      "phonemes": [
+        "n",
+        "ɑ",
+        "t"
+      ],
+      "bookEvidence": {
+        "hop-on-pop": "hop-official",
+        "green-eggs-and-ham": "green-title"
+      },
+      "bookVerification": "supported by official book description",
+      "engineStatus": "supported",
+      "reviewNotes": [
+        "Review picture meaning with an adult: abstract/function words, tense, names, or multiple senses are not fully explained by a still image."
+      ],
+      "illustration": "not.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "box",
+      "word": "box",
+      "origin": "book-candidate",
+      "units": [
+        {
+          "text": "b",
+          "phoneme": "b",
+          "ipa": "b"
+        },
+        {
+          "text": "o",
+          "phoneme": "ah",
+          "ipa": "ɑ"
+        },
+        {
+          "text": "x",
+          "phoneme": "ks",
+          "ipa": "ks"
+        }
+      ],
+      "phonemes": [
+        "b",
+        "ɑ",
+        "k",
+        "s"
+      ],
+      "bookEvidence": {
+        "green-eggs-and-ham": "green-official"
+      },
+      "bookVerification": "supported by official book description",
+      "engineStatus": "supported",
+      "reviewNotes": [
+        "X is one letter taught as the combined /ks/ sound. Listen for a clean /ks/ in the isolated sound and connected blends."
+      ],
+      "illustration": "box.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "fox",
+      "word": "fox",
+      "origin": "book-candidate",
+      "units": [
+        {
+          "text": "f",
+          "phoneme": "f",
+          "ipa": "f"
+        },
+        {
+          "text": "o",
+          "phoneme": "ah",
+          "ipa": "ɑ"
+        },
+        {
+          "text": "x",
+          "phoneme": "ks",
+          "ipa": "ks"
+        }
+      ],
+      "phonemes": [
+        "f",
+        "ɑ",
+        "k",
+        "s"
+      ],
+      "bookEvidence": {
+        "green-eggs-and-ham": "green-official"
+      },
+      "bookVerification": "supported by official book description",
+      "engineStatus": "supported",
+      "reviewNotes": [
+        "X is one letter taught as the combined /ks/ sound. Listen for a clean /ks/ in the isolated sound and connected blends."
+      ],
+      "illustration": "fox.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "red",
+      "word": "red",
+      "origin": "book-candidate",
+      "units": [
+        {
+          "text": "r",
+          "phoneme": "r",
+          "ipa": "ɹ"
+        },
+        {
+          "text": "e",
+          "phoneme": "e",
+          "ipa": "ɛ"
+        },
+        {
+          "text": "d",
+          "phoneme": "d",
+          "ipa": "d"
+        }
+      ],
+      "phonemes": [
+        "ɹ",
+        "ɛ",
+        "d"
+      ],
+      "bookEvidence": {
+        "hop-on-pop": "hop-official"
+      },
+      "bookVerification": "supported by official book description",
+      "engineStatus": "supported",
+      "reviewNotes": [
+        "Review picture meaning with an adult: abstract/function words, tense, names, or multiple senses are not fully explained by a still image."
+      ],
+      "illustration": "red.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "bed",
+      "word": "bed",
+      "origin": "book-candidate",
+      "units": [
+        {
+          "text": "b",
+          "phoneme": "b",
+          "ipa": "b"
+        },
+        {
+          "text": "e",
+          "phoneme": "e",
+          "ipa": "ɛ"
+        },
+        {
+          "text": "d",
+          "phoneme": "d",
+          "ipa": "d"
+        }
+      ],
+      "phonemes": [
+        "b",
+        "ɛ",
+        "d"
+      ],
+      "bookEvidence": {
+        "hop-on-pop": "hop-official"
+      },
+      "bookVerification": "supported by official book description",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "bed.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "hen",
+      "word": "hen",
+      "origin": "book-candidate",
+      "units": [
+        {
+          "text": "h",
+          "phoneme": "h",
+          "ipa": "h"
+        },
+        {
+          "text": "e",
+          "phoneme": "e",
+          "ipa": "ɛ"
+        },
+        {
+          "text": "n",
+          "phoneme": "n",
+          "ipa": "n"
+        }
+      ],
+      "phonemes": [
+        "h",
+        "ɛ",
+        "n"
+      ],
+      "bookEvidence": {},
+      "bookVerification": "not verified in consulted sources; no book occurrence claimed",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "hen.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "ham",
+      "word": "ham",
+      "origin": "book-candidate",
+      "units": [
+        {
+          "text": "h",
+          "phoneme": "h",
+          "ipa": "h"
+        },
+        {
+          "text": "a",
+          "phoneme": "a",
+          "ipa": "æ"
+        },
+        {
+          "text": "m",
+          "phoneme": "m",
+          "ipa": "m"
+        }
+      ],
+      "phonemes": [
+        "h",
+        "æ",
+        "m"
+      ],
+      "bookEvidence": {
+        "green-eggs-and-ham": "green-title"
+      },
+      "bookVerification": "supported by official book description",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "ham.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "sam",
+      "word": "Sam",
+      "origin": "book-candidate",
+      "units": [
+        {
+          "text": "S",
+          "phoneme": "s",
+          "ipa": "s"
+        },
+        {
+          "text": "a",
+          "phoneme": "a",
+          "ipa": "æ"
+        },
+        {
+          "text": "m",
+          "phoneme": "m",
+          "ipa": "m"
+        }
+      ],
+      "phonemes": [
+        "s",
+        "æ",
+        "m"
+      ],
+      "bookEvidence": {
+        "green-eggs-and-ham": "green-title"
+      },
+      "bookVerification": "supported by official book description",
+      "engineStatus": "supported",
+      "reviewNotes": [
+        "Review picture meaning with an adult: abstract/function words, tense, names, or multiple senses are not fully explained by a still image."
+      ],
+      "illustration": "sam.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "am",
+      "word": "am",
+      "origin": "book-candidate",
+      "units": [
+        {
+          "text": "a",
+          "phoneme": "a",
+          "ipa": "æ"
+        },
+        {
+          "text": "m",
+          "phoneme": "m",
+          "ipa": "m"
+        }
+      ],
+      "phonemes": [
+        "æ",
+        "m"
+      ],
+      "bookEvidence": {
+        "green-eggs-and-ham": "green-title"
+      },
+      "bookVerification": "supported by official book description",
+      "engineStatus": "supported",
+      "reviewNotes": [
+        "Review picture meaning with an adult: abstract/function words, tense, names, or multiple senses are not fully explained by a still image."
+      ],
+      "illustration": "am.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "jam",
+      "word": "jam",
+      "origin": "book-candidate",
+      "units": [
+        {
+          "text": "j",
+          "phoneme": "j",
+          "ipa": "dʒ"
+        },
+        {
+          "text": "a",
+          "phoneme": "a",
+          "ipa": "æ"
+        },
+        {
+          "text": "m",
+          "phoneme": "m",
+          "ipa": "m"
+        }
+      ],
+      "phonemes": [
+        "dʒ",
+        "æ",
+        "m"
+      ],
+      "bookEvidence": {},
+      "bookVerification": "not verified in consulted sources; no book occurrence claimed",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "jam.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "eggs",
+      "word": "eggs",
+      "origin": "book-candidate",
+      "units": [
+        {
+          "text": "e",
+          "phoneme": "e",
+          "ipa": "ɛ"
+        },
+        {
+          "text": "gg",
+          "phoneme": "g",
+          "ipa": "ɡ"
+        },
+        {
+          "text": "s",
+          "phoneme": "z",
+          "ipa": "z"
+        }
+      ],
+      "phonemes": [
+        "ɛ",
+        "ɡ",
+        "z"
+      ],
+      "bookEvidence": {
+        "green-eggs-and-ham": "green-title"
+      },
+      "bookVerification": "supported by official book description",
+      "engineStatus": "supported",
+      "reviewNotes": [
+        "Check the vowel against the selected American English accent; pronunciation varies regionally."
+      ],
+      "illustration": "eggs.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "green",
+      "word": "green",
+      "origin": "book-candidate",
+      "units": [
+        {
+          "text": "g",
+          "phoneme": "g",
+          "ipa": "ɡ"
+        },
+        {
+          "text": "r",
+          "phoneme": "r",
+          "ipa": "ɹ"
+        },
+        {
+          "text": "ee",
+          "phoneme": "ee",
+          "ipa": "i"
+        },
+        {
+          "text": "n",
+          "phoneme": "n",
+          "ipa": "n"
+        }
+      ],
+      "phonemes": [
+        "ɡ",
+        "ɹ",
+        "i",
+        "n"
+      ],
+      "bookEvidence": {
+        "green-eggs-and-ham": "green-title"
+      },
+      "bookVerification": "supported by official book description",
+      "engineStatus": "supported",
+      "reviewNotes": [
+        "Review consonant-only partial blend carefully for added schwas and the separate consonant boundaries."
+      ],
+      "illustration": "green.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "see",
+      "word": "see",
+      "origin": "book-candidate",
+      "units": [
+        {
+          "text": "s",
+          "phoneme": "s",
+          "ipa": "s"
+        },
+        {
+          "text": "ee",
+          "phoneme": "ee",
+          "ipa": "i"
+        }
+      ],
+      "phonemes": [
+        "s",
+        "i"
+      ],
+      "bookEvidence": {
+        "hop-on-pop": "hop-official"
+      },
+      "bookVerification": "supported by official book description",
+      "engineStatus": "supported",
+      "reviewNotes": [],
+      "illustration": "see.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "me",
+      "word": "me",
+      "origin": "book-candidate",
+      "units": [
+        {
+          "text": "m",
+          "phoneme": "m",
+          "ipa": "m"
+        },
+        {
+          "text": "e",
+          "phoneme": "ee",
+          "ipa": "i"
+        }
+      ],
+      "phonemes": [
+        "m",
+        "i"
+      ],
+      "bookEvidence": {},
+      "bookVerification": "not verified in consulted sources; no book occurrence claimed",
+      "engineStatus": "supported",
+      "reviewNotes": [
+        "Review picture meaning with an adult: abstract/function words, tense, names, or multiple senses are not fully explained by a still image."
+      ],
+      "illustration": "me.svg",
+      "illustrationReviewed": true,
+      "audioReviewed": true,
+      "enabled": true
+    }
+  ],
+  "isolatedDemonstrations": {
+    "p": {
+      "audio": "library/phoneme-p-demo.wav",
+      "spokenIpa": "pə",
+      "approved": true,
+      "scope": "Standalone P only; introductions, partial blends, full blends and natural words retain /p/"
+    },
+    "g": {
+      "audio": "library/phoneme-g-demo.wav",
+      "spokenIpa": "ɡə",
+      "approved": true,
+      "scope": "Standalone G only; introductions, connected blends and natural words retain /ɡ/"
+    },
+    "b": {
+      "audio": "library/phoneme-b-demo.wav",
+      "spokenIpa": "bə",
+      "approved": true,
+      "scope": "Standalone B only; introductions, connected blends and whole words retain /b/"
+    }
+  },
+  "sustainedConsonants": {
+    "m": {
+      "approved": true,
+      "source": "pilot/fresh-consonants/m-slow.wav",
+      "sha256": "1805dfa2e79ec967be4f5139158af3a6ea73f3fc9b4e2876e7594bc335029005",
+      "scope": "Isolated sound and separated introductions only; connected blends and natural words unchanged"
+    },
+    "n": {
+      "approved": true,
+      "source": "pilot/fresh-consonants/n-slow.wav",
+      "sha256": "c0c84db304ea8337d0d008f0f061e3274d0c63c5ae31851f536697bf908d93f3",
+      "scope": "Isolated sound and separated introductions only; connected blends and natural words unchanged"
+    }
+  },
+  "comparisonRecordings": {},
+  "wordDemonstrations": {
+    "pig": {
+      "1": {
+        "audio": "library/pig-short-i-demo.wav",
+        "spokenIpa": "ɪ",
+        "approved": true,
+        "scope": "Standalone I in PIG only; other words, intro, partial blend, full blend, and whole word retain their own recordings"
+      }
+    },
+    "pin": {
+      "1": {
+        "audio": "library/pig-short-i-demo.wav",
+        "spokenIpa": "ɪ",
+        "approved": true,
+        "scope": "Owner-approved PIG short I reused for PIN standalone I and separated intro; connected partial, blend and word unchanged"
+      }
+    },
+    "fin": {
+      "1": {
+        "audio": "library/pig-short-i-demo.wav",
+        "spokenIpa": "ɪ",
+        "approved": true,
+        "scope": "Approved short-I source reused for standalone I in FIN; intro and partial rebuilt for review"
+      }
+    },
+    "sit": {
+      "1": {
+        "audio": "library/pig-short-i-demo.wav",
+        "spokenIpa": "ɪ",
+        "approved": true,
+        "scope": "Approved short-I source reused for standalone I in SIT; intro and partial rebuilt for review"
+      }
+    }
+  }
+}
