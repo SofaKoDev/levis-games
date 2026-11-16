@@ -176,6 +176,11 @@ h1 span{
     max-width:none;
     flex-shrink:0
   }
+  .game-card.number-blaster .card-art svg{
+    width:100%;
+    max-width:100%;
+    flex-shrink:1
+  }
   .card-copy{
     padding:19px 15px 19px 9px
   }
