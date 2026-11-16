@@ -22,8 +22,8 @@ it('uses the approved puh only for standalone P, keeping every blend and introdu
  expect(buildLesson(word('map')).stages.slice(-3).map(s=>s.audio)).toEqual(['library/map-blend-2.wav','library/map-blend-3.wav','library/map-word.wav']);
 });
 it('uses the approved fresh M/N unchanged and includes them in separated introductions',()=>{
- for(const phone of ['m','n'])expect(readFileSync(`sound-lab/audio/library/phoneme-${phone}.wav`).equals(readFileSync(`sound-lab/pilot/fresh-consonants/${phone}-slow.wav`))).toBe(true);
- expect(readFileSync('sound-lab/audio/04-n.wav').equals(readFileSync('sound-lab/pilot/fresh-consonants/n-slow.wav'))).toBe(true);
+ for(const phone of ['m','n']){const file=`library/phoneme-${phone}.wav`,manifest=JSON.parse(readFileSync('sound-lab/library-manifest.json','utf8'));expect(createHash('sha256').update(readFileSync(`sound-lab/audio/${file}`)).digest('hex')).toBe(manifest.files[file].sha256);}
+ expect(readFileSync('sound-lab/audio/04-n.wav').equals(readFileSync('sound-lab/audio/library/phoneme-n.wav'))).toBe(true);
  expect(pcm('01-intro.wav').equals(Buffer.concat(['02-s.wav','03-u.wav','04-n.wav'].map(pcm)))).toBe(true);
  for(const w of inventory.words.filter(w=>w.id!=='sun'&&w.engineStatus==='supported'&&w.units.some(u=>['m','n'].includes(u.phoneme))))expect(pcm(`library/${w.id}-intro.wav`).equals(Buffer.concat(w.units.map(u=>pcm(['pin','fin','sit'].includes(w.id)&&u.phoneme==='i'?'library/pig-short-i-demo.wav':`library/phoneme-${u.phoneme}.wav`))))).toBe(true);
 });
@@ -33,7 +33,7 @@ it('uses approved guh only for standalone G and preserves pure G in separated in
 });
 it('uses approved buh only for standalone B and preserves connected B recordings',()=>{
  for(const w of inventory.words.filter(w=>w.engineStatus==='supported'&&w.units.some(u=>u.phoneme==='b'))){const lesson=buildLesson(w);for(const [i,u] of w.units.entries())if(u.phoneme==='b')expect(lesson.stages.find(s=>s.id===`sound-${i}`).audio).toBe('library/phoneme-b-demo.wav');expect(lesson.stages.filter(s=>!s.id.startsWith('sound-')).every(s=>!s.audio.includes('b-demo'))).toBe(true);expect(pcm(`library/${w.id}-intro.wav`).equals(Buffer.concat(w.units.map(u=>pcm(`library/phoneme-${u.phoneme}.wav`))))).toBe(true);}
- expect(createHash('sha256').update(readFileSync('sound-lab/audio/library/phoneme-b-demo.wav')).digest('hex')).toBe(inventory.isolatedDemonstrations.b.sha256||createHash('sha256').update(readFileSync('sound-lab/pilot/b-consonant/b-with-schwa.wav')).digest('hex'));
+ expect(createHash('sha256').update(readFileSync('sound-lab/audio/library/phoneme-b-demo.wav')).digest('hex')).toBe(JSON.parse(readFileSync('sound-lab/library-manifest.json','utf8')).files['library/phoneme-b-demo.wav'].sha256);
 });
 it('uses one connected short-I prefix for PIG without altering its full blend or whole word',()=>{
  const partial=pcm('library/pig-blend-2.wav'),full=pcm('library/pig-blend-3.wav');const rate=24000,cut=Math.round(.405*rate),fade=Math.round(.008*rate);
