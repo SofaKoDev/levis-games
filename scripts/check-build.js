@@ -7,6 +7,7 @@ const root = resolve("dist");
 for (const [path, title] of [
   ["number-blaster/index.html", "Levi's Number Blaster"],
   ["sound-lab/index.html", "Levi's Sound It Out"],
+  ["little-monsters/index.html", "Levi's Little Monsters"],
   ["christmas-tree/index.html", "Levi's Christmas Tree"],
   ["snow-run/index.html", "Levi's Snow Run"],
   ["index.html", "Levi's Games"],

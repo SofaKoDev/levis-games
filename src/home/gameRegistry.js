@@ -1,6 +1,7 @@
 export const games = [
   {id:'number-blaster',title:"Levi's Number Blaster",description:'Solve math puzzles and fly through space!',label:"Play Levi's Number Blaster",accent:'snow',art:'number'},
   {id:'sound-lab',title:"Levi's Sound It Out",description:'Learn to read by putting letter sounds together!',label:"Play Levi's Sound It Out",accent:'peach',art:'phonics'},
+  {id:'little-monsters',title:"Levi's Little Monsters",description:'Care for a magical monster friend!',label:"Play Levi's Little Monsters",accent:'mint',art:'monsters'},
   {id:'color-lab',title:'Color Lab',description:'Mix colors and discover new shades!',label:"Play Levi's Color Lab",accent:'mint',art:'color'},
   {id:'smoothie-station',title:'Smoothie Station',description:'Mix fruit and make silly smoothies!',label:"Play Levi's Smoothie Station",accent:'peach',art:'smoothie'},
 {id:'snow-run',title:'Snow Run',description:'Ski down the mountain and collect winter goodies!',label:"Play Levi's Snow Run",accent:'snow',art:'snow'},

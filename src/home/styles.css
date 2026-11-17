@@ -176,7 +176,8 @@ h1 span{
     max-width:none;
     flex-shrink:0
   }
-  .game-card.number-blaster .card-art svg{
+  .game-card.number-blaster .card-art svg,
+  .game-card.little-monsters .card-art svg{
     width:100%;
     max-width:100%;
     flex-shrink:1
