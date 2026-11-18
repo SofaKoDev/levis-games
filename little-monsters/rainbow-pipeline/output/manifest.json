@@ -1,0 +1,2437 @@
+{
+  "formatVersion": 1,
+  "source": {
+    "file": "source/rainbow-monster-seven-sheets.png",
+    "sha256": "4bd65b21ecdef3fa63ffc39c10729f9c0bbdde4b0816ac5440c8a1871aa940ee",
+    "width": 1536,
+    "height": 1024,
+    "opaqueComposite": false,
+    "backgroundArtifacts": true
+  },
+  "frameSize": [
+    128,
+    128
+  ],
+  "frameCount": 140.0,
+  "monsters": [
+    {
+      "id": "emberhorn",
+      "name": "Emberhorn",
+      "sourcePanel": [
+        20,
+        9,
+        368,
+        463
+      ],
+      "sheet": "sheets/emberhorn-animation-sheet.png",
+      "sheetGrid": [
+        4,
+        5
+      ],
+      "sheetRows": [
+        "idle",
+        "feed",
+        "clean",
+        "play",
+        "sleep"
+      ],
+      "missingCells": [],
+      "sequences": {
+        "idle": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/emberhorn/idle/00.png",
+              "sourceRect": [
+                22,
+                11,
+                83,
+                86
+              ],
+              "sourceForegroundPixels": 2917,
+              "sourceEdgePixels": 48,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/emberhorn/idle/01.png",
+              "sourceRect": [
+                109,
+                11,
+                83,
+                86
+              ],
+              "sourceForegroundPixels": 2706,
+              "sourceEdgePixels": 48,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/emberhorn/idle/02.png",
+              "sourceRect": [
+                196,
+                11,
+                83,
+                86
+              ],
+              "sourceForegroundPixels": 2675,
+              "sourceEdgePixels": 46,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/emberhorn/idle/03.png",
+              "sourceRect": [
+                283,
+                11,
+                83,
+                86
+              ],
+              "sourceForegroundPixels": 2693,
+              "sourceEdgePixels": 54,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            }
+          ]
+        },
+        "feed": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/emberhorn/feed/00.png",
+              "sourceRect": [
+                22,
+                101,
+                83,
+                87
+              ],
+              "sourceForegroundPixels": 2455,
+              "sourceEdgePixels": 17,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/emberhorn/feed/01.png",
+              "sourceRect": [
+                109,
+                101,
+                83,
+                87
+              ],
+              "sourceForegroundPixels": 2331,
+              "sourceEdgePixels": 15,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/emberhorn/feed/02.png",
+              "sourceRect": [
+                196,
+                101,
+                83,
+                87
+              ],
+              "sourceForegroundPixels": 2396,
+              "sourceEdgePixels": 7,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/emberhorn/feed/03.png",
+              "sourceRect": [
+                283,
+                101,
+                83,
+                87
+              ],
+              "sourceForegroundPixels": 2484,
+              "sourceEdgePixels": 12,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            }
+          ]
+        },
+        "clean": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/emberhorn/clean/00.png",
+              "sourceRect": [
+                22,
+                192,
+                83,
+                87
+              ],
+              "sourceForegroundPixels": 2548,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/emberhorn/clean/01.png",
+              "sourceRect": [
+                109,
+                192,
+                83,
+                87
+              ],
+              "sourceForegroundPixels": 2478,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/emberhorn/clean/02.png",
+              "sourceRect": [
+                196,
+                192,
+                83,
+                87
+              ],
+              "sourceForegroundPixels": 2396,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/emberhorn/clean/03.png",
+              "sourceRect": [
+                283,
+                192,
+                83,
+                87
+              ],
+              "sourceForegroundPixels": 2412,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            }
+          ]
+        },
+        "play": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/emberhorn/play/00.png",
+              "sourceRect": [
+                22,
+                283,
+                83,
+                87
+              ],
+              "sourceForegroundPixels": 2705,
+              "sourceEdgePixels": 11,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/emberhorn/play/01.png",
+              "sourceRect": [
+                109,
+                283,
+                83,
+                87
+              ],
+              "sourceForegroundPixels": 2488,
+              "sourceEdgePixels": 20,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/emberhorn/play/02.png",
+              "sourceRect": [
+                196,
+                283,
+                83,
+                87
+              ],
+              "sourceForegroundPixels": 2344,
+              "sourceEdgePixels": 6,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/emberhorn/play/03.png",
+              "sourceRect": [
+                283,
+                283,
+                83,
+                87
+              ],
+              "sourceForegroundPixels": 2428,
+              "sourceEdgePixels": 12,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            }
+          ]
+        },
+        "sleep": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/emberhorn/sleep/00.png",
+              "sourceRect": [
+                22,
+                374,
+                83,
+                87
+              ],
+              "sourceForegroundPixels": 3223,
+              "sourceEdgePixels": 28,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/emberhorn/sleep/01.png",
+              "sourceRect": [
+                109,
+                374,
+                83,
+                87
+              ],
+              "sourceForegroundPixels": 3017,
+              "sourceEdgePixels": 54,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/emberhorn/sleep/02.png",
+              "sourceRect": [
+                196,
+                374,
+                83,
+                87
+              ],
+              "sourceForegroundPixels": 2938,
+              "sourceEdgePixels": 46,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/emberhorn/sleep/03.png",
+              "sourceRect": [
+                283,
+                374,
+                83,
+                87
+              ],
+              "sourceForegroundPixels": 2863,
+              "sourceEdgePixels": 29,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sparkfox",
+      "name": "Sparkfox",
+      "sourcePanel": [
+        398,
+        8,
+        753,
+        460
+      ],
+      "sheet": "sheets/sparkfox-animation-sheet.png",
+      "sheetGrid": [
+        4,
+        5
+      ],
+      "sheetRows": [
+        "idle",
+        "feed",
+        "clean",
+        "play",
+        "sleep"
+      ],
+      "missingCells": [],
+      "sequences": {
+        "idle": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/sparkfox/idle/00.png",
+              "sourceRect": [
+                400,
+                10,
+                84,
+                86
+              ],
+              "sourceForegroundPixels": 3218,
+              "sourceEdgePixels": 154,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/sparkfox/idle/01.png",
+              "sourceRect": [
+                488,
+                10,
+                85,
+                86
+              ],
+              "sourceForegroundPixels": 3378,
+              "sourceEdgePixels": 171,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/sparkfox/idle/02.png",
+              "sourceRect": [
+                577,
+                10,
+                85,
+                86
+              ],
+              "sourceForegroundPixels": 3162,
+              "sourceEdgePixels": 74,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/sparkfox/idle/03.png",
+              "sourceRect": [
+                666,
+                10,
+                85,
+                86
+              ],
+              "sourceForegroundPixels": 3285,
+              "sourceEdgePixels": 89,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            }
+          ]
+        },
+        "feed": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/sparkfox/feed/00.png",
+              "sourceRect": [
+                400,
+                100,
+                84,
+                86
+              ],
+              "sourceForegroundPixels": 3139,
+              "sourceEdgePixels": 46,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/sparkfox/feed/01.png",
+              "sourceRect": [
+                488,
+                100,
+                85,
+                86
+              ],
+              "sourceForegroundPixels": 3138,
+              "sourceEdgePixels": 34,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/sparkfox/feed/02.png",
+              "sourceRect": [
+                577,
+                100,
+                85,
+                86
+              ],
+              "sourceForegroundPixels": 2963,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/sparkfox/feed/03.png",
+              "sourceRect": [
+                666,
+                100,
+                85,
+                86
+              ],
+              "sourceForegroundPixels": 3152,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            }
+          ]
+        },
+        "clean": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/sparkfox/clean/00.png",
+              "sourceRect": [
+                400,
+                190,
+                84,
+                87
+              ],
+              "sourceForegroundPixels": 2818,
+              "sourceEdgePixels": 1,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/sparkfox/clean/01.png",
+              "sourceRect": [
+                488,
+                190,
+                85,
+                87
+              ],
+              "sourceForegroundPixels": 3329,
+              "sourceEdgePixels": 6,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/sparkfox/clean/02.png",
+              "sourceRect": [
+                577,
+                190,
+                85,
+                87
+              ],
+              "sourceForegroundPixels": 3162,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/sparkfox/clean/03.png",
+              "sourceRect": [
+                666,
+                190,
+                85,
+                87
+              ],
+              "sourceForegroundPixels": 2958,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            }
+          ]
+        },
+        "play": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/sparkfox/play/00.png",
+              "sourceRect": [
+                400,
+                281,
+                84,
+                86
+              ],
+              "sourceForegroundPixels": 2846,
+              "sourceEdgePixels": 61,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/sparkfox/play/01.png",
+              "sourceRect": [
+                488,
+                281,
+                85,
+                86
+              ],
+              "sourceForegroundPixels": 3084,
+              "sourceEdgePixels": 102,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/sparkfox/play/02.png",
+              "sourceRect": [
+                577,
+                281,
+                85,
+                86
+              ],
+              "sourceForegroundPixels": 3254,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/sparkfox/play/03.png",
+              "sourceRect": [
+                666,
+                281,
+                85,
+                86
+              ],
+              "sourceForegroundPixels": 2974,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            }
+          ]
+        },
+        "sleep": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/sparkfox/sleep/00.png",
+              "sourceRect": [
+                400,
+                371,
+                84,
+                87
+              ],
+              "sourceForegroundPixels": 2803,
+              "sourceEdgePixels": 81,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/sparkfox/sleep/01.png",
+              "sourceRect": [
+                488,
+                371,
+                85,
+                87
+              ],
+              "sourceForegroundPixels": 3181,
+              "sourceEdgePixels": 146,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/sparkfox/sleep/02.png",
+              "sourceRect": [
+                577,
+                371,
+                85,
+                87
+              ],
+              "sourceForegroundPixels": 3216,
+              "sourceEdgePixels": 103,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/sparkfox/sleep/03.png",
+              "sourceRect": [
+                666,
+                371,
+                85,
+                87
+              ],
+              "sourceForegroundPixels": 3248,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sunfeather",
+      "name": "Sunfeather",
+      "sourcePanel": [
+        780,
+        8,
+        1148,
+        460
+      ],
+      "sheet": "sheets/sunfeather-animation-sheet.png",
+      "sheetGrid": [
+        4,
+        5
+      ],
+      "sheetRows": [
+        "idle",
+        "feed",
+        "clean",
+        "play",
+        "sleep"
+      ],
+      "missingCells": [],
+      "sequences": {
+        "idle": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/sunfeather/idle/00.png",
+              "sourceRect": [
+                782,
+                10,
+                88,
+                86
+              ],
+              "sourceForegroundPixels": 2739,
+              "sourceEdgePixels": 46,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/sunfeather/idle/01.png",
+              "sourceRect": [
+                874,
+                10,
+                88,
+                86
+              ],
+              "sourceForegroundPixels": 2843,
+              "sourceEdgePixels": 31,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/sunfeather/idle/02.png",
+              "sourceRect": [
+                966,
+                10,
+                88,
+                86
+              ],
+              "sourceForegroundPixels": 2545,
+              "sourceEdgePixels": 57,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/sunfeather/idle/03.png",
+              "sourceRect": [
+                1058,
+                10,
+                88,
+                86
+              ],
+              "sourceForegroundPixels": 2370,
+              "sourceEdgePixels": 94,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            }
+          ]
+        },
+        "feed": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/sunfeather/feed/00.png",
+              "sourceRect": [
+                782,
+                100,
+                88,
+                86
+              ],
+              "sourceForegroundPixels": 2256,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/sunfeather/feed/01.png",
+              "sourceRect": [
+                874,
+                100,
+                88,
+                86
+              ],
+              "sourceForegroundPixels": 2231,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/sunfeather/feed/02.png",
+              "sourceRect": [
+                966,
+                100,
+                88,
+                86
+              ],
+              "sourceForegroundPixels": 2176,
+              "sourceEdgePixels": 85,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/sunfeather/feed/03.png",
+              "sourceRect": [
+                1058,
+                100,
+                88,
+                86
+              ],
+              "sourceForegroundPixels": 1947,
+              "sourceEdgePixels": 58,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            }
+          ]
+        },
+        "clean": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/sunfeather/clean/00.png",
+              "sourceRect": [
+                782,
+                190,
+                88,
+                87
+              ],
+              "sourceForegroundPixels": 2528,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/sunfeather/clean/01.png",
+              "sourceRect": [
+                874,
+                190,
+                88,
+                87
+              ],
+              "sourceForegroundPixels": 2738,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/sunfeather/clean/02.png",
+              "sourceRect": [
+                966,
+                190,
+                88,
+                87
+              ],
+              "sourceForegroundPixels": 2753,
+              "sourceEdgePixels": 25,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/sunfeather/clean/03.png",
+              "sourceRect": [
+                1058,
+                190,
+                88,
+                87
+              ],
+              "sourceForegroundPixels": 2392,
+              "sourceEdgePixels": 80,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            }
+          ]
+        },
+        "play": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/sunfeather/play/00.png",
+              "sourceRect": [
+                782,
+                281,
+                88,
+                86
+              ],
+              "sourceForegroundPixels": 2944,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/sunfeather/play/01.png",
+              "sourceRect": [
+                874,
+                281,
+                88,
+                86
+              ],
+              "sourceForegroundPixels": 3052,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/sunfeather/play/02.png",
+              "sourceRect": [
+                966,
+                281,
+                88,
+                86
+              ],
+              "sourceForegroundPixels": 2816,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/sunfeather/play/03.png",
+              "sourceRect": [
+                1058,
+                281,
+                88,
+                86
+              ],
+              "sourceForegroundPixels": 2747,
+              "sourceEdgePixels": 63,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            }
+          ]
+        },
+        "sleep": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/sunfeather/sleep/00.png",
+              "sourceRect": [
+                782,
+                371,
+                88,
+                87
+              ],
+              "sourceForegroundPixels": 2655,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/sunfeather/sleep/01.png",
+              "sourceRect": [
+                874,
+                371,
+                88,
+                87
+              ],
+              "sourceForegroundPixels": 2619,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/sunfeather/sleep/02.png",
+              "sourceRect": [
+                966,
+                371,
+                88,
+                87
+              ],
+              "sourceForegroundPixels": 2542,
+              "sourceEdgePixels": 20,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/sunfeather/sleep/03.png",
+              "sourceRect": [
+                1058,
+                371,
+                88,
+                87
+              ],
+              "sourceForegroundPixels": 2560,
+              "sourceEdgePixels": 78,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "leafsprite",
+      "name": "Leafsprite",
+      "sourcePanel": [
+        1161,
+        8,
+        1519,
+        460
+      ],
+      "sheet": "sheets/leafsprite-animation-sheet.png",
+      "sheetGrid": [
+        4,
+        5
+      ],
+      "sheetRows": [
+        "idle",
+        "feed",
+        "clean",
+        "play",
+        "sleep"
+      ],
+      "missingCells": [],
+      "sequences": {
+        "idle": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/leafsprite/idle/00.png",
+              "sourceRect": [
+                1163,
+                10,
+                85,
+                86
+              ],
+              "sourceForegroundPixels": 3019,
+              "sourceEdgePixels": 62,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/leafsprite/idle/01.png",
+              "sourceRect": [
+                1252,
+                10,
+                86,
+                86
+              ],
+              "sourceForegroundPixels": 2954,
+              "sourceEdgePixels": 74,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/leafsprite/idle/02.png",
+              "sourceRect": [
+                1342,
+                10,
+                85,
+                86
+              ],
+              "sourceForegroundPixels": 2929,
+              "sourceEdgePixels": 77,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/leafsprite/idle/03.png",
+              "sourceRect": [
+                1431,
+                10,
+                86,
+                86
+              ],
+              "sourceForegroundPixels": 3201,
+              "sourceEdgePixels": 77,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            }
+          ]
+        },
+        "feed": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/leafsprite/feed/00.png",
+              "sourceRect": [
+                1163,
+                100,
+                85,
+                86
+              ],
+              "sourceForegroundPixels": 2783,
+              "sourceEdgePixels": 25,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/leafsprite/feed/01.png",
+              "sourceRect": [
+                1252,
+                100,
+                86,
+                86
+              ],
+              "sourceForegroundPixels": 2561,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/leafsprite/feed/02.png",
+              "sourceRect": [
+                1342,
+                100,
+                85,
+                86
+              ],
+              "sourceForegroundPixels": 2601,
+              "sourceEdgePixels": 5,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/leafsprite/feed/03.png",
+              "sourceRect": [
+                1431,
+                100,
+                86,
+                86
+              ],
+              "sourceForegroundPixels": 2667,
+              "sourceEdgePixels": 11,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            }
+          ]
+        },
+        "clean": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/leafsprite/clean/00.png",
+              "sourceRect": [
+                1163,
+                190,
+                85,
+                87
+              ],
+              "sourceForegroundPixels": 2843,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/leafsprite/clean/01.png",
+              "sourceRect": [
+                1252,
+                190,
+                86,
+                87
+              ],
+              "sourceForegroundPixels": 2646,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/leafsprite/clean/02.png",
+              "sourceRect": [
+                1342,
+                190,
+                85,
+                87
+              ],
+              "sourceForegroundPixels": 2741,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/leafsprite/clean/03.png",
+              "sourceRect": [
+                1431,
+                190,
+                86,
+                87
+              ],
+              "sourceForegroundPixels": 2883,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            }
+          ]
+        },
+        "play": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/leafsprite/play/00.png",
+              "sourceRect": [
+                1163,
+                281,
+                85,
+                86
+              ],
+              "sourceForegroundPixels": 3038,
+              "sourceEdgePixels": 11,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/leafsprite/play/01.png",
+              "sourceRect": [
+                1252,
+                281,
+                86,
+                86
+              ],
+              "sourceForegroundPixels": 2941,
+              "sourceEdgePixels": 6,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/leafsprite/play/02.png",
+              "sourceRect": [
+                1342,
+                281,
+                85,
+                86
+              ],
+              "sourceForegroundPixels": 2910,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/leafsprite/play/03.png",
+              "sourceRect": [
+                1431,
+                281,
+                86,
+                86
+              ],
+              "sourceForegroundPixels": 2653,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            }
+          ]
+        },
+        "sleep": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/leafsprite/sleep/00.png",
+              "sourceRect": [
+                1163,
+                371,
+                85,
+                87
+              ],
+              "sourceForegroundPixels": 3297,
+              "sourceEdgePixels": 62,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/leafsprite/sleep/01.png",
+              "sourceRect": [
+                1252,
+                371,
+                86,
+                87
+              ],
+              "sourceForegroundPixels": 3182,
+              "sourceEdgePixels": 57,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/leafsprite/sleep/02.png",
+              "sourceRect": [
+                1342,
+                371,
+                85,
+                87
+              ],
+              "sourceForegroundPixels": 3108,
+              "sourceEdgePixels": 21,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/leafsprite/sleep/03.png",
+              "sourceRect": [
+                1431,
+                371,
+                86,
+                87
+              ],
+              "sourceForegroundPixels": 3171,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tidefin",
+      "name": "Tidefin",
+      "sourcePanel": [
+        59,
+        504,
+        488,
+        1007
+      ],
+      "sheet": "sheets/tidefin-animation-sheet.png",
+      "sheetGrid": [
+        4,
+        5
+      ],
+      "sheetRows": [
+        "idle",
+        "feed",
+        "clean",
+        "play",
+        "sleep"
+      ],
+      "missingCells": [],
+      "sequences": {
+        "idle": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/tidefin/idle/00.png",
+              "sourceRect": [
+                61,
+                506,
+                103,
+                96
+              ],
+              "sourceForegroundPixels": 3993,
+              "sourceEdgePixels": 106,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/tidefin/idle/01.png",
+              "sourceRect": [
+                168,
+                506,
+                103,
+                96
+              ],
+              "sourceForegroundPixels": 3855,
+              "sourceEdgePixels": 116,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/tidefin/idle/02.png",
+              "sourceRect": [
+                275,
+                506,
+                103,
+                96
+              ],
+              "sourceForegroundPixels": 3879,
+              "sourceEdgePixels": 102,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/tidefin/idle/03.png",
+              "sourceRect": [
+                382,
+                506,
+                104,
+                96
+              ],
+              "sourceForegroundPixels": 4129,
+              "sourceEdgePixels": 138,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            }
+          ]
+        },
+        "feed": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/tidefin/feed/00.png",
+              "sourceRect": [
+                61,
+                606,
+                103,
+                97
+              ],
+              "sourceForegroundPixels": 4228,
+              "sourceEdgePixels": 61,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/tidefin/feed/01.png",
+              "sourceRect": [
+                168,
+                606,
+                103,
+                97
+              ],
+              "sourceForegroundPixels": 4037,
+              "sourceEdgePixels": 61,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/tidefin/feed/02.png",
+              "sourceRect": [
+                275,
+                606,
+                103,
+                97
+              ],
+              "sourceForegroundPixels": 4008,
+              "sourceEdgePixels": 49,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/tidefin/feed/03.png",
+              "sourceRect": [
+                382,
+                606,
+                104,
+                97
+              ],
+              "sourceForegroundPixels": 4095,
+              "sourceEdgePixels": 129,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            }
+          ]
+        },
+        "clean": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/tidefin/clean/00.png",
+              "sourceRect": [
+                61,
+                707,
+                103,
+                96
+              ],
+              "sourceForegroundPixels": 3458,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/tidefin/clean/01.png",
+              "sourceRect": [
+                168,
+                707,
+                103,
+                96
+              ],
+              "sourceForegroundPixels": 3603,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/tidefin/clean/02.png",
+              "sourceRect": [
+                275,
+                707,
+                103,
+                96
+              ],
+              "sourceForegroundPixels": 3613,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/tidefin/clean/03.png",
+              "sourceRect": [
+                382,
+                707,
+                104,
+                96
+              ],
+              "sourceForegroundPixels": 3778,
+              "sourceEdgePixels": 76,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            }
+          ]
+        },
+        "play": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/tidefin/play/00.png",
+              "sourceRect": [
+                61,
+                807,
+                103,
+                97
+              ],
+              "sourceForegroundPixels": 3731,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/tidefin/play/01.png",
+              "sourceRect": [
+                168,
+                807,
+                103,
+                97
+              ],
+              "sourceForegroundPixels": 3813,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/tidefin/play/02.png",
+              "sourceRect": [
+                275,
+                807,
+                103,
+                97
+              ],
+              "sourceForegroundPixels": 3629,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/tidefin/play/03.png",
+              "sourceRect": [
+                382,
+                807,
+                104,
+                97
+              ],
+              "sourceForegroundPixels": 3777,
+              "sourceEdgePixels": 1,
+              "transparentBackground": true,
+              "flags": []
+            }
+          ]
+        },
+        "sleep": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/tidefin/sleep/00.png",
+              "sourceRect": [
+                61,
+                908,
+                103,
+                97
+              ],
+              "sourceForegroundPixels": 3767,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/tidefin/sleep/01.png",
+              "sourceRect": [
+                168,
+                908,
+                103,
+                97
+              ],
+              "sourceForegroundPixels": 3863,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/tidefin/sleep/02.png",
+              "sourceRect": [
+                275,
+                908,
+                103,
+                97
+              ],
+              "sourceForegroundPixels": 3736,
+              "sourceEdgePixels": 20,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/tidefin/sleep/03.png",
+              "sourceRect": [
+                382,
+                908,
+                104,
+                97
+              ],
+              "sourceForegroundPixels": 3640,
+              "sourceEdgePixels": 32,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nightwhisk",
+      "name": "Nightwhisk",
+      "sourcePanel": [
+        535,
+        504,
+        959,
+        1007
+      ],
+      "sheet": "sheets/nightwhisk-animation-sheet.png",
+      "sheetGrid": [
+        4,
+        5
+      ],
+      "sheetRows": [
+        "idle",
+        "feed",
+        "clean",
+        "play",
+        "sleep"
+      ],
+      "missingCells": [],
+      "sequences": {
+        "idle": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/nightwhisk/idle/00.png",
+              "sourceRect": [
+                537,
+                506,
+                102,
+                96
+              ],
+              "sourceForegroundPixels": 3383,
+              "sourceEdgePixels": 173,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/nightwhisk/idle/01.png",
+              "sourceRect": [
+                643,
+                506,
+                102,
+                96
+              ],
+              "sourceForegroundPixels": 3735,
+              "sourceEdgePixels": 187,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/nightwhisk/idle/02.png",
+              "sourceRect": [
+                749,
+                506,
+                102,
+                96
+              ],
+              "sourceForegroundPixels": 3545,
+              "sourceEdgePixels": 86,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/nightwhisk/idle/03.png",
+              "sourceRect": [
+                855,
+                506,
+                102,
+                96
+              ],
+              "sourceForegroundPixels": 3705,
+              "sourceEdgePixels": 84,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            }
+          ]
+        },
+        "feed": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/nightwhisk/feed/00.png",
+              "sourceRect": [
+                537,
+                606,
+                102,
+                97
+              ],
+              "sourceForegroundPixels": 3708,
+              "sourceEdgePixels": 250,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/nightwhisk/feed/01.png",
+              "sourceRect": [
+                643,
+                606,
+                102,
+                97
+              ],
+              "sourceForegroundPixels": 3582,
+              "sourceEdgePixels": 191,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/nightwhisk/feed/02.png",
+              "sourceRect": [
+                749,
+                606,
+                102,
+                97
+              ],
+              "sourceForegroundPixels": 3569,
+              "sourceEdgePixels": 157,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/nightwhisk/feed/03.png",
+              "sourceRect": [
+                855,
+                606,
+                102,
+                97
+              ],
+              "sourceForegroundPixels": 3464,
+              "sourceEdgePixels": 166,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            }
+          ]
+        },
+        "clean": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/nightwhisk/clean/00.png",
+              "sourceRect": [
+                537,
+                707,
+                102,
+                96
+              ],
+              "sourceForegroundPixels": 3037,
+              "sourceEdgePixels": 59,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/nightwhisk/clean/01.png",
+              "sourceRect": [
+                643,
+                707,
+                102,
+                96
+              ],
+              "sourceForegroundPixels": 2937,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/nightwhisk/clean/02.png",
+              "sourceRect": [
+                749,
+                707,
+                102,
+                96
+              ],
+              "sourceForegroundPixels": 3141,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/nightwhisk/clean/03.png",
+              "sourceRect": [
+                855,
+                707,
+                102,
+                96
+              ],
+              "sourceForegroundPixels": 3257,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            }
+          ]
+        },
+        "play": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/nightwhisk/play/00.png",
+              "sourceRect": [
+                537,
+                807,
+                102,
+                97
+              ],
+              "sourceForegroundPixels": 3480,
+              "sourceEdgePixels": 77,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/nightwhisk/play/01.png",
+              "sourceRect": [
+                643,
+                807,
+                102,
+                97
+              ],
+              "sourceForegroundPixels": 3385,
+              "sourceEdgePixels": 86,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/nightwhisk/play/02.png",
+              "sourceRect": [
+                749,
+                807,
+                102,
+                97
+              ],
+              "sourceForegroundPixels": 3343,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/nightwhisk/play/03.png",
+              "sourceRect": [
+                855,
+                807,
+                102,
+                97
+              ],
+              "sourceForegroundPixels": 3816,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            }
+          ]
+        },
+        "sleep": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/nightwhisk/sleep/00.png",
+              "sourceRect": [
+                537,
+                908,
+                102,
+                97
+              ],
+              "sourceForegroundPixels": 3335,
+              "sourceEdgePixels": 72,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/nightwhisk/sleep/01.png",
+              "sourceRect": [
+                643,
+                908,
+                102,
+                97
+              ],
+              "sourceForegroundPixels": 3284,
+              "sourceEdgePixels": 32,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/nightwhisk/sleep/02.png",
+              "sourceRect": [
+                749,
+                908,
+                102,
+                97
+              ],
+              "sourceForegroundPixels": 3542,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/nightwhisk/sleep/03.png",
+              "sourceRect": [
+                855,
+                908,
+                102,
+                97
+              ],
+              "sourceForegroundPixels": 3785,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "moonmoth",
+      "name": "Moonmoth",
+      "sourcePanel": [
+        1013,
+        505,
+        1470,
+        1007
+      ],
+      "sheet": "sheets/moonmoth-animation-sheet.png",
+      "sheetGrid": [
+        4,
+        5
+      ],
+      "sheetRows": [
+        "idle",
+        "feed",
+        "clean",
+        "play",
+        "sleep"
+      ],
+      "missingCells": [],
+      "sequences": {
+        "idle": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/moonmoth/idle/00.png",
+              "sourceRect": [
+                1015,
+                507,
+                110,
+                96
+              ],
+              "sourceForegroundPixels": 3676,
+              "sourceEdgePixels": 27,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/moonmoth/idle/01.png",
+              "sourceRect": [
+                1129,
+                507,
+                110,
+                96
+              ],
+              "sourceForegroundPixels": 3590,
+              "sourceEdgePixels": 38,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/moonmoth/idle/02.png",
+              "sourceRect": [
+                1243,
+                507,
+                110,
+                96
+              ],
+              "sourceForegroundPixels": 4059,
+              "sourceEdgePixels": 144,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/moonmoth/idle/03.png",
+              "sourceRect": [
+                1357,
+                507,
+                111,
+                96
+              ],
+              "sourceForegroundPixels": 3794,
+              "sourceEdgePixels": 127,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            }
+          ]
+        },
+        "feed": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/moonmoth/feed/00.png",
+              "sourceRect": [
+                1015,
+                607,
+                110,
+                96
+              ],
+              "sourceForegroundPixels": 3835,
+              "sourceEdgePixels": 52,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/moonmoth/feed/01.png",
+              "sourceRect": [
+                1129,
+                607,
+                110,
+                96
+              ],
+              "sourceForegroundPixels": 3864,
+              "sourceEdgePixels": 76,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/moonmoth/feed/02.png",
+              "sourceRect": [
+                1243,
+                607,
+                110,
+                96
+              ],
+              "sourceForegroundPixels": 4056,
+              "sourceEdgePixels": 145,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            },
+            {
+              "path": "frames/moonmoth/feed/03.png",
+              "sourceRect": [
+                1357,
+                607,
+                111,
+                96
+              ],
+              "sourceForegroundPixels": 3979,
+              "sourceEdgePixels": 104,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            }
+          ]
+        },
+        "clean": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/moonmoth/clean/00.png",
+              "sourceRect": [
+                1015,
+                707,
+                110,
+                97
+              ],
+              "sourceForegroundPixels": 2431,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/moonmoth/clean/01.png",
+              "sourceRect": [
+                1129,
+                707,
+                110,
+                97
+              ],
+              "sourceForegroundPixels": 2415,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/moonmoth/clean/02.png",
+              "sourceRect": [
+                1243,
+                707,
+                110,
+                97
+              ],
+              "sourceForegroundPixels": 2753,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/moonmoth/clean/03.png",
+              "sourceRect": [
+                1357,
+                707,
+                111,
+                97
+              ],
+              "sourceForegroundPixels": 3222,
+              "sourceEdgePixels": 25,
+              "transparentBackground": true,
+              "flags": [
+                "possible_crop_clipping"
+              ]
+            }
+          ]
+        },
+        "play": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/moonmoth/play/00.png",
+              "sourceRect": [
+                1015,
+                808,
+                110,
+                96
+              ],
+              "sourceForegroundPixels": 3639,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/moonmoth/play/01.png",
+              "sourceRect": [
+                1129,
+                808,
+                110,
+                96
+              ],
+              "sourceForegroundPixels": 3651,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/moonmoth/play/02.png",
+              "sourceRect": [
+                1243,
+                808,
+                110,
+                96
+              ],
+              "sourceForegroundPixels": 3957,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/moonmoth/play/03.png",
+              "sourceRect": [
+                1357,
+                808,
+                111,
+                96
+              ],
+              "sourceForegroundPixels": 3733,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            }
+          ]
+        },
+        "sleep": {
+          "count": 4,
+          "frames": [
+            {
+              "path": "frames/moonmoth/sleep/00.png",
+              "sourceRect": [
+                1015,
+                908,
+                110,
+                97
+              ],
+              "sourceForegroundPixels": 3451,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/moonmoth/sleep/01.png",
+              "sourceRect": [
+                1129,
+                908,
+                110,
+                97
+              ],
+              "sourceForegroundPixels": 3325,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/moonmoth/sleep/02.png",
+              "sourceRect": [
+                1243,
+                908,
+                110,
+                97
+              ],
+              "sourceForegroundPixels": 3448,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            },
+            {
+              "path": "frames/moonmoth/sleep/03.png",
+              "sourceRect": [
+                1357,
+                908,
+                111,
+                97
+              ],
+              "sourceForegroundPixels": 3658,
+              "sourceEdgePixels": 0,
+              "transparentBackground": true,
+              "flags": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "reviewRequired": true,
+  "reviewFlags": [
+    "emberhorn/idle/0: possible_crop_clipping",
+    "emberhorn/idle/1: possible_crop_clipping",
+    "emberhorn/idle/2: possible_crop_clipping",
+    "emberhorn/idle/3: possible_crop_clipping",
+    "emberhorn/feed/0: possible_crop_clipping",
+    "emberhorn/feed/1: possible_crop_clipping",
+    "emberhorn/feed/2: possible_crop_clipping",
+    "emberhorn/feed/3: possible_crop_clipping",
+    "emberhorn/play/0: possible_crop_clipping",
+    "emberhorn/play/1: possible_crop_clipping",
+    "emberhorn/play/3: possible_crop_clipping",
+    "emberhorn/sleep/0: possible_crop_clipping",
+    "emberhorn/sleep/1: possible_crop_clipping",
+    "emberhorn/sleep/2: possible_crop_clipping",
+    "emberhorn/sleep/3: possible_crop_clipping",
+    "sparkfox/idle/0: possible_crop_clipping",
+    "sparkfox/idle/1: possible_crop_clipping",
+    "sparkfox/idle/2: possible_crop_clipping",
+    "sparkfox/idle/3: possible_crop_clipping",
+    "sparkfox/feed/0: possible_crop_clipping",
+    "sparkfox/feed/1: possible_crop_clipping",
+    "sparkfox/play/0: possible_crop_clipping",
+    "sparkfox/play/1: possible_crop_clipping",
+    "sparkfox/sleep/0: possible_crop_clipping",
+    "sparkfox/sleep/1: possible_crop_clipping",
+    "sparkfox/sleep/2: possible_crop_clipping",
+    "sunfeather/idle/0: possible_crop_clipping",
+    "sunfeather/idle/1: possible_crop_clipping",
+    "sunfeather/idle/2: possible_crop_clipping",
+    "sunfeather/idle/3: possible_crop_clipping",
+    "sunfeather/feed/2: possible_crop_clipping",
+    "sunfeather/feed/3: possible_crop_clipping",
+    "sunfeather/clean/2: possible_crop_clipping",
+    "sunfeather/clean/3: possible_crop_clipping",
+    "sunfeather/play/3: possible_crop_clipping",
+    "sunfeather/sleep/2: possible_crop_clipping",
+    "sunfeather/sleep/3: possible_crop_clipping",
+    "leafsprite/idle/0: possible_crop_clipping",
+    "leafsprite/idle/1: possible_crop_clipping",
+    "leafsprite/idle/2: possible_crop_clipping",
+    "leafsprite/idle/3: possible_crop_clipping",
+    "leafsprite/feed/0: possible_crop_clipping",
+    "leafsprite/feed/3: possible_crop_clipping",
+    "leafsprite/play/0: possible_crop_clipping",
+    "leafsprite/sleep/0: possible_crop_clipping",
+    "leafsprite/sleep/1: possible_crop_clipping",
+    "leafsprite/sleep/2: possible_crop_clipping",
+    "tidefin/idle/0: possible_crop_clipping",
+    "tidefin/idle/1: possible_crop_clipping",
+    "tidefin/idle/2: possible_crop_clipping",
+    "tidefin/idle/3: possible_crop_clipping",
+    "tidefin/feed/0: possible_crop_clipping",
+    "tidefin/feed/1: possible_crop_clipping",
+    "tidefin/feed/2: possible_crop_clipping",
+    "tidefin/feed/3: possible_crop_clipping",
+    "tidefin/clean/3: possible_crop_clipping",
+    "tidefin/sleep/2: possible_crop_clipping",
+    "tidefin/sleep/3: possible_crop_clipping",
+    "nightwhisk/idle/0: possible_crop_clipping",
+    "nightwhisk/idle/1: possible_crop_clipping",
+    "nightwhisk/idle/2: possible_crop_clipping",
+    "nightwhisk/idle/3: possible_crop_clipping",
+    "nightwhisk/feed/0: possible_crop_clipping",
+    "nightwhisk/feed/1: possible_crop_clipping",
+    "nightwhisk/feed/2: possible_crop_clipping",
+    "nightwhisk/feed/3: possible_crop_clipping",
+    "nightwhisk/clean/0: possible_crop_clipping",
+    "nightwhisk/play/0: possible_crop_clipping",
+    "nightwhisk/play/1: possible_crop_clipping",
+    "nightwhisk/sleep/0: possible_crop_clipping",
+    "nightwhisk/sleep/1: possible_crop_clipping",
+    "moonmoth/idle/0: possible_crop_clipping",
+    "moonmoth/idle/1: possible_crop_clipping",
+    "moonmoth/idle/2: possible_crop_clipping",
+    "moonmoth/idle/3: possible_crop_clipping",
+    "moonmoth/feed/0: possible_crop_clipping",
+    "moonmoth/feed/1: possible_crop_clipping",
+    "moonmoth/feed/2: possible_crop_clipping",
+    "moonmoth/feed/3: possible_crop_clipping",
+    "moonmoth/clean/3: possible_crop_clipping"
+  ],
+  "notes": [
+    "Both supplied composite images are preserved unchanged in source/.",
+    "Frames are deterministic crops with an alpha threshold, not redrawn artwork.",
+    "This source shows four visible frames for all five actions, including Moonmoth sleep.",
+    "Verify every cutout by eye before replacing in-game art; glow and panel artifacts may remain."
+  ]
+}

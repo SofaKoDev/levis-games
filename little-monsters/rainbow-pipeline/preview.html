@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Rainbow Monster Sanctuary — asset review</title>
+  <style>
+    body{margin:0;background:#101026;color:#f3edf9;font:16px system-ui,sans-serif;padding:20px}
+    h1{margin:0 0 8px}p{max-width:850px;line-height:1.45;color:#c9bfd5}
+    .warning{padding:12px 16px;background:#5b3047;border:1px solid #db8da8;border-radius:12px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:20px}
+    article{background:#221d3a;border:1px solid #5d506e;border-radius:16px;padding:14px;text-align:center}
+    article h2{margin:0 0 8px;font-size:20px}
+    .stage{position:relative;height:180px;border-radius:12px;display:grid;place-items:center;overflow:hidden;background:repeating-conic-gradient(#554d68 0 25%,#3c3551 0 50%) 0/24px 24px}
+    .stage img{width:150px;height:150px;object-fit:contain;image-rendering:pixelated}
+    .stage[data-action="play"] img{animation:bounce .5s ease-in-out infinite alternate}
+    .stage[data-action="idle"] img{animation:breathe 1.8s ease-in-out infinite alternate}
+    .stage[data-action="sleep"] img{animation:breathe 2.5s ease-in-out infinite alternate}
+    .stage[data-action="clean"]:after{content:'✦';position:absolute;color:#a5f8ff;animation:float 1.2s infinite}
+    select{margin-top:10px;min-height:44px;width:100%;font:inherit;border-radius:8px;background:#fbf7ff;color:#291d3d}
+    .count{font-size:13px;color:#d8c8dc;margin:8px 0 0}
+    @keyframes bounce{to{transform:translateY(-12px)}}
+    @keyframes breathe{to{transform:scale(1.035)}}
+    @keyframes float{to{transform:translateY(-25px);opacity:0}}
+    @media(prefers-reduced-motion:reduce){.stage img,.stage:after{animation:none!important}}
+  </style>
+</head>
+<body>
+  <h1>Rainbow Monster Sanctuary — asset review</h1>
+  <p class="warning">Draft extraction from seven semi-transparent panels. Some frames still clip wings, tails, or faces, and some matte artifacts remain. Review each action before using these assets in the game.</p>
+  <p>Choose an action on each monster to inspect its available poses. The checkerboard exposes transparency; the exact observed frame count is shown below each selector.</p>
+  <div class="grid" id="grid"></div>
+  <script src="./animation-controller.js"></script>
+  <script src="./output/preview-data.js"></script>
+  <script>
+    const manifest=window.RAINBOW_ASSETS;
+    const grid=document.querySelector('#grid');
+    if(!manifest?.monsters?.length){
+      grid.textContent='Asset data is missing. Extract the entire ZIP first, then open rainbow-pipeline/preview.html.';
+      throw new Error('Preview asset data missing');
+    }
+    for(const monster of manifest.monsters){
+      const card=document.createElement('article');
+      card.innerHTML=`<h2>${monster.name}</h2><div class="stage" data-action="idle"><img alt=""></div><label>Action<select>${Object.keys(monster.sequences).map(action=>`<option value="${action}">${action}</option>`).join('')}</select></label><p class="count"></p>`;
+      grid.append(card);
+      const stage=card.querySelector('.stage'),select=card.querySelector('select'),count=card.querySelector('.count');
+      const controller=window.createAnimationController(card.querySelector('img'),monster.sequences,action=>{
+        stage.dataset.action=action;
+        count.textContent=`${monster.sequences[action].count} visible frames`;
+      });
+      select.addEventListener('change',()=>controller.play(select.value));
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+{
+  "status": "Rejected by owner: M/N sounded robotic and P resembled T. Never install.",
+  "voice": "en-US-JennyNeural",
+  "additionalApiCostUsd": 0,
+  "clips": [
+    {
+      "phoneme": "m",
+      "file": "m-candidate.wav",
+      "source": "audio/library/phoneme-m.wav",
+      "sourceSha256": "1fd827b4f91c36f3d4671f6f447a2cb2962a77ef02d1a021a970f6dba7b83e48",
+      "sha256": "acecd6f48713c46571b5a5b9225653e22d00eab51daed9c79397c8fc9314b572",
+      "sourceActiveSeconds": 0.208,
+      "candidateActiveSeconds": 0.607,
+      "peak": 0.21573,
+      "approved": false,
+      "method": "Pitch-period repetition of the original steady nasal center; original pitch, onset and release retained",
+      "pitchPeriodSamples": 126,
+      "centralCorrelation": 0.9952,
+      "insertedSeconds": 0.399
+    },
+    {
+      "phoneme": "n",
+      "file": "n-candidate.wav",
+      "source": "audio/library/phoneme-n.wav",
+      "sourceSha256": "697b4a3f0481f72bb2c1325f4dc2560b53192562606489fb33460249b693d834",
+      "sha256": "3ae10ea009be8b50b58ef6e0b226d6fa8b62c3e274828e154174ad05f66b55b9",
+      "sourceActiveSeconds": 0.211,
+      "candidateActiveSeconds": 0.592,
+      "peak": 0.27985,
+      "approved": false,
+      "method": "Pitch-period repetition of the original steady nasal center; original pitch, onset and release retained",
+      "pitchPeriodSamples": 127,
+      "centralCorrelation": 0.993,
+      "insertedSeconds": 0.381
+    },
+    {
+      "phoneme": "p",
+      "file": "p-candidate.wav",
+      "source": "audio/library/phoneme-p.wav",
+      "sourceSha256": "95af726b015214ff4469c17adee58d8451a1f4b07cd19f56f30936da19e6561e",
+      "sha256": "97a468452b0d234eaef7ef985a7ef4bee0d1e5dc5b51a176c23fa37fdd7deb92",
+      "sourceActiveSeconds": 0.093,
+      "candidateActiveSeconds": 0.182,
+      "peak": 0.25653,
+      "approved": false,
+      "method": "Gain on the original burst and release; background tail removed. No vowel added and no phoneme stretching",
+      "gainDb": 15.56
+    }
+  ]
+}

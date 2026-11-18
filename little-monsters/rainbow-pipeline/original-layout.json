@@ -1,0 +1,12 @@
+{
+  "actions": ["idle", "feed", "clean", "play", "sleep"],
+  "monsters": [
+    {"id":"emberhorn","source":"source/emberhorn-original.png","panel":[0,0,1774,887],"columns":4,"rows":5},
+    {"id":"sparkfox","source":"source/sparkfox-original.png","panel":[0,0,1402,1122],"columns":4,"rows":5},
+    {"id":"sunfeather","source":"source/sunfeather-original.png","panel":[0,0,1402,1122],"columns":4,"rows":5},
+    {"id":"leafsprite","source":"source/leafsprite-original.png","panel":[0,0,1774,887],"columns":4,"rows":5},
+    {"id":"tidefin","source":"source/tidefin-original.png","panel":[0,0,1774,887],"columns":4,"rows":5},
+    {"id":"nighthawk","source":"source/nighthawk-moonmoth-original.png","panel":[0,0,887,887],"columns":4,"rows":5},
+    {"id":"moonmoth","source":"source/nighthawk-moonmoth-original.png","panel":[887,0,1774,887],"columns":4,"rows":5}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "source/rainbow-monster-sanctuary-board.png",
+  "frameSize": 128,
+  "columns": {
+    "idle": [338, 578],
+    "feed": [578, 816],
+    "clean": [816, 1056],
+    "play": [1056, 1304],
+    "sleep": [1304, 1528]
+  },
+  "monsters": [
+    {"id": "emberhorn", "name": "Emberhorn", "row": [85, 177], "frames": {"idle": 4, "feed": 4, "clean": 4, "play": 4, "sleep": 3}},
+    {"id": "sparkfox", "name": "Sparkfox", "row": [177, 270], "frames": {"idle": 4, "feed": 4, "clean": 4, "play": 4, "sleep": 3}},
+    {"id": "sunfeather", "name": "Sunfeather", "row": [270, 363], "frames": {"idle": 4, "feed": 4, "clean": 4, "play": 4, "sleep": 3}},
+    {"id": "leafsprite", "name": "Leafsprite", "row": [363, 455], "frames": {"idle": 4, "feed": 4, "clean": 4, "play": 4, "sleep": 3}},
+    {"id": "tidefin", "name": "Tidefin", "row": [455, 544], "frames": {"idle": 4, "feed": 4, "clean": 4, "play": 4, "sleep": 3}},
+    {"id": "nightwhisk", "name": "Nightwhisk", "row": [544, 630], "frames": {"idle": 4, "feed": 4, "clean": 4, "play": 4, "sleep": 3}},
+    {"id": "moonmoth", "name": "Moonmoth", "row": [630, 718], "frames": {"idle": 4, "feed": 4, "clean": 4, "play": 4, "sleep": 3}}
+  ]
+}

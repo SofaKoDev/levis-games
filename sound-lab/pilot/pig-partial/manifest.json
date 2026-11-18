@@ -1,0 +1,18 @@
+{
+  "status": "Short-I replacement candidate connected to local review only; pronunciation review pending",
+  "originalPartialSha256": "db78af9dd196f6372db6226188047bde5510074499920c07bd9d2dbc4a20fe50",
+  "additionalApiCostUsd": 0,
+  "clip": {
+    "sha256": "1233a98994a5f07a01745a042d3c3dfc9c1188cff7c4c0f74cb4177058cef7d1",
+    "seconds": 1.82,
+    "activeSpanSeconds": 0.216,
+    "peak": 0.59866,
+    "reviewed": false,
+    "source": "audio/library/pig-blend-3.wav",
+    "sourceSha256": "c5881f81d8b00978f5edd2657f703983c24e21cfe8a7920b7c471b631fb2e936",
+    "processing": "Single connected prefix through 405 ms; last 8 ms faded and rest silenced before G. No phoneme splicing or stretching.",
+    "reviewStatus": "Replacement short-I partial candidate awaiting owner listening review",
+    "cutSeconds": 0.405,
+    "fadeSeconds": 0.008
+  }
+}

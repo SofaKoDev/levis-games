@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>eSpeak SUN pronunciation test — local review</title>
+  <style>
+    :root {font-family:system-ui,sans-serif;color:#243044;background:#eef2f8;color-scheme:light}
+    body {max-width:760px;margin:0 auto;padding:24px 18px 60px;line-height:1.6}
+    h1 {line-height:1.2} article {background:white;padding:18px 22px;border-radius:20px;margin:16px 0}
+    h2 {margin:0 0 8px} audio {width:100%;min-height:48px} a {color:#3152a0}
+    .badge {font-weight:700;color:#694513} .note {border-left:4px solid #e4ad4c;padding-left:16px}
+    small {display:block;margin:8px 0}
+    .voice-picker {position:sticky;top:0;z-index:1;background:#eef2f8;padding:12px 0;border-bottom:2px solid #d4dce9}
+    label {display:block;font-weight:700} select {font:inherit;width:100%;min-height:48px;padding:8px;border:2px solid #7b8da8;border-radius:12px;background:white;color:inherit}
+    select:focus-visible {outline:3px solid #426ad5;outline-offset:3px}
+  </style>
+</head>
+<body>
+  <p class="badge">LOCAL ONLY · PRONUNCIATION TEST · NOT APPROVED</p>
+  <h1>eSpeak SUN test</h1>
+  <p>American English, with explicit phoneme input for the sounds and blends. Voice realism is secondary. These are test files, separate from the seven lesson recordings.</p>
+  <div class="voice-picker">
+    <label for="voice">Test voice</label>
+    <select id="voice" aria-describedby="voice-status">
+      <option value="default">Original — American English</option>
+      <option value="f2">Female 2</option>
+      <option value="f3">Female 3</option>
+      <option value="m3">Male 3</option>
+      <option value="klatt">Klatt</option>
+    </select>
+    <small id="voice-status" role="status">Original voice selected. Choose a sound below to listen.</small>
+  </div>
+  <p class="note"><strong>Longer /n/ candidate:</strong> now about two-thirds of a second, generated from consecutive nasal phoneme tokens in one request. Listen for a steady nasal sound without pulsing, “en,” or “nuh.” This is an experiment, not an approved teaching model. Start at a low comfortable volume.</p>
+  <article><h2>1. First sound /s/</h2><p>Lengthened engine candidate. Listen for a clean hiss without “suh” or “ess.”</p><audio data-clip="07-s-lengthened" controls preload="metadata" aria-label="eSpeak first sound s"><source src="./pilot/espeak/voices/default/07-s-lengthened.wav" type="audio/wav"></audio><small>Length varies by voice. Review whether it lasts long enough to model.</small></article>
+  <article><h2>2. Middle sound /ʌ/</h2><p>The short vowel in sun/cup. Reject “you,” “oo,” or an added consonant.</p><audio data-clip="02-u" controls preload="metadata" aria-label="eSpeak short vowel in sun"><source src="./pilot/espeak/voices/default/02-u.wav" type="audio/wav"></audio></article>
+  <article><h2>3. Last sound /n/ — longer candidate</h2><p>A held nasal sound, with no added vowel. Reject any repeated beats or unnatural buzzing.</p><audio data-clip="09-n-held" controls preload="metadata" aria-label="eSpeak longer n"><source src="./pilot/espeak/voices/default/09-n-held.wav" type="audio/wav"></audio><small id="n-duration">Loading duration…</small></article>
+  <article><h2>4. Partial blend /sʌ/</h2><p>Generated as one utterance. Listen for a continuous transition, without “sue,” a gap, or an added final n.</p><audio data-clip="04-su" controls preload="metadata" aria-label="eSpeak partial blend"><source src="./pilot/espeak/voices/default/04-su.wav" type="audio/wav"></audio></article>
+  <article><h2>5. Connected blend /sʌn/</h2><p>Generated as one utterance. Check the short vowel, transitions and final nasal. No isolated clips were joined to make this blend.</p><audio data-clip="05-sun-connected" controls preload="metadata" aria-label="eSpeak connected sun blend"><source src="./pilot/espeak/voices/default/05-sun-connected.wav" type="audio/wav"></audio></article>
+  <article><h2>6. Natural word “sun”</h2><p>Normal speed reference for comparison with the blended version.</p><audio data-clip="06-sun-natural" controls preload="metadata" aria-label="eSpeak natural word sun"><source src="./pilot/espeak/voices/default/06-sun-natural.wav" type="audio/wav"></audio></article>
+  <details><summary>Original short /n/ for comparison</summary><audio data-clip="03-n" controls preload="metadata" aria-label="eSpeak original short n"><source src="./pilot/espeak/voices/default/03-n.wav" type="audio/wav"></audio><small>The original failed to sustain the nasal. It remains here for comparison only.</small></details>
+  <p>Mono PCM16 WAV files, synthesized offline. No normalization, time stretching, or splicing. No audio has been installed into the lesson, and Sound Lab remains unpublished.</p>
+  <p><a id="manifest" href="./pilot/espeak/voices/default/manifest.json">Selected voice inputs and measurements</a> · <a href="./pilot.html">Earlier Kokoro test</a> · <a href="./">Soundless game preview</a></p>
+  <script type="module" src="./espeak-pilot.js"></script>
+</body>
+</html>

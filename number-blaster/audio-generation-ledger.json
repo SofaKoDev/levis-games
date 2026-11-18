@@ -1,0 +1,2285 @@
+{
+  "voice": "en-US-JennyNeural",
+  "attempts": [
+    {
+      "file": "add-1-1.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:03:54.580370+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-1-2.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:03:55.522348+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-1-3.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:03:56.005910+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-1-4.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:03:56.505070+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-1-5.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:03:57.017165+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-1-6.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:03:57.492614+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-1-7.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:03:58.002901+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-1-8.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:03:58.567956+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-1-9.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:03:59.128172+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-1-10.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:03:59.606654+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-1-11.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:00.116268+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-1-12.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:00.623432+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-1-13.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:01.141774+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-1-14.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:01.600507+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-1-15.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:02.103225+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-1-16.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:02.614432+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-1-17.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:03.089138+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-1-18.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:03.597929+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-1-19.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:04.095097+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-2-1.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:04.588124+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-2-2.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:05.100555+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-2-3.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:05.616004+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-2-4.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:06.176542+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-2-5.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:06.664091+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-2-6.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:07.227834+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-2-7.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:07.689410+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-2-8.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:08.244645+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-2-9.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:08.720422+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-2-10.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:09.237105+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-2-11.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:09.748407+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-2-12.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:10.240487+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-2-13.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:10.795155+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-2-14.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:11.324974+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-2-15.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:11.866220+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-2-16.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:12.340971+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-2-17.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:12.818075+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-2-18.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:13.316530+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-2-1.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:04:13.781625+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-3-1.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:14.307127+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-3-2.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:14.782309+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-3-3.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:15.288902+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-3-4.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:15.847875+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-3-5.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:16.351068+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-3-6.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:16.907406+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-3-7.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:17.438572+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-3-8.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:17.943544+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-3-9.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:18.524510+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-3-10.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:19.262055+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-3-11.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:19.735349+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-3-12.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:20.227183+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-3-13.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:20.717216+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-3-14.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:21.178133+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-3-15.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:21.805554+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-3-16.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:22.320256+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-3-17.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:22.890174+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-3-1.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:04:23.425059+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-3-2.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:04:23.916377+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-4-1.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:24.451123+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-4-2.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:24.996254+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-4-3.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:25.548635+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-4-4.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:26.056748+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-4-5.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:26.505126+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-4-6.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:27.049811+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-4-7.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:27.538377+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-4-8.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:28.217343+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-4-9.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:28.710188+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-4-10.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:29.209090+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-4-11.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:29.781567+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-4-12.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:30.267183+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-4-13.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:30.777022+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-4-14.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:31.241644+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-4-15.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:31.739632+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-4-16.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:32.296097+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-4-1.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:04:32.758537+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-4-2.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:04:33.251323+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-4-3.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:04:33.716675+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-5-1.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:34.225789+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-5-2.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:34.705171+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-5-3.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:35.328860+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-5-4.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:35.798272+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-5-5.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:36.283732+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-5-6.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:36.820356+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-5-7.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:37.334865+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-5-8.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:37.810044+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-5-9.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:38.423184+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-5-10.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:38.994832+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-5-11.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:39.504594+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-5-12.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:39.977849+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-5-13.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:40.541775+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-5-14.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:41.114191+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-5-15.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:41.580807+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-5-1.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:04:42.134575+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-5-2.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:04:42.606490+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-5-3.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:04:43.072459+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-5-4.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:04:43.561312+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-6-1.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:44.085200+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-6-2.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:44.563625+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-6-3.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:45.103611+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-6-4.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:45.610202+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-6-5.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:46.186223+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-6-6.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:46.725539+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-6-7.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:47.186113+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-6-8.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:47.713288+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-6-9.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:48.250420+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-6-10.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:48.806386+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-6-11.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:49.357216+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-6-12.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:49.874691+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-6-13.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:50.383094+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-6-14.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:50.900080+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-6-1.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:04:51.395084+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-6-2.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:04:51.876425+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-6-3.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:04:52.418760+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-6-4.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:04:52.909068+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-6-5.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:04:53.441698+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-7-1.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:53.960407+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-7-2.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:54.467790+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-7-3.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:55.060585+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-7-4.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:55.648300+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-7-5.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:56.122683+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-7-6.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:56.610434+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-7-7.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:57.127467+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-7-8.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:57.656020+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-7-9.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:04:58.186482+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-7-10.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:58.766848+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-7-11.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:59.272978+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-7-12.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:04:59.794053+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-7-13.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:05:00.338351+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-7-1.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:05:00.844228+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-7-2.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:05:01.444391+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-7-3.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:05:01.968436+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-7-4.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:05:02.464641+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-7-5.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:05:02.985488+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-7-6.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:05:03.470673+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-8-1.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:05:03.955875+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-8-2.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:05:04.448772+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-8-3.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:05:04.977795+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-8-4.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:05:05.461397+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-8-5.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:05:06.080713+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-8-6.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:05:06.698674+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-8-7.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:05:07.234019+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-8-8.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:05:07.699564+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-8-9.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:05:08.153615+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-8-10.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:05:08.674750+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-8-11.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:05:09.211321+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-8-12.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:05:09.770179+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-8-1.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:05:10.297891+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-8-2.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:05:10.910795+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-8-3.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:05:11.419163+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-8-4.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:05:11.895032+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-8-5.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:05:12.404523+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-8-6.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:05:12.948270+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-8-7.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:05:13.433772+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-9-1.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:05:13.934971+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-9-2.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:05:14.437308+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-9-3.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:05:15.021609+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-9-4.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:05:15.506040+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-9-5.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:05:15.962135+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-9-6.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:05:16.513688+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-9-7.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:05:17.067281+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-9-8.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:05:17.635433+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-9-9.wav",
+      "xmlCharacters": 189,
+      "submittedUtc": "2026-11-16T03:05:18.178585+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-9-10.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:05:18.704858+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-9-11.wav",
+      "xmlCharacters": 191,
+      "submittedUtc": "2026-11-16T03:05:19.177335+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-9-1.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:05:19.764735+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-9-2.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:05:20.257450+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-9-3.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:05:20.744467+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-9-4.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:05:21.308110+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-9-5.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:05:21.803299+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-9-6.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:05:22.359020+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-9-7.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:05:22.853378+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-9-8.wav",
+      "xmlCharacters": 196,
+      "submittedUtc": "2026-11-16T03:05:23.376097+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-10-1.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:23.878781+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-10-2.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:24.419654+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-10-3.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:24.971837+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-10-4.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:25.574977+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-10-5.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:26.027664+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-10-6.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:26.525128+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-10-7.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:27.006403+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-10-8.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:27.544883+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-10-9.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:28.028822+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-10-10.wav",
+      "xmlCharacters": 192,
+      "submittedUtc": "2026-11-16T03:05:28.490058+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-10-1.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:28.994643+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-10-2.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:29.495337+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-10-3.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:30.016634+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-10-4.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:30.534792+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-10-5.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:31.025735+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-10-6.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:31.525443+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-10-7.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:32.062427+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-10-8.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:32.606087+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-10-9.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:33.151876+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-11-1.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:33.689953+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-11-2.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:34.235330+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-11-3.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:34.802711+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-11-4.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:35.318272+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-11-5.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:35.789987+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-11-6.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:36.385082+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-11-7.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:36.867773+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-11-8.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:37.388525+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-11-9.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:37.913597+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-11-1.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:38.397762+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-11-2.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:38.958382+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-11-3.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:39.497281+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-11-4.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:40.020018+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-11-5.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:40.486933+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-11-6.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:40.998358+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-11-7.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:41.494587+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-11-8.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:41.984912+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-11-9.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:42.502164+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-11-10.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:05:43.032854+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-12-1.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:43.628145+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-12-2.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:44.241938+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-12-3.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:44.745614+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-12-4.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:45.407205+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-12-5.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:46.061740+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-12-6.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:46.602817+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-12-7.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:47.198395+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-12-8.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:47.797527+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-12-1.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:48.383008+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-12-2.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:48.860673+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-12-3.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:49.432573+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-12-4.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:49.971385+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-12-5.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:50.649598+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-12-6.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:51.263375+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-12-7.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:51.792659+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-12-8.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:52.374006+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-12-9.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:52.850157+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-12-10.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:05:53.361276+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-12-11.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:05:53.873301+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-13-1.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:54.471165+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-13-2.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:55.185892+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-13-3.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:55.675798+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-13-4.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:56.190478+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-13-5.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:56.712777+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-13-6.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:57.331170+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-13-7.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:05:57.883020+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-13-1.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:58.602490+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-13-2.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:59.202244+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-13-3.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:05:59.687889+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-13-4.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:00.316952+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-13-5.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:00.818810+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-13-6.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:01.330814+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-13-7.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:01.815901+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-13-8.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:02.350636+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-13-9.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:02.862219+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-13-10.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:03.347673+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-13-11.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:03.909537+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-13-12.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:04.404880+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-14-1.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:06:04.913994+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-14-2.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:06:05.414369+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-14-3.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:06:05.914552+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-14-4.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:06:06.424820+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-14-5.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:06:06.999640+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-14-6.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:06:07.559859+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-14-1.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:08.054074+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-14-2.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:08.579637+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-14-3.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:09.138607+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-14-4.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:09.675486+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-14-5.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:10.232815+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-14-6.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:10.796815+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-14-7.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:11.295324+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-14-8.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:11.853385+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-14-9.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:12.407655+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-14-10.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:12.920509+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-14-11.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:13.434752+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-14-12.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:13.991858+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-14-13.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:14.546294+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-15-1.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:06:15.140394+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-15-2.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:06:15.670587+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-15-3.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:06:16.189621+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-15-4.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:06:16.766870+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-15-5.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:06:17.301708+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-15-1.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:17.810876+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-15-2.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:18.349434+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-15-3.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:18.945534+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-15-4.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:19.482363+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-15-5.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:20.014820+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-15-6.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:20.526933+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-15-7.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:21.052856+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-15-8.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:21.551199+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-15-9.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:22.110767+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-15-10.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:22.628752+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-15-11.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:23.138514+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-15-12.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:23.686152+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-15-13.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:24.170169+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-15-14.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:24.748939+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-16-1.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:06:25.283578+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-16-2.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:06:25.854615+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-16-3.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:06:26.369807+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-16-4.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:06:26.862989+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-16-1.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:27.448133+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-16-2.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:27.964107+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-16-3.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:28.462455+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-16-4.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:28.937398+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-16-5.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:29.419558+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-16-6.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:29.943042+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-16-7.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:30.489579+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-16-8.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:31.057654+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-16-9.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:31.541571+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-16-10.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:32.046298+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-16-11.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:32.556240+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-16-12.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:33.076920+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-16-13.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:33.560420+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-16-14.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:34.068495+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-16-15.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:34.595426+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-17-1.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:06:35.131780+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-17-2.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:06:35.718241+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-17-3.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:06:36.264230+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-17-1.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:36.844894+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-17-2.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:37.373340+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-17-3.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:37.851727+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-17-4.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:38.364621+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-17-5.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:38.919569+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-17-6.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:39.513018+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-17-7.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:40.024773+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-17-8.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:40.548689+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-17-9.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:41.075453+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-17-10.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:41.560911+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-17-11.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:42.103195+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-17-12.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:42.587058+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-17-13.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:43.082032+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-17-14.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:43.584752+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-17-15.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:44.090949+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-17-16.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:44.755275+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-18-1.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:06:45.379490+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-18-2.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:06:45.911222+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-18-1.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:46.470251+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-18-2.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:46.989765+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-18-3.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:47.563970+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-18-4.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:48.052095+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-18-5.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:48.575674+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-18-6.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:49.112004+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-18-7.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:49.606521+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-18-8.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:50.143018+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-18-9.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:50.631290+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-18-10.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:51.124978+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-18-11.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:51.636562+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-18-12.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:52.149204+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-18-13.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:52.647401+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-18-14.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:53.155080+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-18-15.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:53.670204+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-18-16.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:54.203875+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-18-17.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:06:54.721217+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "add-19-1.wav",
+      "xmlCharacters": 190,
+      "submittedUtc": "2026-11-16T03:06:55.244408+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-19-1.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:55.771581+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-19-2.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:56.285881+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-19-3.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:56.769112+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-19-4.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:57.285411+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-19-5.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:57.812643+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-19-6.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:58.326326+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-19-7.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:58.848721+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-19-8.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:59.365382+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-19-9.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:06:59.896001+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-19-10.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:07:00.405426+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-19-11.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:07:00.960468+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-19-12.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:07:01.489349+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-19-13.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:07:02.017596+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-19-14.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:07:02.544481+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-19-15.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:07:03.039930+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-19-16.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:07:03.572091+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-19-17.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:07:04.126308+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-19-18.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:07:04.683137+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-20-1.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:07:05.205561+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-20-2.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:07:05.708690+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-20-3.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:07:06.285183+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-20-4.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:07:06.798011+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-20-5.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:07:07.323798+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-20-6.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:07:07.826089+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-20-7.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:07:08.392114+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-20-8.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:07:08.890703+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-20-9.wav",
+      "xmlCharacters": 197,
+      "submittedUtc": "2026-11-16T03:07:09.451737+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-20-10.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:07:10.065892+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-20-11.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:07:10.559196+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-20-12.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:07:11.074900+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-20-13.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:07:11.632670+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-20-14.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:07:12.172996+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-20-15.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:07:12.666949+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-20-16.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:07:13.414697+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-20-17.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:07:13.941443+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-20-18.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:07:14.485794+00:00",
+      "result": "audio saved; awaiting game review"
+    },
+    {
+      "file": "subtract-20-19.wav",
+      "xmlCharacters": 199,
+      "submittedUtc": "2026-11-16T03:07:15.050670+00:00",
+      "result": "audio saved; awaiting game review"
+    }
+  ]
+}

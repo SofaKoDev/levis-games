@@ -1,0 +1,19 @@
+{
+  "reviewDate": "2026-11-15",
+  "reviewer": "owner",
+  "feedback": "these sound good",
+  "voice": "en-US-JennyNeural",
+  "pronunciationApproved": true,
+  "clips": [
+    "04-s.wav",
+    "05-u.wav",
+    "06-n.wav",
+    "01-partial-su.wav",
+    "02-connected-sun.wav",
+    "03-natural-sun.wav"
+  ],
+  "scope": "Approval of the six sounds heard on the Azure SUN review page, including the brief isolated consonants",
+  "lessonIntegrationApproved": true,
+  "publicationApproved": false,
+  "note": "The owner subsequently requested connecting these sounds to the local game. These are six sound models, not seven complete teacher narration recordings. No additional paid generation or publication is authorized by this integration request."
+}

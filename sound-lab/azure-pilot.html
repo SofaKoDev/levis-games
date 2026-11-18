@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Azure SUN sounds — local review</title>
+  <style>
+    :root {font-family:system-ui,sans-serif;color:#243044;background:#eef2f8;color-scheme:light}
+    body {max-width:760px;margin:0 auto;padding:24px 18px 60px;line-height:1.6}
+    h1 {line-height:1.2} article {background:white;padding:18px 22px;border-radius:20px;margin:16px 0}
+    h2 {margin:0 0 8px} audio {width:100%;min-height:48px} a {color:#3152a0}
+    .badge {font-weight:700;color:#694513} .note {border-left:4px solid #e4ad4c;padding-left:16px}
+  </style>
+</head>
+<body>
+  <p class="badge">LOCAL REVIEW · NOT APPROVED FOR THE LESSON</p>
+  <h1>Azure SUN sounds</h1>
+  <p>Jenny, American English throughout. The three existing blend/word clips are retained. Only the isolated s, short u, and n recordings are new. All six files play locally, without contacting Azure.</p>
+  <p class="note">Review the new isolated sounds first. The s and n each contain about 0.2 seconds of audible sound; the longer player duration includes silence. These may still be too brief for a sustained teaching model. No clip has been installed in the lesson.</p>
+  <article><h2>1. First sound /s/ — new</h2><p>Listen for a clean unvoiced hiss, without “ess” or “suh.” Is it clear and long enough to copy?</p><audio controls preload="metadata" aria-label="Azure isolated s"><source src="./pilot/azure/04-s.wav" type="audio/wav"></audio></article>
+  <article><h2>2. Middle sound /ʌ/ — new</h2><p>The short vowel in sun/cup. Reject the letter name “you,” “oo,” or added consonants.</p><audio controls preload="metadata" aria-label="Azure isolated short u"><source src="./pilot/azure/05-u.wav" type="audio/wav"></audio></article>
+  <article><h2>3. Last sound /n/ — new</h2><p>A nasal sound without “en” or “nuh.” Check its duration as well as its pronunciation.</p><audio controls preload="metadata" aria-label="Azure isolated n"><source src="./pilot/azure/06-n.wav" type="audio/wav"></audio></article>
+  <article><h2>4. Partial blend /sʌ/ — retained</h2><p>Listen for a clean s flowing directly into the short vowel in sun/cup. Reject “sue,” a gap, or an added final n.</p><audio controls preload="metadata" aria-label="Azure partial blend"><source src="./pilot/azure/01-partial-su.wav" type="audio/wav"></audio></article>
+  <article><h2>5. Connected blend /sʌn/ — retained</h2><p>Listen for all three sounds connected, without added vowels or separate syllables. Is the blending clear enough for a child to copy?</p><audio controls preload="metadata" aria-label="Azure connected sun blend"><source src="./pilot/azure/02-connected-sun.wav" type="audio/wav"></audio></article>
+  <article><h2>6. Natural word “sun” — retained</h2><p>Normal-speed reference from the same voice. Compare its short vowel and final nasal with the blended version.</p><audio controls preload="metadata" aria-label="Azure natural word sun"><source src="./pilot/azure/03-natural-sun.wav" type="audio/wav"></audio></article>
+  <p>Unprocessed mono 24 kHz WAV files. No splicing, normalization, or post-generation stretching. These are six sound probes, not the seven finished lesson recordings with instructions.</p>
+  <p><a href="./pilot/azure/manifest.json">Inputs and technical measurements</a> · <a href="./">Soundless Sound Lab preview</a></p>
+  <script>
+    const players = [...document.querySelectorAll('audio')];
+    const stopAll = () => { for (const player of players) player.pause(); };
+    for (const player of players) player.addEventListener('play', () => {
+      for (const other of players) if (other !== player) other.pause();
+    });
+    window.addEventListener('pagehide', stopAll);
+    document.addEventListener('visibilitychange', () => { if (document.hidden) stopAll(); });
+  </script>
+</body>
+</html>

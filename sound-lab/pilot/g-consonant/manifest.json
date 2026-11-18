@@ -1,0 +1,17 @@
+{
+  "voice": "en-US-JennyNeural",
+  "status": "Owner approved guh for standalone G only; installed unchanged locally.",
+  "processing": "Unchanged Azure output; no looping, time stretching, gain edits or splicing",
+  "clips": [
+    {
+      "file": "g-with-schwa.wav",
+      "note": "Owner approved for standalone G only. Not used in introductions, connected blends or whole words.",
+      "sha256": "608a3cf9e37dab99985aeabd7c593f2500d2818d5375b031fad5f0ea1e05164c",
+      "seconds": 1.82,
+      "activeSpanSeconds": 0.291,
+      "peak": 0.49188,
+      "reviewed": true
+    }
+  ],
+  "conservativeSharedEstimateUsd": 0.401025
+}

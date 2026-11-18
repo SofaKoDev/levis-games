@@ -1,6 +1,9 @@
 node_modules/
 dist/
 dist-snow-preview/
+dist-sound-preview/
+.local-tools/
+__pycache__/
 *.log
 .pnpm-store/
 .env

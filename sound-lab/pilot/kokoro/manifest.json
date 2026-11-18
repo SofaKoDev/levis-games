@@ -1,0 +1,104 @@
+{
+  "createdUtc": "2026-11-15T15:58:57.533487+00:00",
+  "status": "User rejected isolated phonemes and partial blend as broken/mismatched; natural sun retained as usable candidate; connected blend pending clarification. No integration approval.",
+  "userReview": {
+    "date": "2026-11-15",
+    "feedback": "none of the sounds match up well and sound broken. except for sun",
+    "interpretation": "Natural word sun is the usable exception; connected-blend approval is not assumed."
+  },
+  "voice": "af_heart",
+  "language": "en-us",
+  "format": "24000 Hz mono PCM16 WAV",
+  "processing": "Model output with built-in edge trimming; no splicing, normalization, or time stretching",
+  "runtimeVersions": {
+    "kokoro-onnx": "0.6.1",
+    "onnxruntime": "1.31.1",
+    "numpy": "2.5.4",
+    "soundfile": "0.14.0",
+    "phonemizer-fork": "3.3.2"
+  },
+  "modelSha256": {
+    "kokoro-v1.0.onnx": "beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a",
+    "voices-v1.0.bin": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d"
+  },
+  "clips": [
+    {
+      "file": "01-s.wav",
+      "input": "s",
+      "directPhonemes": true,
+      "speed": 0.8,
+      "seconds": 0.444,
+      "peak": 0.21517,
+      "rms": 0.03023,
+      "sha256": "ad53e29331fbb58f756d9b08d85cd8af2b6d40550d5d2aa4f3280fdd6d34e11b",
+      "reviewStatus": "rejected",
+      "manualReview": "Unvoiced /s/ only; reject suh or the letter name ess.",
+      "approved": false
+    },
+    {
+      "file": "02-u.wav",
+      "input": "ʌ",
+      "directPhonemes": true,
+      "speed": 0.85,
+      "seconds": 0.512,
+      "peak": 0.2205,
+      "rms": 0.04469,
+      "sha256": "b6740e15a97559d060156f7bfc91dfb6cb1d7d5f551eacc9f1b682248d5115ba",
+      "reviewStatus": "rejected",
+      "manualReview": "Short vowel in sun/cup; reject you, oo, or an added consonant.",
+      "approved": false
+    },
+    {
+      "file": "03-n.wav",
+      "input": "n",
+      "directPhonemes": true,
+      "speed": 0.8,
+      "seconds": 0.573,
+      "peak": 0.18895,
+      "rms": 0.03038,
+      "sha256": "a840a93f69abd069b6bf0175e02a316995f7c9f8b4b78f79650e43f9b6727210",
+      "reviewStatus": "rejected",
+      "manualReview": "Voiced nasal /n/ only; reject nuh or en.",
+      "approved": false
+    },
+    {
+      "file": "04-su.wav",
+      "input": "sˈʌ",
+      "directPhonemes": true,
+      "speed": 0.8,
+      "seconds": 0.704,
+      "peak": 0.31007,
+      "rms": 0.06091,
+      "sha256": "09a933d1fe911d3b2f0ca1031ebb6bb9a40a6fb9acf436178afb18c2d75846b9",
+      "reviewStatus": "rejected",
+      "manualReview": "One connected /sʌ/; reject sue, a gap, or the whole word sun.",
+      "approved": false
+    },
+    {
+      "file": "05-sun-connected.wav",
+      "input": "sˈʌn",
+      "directPhonemes": true,
+      "speed": 0.8,
+      "seconds": 0.96,
+      "peak": 0.35508,
+      "rms": 0.05734,
+      "sha256": "5a179db68d06c0e000e34a009cb09b1b2de82f9dc2bfa333c6c2797ad9eb1863",
+      "reviewStatus": "pending clarification; not approved",
+      "manualReview": "One connected /sʌn/; reject gaps and extra vowels.",
+      "approved": false
+    },
+    {
+      "file": "06-sun-natural.wav",
+      "input": "Sun.",
+      "directPhonemes": false,
+      "speed": 1.0,
+      "seconds": 0.768,
+      "peak": 0.33997,
+      "rms": 0.05985,
+      "sha256": "f6090d73381cd63901c9e16311660aeca6793413ce9e01513b615c1b88620b72",
+      "reviewStatus": "usable candidate per user feedback; not authorized for integration",
+      "manualReview": "Natural SUN reference; check short vowel and final nasal.",
+      "approved": false
+    }
+  ]
+}

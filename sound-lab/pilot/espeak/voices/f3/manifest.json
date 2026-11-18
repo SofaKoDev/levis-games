@@ -1,0 +1,410 @@
+{
+  "createdUtc": "2026-11-15T16:18:43.308772+00:00",
+  "status": "Unreviewed eSpeak pronunciation candidates; no integration approval",
+  "engine": "1.52.0",
+  "engineLicense": "GPL-3.0-or-later; inference tools are not shipped in the game",
+  "librarySha256": "646d387acbc7ac2aa45e3625aa00a6835ae5d446ff8b0748298c3900b4dde258",
+  "voice": "en-us+f3",
+  "sampleRate": 22050,
+  "format": "mono PCM16 WAV",
+  "processing": "Unmodified synchronous engine output; no splicing, time stretching, or normalization",
+  "clips": [
+    {
+      "file": "01-s.wav",
+      "intended": "/s/",
+      "input": "[[s]]",
+      "wordsPerMinute": 80,
+      "volume": 80,
+      "directPhonemes": true,
+      "seconds": 0.24,
+      "activeSpanSeconds": 0.183,
+      "peak": 0.07977,
+      "rms": 0.01697,
+      "engineReportedPhonemes": [
+        {
+          "ipa": "s",
+          "audioMs": 21
+        },
+        {
+          "ipa": "",
+          "audioMs": 205
+        },
+        {
+          "ipa": "",
+          "audioMs": 227
+        }
+      ],
+      "sha256": "e5a0f8cc3e0c85ae498cc9a3d4b475ae7534ae87746f09b5c2df4501cfb3118c",
+      "approved": false
+    },
+    {
+      "file": "02-u.wav",
+      "intended": "/ʌ/",
+      "input": "[['V]]",
+      "wordsPerMinute": 80,
+      "volume": 80,
+      "directPhonemes": true,
+      "seconds": 0.6,
+      "activeSpanSeconds": 0.6,
+      "peak": 0.52426,
+      "rms": 0.1084,
+      "engineReportedPhonemes": [
+        {
+          "ipa": "ˈʌ",
+          "audioMs": 0
+        },
+        {
+          "ipa": "",
+          "audioMs": 531
+        },
+        {
+          "ipa": "",
+          "audioMs": 553
+        }
+      ],
+      "sha256": "f0c48ebaa688fdb6e04b2c1ac7cb533a14ce5254f111539e13e8cc66dcb85564",
+      "approved": false
+    },
+    {
+      "file": "03-n.wav",
+      "intended": "/n/",
+      "input": "[[n]]",
+      "wordsPerMinute": 80,
+      "volume": 80,
+      "directPhonemes": true,
+      "seconds": 0.06,
+      "activeSpanSeconds": 0.05,
+      "peak": 0.09933,
+      "rms": 0.02746,
+      "engineReportedPhonemes": [
+        {
+          "ipa": "n",
+          "audioMs": 0
+        },
+        {
+          "ipa": "",
+          "audioMs": 22
+        },
+        {
+          "ipa": "",
+          "audioMs": 44
+        }
+      ],
+      "sha256": "3757b227dab44e78b352bf1d027b3a8d5dc8d866f419035af025556501065267",
+      "approved": false
+    },
+    {
+      "file": "04-su.wav",
+      "intended": "/sʌ/",
+      "input": "[[s'V]]",
+      "wordsPerMinute": 80,
+      "volume": 80,
+      "directPhonemes": true,
+      "seconds": 0.721,
+      "activeSpanSeconds": 0.698,
+      "peak": 0.51535,
+      "rms": 0.09919,
+      "engineReportedPhonemes": [
+        {
+          "ipa": "s",
+          "audioMs": 21
+        },
+        {
+          "ipa": "ˈʌ",
+          "audioMs": 152
+        },
+        {
+          "ipa": "",
+          "audioMs": 684
+        },
+        {
+          "ipa": "",
+          "audioMs": 706
+        }
+      ],
+      "sha256": "b31e3575c74f5b3809d25a533f37f1851bc15f4dfb23a2511f3a3bd7356cc790",
+      "approved": false
+    },
+    {
+      "file": "05-sun-connected.wav",
+      "intended": "/sʌn/",
+      "input": "[[s'Vn]]",
+      "wordsPerMinute": 80,
+      "volume": 80,
+      "directPhonemes": true,
+      "seconds": 0.841,
+      "activeSpanSeconds": 0.838,
+      "peak": 0.55084,
+      "rms": 0.08965,
+      "engineReportedPhonemes": [
+        {
+          "ipa": "s",
+          "audioMs": 21
+        },
+        {
+          "ipa": "ˈʌ",
+          "audioMs": 152
+        },
+        {
+          "ipa": "n",
+          "audioMs": 602
+        },
+        {
+          "ipa": "",
+          "audioMs": 808
+        },
+        {
+          "ipa": "",
+          "audioMs": 830
+        }
+      ],
+      "sha256": "eb031d2c4f06e768e95f6ef8a9661444a728de3d9d999aaa92d91e3cae65be11",
+      "approved": false
+    },
+    {
+      "file": "06-sun-natural.wav",
+      "intended": "sun",
+      "input": "Sun.",
+      "wordsPerMinute": 175,
+      "volume": 80,
+      "directPhonemes": false,
+      "seconds": 0.42,
+      "activeSpanSeconds": 0.418,
+      "peak": 0.53668,
+      "rms": 0.08208,
+      "engineReportedPhonemes": [
+        {
+          "ipa": "s",
+          "audioMs": 11
+        },
+        {
+          "ipa": "ˈʌ",
+          "audioMs": 84
+        },
+        {
+          "ipa": "n",
+          "audioMs": 270
+        },
+        {
+          "ipa": "",
+          "audioMs": 376
+        },
+        {
+          "ipa": "",
+          "audioMs": 383
+        }
+      ],
+      "sha256": "19f6699371c76a316cb028df693cea9c772caa86fa5cb62a1f0c623106db136e",
+      "approved": false
+    },
+    {
+      "file": "07-s-lengthened.wav",
+      "intended": "/s/ lengthening experiment",
+      "input": "[[s:]]",
+      "wordsPerMinute": 80,
+      "volume": 80,
+      "directPhonemes": true,
+      "seconds": 0.42,
+      "activeSpanSeconds": 0.389,
+      "peak": 0.08194,
+      "rms": 0.01858,
+      "engineReportedPhonemes": [
+        {
+          "ipa": "s",
+          "audioMs": 21
+        },
+        {
+          "ipa": "",
+          "audioMs": 388
+        },
+        {
+          "ipa": "",
+          "audioMs": 410
+        }
+      ],
+      "sha256": "31bea53e1e5c294000fa0ce80bf5371033273e9b0dfab157e87ac8dcd81fbad4",
+      "approved": false
+    },
+    {
+      "file": "08-n-lengthened.wav",
+      "intended": "/n/ lengthening experiment",
+      "input": "[[n:]]",
+      "wordsPerMinute": 80,
+      "volume": 80,
+      "directPhonemes": true,
+      "seconds": 0.06,
+      "activeSpanSeconds": 0.023,
+      "peak": 0.10022,
+      "rms": 0.02739,
+      "engineReportedPhonemes": [
+        {
+          "ipa": "n",
+          "audioMs": 0
+        },
+        {
+          "ipa": "",
+          "audioMs": 22
+        },
+        {
+          "ipa": "",
+          "audioMs": 44
+        }
+      ],
+      "sha256": "30bbb2833ab202129b02902cab5a877f281d0722cc48f8f0891c7b87f9efc34d",
+      "approved": false
+    },
+    {
+      "file": "09-n-held.wav",
+      "intended": "/n/ sustained candidate",
+      "input": "[[nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn]]",
+      "wordsPerMinute": 80,
+      "volume": 80,
+      "directPhonemes": true,
+      "seconds": 0.721,
+      "activeSpanSeconds": 0.72,
+      "peak": 0.09985,
+      "rms": 0.04173,
+      "engineReportedPhonemes": [
+        {
+          "ipa": "n",
+          "audioMs": 0
+        },
+        {
+          "ipa": "n",
+          "audioMs": 20
+        },
+        {
+          "ipa": "n",
+          "audioMs": 40
+        },
+        {
+          "ipa": "n",
+          "audioMs": 60
+        },
+        {
+          "ipa": "n",
+          "audioMs": 81
+        },
+        {
+          "ipa": "n",
+          "audioMs": 101
+        },
+        {
+          "ipa": "n",
+          "audioMs": 121
+        },
+        {
+          "ipa": "n",
+          "audioMs": 142
+        },
+        {
+          "ipa": "n",
+          "audioMs": 162
+        },
+        {
+          "ipa": "n",
+          "audioMs": 182
+        },
+        {
+          "ipa": "n",
+          "audioMs": 203
+        },
+        {
+          "ipa": "n",
+          "audioMs": 223
+        },
+        {
+          "ipa": "n",
+          "audioMs": 243
+        },
+        {
+          "ipa": "n",
+          "audioMs": 264
+        },
+        {
+          "ipa": "n",
+          "audioMs": 284
+        },
+        {
+          "ipa": "n",
+          "audioMs": 304
+        },
+        {
+          "ipa": "n",
+          "audioMs": 325
+        },
+        {
+          "ipa": "n",
+          "audioMs": 345
+        },
+        {
+          "ipa": "n",
+          "audioMs": 365
+        },
+        {
+          "ipa": "n",
+          "audioMs": 386
+        },
+        {
+          "ipa": "n",
+          "audioMs": 406
+        },
+        {
+          "ipa": "n",
+          "audioMs": 426
+        },
+        {
+          "ipa": "n",
+          "audioMs": 446
+        },
+        {
+          "ipa": "n",
+          "audioMs": 467
+        },
+        {
+          "ipa": "n",
+          "audioMs": 487
+        },
+        {
+          "ipa": "n",
+          "audioMs": 507
+        },
+        {
+          "ipa": "n",
+          "audioMs": 528
+        },
+        {
+          "ipa": "n",
+          "audioMs": 548
+        },
+        {
+          "ipa": "n",
+          "audioMs": 568
+        },
+        {
+          "ipa": "n",
+          "audioMs": 589
+        },
+        {
+          "ipa": "n",
+          "audioMs": 609
+        },
+        {
+          "ipa": "n",
+          "audioMs": 629
+        },
+        {
+          "ipa": "",
+          "audioMs": 656
+        },
+        {
+          "ipa": "",
+          "audioMs": 678
+        }
+      ],
+      "sha256": "1e5ecb1b4c3ed1fb764b2a9c1fa032efeb3d1a75217e5d1953ed9a51d8405fc1",
+      "approved": false,
+      "method": "Thirty-two consecutive n phoneme tokens in one synthesis request; no audio loops, splicing, or vowel tokens. Review for pulsing/artifacts."
+    }
+  ]
+}
