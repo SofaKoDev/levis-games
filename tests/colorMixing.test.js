@@ -6,7 +6,7 @@ const p=Object.fromEntries(presets.map(p=>[p.name,p.hex]));
 describe('pigment mixtures in OKLab',()=>{
   it.each([
     ['Red','Yellow','#ff772f',.12],['Cyan','Yellow','#50e949',.12],
-    ['Yellow','Blue','#338261',.12],['Red','Blue','#753878',.12],
+    ['Yellow','Blue','#79b24a',.12],['Red','Blue','#753878',.12],
     ['Green','Blue','#1e7a9b',.12],
   ])('%s + %s has the expected color family',(a,b,target,tolerance)=>{
     expect(distance(mixPaint([p[a],p[b]]),target)).toBeLessThan(tolerance);

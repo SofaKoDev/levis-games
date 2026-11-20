@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for rat"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="88" cy="80" rx="22" ry="40" fill="#d3ad8e"/><ellipse cx="192" cy="80" rx="22" ry="40" fill="#d3ad8e"/><path d="M196 162q72-22 45-57" fill="none"/><ellipse cx="140" cy="149" rx="64" ry="46" fill="#ecc6a8"/><ellipse cx="140" cy="102" rx="65" ry="51" fill="#e5b576"/><circle cx="117" cy="103" r="4"/><circle cx="163" cy="103" r="4"/><path d="M133 126h14l-7 8z" fill="#65766c"/><path d="M129 144q11 8 22 0" fill="none"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A cute little grey rat with round pink ears"><defs><linearGradient id="bg-rat" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f6f8fa"/><stop offset="100%" stop-color="#e8edf2"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-rat)"/>
+    <ellipse cx="136" cy="184" rx="70" ry="10" fill="#7c5d3e" opacity=".18"/>
+    <path d="M188 158 Q232 162 238 134 Q242 114 224 118" fill="none" stroke="#f2a7b8" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="142" cy="144" rx="54" ry="38" fill="#a8b2bd" stroke="#747f8a" stroke-width="2.5"/>
+    <circle cx="102" cy="76" r="26" fill="#a8b2bd" stroke="#747f8a" stroke-width="2.5"/>
+    <circle cx="102" cy="76" r="16" fill="#f7b7c4"/>
+    <circle cx="152" cy="74" r="24" fill="#a8b2bd" stroke="#747f8a" stroke-width="2.5"/>
+    <circle cx="152" cy="74" r="14" fill="#f7b7c4"/>
+    <path d="M62 128 Q84 94 134 94 Q166 94 170 128 Q166 154 116 154 Q74 152 62 128 Z" fill="#b8c2cc" stroke="#747f8a" stroke-width="2.5"/>
+    <circle cx="96" cy="116" r="4.5" fill="#2c333b"/><circle cx="94.5" cy="114.5" r="1.5" fill="#fff"/>
+    <circle cx="62" cy="128" r="7" fill="#f28aa0"/>
+    <path d="M52 116 L76 122 M52 138 L76 134" stroke="#636d78" stroke-width="2.2" stroke-linecap="round"/>
+  </svg>

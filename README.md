@@ -2,8 +2,13 @@
 
 **Little games. Big imagination.** A free collection of toddler-friendly browser games, designed for iPhone Safari. No accounts, advertising, analytics, external APIs or backend.
 
+- **Number Blaster:** a space math adventure with addition/subtraction puzzles and spoken prompts.
+- **Sound It Out:** a phonics blending game with local recordings and original SVG word illustrations.
+- **Little Monsters:** a cozy virtual pet sanctuary with 7 animated monster friends and a Monster Journal.
 - **Color Lab:** the original paint-mixing game, preserved with its own spectral mixing and naming engines.
 - **Smoothie Station:** a cozy fruit-mixing kitchen with six fruits, quantity-aware colors and playful recipe names.
+- **Snow Run:** a 500-meter ski trail with collectibles, multipliers, and a friendly finish celebration.
+- **Christmas Tree Decorator:** an interactive tree decorator with ornaments, lights, toppers, and PNG picture export.
 
 ## Publication and migration
 
@@ -11,8 +16,13 @@ Repository: https://github.com/SofaKoDev/levis-games
 
 Website: https://sofakodev.github.io/levis-games/
 
+- Number Blaster: https://sofakodev.github.io/levis-games/number-blaster/
+- Sound It Out: https://sofakodev.github.io/levis-games/sound-lab/
+- Little Monsters: https://sofakodev.github.io/levis-games/little-monsters/
 - Color Lab: https://sofakodev.github.io/levis-games/color-lab/
 - Smoothie Station: https://sofakodev.github.io/levis-games/smoothie-station/
+- Snow Run: https://sofakodev.github.io/levis-games/snow-run/
+- Christmas Tree: https://sofakodev.github.io/levis-games/christmas-tree/
 
 The existing public repository was renamed with owner approval; its history was preserved. Update old `/levis-color-lab/` bookmarks to the new website address. The final publication is confirmed only by a successful Actions deployment.
 
@@ -58,7 +68,7 @@ Then open http://localhost:4173/levis-games/. Remove the override with `Remove-I
 
 ## Static routing and project layout
 
-Vite builds three actual HTML entries: `index.html`, `color-lab/index.html`, and `smoothie-station/index.html`. GitHub Pages serves each directory's index directly, including on refresh and direct navigation. Ordinary anchor links support browser back/forward without a routing framework or a 404 redirect workaround. Reloading or leaving a game resets its current recipe; nothing is stored remotely.
+Vite builds static HTML entries for the home page (`index.html`) and each game (`number-blaster/`, `sound-lab/`, `little-monsters/`, `color-lab/`, `smoothie-station/`, `snow-run/`, and `christmas-tree/`). GitHub Pages serves each directory's index directly, including on refresh and direct navigation. Ordinary anchor links support browser back/forward without a routing framework or a 404 redirect workaround.
 
 - `src/home/`: home page, original SVG illustrations and reusable game registry.
 - `src/shared/`: shared Home navigation.

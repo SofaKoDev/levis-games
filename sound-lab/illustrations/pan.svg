@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for pan"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="111" cy="121" rx="75" ry="48" fill="#97a89e"/><ellipse cx="111" cy="108" rx="75" ry="38" fill="#dce4d7"/><path d="M184 110h68v22h-68" fill="#c6a47e"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A frying pan with a sunny-side-up egg"><defs><linearGradient id="bg-pan" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff9f0"/><stop offset="100%" stop-color="#f3e8d8"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-pan)"/>
+    <ellipse cx="122" cy="178" rx="78" ry="12" fill="#7c5d3e" opacity=".18"/>
+    <path d="M178 116 L248 96" stroke="#535d66" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="244" cy="97" r="4" fill="#fffaf0"/>
+    <ellipse cx="120" cy="126" rx="74" ry="54" fill="#4f5963" stroke="#353d45" stroke-width="4"/>
+    <ellipse cx="120" cy="124" rx="60" ry="42" fill="#636f7a"/>
+    <path d="M88 122 C84 102 108 92 128 98 C148 96 158 116 148 134 C138 150 100 150 88 122 Z" fill="#ffffff"/>
+    <circle cx="122" cy="122" r="16" fill="#ffc940"/>
+    <circle cx="117" cy="117" r="4" fill="#fff2b8"/>
+  </svg>

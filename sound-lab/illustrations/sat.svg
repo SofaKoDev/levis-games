@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for sat"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><circle cx="140" cy="58" r="28" fill="#f0c79f"/><path d="M115 46q24-29 50 0" fill="#8a6854"/><path d="M111 112q29-22 58 0v44h-58z" fill="#7cb8ad"/><path d="M111 120l-22 24m80-24 23 24" fill="none"/><path d="M120 156h48v30m-26-30v30" fill="none"/><path d="M106 164h76m-8 0v35" fill="none"/><circle cx="131" cy="61" r="2" fill="#65766c"/><circle cx="150" cy="61" r="2" fill="#65766c"/><path d="M132 75q9 8 18 0" fill="none"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A little cat sitting neatly on a cushion"><defs><linearGradient id="bg-sat" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff7f8"/><stop offset="100%" stop-color="#f5e4e7"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-sat)"/>
+    <ellipse cx="140" cy="184" rx="82" ry="10" fill="#7c5d3e" opacity=".18"/>
+    <ellipse cx="140" cy="166" rx="78" ry="22" fill="#e87a84" stroke="#bf525c" stroke-width="2.5"/>
+    <ellipse cx="140" cy="134" rx="38" ry="34" fill="#829ab0" stroke="#566c80" stroke-width="2.5"/>
+    <path d="M110 88 L104 52 L132 72 Z M170 88 L176 52 L148 72 Z" fill="#829ab0" stroke="#566c80" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="140" cy="92" r="32" fill="#92abbf" stroke="#566c80" stroke-width="2.5"/>
+    <circle cx="128" cy="90" r="3.8" fill="#24313d"/><circle cx="152" cy="90" r="3.8" fill="#24313d"/>
+    <polygon points="136,98 144,98 140,103" fill="#f29aa8"/>
+    <path d="M132 106 Q140 111 148 106" fill="none" stroke="#24313d" stroke-width="2.5" stroke-linecap="round"/>
+  </svg>

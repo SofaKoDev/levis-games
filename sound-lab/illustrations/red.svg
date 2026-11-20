@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for red"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M67 66q35-41 68-16 66-22 77 23 47 37 8 75-18 53-75 30-70 28-90-22-34-43 12-90z" fill="#cf7e7c"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A bright glossy red apple and paint splash"><defs><linearGradient id="bg-red" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff5f6"/><stop offset="100%" stop-color="#fae0e4"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-red)"/>
+    <ellipse cx="140" cy="184" rx="66" ry="10" fill="#7c5d3e" opacity=".18"/>
+    <path d="M140 58 Q144 36 156 32" fill="none" stroke="#7d5232" stroke-width="7" stroke-linecap="round"/>
+    <path d="M144 46 Q172 30 182 52 Q162 66 144 46 Z" fill="#63b572" stroke="#42874f" stroke-width="2"/>
+    <path d="M140 66 C110 48 68 72 74 118 C80 162 112 184 140 174 C168 184 200 162 206 118 C212 72 170 48 140 66 Z" fill="#e84356" stroke="#b8293a" stroke-width="3"/>
+    <path d="M98 92 Q96 118 108 134" fill="none" stroke="#ff9aa6" stroke-width="8" stroke-linecap="round" opacity=".65"/>
+  </svg>

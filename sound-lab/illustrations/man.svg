@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for man"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><circle cx="140" cy="58" r="28" fill="#f0c79f"/><path d="M115 46q24-29 50 0" fill="#8a6854"/><path d="M111 112q29-22 58 0v44h-58z" fill="#7cb8ad"/><path d="M111 120l-22 24m80-24 23 24" fill="none"/><path d="M122 156v35m36-35v35" fill="none"/><circle cx="131" cy="61" r="2" fill="#65766c"/><circle cx="150" cy="61" r="2" fill="#65766c"/><path d="M132 75q9 8 18 0" fill="none"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A friendly smiling man"><defs><linearGradient id="bg-man" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f5f9fc"/><stop offset="100%" stop-color="#e4eef5"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-man)"/>
+    <ellipse cx="140" cy="190" rx="62" ry="9" fill="#7c5d3e" opacity=".18"/>
+    <path d="M84 190 Q92 130 140 130 Q188 130 196 190 Z" fill="#4f82a8" stroke="#356080" stroke-width="2.5"/>
+    <path d="M124 132 L140 150 L156 132" fill="#fffaf0"/>
+    <circle cx="140" cy="84" r="42" fill="#f0c199" stroke="#c49168" stroke-width="2.5"/>
+    <path d="M98 78 Q102 36 140 36 Q178 36 182 78 Q166 56 140 58 Q114 56 98 78 Z" fill="#593f2e"/>
+    <circle cx="124" cy="84" r="4.5" fill="#2e2016"/><circle cx="156" cy="84" r="4.5" fill="#2e2016"/>
+    <path d="M126 102 Q140 112 154 102" fill="none" stroke="#593f2e" stroke-width="4" stroke-linecap="round"/>
+  </svg>

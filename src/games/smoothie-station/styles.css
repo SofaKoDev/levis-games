@@ -1,412 +1,498 @@
-.smoothie-body{
-  margin:0;
-  background:#fff5e8;
-  color:#5d5145;
-  font-family:ui-rounded,'Trebuchet MS',system-ui,sans-serif;
-  -webkit-tap-highlight-color:transparent
+.smoothie-body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 12% 8%, rgba(255, 224, 166, 0.55) 0%, transparent 44%),
+    radial-gradient(circle at 88% 14%, rgba(190, 232, 217, 0.48) 0%, transparent 42%),
+    radial-gradient(circle at 50% 96%, rgba(255, 209, 189, 0.5) 0%, transparent 48%),
+    linear-gradient(180deg, #fffaf0 0%, #f8ede0 100%);
+  color: #3f362e;
+  font-family: ui-rounded, 'SF Pro Rounded', 'Trebuchet MS', system-ui, sans-serif;
+  -webkit-tap-highlight-color: transparent;
 }
-.smoothie-body *{
-  box-sizing:border-box
+
+.smoothie-body * {
+  box-sizing: border-box;
 }
-.smoothie-body [hidden]{
-  display:none!important
+
+.smoothie-body [hidden] {
+  display: none !important;
 }
-.smoothie-kitchen{
-  position:relative;
-  max-width:460px;
-  padding:16px 22px max(14px,env(safe-area-inset-bottom));
-  padding-top:max(16px,env(safe-area-inset-top));
-  margin:auto;
-  user-select:none;
-  -webkit-user-select:none
+
+.smoothie-kitchen {
+  position: relative;
+  max-width: 500px;
+  padding: max(16px, env(safe-area-inset-top)) 20px max(18px, env(safe-area-inset-bottom));
+  margin: auto;
+  user-select: none;
+  -webkit-user-select: none;
 }
-.smoothie-kitchen button{
-  font:inherit;
-  cursor:pointer;
-  touch-action:manipulation
+
+.smoothie-kitchen button {
+  font: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
 }
-.smoothie-kitchen button:focus-visible{
-  outline:3px solid #4e7db0;
-  outline-offset:3px
+
+.smoothie-kitchen button:focus-visible {
+  outline: 3px solid #4a7ec7;
+  outline-offset: 3px;
 }
-.smoothie-kitchen button:active:not(:disabled){
-  transform:scale(.97)
+
+.smoothie-kitchen button:active:not(:disabled) {
+  transform: translateY(2px) scale(0.98);
 }
-.smoothie-kitchen>.home-link{
-  margin:0;
-  position:relative;
-  z-index:1
+
+.smoothie-kitchen > .home-link {
+  margin: 0;
+  position: relative;
+  z-index: 2;
+  background: rgba(255, 253, 248, 0.92);
+  box-shadow: 0 3px 0 rgba(196, 180, 152, 0.35);
 }
-.smoothie-header{
-  text-align:center;
-  margin-top:-36px;
-  padding-left:75px
+
+.smoothie-header {
+  text-align: center;
+  margin-top: -38px;
+  padding-left: 72px;
 }
-.smoothie-header h1{
-  font-size:21px;
-  letter-spacing:-.8px;
-  line-height:1.2;
-  margin:0
+
+.smoothie-header h1 {
+  font-size: 22px;
+  letter-spacing: -0.7px;
+  line-height: 1.15;
+  margin: 0;
+  color: #2f3b35;
 }
-.smoothie-header h1 span{
-  display:block;
-  color:#a46b4d
+
+.smoothie-header h1 span {
+  display: block;
+  color: #c76444;
 }
-.smoothie-header p{
-  font-size:10px;
-  color:#91806c;
-  margin:6px 0 0
+
+.smoothie-header p {
+  font-size: 12px;
+  font-weight: 600;
+  color: #7c6f60;
+  margin: 4px 0 0;
 }
-.smoothie-scene{
-  text-align:center;
-  margin-top:20px
+
+.smoothie-scene {
+  text-align: center;
+  margin-top: 16px;
 }
-.kitchen-eyebrow{
-  font-size:8px;
-  font-weight:800;
-  letter-spacing:1.8px;
-  color:#9c8b75
+
+.kitchen-eyebrow {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #8c7b67;
 }
-.recipe-heading{
-  min-height:58px
+
+.recipe-heading {
+  min-height: 56px;
 }
-.recipe-heading h2{
-  font-size:25px;
-  line-height:1.12;
-  letter-spacing:-.8px;
-  margin:6px 0 0
+
+.recipe-heading h2 {
+  font-size: 27px;
+  line-height: 1.12;
+  letter-spacing: -0.8px;
+  margin: 4px 0 0;
+  color: #2d3a34;
 }
-.blender-stage{
-  position:relative;
-  max-width:340px;
-  margin:0 auto;
-  background:repeating-linear-gradient(0deg,transparent 0 44px,#d9cbbb30 45px 46px),repeating-linear-gradient(90deg,transparent 0 57px,#d9cbbb30 58px 59px);
-  border-radius:25px
+
+.blender-stage {
+  position: relative;
+  max-width: 390px;
+  aspect-ratio: 360 / 268;
+  margin: 8px auto 0;
+  border-radius: 28px;
+  overflow: hidden;
+  border: 3px solid rgba(255, 255, 255, 0.95);
+  background: #f5ebd8 url('./art/kitchen-bg.jpg') center center / 100% 100% no-repeat;
+  box-shadow:
+    0 8px 0 rgba(196, 179, 152, 0.35),
+    0 16px 32px rgba(74, 54, 34, 0.12);
 }
-.kitchen-art{
-  display:block;
-  width:100%;
-  height:235px;
-  overflow:visible
+
+.kitchen-art {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
 }
-#blender-machine{
-  transform-origin:180px 205px
+
+#blender-machine {
+  transform-origin: 180px 205px;
+  transition: opacity 0.35s ease;
 }
-#smoothie-liquid{
-  transition:fill .45s,y .45s
+
+#smoothie-liquid {
+  transition: fill 0.45s, y 0.45s;
 }
-#smoothie-cup{
-  opacity:0;
-  transform:translateY(15px);
-  transition:opacity .45s,transform .45s
+
+#smoothie-cup {
+  opacity: 0;
+  transform: translateY(15px);
+  transition: opacity 0.45s, transform 0.45s;
 }
-#pour-stream{
-  opacity:0
+
+#pour-stream {
+  opacity: 0;
 }
-.smoothie-kitchen[data-phase=blended] #smoothie-cup,.smoothie-kitchen[data-phase=served] #smoothie-cup{
-  opacity:1;
-  transform:translateY(0)
+
+.smoothie-kitchen[data-phase='blended'] #smoothie-cup,
+.smoothie-kitchen[data-phase='served'] #smoothie-cup {
+  opacity: 1;
+  transform: translateY(0);
 }
-.smoothie-kitchen[data-phase=served] .blender-stage{
-  margin-top:12px
+
+.smoothie-kitchen[data-phase='served'] .blender-stage {
+  max-width: 430px;
+  margin-top: 12px;
 }
-.smoothie-kitchen[data-phase=served] #smoothie-cup{
-  transform:translate(-93px,-10px) scale(1.25);
-  transform-origin:304px 220px
+
+.smoothie-kitchen[data-phase='served'] #smoothie-cup {
+  transform: translate(-110px, -6px) scale(1.22);
+  transform-origin: 290px 218px;
 }
-.smoothie-kitchen[data-phase=served] #blender-machine{
-  opacity:.22
+
+.smoothie-kitchen[data-phase='served'] #blender-machine {
+  opacity: 0.22;
 }
-.recipe-status{
-  font-size:11px;
-  min-height:14px;
-  margin:1px 0 13px;
-  color:#927f69
+
+.recipe-status {
+  font-size: 13px;
+  font-weight: 700;
+  min-height: 18px;
+  margin: 10px 0 12px;
+  color: #7c6b58;
 }
-.fruit-tray{
-  background:#fffdf8;
-  border:1px solid #eadfcf;
-  border-radius:23px;
-  padding:12px 12px 10px;
-  box-shadow:0 5px 0 #e8d7bf55
+
+.fruit-tray {
+  background: rgba(255, 255, 255, 0.92);
+  border: 2px solid rgba(255, 255, 255, 0.95);
+  border-radius: 26px;
+  padding: 14px 14px 12px;
+  box-shadow:
+    0 6px 0 rgba(196, 179, 152, 0.32),
+    0 12px 26px rgba(74, 54, 34, 0.08);
 }
-.tray-label{
-  font-size:8px;
-  letter-spacing:1.6px;
-  font-weight:800;
-  color:#998a74;
-  padding:0 4px 8px;
-  display:flex;
-  justify-content:space-between
+
+.tray-label {
+  font-size: 10px;
+  letter-spacing: 1.8px;
+  font-weight: 800;
+  color: #8b7b67;
+  padding: 0 4px 10px;
+  display: flex;
+  justify-content: space-between;
 }
-.fruit-grid{
-  display:grid;
-  grid-template-columns:repeat(3,minmax(0,1fr));
-  gap:7px
+
+.fruit-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
 }
-.fruit-button{
-  position:relative;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:center;
-  min-height:72px;
-  border:1px solid #eae1d4;
-  border-radius:15px;
-  background:#fbf5e9;
-  color:#766451;
-  box-shadow:0 2px 0 #e6d7c433;
-  transition:transform .15s
+
+.fruit-button {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 84px;
+  padding: 8px 6px;
+  border: 2px solid #efe5d5;
+  border-radius: 18px;
+  background: linear-gradient(180deg, #fffdf9 0%, #fbf3e5 100%);
+  color: #4f4134;
+  box-shadow: 0 4px 0 #e6d7c0;
+  transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
 }
-.fruit-button svg{
-  width:42px;
-  height:43px
-}
-.fruit-name{
-  font-size:10px;
-  font-weight:700;
-  margin-top:2px
-}
-.fruit-quantity{
-  position:absolute;
-  top:4px;
-  right:5px;
-  background:#fff9ed;
-  border-radius:20px;
-  min-width:21px;
-  height:21px;
-  padding:3px;
-  font-size:11px;
-  font-weight:bold;
-  color:#786149;
-  border:1px solid #e5d6bf
-}
-.smoothie-actions{
-  margin-top:15px
-}
-.blend-button{
-  width:100%;
-  min-height:53px;
-  background:#a56d51;
-  color:white;
-  border:0;
-  border-radius:18px;
-  box-shadow:0 5px 0 #87553d;
-  font-size:22px!important;
-  font-weight:800!important
-}
-.blend-button span{
-  display:inline-block;
-  margin-right:8px;
-  font-size:28px;
-  vertical-align:middle
-}
-.blend-button:disabled{
-  opacity:.48;
-  cursor:default
-}
-.recipe-tools{
-  display:flex;
-  gap:8px;
-  margin-top:13px
-}
-.recipe-tools button{
-  flex:1;
-  min-height:43px;
-  border-radius:13px;
-  background:#f5e9d8;
-  border:1px solid #e5d5bc;
-  color:#847057;
-  font-size:10px;
-  font-weight:700
-}
-.recipe-tools button:disabled{
-  opacity:.45
-}
-.result-actions{
-  display:flex;
-  gap:8px;
-  margin-top:10px
-}
-.result-actions button{
-  flex:1;
-  min-height:51px;
-  border-radius:15px;
-  border:0;
-  font-weight:800;
-  font-size:14px;
-  background:#6a947c;
-  color:white;
-  box-shadow:0 3px 0 #4e775f
-}
-.result-actions #make-another{
-  background:#f0dfc6;
-  color:#7b6349;
-  box-shadow:0 3px 0 #d7c2a4
-}
-.kitchen-footer{
-  text-align:center;
-  font-size:9px;
-  color:#a18d74;
-  margin:15px 0 0
-}
-.dropping-fruit{
-  position:absolute;
-  left:42%;
-  top:0;
-  pointer-events:none;
-  width:45px;
-  height:45px;
-  animation:fruit-drop .5s ease-in forwards
-}
-.dropping-fruit svg{
-  width:100%
-}
-.is-blending #blender-machine{
-  animation:blender-wiggle .6s ease-in-out
-}
-.is-blending #swirl-lines{
-  transform-origin:180px 155px;
-  animation:swirl .6s ease-in-out
-}
-.is-serving #pour-stream{
-  animation:pour .7s ease-in-out
-}
-.is-serving #smoothie-cup{
-  animation:serve-cup .7s ease-in-out
-}
-.smoothie-kitchen[data-phase=served] .recipe-heading h2{
-  font-size:28px
-}
-.smoothie-kitchen[data-phase=served] .result-actions{
-  margin-top:25px
-}
-.smoothie-kitchen[data-phase=served] .kitchen-art{
-  height:300px
-}
-@keyframes fruit-drop{
-  from{
-    transform:translateY(-10px) rotate(-15deg) scale(.7);
-    opacity:0
-  }
-  25%{
-    opacity:1
-  }
-  to{
-    transform:translateY(140px) rotate(25deg) scale(.3);
-    opacity:0
+
+@media (hover: hover) {
+  .fruit-button:hover:not(:disabled) {
+    transform: translateY(-2px);
+    border-color: var(--fruit-color, #dfc8a7);
+    box-shadow: 0 6px 0 #e6d7c0;
   }
 }
-@keyframes blender-wiggle{
-  0%,100%{
-    transform:rotate(0)
+
+.fruit-button:active:not(:disabled) {
+  transform: translateY(3px) scale(0.97);
+  box-shadow: 0 1px 0 #e6d7c0;
+}
+
+.fruit-button svg {
+  width: 48px;
+  height: 48px;
+}
+
+.fruit-name {
+  font-size: 12px;
+  font-weight: 800;
+  margin-top: 4px;
+}
+
+.fruit-quantity {
+  position: absolute;
+  top: 5px;
+  right: 6px;
+  background: var(--fruit-color, #e07a5f);
+  border-radius: 999px;
+  min-width: 23px;
+  height: 23px;
+  padding: 0 6px;
+  display: grid;
+  place-items: center;
+  font-size: 12px;
+  font-weight: 900;
+  color: #ffffff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
+}
+
+.smoothie-actions {
+  margin-top: 16px;
+}
+
+.blend-button {
+  width: 100%;
+  min-height: 56px;
+  background: linear-gradient(180deg, #e77d63 0%, #d46247 100%);
+  color: #ffffff;
+  border: 0;
+  border-radius: 20px;
+  box-shadow: 0 5px 0 #a94730, 0 10px 20px rgba(212, 98, 71, 0.26);
+  font-size: 22px !important;
+  font-weight: 800 !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.blend-button span {
+  display: inline-block;
+  margin-right: 8px;
+  font-size: 26px;
+  vertical-align: middle;
+}
+
+.blend-button:disabled {
+  opacity: 0.45;
+  cursor: default;
+  box-shadow: 0 3px 0 #a94730;
+}
+
+.recipe-tools {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.recipe-tools button {
+  flex: 1;
+  min-height: 44px;
+  border-radius: 14px;
+  background: rgba(255, 250, 240, 0.9);
+  border: 1.5px solid #e4d4bc;
+  color: #6f5d48;
+  font-size: 12px;
+  font-weight: 800;
+  box-shadow: 0 3px 0 #e4d4bc;
+}
+
+.recipe-tools button:disabled {
+  opacity: 0.45;
+}
+
+.result-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.result-actions button {
+  flex: 1;
+  min-height: 52px;
+  border-radius: 17px;
+  border: 0;
+  font-weight: 800;
+  font-size: 15px;
+  background: linear-gradient(180deg, #5da887 0%, #468f70 100%);
+  color: #ffffff;
+  box-shadow: 0 4px 0 #316c53;
+}
+
+.result-actions #make-another {
+  background: linear-gradient(180deg, #f8ead4 0%, #ecd6b5 100%);
+  color: #6b533b;
+  box-shadow: 0 4px 0 #d1b792;
+}
+
+.kitchen-footer {
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+  color: #93826d;
+  margin: 16px 0 0;
+}
+
+.dropping-fruit {
+  position: absolute;
+  left: 44%;
+  top: 0;
+  pointer-events: none;
+  width: 48px;
+  height: 48px;
+  animation: fruit-drop 0.5s ease-in forwards;
+}
+
+.dropping-fruit svg {
+  width: 100%;
+}
+
+.is-blending #blender-machine {
+  animation: blender-wiggle 0.6s ease-in-out;
+}
+
+.is-blending #swirl-lines {
+  transform-origin: 180px 155px;
+  animation: swirl 0.6s ease-in-out;
+}
+
+.is-serving #pour-stream {
+  animation: pour 0.7s ease-in-out;
+}
+
+.is-serving #smoothie-cup {
+  animation: serve-cup 0.7s ease-in-out;
+}
+
+.smoothie-kitchen[data-phase='served'] .recipe-heading h2 {
+  font-size: 29px;
+}
+
+.smoothie-kitchen[data-phase='served'] .result-actions {
+  margin-top: 22px;
+}
+
+@keyframes fruit-drop {
+  from {
+    transform: translateY(-10px) rotate(-15deg) scale(0.75);
+    opacity: 0;
   }
-  20%,60%{
-    transform:rotate(-2deg)
+  25% {
+    opacity: 1;
   }
-  40%,80%{
-    transform:rotate(2deg)
+  to {
+    transform: translateY(145px) rotate(25deg) scale(0.32);
+    opacity: 0;
   }
 }
-@keyframes swirl{
-  50%{
-    transform:scaleX(.6) translateY(-10px)
+
+@keyframes blender-wiggle {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20%,
+  60% {
+    transform: rotate(-2.2deg);
+  }
+  40%,
+  80% {
+    transform: rotate(2.2deg);
   }
 }
-@keyframes pour{
-  15%,70%{
-    opacity:1
-  }
-  100%{
-    opacity:0
+
+@keyframes swirl {
+  50% {
+    transform: scaleX(0.6) translateY(-10px);
   }
 }
-@keyframes cup-reveal{
-  0%{
-    opacity:.4
+
+@keyframes pour {
+  15%,
+  70% {
+    opacity: 1;
   }
-  100%{
-    opacity:1
-  }
-}
-@media(max-height:740px){
-  .smoothie-kitchen{
-    padding:10px 16px max(10px,env(safe-area-inset-bottom))
-  }
-  .smoothie-header h1{
-    font-size:19px
-  }
-  .smoothie-header p{
-    font-size:9px
-  }
-  .smoothie-scene{
-    margin-top:13px
-  }
-  .recipe-heading{
-    min-height:51px
-  }
-  .recipe-heading h2{
-    font-size:23px
-  }
-  .kitchen-art{
-    height:192px
-  }
-  .recipe-status{
-    margin-bottom:9px;
-    font-size:10px
-  }
-  .fruit-tray{
-    padding:9px
-  }
-  .fruit-button{
-    min-height:61px
-  }
-  .fruit-button svg{
-    height:34px;
-    width:34px
-  }
-  .fruit-grid{
-    gap:6px
-  }
-  .tray-label{
-    padding-bottom:6px
-  }
-  .smoothie-actions{
-    margin-top:11px
-  }
-  .blend-button{
-    min-height:49px
-  }
-  .recipe-tools{
-    margin-top:11px
-  }
-  .recipe-tools button{
-    min-height:42px
-  }
-  .kitchen-footer{
-    margin-top:10px
-  }
-  .recipe-heading h2{
-    font-size:22px
-  }
-  .result-actions button{
-    min-height:47px;
-    font-size:12px
+  100% {
+    opacity: 0;
   }
 }
-@media(prefers-reduced-motion:reduce){
-  .smoothie-kitchen *{
-    animation:none!important;
-    transition:none!important
+
+@keyframes serve-cup {
+  0%,
+  65% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-110px, -6px) scale(1.22);
   }
 }
-@keyframes serve-cup{
-  0%,65%{
-    opacity:1;
-    transform:translate(0,0) scale(1)
+
+@media (max-height: 740px) {
+  .smoothie-kitchen {
+    padding: max(10px, env(safe-area-inset-top)) 16px max(12px, env(safe-area-inset-bottom));
   }
-  100%{
-    opacity:1;
-    transform:translate(-93px,-10px) scale(1.25)
+  .smoothie-header h1 {
+    font-size: 20px;
+  }
+  .smoothie-header p {
+    font-size: 11px;
+  }
+  .smoothie-scene {
+    margin-top: 10px;
+  }
+  .recipe-heading {
+    min-height: 48px;
+  }
+  .recipe-heading h2 {
+    font-size: 23px;
+  }
+  .blender-stage {
+    max-width: 300px;
+  }
+  .recipe-status {
+    margin: 6px 0 8px;
+    font-size: 12px;
+  }
+  .fruit-tray {
+    padding: 10px;
+  }
+  .fruit-button {
+    min-height: 68px;
+  }
+  .fruit-button svg {
+    height: 38px;
+    width: 38px;
+  }
+  .fruit-grid {
+    gap: 7px;
+  }
+  .tray-label {
+    padding-bottom: 7px;
+  }
+  .smoothie-actions {
+    margin-top: 10px;
+  }
+  .blend-button {
+    min-height: 50px;
+  }
+  .recipe-tools {
+    margin-top: 10px;
+  }
+  .result-actions button {
+    min-height: 48px;
+    font-size: 13px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .smoothie-kitchen * {
+    animation: none !important;
+    transition: none !important;
   }
 }

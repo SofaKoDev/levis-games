@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for can"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M82 53h116v115q-58 32-116 0z" fill="#adc4be"/><ellipse cx="140" cy="53" rx="58" ry="20" fill="#e2e7de"/><path d="M85 87h110v54H85z" fill="#d9b581"/><path d="M111 49h33q16 0 11 10h-24" fill="none"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A bright tin can with a stripe label"><defs><linearGradient id="bg-can" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f5fafb"/><stop offset="100%" stop-color="#e6f0f2"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-can)"/>
+    <ellipse cx="140" cy="184" rx="58" ry="10" fill="#7c5d3e" opacity=".18"/>
+    <defs><linearGradient id="can-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#c9d6de"/><stop offset="35%" stop-color="#eef4f8"/><stop offset="75%" stop-color="#b4c4cf"/><stop offset="100%" stop-color="#96a8b5"/></linearGradient></defs>
+    <path d="M92 54 H188 V170 Q140 190 92 170 Z" fill="url(#can-metal)" stroke="#6d7f8c" stroke-width="2.5"/>
+    <path d="M92 84 Q140 100 188 84 V146 Q140 162 92 146 Z" fill="#5fb59b" stroke="#418a74" stroke-width="2"/>
+    <path d="M92 106 Q140 120 188 106 V126 Q140 140 92 126 Z" fill="#fff5df"/>
+    <circle cx="140" cy="119" r="14" fill="#ef6d7a"/>
+    <ellipse cx="140" cy="54" rx="48" ry="15" fill="#dfe8ee" stroke="#6d7f8c" stroke-width="2.5"/>
+    <ellipse cx="140" cy="54" rx="38" ry="10" fill="none" stroke="#9eb0bc" stroke-width="2"/>
+    <ellipse cx="148" cy="53" rx="10" ry="4" fill="#b4c4cf" stroke="#6d7f8c" stroke-width="1.8"/>
+    <path d="M104 68 V162" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity=".5"/>
+  </svg>

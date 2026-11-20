@@ -1,3 +1,405 @@
-.christmas-body{margin:0;background:#f7eddf;color:#544a42;font:15px ui-rounded,'Trebuchet MS',system-ui,sans-serif;transition:background .7s}.christmas-body *{box-sizing:border-box}.christmas-body [hidden]{display:none!important}.tree-game{max-width:1000px;margin:auto;padding:max(14px,env(safe-area-inset-top)) 16px max(16px,env(safe-area-inset-bottom))}.tree-game header{text-align:center;margin-top:-42px;padding-left:85px;min-height:65px}.tree-game h1{font-size:25px;margin:0;color:#477862}.tree-game header p{font-size:12px;margin:7px}.tree-layout{display:grid;grid-template-columns:1.3fr 1fr;gap:20px;align-items:start}.scene-panel{position:relative;overflow:hidden;border-radius:26px;background:#f7e8d6;box-shadow:0 5px 0 #d3bea655}#scene svg{display:block;width:100%;max-height:620px;touch-action:none;user-select:none;-webkit-user-select:none}#message{margin:0;padding:10px;text-align:center;min-height:42px;font-size:12px}.tree-controls{padding:12px;background:#fffaf1;border-radius:24px}.tree-game button,.tree-game a#download{font:inherit;border:1px solid #dfd1ba;border-radius:13px;background:#fff9ee;color:#60513f;padding:9px;min-height:44px;cursor:pointer;touch-action:manipulation}.tree-game button:focus-visible{outline:3px solid #598fbd;outline-offset:2px}.tree-game button:active{transform:scale(.96)}.categories,.tools{display:grid;grid-template-columns:1fr 1fr;gap:7px}#tray{display:flex;overflow-x:auto;gap:7px;padding:12px 1px;touch-action:none}#tray button{flex:0 0 74px;padding:5px;font-size:10px;min-height:87px}#tray svg{width:46px;height:46px;display:block;margin:auto}#tray [aria-pressed=true]{background:#e3efdc;border:3px solid #68987b}#selection{font-size:12px;min-height:32px}.tools button{font-size:12px}.tree-game .primary{display:block;width:100%;background:#4f8268;color:white;font-weight:bold;margin:12px 0;box-shadow:0 4px 0 #3d6753}.finish{text-align:center;max-width:480px;margin:auto}.tree-game #save{display:block;margin:12px auto}.celebrating .tree-layout{display:block;max-width:520px;margin:auto}.bulb{filter:drop-shadow(0 0 4px #fff4ba);animation:twinkle 4s ease-in-out infinite alternate}.bulb:nth-child(3n){animation-delay:-2s}[data-lit=false] .bulb{filter:none;animation:none}[data-night=true]{background:#343950;color:#f8e6cd}[data-night=true] .tree-game h1{color:#d6e8c8}#snow{position:absolute;top:30px;left:12%;width:80%;color:white;font-size:26px;pointer-events:none;animation:snow 7s linear infinite}.tree-game dialog{border:1px solid #d7bc99;border-radius:24px;background:#fff8ed;color:#5c5146;max-width:min(90vw,480px);padding:24px}.tree-game dialog::backdrop{background:#26312e99}#picture-preview{display:block;max-width:100%;max-height:65vh;margin:auto}#download{display:inline-block;text-decoration:none;margin:12px}#reset{font-size:12px;margin-top:8px}@keyframes twinkle{to{filter:drop-shadow(0 0 7px #fff6bb)}}@keyframes snow{from{transform:translateY(0);opacity:.5}to{transform:translateY(200px);opacity:0}}@media(max-width:650px){.tree-layout{grid-template-columns:1fr;gap:10px}.tree-game{padding:12px}.tree-game h1{font-size:21px}.tree-game header p{font-size:10px}#scene svg{max-height:52vh}.tree-controls{padding:10px}#tray{padding:8px 0}#tray button{min-height:73px}.tools{grid-template-columns:repeat(3,1fr)}.tools button{font-size:10px}#selection{margin:3px 0 8px;min-height:15px}.categories button{min-height:38px}.celebrating #scene svg{max-height:65vh}}@media(prefers-reduced-motion:reduce){.christmas-body,.christmas-body *{animation:none!important;transition:none!important}}
+.christmas-body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 12% 8%, rgba(255, 224, 166, 0.5) 0%, transparent 44%),
+    radial-gradient(circle at 88% 12%, rgba(186, 229, 214, 0.48) 0%, transparent 42%),
+    linear-gradient(180deg, #fffaf0 0%, #f5eadb 100%);
+  color: #3d3630;
+  font: 15px ui-rounded, 'SF Pro Rounded', 'Trebuchet MS', system-ui, sans-serif;
+  transition: background 0.6s ease, color 0.6s ease;
+  -webkit-tap-highlight-color: transparent;
+}
 
-#tray{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));overflow:visible}#tray button{min-width:0;overflow:hidden}#tray svg{max-width:100%}
+.christmas-body * {
+  box-sizing: border-box;
+}
+
+.christmas-body [hidden] {
+  display: none !important;
+}
+
+.tree-game {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+  padding: max(14px, env(safe-area-inset-top)) 18px max(18px, env(safe-area-inset-bottom));
+}
+
+.tree-game > .home-link {
+  position: relative;
+  z-index: 2;
+  background: rgba(255, 253, 248, 0.94);
+  box-shadow: 0 3px 0 rgba(196, 180, 152, 0.35);
+}
+
+.tree-game header {
+  text-align: center;
+  margin-top: -40px;
+  padding-left: 84px;
+  min-height: 62px;
+}
+
+.tree-game h1 {
+  font-size: 27px;
+  letter-spacing: -0.8px;
+  margin: 0;
+  color: #2f6b53;
+}
+
+.tree-game header p {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 5px 0 12px;
+  color: #776c60;
+}
+
+.tree-layout {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.scene-panel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 28px;
+  border: 3px solid rgba(255, 255, 255, 0.95);
+  background: #f7e8d6;
+  box-shadow:
+    0 8px 0 rgba(196, 179, 152, 0.35),
+    0 16px 32px rgba(74, 54, 34, 0.12);
+}
+
+#scene svg {
+  display: block;
+  width: 100%;
+  max-height: 620px;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+#message {
+  margin: 0;
+  padding: 10px 14px;
+  text-align: center;
+  min-height: 40px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #5b4d3f;
+  background: rgba(255, 252, 246, 0.94);
+}
+
+.tree-controls {
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.94);
+  border: 2px solid rgba(255, 255, 255, 0.96);
+  border-radius: 26px;
+  box-shadow:
+    0 6px 0 rgba(196, 179, 152, 0.32),
+    0 14px 28px rgba(74, 54, 34, 0.08);
+}
+
+.tree-game button,
+.tree-game a#download {
+  font: inherit;
+  border: 1.5px solid #e3d6c1;
+  border-radius: 15px;
+  background: #fffaf0;
+  color: #4d4135;
+  padding: 9px 10px;
+  min-height: 44px;
+  font-weight: 800;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: transform 0.14s ease, border-color 0.14s ease, background 0.14s ease;
+}
+
+.tree-game button:focus-visible {
+  outline: 3px solid #4a7ec7;
+  outline-offset: 2px;
+}
+
+.tree-game button:active:not(:disabled) {
+  transform: translateY(2px) scale(0.97);
+}
+
+.tree-game button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.categories,
+.tools {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.categories + .categories {
+  margin-top: 8px;
+}
+
+.categories [aria-pressed='true'] {
+  background: #e4f2ea;
+  border-color: #4f8f73;
+  color: #255c45;
+}
+
+#tray {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  padding: 12px 0;
+  touch-action: none;
+}
+
+#tray button {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px 6px;
+  font-size: 11px;
+  min-height: 88px;
+  background: linear-gradient(180deg, #fffdf9 0%, #fbf3e5 100%);
+  box-shadow: 0 3px 0 #e6d7c0;
+}
+
+#tray svg {
+  width: 48px;
+  height: 48px;
+  display: block;
+}
+
+#tray [aria-pressed='true'] {
+  background: #e4f2ea;
+  border: 2.5px solid #4f8f73;
+  box-shadow: 0 3px 0 rgba(79, 143, 115, 0.3);
+}
+
+#selection {
+  font-size: 12px;
+  font-weight: 700;
+  color: #6b5e50;
+  min-height: 30px;
+  margin: 4px 0 10px;
+  text-align: center;
+}
+
+.tools button {
+  font-size: 12px;
+  box-shadow: 0 2px 0 #e3d6c1;
+}
+
+.tree-game .primary {
+  display: block;
+  width: 100%;
+  border: 0;
+  min-height: 52px;
+  background: linear-gradient(180deg, #4f9476 0%, #3a7b5f 100%);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 800;
+  margin: 14px 0 10px;
+  box-shadow: 0 4px 0 #285c45, 0 8px 18px rgba(58, 123, 95, 0.25);
+}
+
+.finish {
+  text-align: center;
+  max-width: 480px;
+  margin: 12px auto;
+}
+
+.tree-game #save {
+  display: block;
+  margin: 14px auto 0;
+  padding: 10px 20px;
+  box-shadow: 0 3px 0 #e3d6c1;
+}
+
+.celebrating .tree-layout {
+  display: block;
+  max-width: 520px;
+  margin: auto;
+}
+
+.bulb {
+  filter: drop-shadow(0 0 4px #fff4ba);
+  animation: twinkle 3.6s ease-in-out infinite alternate;
+}
+
+.bulb:nth-child(3n) {
+  animation-delay: -1.8s;
+}
+
+[data-lit='false'] .bulb {
+  filter: none;
+  animation: none;
+}
+
+[data-night='true'] {
+  background: radial-gradient(circle at 50% 0%, #384163 0%, #242a42 100%);
+  color: #f8ecd8;
+}
+
+[data-night='true'] .tree-game h1 {
+  color: #bfe6cf;
+}
+
+[data-night='true'] .tree-game header p {
+  color: #c7d1e3;
+}
+
+[data-night='true'] .scene-panel {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+#snow {
+  position: absolute;
+  top: 30px;
+  left: 12%;
+  width: 80%;
+  color: #ffffff;
+  font-size: 26px;
+  pointer-events: none;
+  animation: snow 7s linear infinite;
+}
+
+.tree-game dialog {
+  border: 2px solid #e3d2ba;
+  border-radius: 26px;
+  background: #fffaf2;
+  color: #4b4138;
+  max-width: min(90vw, 440px);
+  width: 100%;
+  padding: 26px 24px 22px;
+  text-align: center;
+  box-shadow: 0 18px 44px rgba(34, 28, 22, 0.3);
+}
+
+.tree-game dialog h2 {
+  margin: 0 0 8px;
+  font-size: 22px;
+  color: #2f5b47;
+}
+
+.tree-game dialog p {
+  margin: 0 0 16px;
+  font-size: 14px;
+  line-height: 1.45;
+  color: #6b5f52;
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+
+.dialog-actions button,
+.dialog-actions a#download {
+  flex: 1 1 140px;
+  max-width: 180px;
+  min-height: 48px;
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 3px 0 #e3d6c1;
+}
+
+.dialog-actions .danger {
+  background: linear-gradient(180deg, #e76c79 0%, #cf4e5c 100%);
+  color: #ffffff;
+  border: 0;
+  box-shadow: 0 3px 0 #a33642;
+}
+
+.tree-game dialog::backdrop {
+  background: rgba(28, 36, 48, 0.6);
+}
+
+#picture-preview {
+  display: block;
+  max-width: 100%;
+  max-height: 60vh;
+  margin: 0 auto;
+  border-radius: 16px;
+}
+
+#reset {
+  width: 100%;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+@keyframes twinkle {
+  to {
+    filter: drop-shadow(0 0 7px #fff6bb);
+  }
+}
+
+@keyframes snow {
+  from {
+    transform: translateY(0);
+    opacity: 0.55;
+  }
+  to {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 680px) {
+  .tree-layout {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .tree-game {
+    padding: 12px;
+  }
+  .tree-game h1 {
+    font-size: 22px;
+  }
+  .tree-game header p {
+    font-size: 11px;
+  }
+  #scene svg {
+    max-height: 54vh;
+  }
+  .tree-controls {
+    padding: 12px;
+  }
+  #tray {
+    padding: 8px 0;
+  }
+  #tray button {
+    min-height: 78px;
+  }
+  .tools {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .tools button {
+    font-size: 11px;
+  }
+  .celebrating #scene svg {
+    max-height: 65vh;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .christmas-body,
+  .christmas-body * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

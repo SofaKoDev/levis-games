@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for cup"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M76 77h113v73q-55 46-113 0z" fill="#a6c9bf"/><path d="M190 89q65-9 29 47l-29 4" fill="none"/><ellipse cx="133" cy="77" rx="56" ry="15" fill="#f4e2bc"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A cheerful mint teacup on a saucer"><defs><linearGradient id="bg-cup" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f5fbfa"/><stop offset="100%" stop-color="#e4f2ef"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-cup)"/>
+    <ellipse cx="140" cy="180" rx="82" ry="10" fill="#7c5d3e" opacity=".18"/>
+    <ellipse cx="140" cy="172" rx="76" ry="15" fill="#fffaf0" stroke="#cbb99e" stroke-width="2.5"/>
+    <path d="M188 86 H204 Q224 86 220 114 Q216 138 184 134" fill="none" stroke="#5ea89a" stroke-width="11" stroke-linecap="round"/>
+    <path d="M84 72 H196 L184 156 Q180 172 140 172 Q100 172 96 156 Z" fill="#77c2b3" stroke="#4c9184" stroke-width="2.5"/>
+    <ellipse cx="140" cy="72" rx="56" ry="13" fill="#fffaf0" stroke="#4c9184" stroke-width="2.5"/>
+    <ellipse cx="140" cy="73" rx="45" ry="8" fill="#8f6347"/>
+    <path d="M100 92 L106 146" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity=".55"/>
+    <circle cx="126" cy="122" r="4" fill="#2d4a44"/><circle cx="154" cy="122" r="4" fill="#2d4a44"/>
+    <path d="M132 132 Q140 139 148 132" fill="none" stroke="#2d4a44" stroke-width="3" stroke-linecap="round"/>
+  </svg>

@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for jam"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M86 63h108v112q-54 27-108 0z" fill="#c78a96"/><rect x="80" y="48" width="120" height="25" rx="8" fill="#b3c4b4"/><rect x="99" y="95" width="82" height="55" rx="10" fill="#fff5de"/><path d="M124 120q16-28 32 0 0 29-16 22-16 7-16-22" fill="#c87880"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A jar of sweet strawberry jam"><defs><linearGradient id="bg-jam" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff6f8"/><stop offset="100%" stop-color="#fae3e8"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-jam)"/>
+    <ellipse cx="140" cy="186" rx="58" ry="10" fill="#7c5d3e" opacity=".18"/>
+    <rect x="86" y="72" width="108" height="108" rx="26" fill="#d94865" stroke="#a62d46" stroke-width="3"/>
+    <rect x="96" y="86" width="16" height="76" rx="8" fill="#ff8fa5" opacity=".45"/>
+    <rect x="104" y="102" width="72" height="50" rx="12" fill="#fffaf0" stroke="#e3d5be" stroke-width="2"/>
+    <path d="M140 114 C132 106 126 116 128 124 C130 132 136 138 140 140 C144 138 150 132 152 124 C154 116 148 106 140 114 Z" fill="#e84a5f"/>
+    <path d="M140 114 L132 109 L140 110 L148 109 Z" fill="#5da66b"/>
+    <rect x="96" y="54" width="88" height="22" rx="8" fill="#f7b7c2" stroke="#c95b6e" stroke-width="2.5"/>
+    <path d="M114 55 V75 M132 55 V75 M150 55 V75 M168 55 V75" stroke="#e85870" stroke-width="3"/>
+  </svg>

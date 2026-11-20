@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for box"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M55 69l82-33 90 33v109l-87 29-85-29z" fill="#d8b88c"/><path d="M55 69l85 33 87-33m-87 33v105M97 53l87 32v43" fill="none"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An open cardboard box"><defs><linearGradient id="bg-box" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff9ef"/><stop offset="100%" stop-color="#f4ead8"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-box)"/>
+    <ellipse cx="140" cy="184" rx="82" ry="11" fill="#7c5d3e" opacity=".18"/>
+    <polygon points="62,92 140,66 218,92 140,120" fill="#c28c58"/>
+    <polygon points="62,92 140,120 140,180 62,152" fill="#dfa972" stroke="#a87342" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="218,92 140,120 140,180 218,152" fill="#c9915a" stroke="#a87342" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="62,92 34,68 112,44 140,66" fill="#ebba86" stroke="#a87342" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="218,92 246,68 168,44 140,66" fill="#e5b17c" stroke="#a87342" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="62,92 42,112 120,140 140,120" fill="#f2c799" stroke="#a87342" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="218,92 238,112 160,140 140,120" fill="#e8b784" stroke="#a87342" stroke-width="2.5" stroke-linejoin="round"/>
+  </svg>

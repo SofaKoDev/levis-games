@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for pin"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M84 149L176 49q31-19 40 12 5 15-9 28l-87 92q-47 18-47-21 0-16 15-20l82-87" fill="none" stroke="#7faaa6" stroke-width="12"/><path d="M176 47l34 37-27 22-32-34z" fill="#e5c57e"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A bright red pushpin"><defs><linearGradient id="bg-pin" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff9f2"/><stop offset="100%" stop-color="#f5e8da"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-pin)"/>
+    <ellipse cx="144" cy="182" rx="44" ry="9" fill="#7c5d3e" opacity=".18"/>
+    <g transform="translate(140 106) rotate(22)">
+      <path d="M0 18 L0 74" stroke="#8b9aa6" stroke-width="6" stroke-linecap="round"/>
+      <ellipse cx="0" cy="16" rx="34" ry="12" fill="#d94558" stroke="#a62939" stroke-width="2.5"/>
+      <rect x="-15" y="-32" width="30" height="46" rx="8" fill="#ef5b6d" stroke="#a62939" stroke-width="2.5"/>
+      <ellipse cx="0" cy="-34" rx="28" ry="11" fill="#ff7a8a" stroke="#a62939" stroke-width="2.5"/>
+      <ellipse cx="-8" cy="-36" rx="10" ry="3.5" fill="#ffc2ca" opacity=".75"/>
+    </g>
+  </svg>

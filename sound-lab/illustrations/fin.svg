@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for fin"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M75 114q59-71 127 0-68 71-127 0l-43-32v64z" fill="#a7c9c3"/><path d="M121 88l17-54 28 54z" fill="#e7b766"/><circle cx="178" cy="106" r="4"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A friendly dolphin fin gliding through blue waves"><defs><linearGradient id="bg-fin" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e8f6fc"/><stop offset="100%" stop-color="#cceaf7"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-fin)"/>
+    <circle cx="222" cy="48" r="22" fill="#ffe082" opacity=".85"/>
+    <path d="M126 142 Q122 66 174 44 Q158 92 184 142 Z" fill="#5e9ac2" stroke="#3b6e91" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M138 122 Q138 82 162 62" fill="none" stroke="#9cd0f0" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+    <path d="M0 134 Q35 118 70 134 T140 134 T210 134 T280 134 V215 H0 Z" fill="#6ab5db"/>
+    <path d="M0 156 Q45 140 90 156 T180 156 T280 156 V215 H0 Z" fill="#4f99c4"/>
+    <g fill="#ffffff" opacity=".8"><circle cx="104" cy="116" r="4"/><circle cx="114" cy="104" r="3"/><circle cx="196" cy="118" r="3.5"/></g>
+  </svg>

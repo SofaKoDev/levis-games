@@ -11,12 +11,13 @@ export function mixPaint(drops) {
   const counts=new Map();
   for(const drop of drops) {pigment(drop);const key=drop.toLowerCase();counts.set(key,(counts.get(key)||0)+1);}
   if(counts.size===1) return [...counts.keys()][0];
-  // Spectral.js squares each input factor before luminance weighting. A square
-  // root ensures linear quantities. Compensate the library's luminance weighting
-  // so every equal-volume drop contributes equally to the spectral K/S average.
+  // Spectral.js squares each input factor internally and applies luminance-based
+  // Kubelka-Munk tinting weights so dark pigments don't overpower bright ones
+  // (e.g., Red + Yellow -> vibrant Orange, Yellow + Blue -> bright Green).
+  // Taking Math.sqrt keeps drop quantities linear.
   const terms=[...counts].sort(([a],[b])=>a.localeCompare(b)).map(([hex,count])=>{
     const color=pigment(hex);
-    return [color,Math.sqrt(count/drops.length/color.luminance)];
+    return [color,Math.sqrt(count/drops.length)];
   });
   return spectral.mix(...terms).toString().toLowerCase();
 }

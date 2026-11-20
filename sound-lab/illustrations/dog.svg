@@ -1,1 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for dog"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="88" cy="80" rx="22" ry="40" fill="#d3ad8e"/><ellipse cx="192" cy="80" rx="22" ry="40" fill="#d3ad8e"/><ellipse cx="140" cy="149" rx="64" ry="46" fill="#ecc6a8"/><ellipse cx="140" cy="102" rx="65" ry="51" fill="#e5b576"/><circle cx="117" cy="103" r="4"/><circle cx="163" cy="103" r="4"/><path d="M133 126h14l-7 8z" fill="#65766c"/><path d="M129 144q11 8 22 0" fill="none"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A happy spotted puppy"><defs><linearGradient id="bg-dog" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff9ef"/><stop offset="100%" stop-color="#f5e9d7"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-dog)"/>
+    <ellipse cx="140" cy="186" rx="74" ry="10" fill="#7c5d3e" opacity=".18"/>
+    <path d="M186 156 Q220 144 218 118" fill="none" stroke="#c99364" stroke-width="12" stroke-linecap="round"/>
+    <ellipse cx="140" cy="150" rx="50" ry="36" fill="#d9a679" stroke="#9c6c44" stroke-width="2.5"/>
+    <rect x="110" y="122" width="60" height="12" rx="6" fill="#e85868"/>
+    <circle cx="140" cy="136" r="6" fill="#ffd25a"/>
+    <ellipse cx="86" cy="96" rx="22" ry="38" transform="rotate(14 86 96)" fill="#9e6d47" stroke="#754d2e" stroke-width="2.5"/>
+    <ellipse cx="194" cy="96" rx="22" ry="38" transform="rotate(-14 194 96)" fill="#9e6d47" stroke="#754d2e" stroke-width="2.5"/>
+    <ellipse cx="140" cy="90" rx="48" ry="42" fill="#e3b488" stroke="#9c6c44" stroke-width="2.5"/>
+    <ellipse cx="120" cy="84" rx="16" ry="14" fill="#a8764d" opacity=".65"/>
+    <ellipse cx="140" cy="108" rx="26" ry="18" fill="#fff5e6"/>
+    <circle cx="122" cy="86" r="5" fill="#2e2016"/><circle cx="158" cy="86" r="5" fill="#2e2016"/>
+    <circle cx="120" cy="84" r="1.8" fill="#fff"/><circle cx="156" cy="84" r="1.8" fill="#fff"/>
+    <ellipse cx="140" cy="102" rx="10" ry="7" fill="#3b281c"/>
+    <path d="M134 115 Q140 128 146 115 Z" fill="#f2798b"/>
+    <path d="M128 113 Q134 118 140 112 Q146 118 152 113" fill="none" stroke="#3b281c" stroke-width="2.8" stroke-linecap="round"/>
+  </svg>

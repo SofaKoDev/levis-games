@@ -49,7 +49,7 @@ export function act(state,action,now=Date.now()){
  if(!CARE_ACTIONS.includes(action))throw new Error('Unknown action');
  const current=applyElapsed(state,now),needs={...current.needs};
  if(action==='feed')needs.fullness=clamp(needs.fullness+26);
- if(action==='play'){needs.happiness=clamp(needs.happiness+27);needs.energy=clamp(needs.energy-6);}
+ if(action==='play'){needs.happiness=clamp(needs.happiness+27);needs.energy=clamp(needs.energy-6);needs.cleanliness=clamp(needs.cleanliness-6);needs.fullness=clamp(needs.fullness-5);}
  if(action==='clean')needs.cleanliness=clamp(needs.cleanliness+30);
  if(action==='rest')needs.energy=clamp(needs.energy+32);
  return {...current,needs,sleeping:action==='rest',stats:{...current.stats,[action]:current.stats[action]+1}};

@@ -3,13 +3,53 @@ import {addHomeLink} from '../../shared/navigation.js';
 import {createJourney,voiceFile} from './game.js';
 const voiceAssets=import.meta.glob('/number-blaster/audio/*.wav',{eager:true,query:'?url',import:'default'});
 
-const ship=`<svg viewBox="0 0 110 92" aria-hidden="true"><path d="M55 7C31 20 26 47 32 66h46C84 47 79 20 55 7Z" fill="#f7f0de" stroke="#425477" stroke-width="5"/><ellipse cx="55" cy="38" rx="16" ry="17" fill="#7fd1e8" stroke="#425477" stroke-width="4"/><path d="m32 52-20 16v10h28l5-17m33-9 20 16v10H70l-5-17" fill="#f48d90" stroke="#425477" stroke-width="4" stroke-linejoin="round"/><path d="M44 67h22l-4 12H48z" fill="#ffd279" stroke="#425477" stroke-width="4"/><path d="m50 81-4 9m14-9 4 9" stroke="#ffcd70" stroke-width="5" stroke-linecap="round"/></svg>`;
+const ship=`<svg viewBox="0 0 110 104" aria-hidden="true">
+  <defs>
+    <linearGradient id="ship-body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fffdf5"/>
+      <stop offset="55%" stop-color="#f7ecd4"/>
+      <stop offset="100%" stop-color="#e0d0b4"/>
+    </linearGradient>
+    <linearGradient id="ship-fin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f68d84"/>
+      <stop offset="100%" stop-color="#d65d63"/>
+    </linearGradient>
+    <radialGradient id="ship-window" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#c9f4ff"/>
+      <stop offset="60%" stop-color="#6ac2e6"/>
+      <stop offset="100%" stop-color="#3c8db8"/>
+    </radialGradient>
+    <linearGradient id="ship-flame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff3a8"/>
+      <stop offset="55%" stop-color="#ffb84d"/>
+      <stop offset="100%" stop-color="#f26b4e"/>
+    </linearGradient>
+  </defs>
+  <!-- Glowing thruster flame -->
+  <path class="flame" d="M44 77 Q55 103 66 77 Q55 86 44 77 Z" fill="url(#ship-flame)"/>
+  <path class="flame" d="M49 77 Q55 93 61 77 Z" fill="#fffbe0"/>
+  <!-- Coral side fins -->
+  <path d="M33 52 Q14 60 12 78 L36 70 Z" fill="url(#ship-fin)" stroke="#38496b" stroke-width="3.2" stroke-linejoin="round"/>
+  <path d="M77 52 Q96 60 98 78 L74 70 Z" fill="url(#ship-fin)" stroke="#38496b" stroke-width="3.2" stroke-linejoin="round"/>
+  <!-- Rocket hull -->
+  <path d="M55 7 C32 21 26 48 33 70 H77 C84 48 78 21 55 7 Z" fill="url(#ship-body)" stroke="#38496b" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Coral nose cone cap -->
+  <path d="M55 7 C46 13 40 20 37 26 H73 C70 20 64 13 55 7 Z" fill="url(#ship-fin)" stroke="#38496b" stroke-width="3.2" stroke-linejoin="round"/>
+  <!-- Soft hull shine -->
+  <path d="M40 34 Q38 50 41 62" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+  <!-- Glowing porthole window -->
+  <circle cx="55" cy="46" r="14" fill="url(#ship-window)" stroke="#38496b" stroke-width="3.5"/>
+  <path d="M47 41 Q50 36 56 37" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+  <!-- Thruster nozzle -->
+  <path d="M43 70 H67 L63 80 H47 Z" fill="#ffd279" stroke="#38496b" stroke-width="3.2" stroke-linejoin="round"/>
+</svg>`;
 const $=selector=>document.querySelector(selector);
 document.body.className='blaster-body';
 $('#app').innerHTML=`<main class="blaster"><header><p class="eyebrow">A LITTLE SPACE ADVENTURE</p><h1>Levi's <span>Number Blaster</span></h1><div class="hud"><div id="hearts" aria-label="3 hearts remaining"></div><button id="replay" aria-label="Hear the math question again">Hear it again</button></div><div class="question"><p id="instruction"></p><strong id="equation"></strong></div></header><section class="space" aria-label="Choose the asteroid with the answer"><div class="stars" aria-hidden="true"></div><div class="planet planet-one" aria-hidden="true"></div><div class="planet planet-two" aria-hidden="true"></div><div id="destinations" class="destinations"></div><div class="home-rock"><span class="here">YOU ARE HERE</span><div class="ship" id="ship">${ship}</div><div class="rock-face"></div><strong id="current"></strong></div><div id="flight" class="flight" aria-hidden="true" hidden>${ship}</div><div id="spark" class="spark" aria-hidden="true">✦</div></section><p class="tip" id="status" role="status">Tap the asteroid with the answer!</p></main>`;
 addHomeLink($('.blaster'));
-const journey=createJourney();let busy=false,audioContext,activeVoice=null;
-function stopVoice(){if(activeVoice){activeVoice.pause();activeVoice.currentTime=0;activeVoice=null;}}
+const journey=createJourney();let busy=false,audioContext,voicePlayer=null;
+function getVoicePlayer(){if(!voicePlayer)voicePlayer=new Audio();return voicePlayer;}
+function stopVoice(){if(voicePlayer){voicePlayer.pause();try{voicePlayer.currentTime=0;}catch{}}}
 function sound(kind){
  try{audioContext ||= new (window.AudioContext||window.webkitAudioContext)();audioContext.resume();const now=audioContext.currentTime;
   for(const [i,note] of (kind==='good'?[523,659,784]:[330,294]).entries()){
@@ -20,8 +60,8 @@ function sound(kind){
 function speak(){
  stopVoice();const q=journey.question,url=voiceAssets[`/number-blaster/audio/${voiceFile(q)}`];
  if(!url){$('#status').textContent='This recording is missing.';return;}
- const audio=new Audio(url);activeVoice=audio;audio.onended=()=>{if(activeVoice===audio)activeVoice=null;};
- audio.play().catch(()=>{if(activeVoice===audio)$('#status').textContent='Tap Hear it again to play the question.';});
+ const audio=getVoicePlayer();audio.src=url;audio.load();
+ audio.play().catch(()=>{$('#status').textContent='Tap Hear it again to play the question.';});
 }
 function render(){const q=journey.question;
  $('#hearts').innerHTML=Array.from({length:3},(_,i)=>`<span class="heart ${i<journey.hearts?'full':''}" aria-hidden="true">♥</span>`).join('');$('#hearts').setAttribute('aria-label',`${journey.hearts} hearts remaining`);
@@ -30,8 +70,9 @@ function render(){const q=journey.question;
 }
 function wait(ms){return new Promise(resolve=>setTimeout(resolve,ms));}
 async function choose(button){if(busy)return;const value=Number(button.dataset.answer),correct=value===journey.question.answer;
- stopVoice();if(!correct){const result=journey.choose(value);sound('oops');button.classList.add('wobble');$('#status').textContent=result==='restart'?'New journey! Let’s try another one.':'Try another asteroid!';renderHearts();
-  if(result==='restart'){busy=true;$('#ship').classList.add('restart');await wait(500);$('#ship').classList.remove('restart');render();busy=false;speak();}else{await wait(450);button.classList.remove('wobble');}return;
+ stopVoice();getVoicePlayer();
+ if(!correct){busy=true;const result=journey.choose(value);sound('oops');button.classList.add('wobble');$('#status').textContent=result==='restart'?'New journey! Let’s try another one.':'Try another asteroid!';renderHearts();
+  if(result==='restart'){$('#ship').classList.add('restart');await wait(500);$('#ship').classList.remove('restart');render();busy=false;speak();}else{await wait(450);button.classList.remove('wobble');busy=false;}return;
  }
  busy=true;sound('good');$('#status').textContent='Great flying!';
  const from=$('#ship').getBoundingClientRect(),to=button.getBoundingClientRect(),fly=$('#flight');

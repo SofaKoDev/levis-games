@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for map"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M35 55l70-19 70 19 70-19v132l-70 18-70-18-70 18z" fill="#e8dbaf"/><path d="M105 36v132m70-113v131" fill="none"/><path d="M56 138l35-42 37 19 37-37 51 43" fill="none" stroke="#7ca79b"/><circle cx="216" cy="121" r="9" fill="#d89a8e"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A folded treasure map with a red X"><defs><linearGradient id="bg-map" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fffaf0"/><stop offset="100%" stop-color="#f5ebd6"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-map)"/>
+    <ellipse cx="140" cy="184" rx="96" ry="10" fill="#7c5d3e" opacity=".18"/>
+    <polygon points="40,56 106,42 106,166 40,180" fill="#f7e7c3" stroke="#bfa475" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="106,42 174,56 174,180 106,166" fill="#eedaa9" stroke="#bfa475" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="174,56 240,42 240,166 174,180" fill="#f7e7c3" stroke="#bfa475" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M58 148 Q94 114 126 122 T196 96" fill="none" stroke="#856542" stroke-width="4" stroke-dasharray="7 7" stroke-linecap="round"/>
+    <path d="M192 84 L216 108 M216 84 L192 108" stroke="#e04f5f" stroke-width="7" stroke-linecap="round"/>
+    <path d="M64 88 L78 66 L92 88 Z M124 88 L138 66 L152 88 Z" fill="#77b085"/>
+  </svg>

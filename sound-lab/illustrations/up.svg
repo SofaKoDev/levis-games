@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for up"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M112 185v-92H67l73-65 73 65h-45v92z" fill="#9cbeb1"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A colorful hot-air balloon floating up into the sky"><defs><linearGradient id="bg-up" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e8f6fc"/><stop offset="100%" stop-color="#cfeaf7"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-up)"/>
+    <g fill="#ffffff" opacity=".82"><ellipse cx="58" cy="166" rx="34" ry="16"/><ellipse cx="222" cy="148" rx="36" ry="16"/><ellipse cx="198" cy="154" rx="22" ry="12"/></g>
+    <path d="M126 146 L132 164 M154 146 L148 164" stroke="#8f633e" stroke-width="2.5"/>
+    <rect x="128" y="162" width="24" height="20" rx="5" fill="#c98e57" stroke="#8f5d32" stroke-width="2.5"/>
+    <path d="M140 28 C100 28 84 62 92 98 C98 124 118 144 126 148 H154 C162 144 182 124 188 98 C196 62 180 28 140 28 Z" fill="#ef6d7a" stroke="#c24250" stroke-width="2.5"/>
+    <path d="M140 28 C122 28 114 62 118 98 C121 124 130 144 133 148 H147 C150 144 159 124 162 98 C166 62 158 28 140 28 Z" fill="#ffd970"/>
+    <path d="M56 108 V62 M42 76 L56 60 L70 76" fill="none" stroke="#4f94c4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>

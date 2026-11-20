@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for top"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M70 91h140l-70 98z" fill="#db9f96"/><ellipse cx="140" cy="91" rx="70" ry="26" fill="#ebc66f"/><path d="M140 38v49m-62 38h124m-106 24h87M39 164q-22-69 19-84m166 64q28-49 1-72" fill="none"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A colorful wooden spinning top"><defs><linearGradient id="bg-top" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fffaf0"/><stop offset="100%" stop-color="#f5ebd8"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-top)"/>
+    <ellipse cx="140" cy="184" rx="52" ry="9" fill="#7c5d3e" opacity=".18"/>
+    <rect x="132" y="34" width="16" height="34" rx="8" fill="#f2c14e" stroke="#c49229" stroke-width="2.5"/>
+    <path d="M68 88 Q140 52 212 88 L146 178 Q140 186 134 178 Z" fill="#ef6b78" stroke="#bd4250" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M84 106 Q140 120 196 106 L184 126 Q140 138 96 126 Z" fill="#ffd970"/>
+    <path d="M104 138 Q140 148 176 138 L164 156 Q140 164 116 156 Z" fill="#5ca8d6"/>
+    <path d="M92 84 Q116 74 144 74" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+  </svg>

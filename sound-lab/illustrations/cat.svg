@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for cat"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M91 87L87 30l43 43m20 0 43-43-4 57" fill="#e8b473"/><ellipse cx="140" cy="149" rx="64" ry="46" fill="#ecc6a8"/><ellipse cx="140" cy="102" rx="65" ry="51" fill="#e5b576"/><circle cx="117" cy="103" r="4"/><circle cx="163" cy="103" r="4"/><path d="M133 126h14l-7 8z" fill="#65766c"/><path d="M129 144q11 8 22 0" fill="none"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A cozy orange tabby cat"><defs><linearGradient id="bg-cat" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff9ef"/><stop offset="100%" stop-color="#faecd8"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-cat)"/>
+    <ellipse cx="140" cy="186" rx="72" ry="10" fill="#7c5d3e" opacity=".18"/>
+    <path d="M188 164 Q230 156 226 116 Q224 98 210 104" fill="none" stroke="#e39249" stroke-width="14" stroke-linecap="round"/>
+    <ellipse cx="140" cy="148" rx="50" ry="38" fill="#f0a65b" stroke="#b86f30" stroke-width="2.5"/>
+    <ellipse cx="140" cy="154" rx="28" ry="24" fill="#fff3de"/>
+    <path d="M96 92 L88 36 L130 66 Z M184 92 L192 36 L150 66 Z" fill="#f0a65b" stroke="#b86f30" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M99 84 L95 49 L123 68 Z M181 84 L185 49 L157 68 Z" fill="#f7b7bd"/>
+    <ellipse cx="140" cy="96" rx="52" ry="42" fill="#f5b36b" stroke="#b86f30" stroke-width="2.5"/>
+    <path d="M132 58 V70 M140 55 V71 M148 58 V70" stroke="#c97732" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="120" cy="94" r="5.5" fill="#362820"/><circle cx="160" cy="94" r="5.5" fill="#362820"/>
+    <circle cx="118" cy="92" r="2" fill="#fff"/><circle cx="158" cy="92" r="2" fill="#fff"/>
+    <ellipse cx="107" cy="105" rx="7" ry="4" fill="#f5989d" opacity=".6"/><ellipse cx="173" cy="105" rx="7" ry="4" fill="#f5989d" opacity=".6"/>
+    <polygon points="134,104 146,104 140,111" fill="#e87a84"/>
+    <path d="M129 114 Q134 120 140 113 Q146 120 151 114" fill="none" stroke="#362820" stroke-width="3" stroke-linecap="round"/>
+    <path d="M80 100 L106 104 M82 112 L106 110 M200 100 L174 104 M198 112 L174 110" stroke="#7d5a3c" stroke-width="2.5" stroke-linecap="round"/>
+  </svg>

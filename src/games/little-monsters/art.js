@@ -1,10 +1,10 @@
-import emberhornSheet from '../../../little-monsters/rainbow-pipeline/output-originals/sheets/emberhorn-animation-sheet.png';
-import sparkfoxSheet from '../../../little-monsters/rainbow-pipeline/output-originals/sheets/sparkfox-animation-sheet.png';
-import sunfeatherSheet from '../../../little-monsters/rainbow-pipeline/output-originals/sheets/sunfeather-animation-sheet.png';
-import leafspriteSheet from '../../../little-monsters/rainbow-pipeline/output-originals/sheets/leafsprite-animation-sheet.png';
-import tidefinSheet from '../../../little-monsters/rainbow-pipeline/output-originals/sheets/tidefin-animation-sheet.png';
-import nighthawkSheet from '../../../little-monsters/rainbow-pipeline/output-originals/sheets/nighthawk-animation-sheet.png';
-import moonmothSheet from '../../../little-monsters/rainbow-pipeline/output-originals/sheets/moonmoth-animation-sheet.png';
+import emberhornSheet from '../../../little-monsters/assets/sprites/emberhorn-animation-sheet.webp';
+import sparkfoxSheet from '../../../little-monsters/assets/sprites/sparkfox-animation-sheet.webp';
+import sunfeatherSheet from '../../../little-monsters/assets/sprites/sunfeather-animation-sheet.webp';
+import leafspriteSheet from '../../../little-monsters/assets/sprites/leafsprite-animation-sheet.webp';
+import tidefinSheet from '../../../little-monsters/assets/sprites/tidefin-animation-sheet.webp';
+import nighthawkSheet from '../../../little-monsters/assets/sprites/nighthawk-animation-sheet.webp';
+import moonmothSheet from '../../../little-monsters/assets/sprites/moonmoth-animation-sheet.webp';
 
 export const MONSTERS = [
   {id:'emberhorn',label:'Emberhorn',description:'A warm fire friend',sheet:emberhornSheet},

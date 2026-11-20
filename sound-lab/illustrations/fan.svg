@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for fan"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M140 153v34m-40 5h80" fill="none"/><circle cx="140" cy="91" r="67" fill="#dce9de"/><path d="M140 88q-49-59-22-53 49-5 30 45 74-16 54 11-24 43-55 13-24 70-39 42-27-39 26-48" fill="#86b4ad"/><circle cx="140" cy="91" r="12" fill="#e8c779"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A cool mint table fan blowing a breeze"><defs><linearGradient id="bg-fan" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f2fafc"/><stop offset="100%" stop-color="#e2f1f7"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-fan)"/>
+    <ellipse cx="140" cy="188" rx="54" ry="9" fill="#7c5d3e" opacity=".18"/>
+    <rect x="130" y="138" width="20" height="40" rx="6" fill="#7aa8a0"/>
+    <ellipse cx="140" cy="180" rx="48" ry="12" fill="#5c9188" stroke="#3f6e66" stroke-width="2.5"/>
+    <circle cx="140" cy="94" r="58" fill="#eaf7f5" stroke="#5c9188" stroke-width="5"/>
+    <g fill="#7ac9bb" stroke="#47877c" stroke-width="2">
+      <ellipse cx="140" cy="60" rx="16" ry="26"/>
+      <ellipse cx="140" cy="128" rx="16" ry="26"/>
+      <ellipse cx="106" cy="94" rx="26" ry="16"/>
+      <ellipse cx="174" cy="94" rx="26" ry="16"/>
+    </g>
+    <circle cx="140" cy="94" r="14" fill="#fff8e8" stroke="#47877c" stroke-width="3"/>
+    <g fill="none" stroke="#80bed6" stroke-width="4" stroke-linecap="round">
+      <path d="M210 74 Q228 68 246 74"/><path d="M214 94 Q236 88 254 94"/><path d="M210 114 Q228 120 246 114"/>
+    </g>
+  </svg>

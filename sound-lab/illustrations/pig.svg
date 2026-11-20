@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for pig"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M92 82L80 42l47 23m26 0 47-23-12 40" fill="#e9b3b5"/><ellipse cx="140" cy="149" rx="64" ry="46" fill="#ecc6a8"/><ellipse cx="140" cy="102" rx="65" ry="51" fill="#efbfc0"/><circle cx="117" cy="103" r="4"/><circle cx="163" cy="103" r="4"/><ellipse cx="140" cy="133" rx="28" ry="18" fill="#d88f9b"/><circle cx="130" cy="132" r="3"/><circle cx="150" cy="132" r="3"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A cute pink pig"><defs><linearGradient id="bg-pig" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff6f8"/><stop offset="100%" stop-color="#fae3e9"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-pig)"/>
+    <ellipse cx="140" cy="186" rx="74" ry="10" fill="#7c5d3e" opacity=".18"/>
+    <path d="M196 146 Q216 138 212 126 Q206 120 202 128 Q200 136 218 134" fill="none" stroke="#e88aa0" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="140" cy="148" rx="54" ry="38" fill="#f7a8ba" stroke="#d47288" stroke-width="2.5"/>
+    <path d="M94 84 L86 44 L124 66 Z M186 84 L194 44 L156 66 Z" fill="#f7a8ba" stroke="#d47288" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="140" cy="94" r="46" fill="#f9b6c5" stroke="#d47288" stroke-width="2.5"/>
+    <ellipse cx="140" cy="108" rx="22" ry="15" fill="#f28da4" stroke="#d47288" stroke-width="2"/>
+    <ellipse cx="132" cy="108" rx="4" ry="6" fill="#9c485c"/><ellipse cx="148" cy="108" rx="4" ry="6" fill="#9c485c"/>
+    <circle cx="118" cy="86" r="5" fill="#3a242a"/><circle cx="162" cy="86" r="5" fill="#3a242a"/>
+    <circle cx="116" cy="84" r="1.8" fill="#fff"/><circle cx="160" cy="84" r="1.8" fill="#fff"/>
+    <ellipse cx="104" cy="98" rx="7" ry="4" fill="#f07894" opacity=".55"/><ellipse cx="176" cy="98" rx="7" ry="4" fill="#f07894" opacity=".55"/>
+  </svg>

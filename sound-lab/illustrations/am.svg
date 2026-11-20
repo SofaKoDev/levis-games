@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for am"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><circle cx="140" cy="58" r="28" fill="#f0c79f"/><path d="M115 46q24-29 50 0" fill="#8a6854"/><path d="M111 112q29-22 58 0v44h-58z" fill="#7cb8ad"/><path d="M111 120l-22 24m80-24 23 24" fill="none"/><path d="M122 156v35m36-35v35" fill="none"/><circle cx="131" cy="61" r="2" fill="#65766c"/><circle cx="150" cy="61" r="2" fill="#65766c"/><path d="M132 75q9 8 18 0" fill="none"/><rect x="115" y="118" width="50" height="25" rx="7" fill="#fff9e9"/><text x="140" y="136" text-anchor="middle" stroke="none" fill="#475c58" font-family="sans-serif" font-size="15">I am</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A happy child pointing to themselves for the word am"><defs><linearGradient id="bg-am" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff8ed"/><stop offset="100%" stop-color="#e8f4fa"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-am)"/>
+    <ellipse cx="140" cy="190" rx="56" ry="9" fill="#7c5d3e" opacity=".18"/>
+    <path d="M96 188 Q102 128 140 128 Q178 128 184 188 Z" fill="#5fa8d3" stroke="#3f7fa6" stroke-width="2.5"/>
+    <path d="M140 147 c-7-7-15 1-8 9 l8 7 8-7 c7-8-1-16-8-9 Z" fill="#ff8598"/>
+    <path d="M104 150 Q78 158 92 172 Q104 176 116 162" fill="#f7cfa8" stroke="#d49e72" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M176 150 Q202 158 188 172 Q176 176 164 162" fill="#f7cfa8" stroke="#d49e72" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="140" cy="84" r="42" fill="#f7cfa8" stroke="#d9a477" stroke-width="2.5"/>
+    <path d="M98 78 Q102 36 140 36 Q178 36 182 78 Q166 58 140 60 Q114 58 98 78 Z" fill="#6b4b35"/>
+    <circle cx="125" cy="86" r="4.5" fill="#3a2a1e"/><circle cx="155" cy="86" r="4.5" fill="#3a2a1e"/>
+    <ellipse cx="113" cy="96" rx="7" ry="4" fill="#f59898" opacity=".6"/><ellipse cx="167" cy="96" rx="7" ry="4" fill="#f59898" opacity=".6"/>
+    <path d="M128 102 Q140 113 152 102" fill="none" stroke="#3a2a1e" stroke-width="3.8" stroke-linecap="round"/>
+    <g fill="#ffd25a"><circle cx="62" cy="64" r="5"/><circle cx="218" cy="56" r="4"/><circle cx="224" cy="112" r="3.5"/></g>
+  </svg>

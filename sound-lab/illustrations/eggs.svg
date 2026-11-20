@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for eggs"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="140" cy="183" rx="109" ry="15" fill="#d8e2d7"/><path d="M56 135q0-69 36-87 40 18 40 87 0 58-40 51-36 7-36-51z" fill="#fff4d9"/><path d="M143 135q0-69 36-87 40 18 40 87 0 58-40 51-36 7-36-51z" fill="#e8d5b1"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="Three eggs tucked in a cozy nest"><defs><linearGradient id="bg-eggs" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fffbf2"/><stop offset="100%" stop-color="#f2efe2"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-eggs)"/>
+    <ellipse cx="140" cy="180" rx="88" ry="11" fill="#7c5d3e" opacity=".18"/>
+    <ellipse cx="140" cy="152" rx="84" ry="30" fill="#b38252" stroke="#855a32" stroke-width="2.5"/>
+    <ellipse cx="102" cy="118" rx="28" ry="38" transform="rotate(-14 102 118)" fill="#fff8e8" stroke="#d4c2a3" stroke-width="2.5"/>
+    <ellipse cx="178" cy="118" rx="28" ry="38" transform="rotate(14 178 118)" fill="#eaf6fc" stroke="#b5d3e3" stroke-width="2.5"/>
+    <ellipse cx="140" cy="110" rx="30" ry="42" fill="#fff3d6" stroke="#d9c091" stroke-width="2.5"/>
+    <g fill="#c9a578" opacity=".45"><circle cx="132" cy="96" r="3"/><circle cx="150" cy="108" r="2.5"/><circle cx="136" cy="122" r="2"/><circle cx="96" cy="110" r="2.5"/><circle cx="182" cy="112" r="2.5"/></g>
+    <path d="M56 150 Q140 192 224 150 Q216 178 140 184 Q64 178 56 150 Z" fill="#c79563" stroke="#855a32" stroke-width="2.5"/>
+    <path d="M74 162 Q104 174 134 166 M146 168 Q178 176 208 162 M92 174 Q140 182 188 174" fill="none" stroke="#996a3d" stroke-width="3" stroke-linecap="round"/>
+  </svg>

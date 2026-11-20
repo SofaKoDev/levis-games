@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for mat"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><rect x="45" y="55" width="190" height="125" rx="12" fill="#e4bc85"/><path d="M65 77h150v81H65z" fill="#9fc6b3"/><path d="M27 69h18m-18 25h18m-18 25h18m-18 25h18m-18 25h18m190-100h18m-18 25h18m-18 25h18m-18 25h18m-18 25h18"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A cozy woven floor mat"><defs><linearGradient id="bg-mat" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fffaf2"/><stop offset="100%" stop-color="#f2e8da"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-mat)"/>
+    <ellipse cx="140" cy="172" rx="104" ry="14" fill="#7c5d3e" opacity=".18"/>
+    <polygon points="48,74 232,74 252,164 28,164" fill="#d9a56c" stroke="#a67441" stroke-width="3" stroke-linejoin="round"/>
+    <polygon points="62,88 218,88 232,150 48,150" fill="#e8ba84"/>
+    <path d="M54 106 H226 M48 124 H232 M44 142 H236" stroke="#5fa68c" stroke-width="6" opacity=".75"/>
+    <path d="M60 96 H220 M52 133 H228" stroke="#e87a72" stroke-width="4" opacity=".8"/>
+  </svg>

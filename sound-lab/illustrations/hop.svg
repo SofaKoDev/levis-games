@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for hop"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="146" cy="114" rx="50" ry="38" fill="#d0c5b0"/><ellipse cx="187" cy="81" rx="29" ry="31" fill="#d0c5b0"/><ellipse cx="182" cy="42" rx="8" ry="27" fill="#d0c5b0"/><ellipse cx="204" cy="43" rx="8" ry="27" fill="#d0c5b0"/><circle cx="197" cy="79" r="3"/><path d="M130 141l-33 14m72-19 34 10M48 181q36-49 66-9" fill="none"/><path d="M101 155l14 18-23 2" fill="none"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A cheerful bunny hopping in the air"><defs><linearGradient id="bg-hop" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f3fbf5"/><stop offset="100%" stop-color="#e0f2e6"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-hop)"/>
+    <ellipse cx="150" cy="186" rx="46" ry="8" fill="#7c5d3e" opacity=".18"/>
+    <path d="M46 176 Q92 92 144 102" fill="none" stroke="#85bfa6" stroke-width="4" stroke-dasharray="8 8" stroke-linecap="round"/>
+    <g transform="translate(158 96) rotate(-14)">
+      <ellipse cx="-14" cy="-42" rx="9" ry="24" transform="rotate(-12 -14 -42)" fill="#fffaf0" stroke="#c7b59e" stroke-width="2.5"/>
+      <ellipse cx="8" cy="-44" rx="9" ry="24" transform="rotate(10 8 -44)" fill="#fffaf0" stroke="#c7b59e" stroke-width="2.5"/>
+      <ellipse cx="-14" cy="-42" rx="4.5" ry="15" transform="rotate(-12 -14 -42)" fill="#f7b7c2"/>
+      <ellipse cx="8" cy="-44" rx="4.5" ry="15" transform="rotate(10 8 -44)" fill="#f7b7c2"/>
+      <circle cx="-30" cy="22" r="10" fill="#ffffff" stroke="#c7b59e" stroke-width="2"/>
+      <ellipse cx="0" cy="18" rx="30" ry="24" fill="#fffaf0" stroke="#c7b59e" stroke-width="2.5"/>
+      <circle cx="10" cy="-8" r="22" fill="#fffaf0" stroke="#c7b59e" stroke-width="2.5"/>
+      <circle cx="18" cy="-12" r="3.5" fill="#2e2520"/>
+      <ellipse cx="28" cy="-4" rx="4" ry="3" fill="#f294a4"/>
+      <ellipse cx="14" cy="-2" rx="5" ry="3" fill="#f7b7c2" opacity=".7"/>
+    </g>
+  </svg>

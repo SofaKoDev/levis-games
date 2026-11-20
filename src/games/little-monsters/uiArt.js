@@ -1,4 +1,4 @@
-import uiSheetUrl from '../../../little-monsters/assets/monster-ui-v2-original.png';
+import uiSheetUrl from '../../../little-monsters/assets/monster-ui-v2-original.webp';
 
 const sheetWidth = 2172;
 const sheetHeight = 724;

@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for see"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><circle cx="140" cy="58" r="28" fill="#f0c79f"/><path d="M115 46q24-29 50 0" fill="#8a6854"/><path d="M111 112q29-22 58 0v44h-58z" fill="#7cb8ad"/><path d="M111 120l-22 24m80-24 23 24" fill="none"/><path d="M122 156v35m36-35v35" fill="none"/><circle cx="131" cy="61" r="2" fill="#65766c"/><circle cx="150" cy="61" r="2" fill="#65766c"/><path d="M132 75q9 8 18 0" fill="none"/><circle cx="192" cy="87" r="25" fill="#d8edf0" fill-opacity=".8"/><path d="M209 106l24 25" fill="none"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A pair of cheerful eyes looking out for the word see"><defs><linearGradient id="bg-see" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f2f9fc"/><stop offset="100%" stop-color="#e2f0f7"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-see)"/>
+    <ellipse cx="140" cy="174" rx="88" ry="10" fill="#7c5d3e" opacity=".18"/>
+    <g>
+      <ellipse cx="96" cy="108" rx="44" ry="34" fill="#ffffff" stroke="#4f7c99" stroke-width="5"/>
+      <ellipse cx="184" cy="108" rx="44" ry="34" fill="#ffffff" stroke="#4f7c99" stroke-width="5"/>
+      <circle cx="104" cy="108" r="20" fill="#5ca4d4"/>
+      <circle cx="192" cy="108" r="20" fill="#5ca4d4"/>
+      <circle cx="106" cy="108" r="10" fill="#1e2f3d"/>
+      <circle cx="194" cy="108" r="10" fill="#1e2f3d"/>
+      <circle cx="100" cy="101" r="5" fill="#ffffff"/>
+      <circle cx="188" cy="101" r="5" fill="#ffffff"/>
+    </g>
+    <path d="M72 62 Q96 50 120 62 M160 62 Q184 50 208 62" fill="none" stroke="#4f7c99" stroke-width="5" stroke-linecap="round"/>
+  </svg>

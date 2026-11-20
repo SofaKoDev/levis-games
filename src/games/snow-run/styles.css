@@ -1,4 +1,434 @@
-.snow-body{margin:0;background:#e7f3fa;color:#3e6074;font:15px ui-rounded,'Trebuchet MS',system-ui,sans-serif;-webkit-tap-highlight-color:transparent}.snow-body *{box-sizing:border-box}.snow-body [hidden]{display:none!important}.snow-game{max-width:630px;margin:auto;padding:max(14px,env(safe-area-inset-top)) 16px max(12px,env(safe-area-inset-bottom))}.snow-game>.home-link{position:absolute;z-index:2}.snow-game header{text-align:center;padding-left:65px;min-height:61px}.snow-game h1{font-size:27px;margin:0;letter-spacing:-1px}.snow-game h1 span{color:#5e91ae}.snow-game header p{font-size:11px;margin:7px 0 0;color:#7594a6}.snow-game button,.finish-home{font:inherit;cursor:pointer;touch-action:manipulation;border:1px solid #bfd5df;border-radius:15px;background:#f8fcfe;color:#456c83;min-height:44px;padding:9px 14px;font-weight:700}.snow-game button:focus-visible,canvas:focus-visible{outline:3px solid #bf885c;outline-offset:2px}.snow-game button:disabled{opacity:.5;cursor:default}.snow-game button:active:not(:disabled){transform:scale(.97)}.snow-hud{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:8px;margin:8px 0 12px}.snow-hud div{background:#f8fcfe;border:1px solid #d2e4ec;border-radius:16px;text-align:center;padding:9px 3px}.snow-hud small{display:block;font-size:8px;letter-spacing:1.4px;color:#7797a9}.snow-hud strong{display:block;font-size:20px;margin-top:3px}.mountain{position:relative;border:3px solid #fff;border-radius:26px;overflow:hidden;box-shadow:0 6px 0 #bdd5e450}#mountain{display:block;width:100%;height:clamp(300px,53vh,560px);touch-action:none;outline-offset:-5px!important}.snow-overlay{position:absolute;inset:0;display:grid;place-items:center;background:#eef7fbe8;text-align:center;padding:15px;overflow-y:auto}.snow-overlay>div{width:100%;max-width:410px;margin:auto}.mountain-badge{font-size:48px;color:#8db2c7}h2{font-size:26px;margin:8px 0;line-height:1.1;letter-spacing:-.7px}.snow-overlay p{font-size:13px;line-height:1.6;margin:12px auto;max-width:320px}.snow-overlay .hint{font-size:10px;color:#718c9b}.snow-primary{background:#6794aa!important;color:white!important;border:0!important;min-height:52px!important;min-width:190px;box-shadow:0 4px 0 #4c758b}.steering{display:flex;gap:14px;margin-top:15px}.steering button{flex:1;background:#719bb3;color:white;border:0;min-height:61px;font-size:32px;box-shadow:0 4px 0 #547c95;touch-action:none;user-select:none;-webkit-user-select:none}.steering span{font-size:18px;vertical-align:middle}.run-tools{display:flex;gap:8px;margin-top:14px}.run-tools button{flex:1;font-size:12px}.snow-note{text-align:center;font-size:10px;color:#7794a5;margin:12px 0 0}.finish-friends{font-size:28px}#final-score{display:block;font-size:44px;color:#be8b4f;margin:6px}#skip-tally{min-height:35px;font-size:11px}#breakdown{margin:9px auto;max-width:280px;font-size:12px}#breakdown div{display:flex;justify-content:space-between;padding:3px 8px}#breakdown dd{margin:0;font-weight:bold}.finish-home{display:inline-block;text-decoration:none;margin-top:10px}.goodies{font-weight:bold}.snow-body:has(#finish:not([hidden])) #mountain{height:max(440px,53vh)}@media(max-height:740px){.snow-game{padding-top:9px}.snow-game header{min-height:53px}.snow-game h1{font-size:24px}.snow-hud{margin:4px 0 8px}.snow-hud div{padding:6px 3px}.snow-hud strong{font-size:18px}#mountain{height:46vh;min-height:255px}.steering button{min-height:53px}.steering{margin-top:11px}.run-tools{margin-top:11px}.snow-note{margin-top:8px}}@media(orientation:landscape) and (max-height:600px){.snow-game{max-width:880px;padding-right:125px;padding-left:125px}#mountain{height:50vh;min-height:180px}.steering{position:fixed;inset:auto 12px 20px;pointer-events:none;justify-content:space-between}.steering button{flex:0 0 92px;pointer-events:auto}.snow-note{display:none}.snow-game header{min-height:42px}.snow-game header p{display:none}}@media(prefers-reduced-motion:reduce){.snow-body *{animation:none!important;transition:none!important}}
+.snow-body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 14% 8%, rgba(255, 232, 186, 0.5) 0%, transparent 42%),
+    radial-gradient(circle at 86% 12%, rgba(173, 218, 245, 0.55) 0%, transparent 44%),
+    linear-gradient(180deg, #f7fbff 0%, #e1f0fa 100%);
+  color: #2f4e63;
+  font: 15px ui-rounded, 'SF Pro Rounded', 'Trebuchet MS', system-ui, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
 
-.confetti{position:absolute;inset:0;pointer-events:none;overflow:hidden}.confetti i{position:absolute;top:-20px;left:calc(var(--n)*4.2%);width:6px;height:11px;background:#dea963;animation:snow-confetti 3s linear infinite;animation-delay:calc(var(--n)*-.19s)}.confetti i:nth-child(3n){background:#d38eaa}.confetti i:nth-child(3n + 1){background:#80b8b6}@keyframes snow-confetti{to{transform:translateY(570px) rotate(260deg)}}
-@media(orientation:landscape) and (max-height:600px){.mountain-badge,.snow-overlay .hint{display:none}.snow-overlay p{margin:5px auto;font-size:11px}.snow-overlay h2{font-size:22px}.snow-overlay{padding:8px}}
+.snow-body * {
+  box-sizing: border-box;
+}
+
+.snow-body [hidden] {
+  display: none !important;
+}
+
+.snow-game {
+  position: relative;
+  max-width: 640px;
+  margin: auto;
+  padding: max(14px, env(safe-area-inset-top)) 18px max(16px, env(safe-area-inset-bottom));
+}
+
+.snow-game > .home-link {
+  position: absolute;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 3px 0 rgba(164, 195, 215, 0.45);
+}
+
+.snow-game header {
+  text-align: center;
+  padding-left: 68px;
+  min-height: 58px;
+}
+
+.snow-game h1 {
+  font-size: 28px;
+  margin: 0;
+  letter-spacing: -0.9px;
+  color: #264357;
+}
+
+.snow-game h1 span {
+  color: #3f84b0;
+}
+
+.snow-game header p {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 4px 0 0;
+  color: #66869b;
+}
+
+.snow-game button,
+.finish-home {
+  font: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+  border: 1.5px solid #c7dfec;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.94);
+  color: #385e77;
+  min-height: 44px;
+  padding: 9px 14px;
+  font-weight: 800;
+  transition: transform 0.14s ease, box-shadow 0.14s ease;
+}
+
+.snow-game button:focus-visible,
+canvas:focus-visible {
+  outline: 3px solid #d4884c;
+  outline-offset: 2px;
+}
+
+.snow-game button:disabled {
+  opacity: 0.48;
+  cursor: default;
+}
+
+.snow-game button:active:not(:disabled) {
+  transform: translateY(2px) scale(0.98);
+}
+
+.snow-hud {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr;
+  gap: 10px;
+  margin: 10px 0 12px;
+}
+
+.snow-hud div {
+  background: rgba(255, 255, 255, 0.94);
+  border: 2px solid rgba(255, 255, 255, 0.95);
+  border-radius: 18px;
+  text-align: center;
+  padding: 9px 6px;
+  box-shadow: 0 4px 0 rgba(169, 200, 219, 0.35), 0 8px 18px rgba(48, 86, 114, 0.07);
+}
+
+.snow-hud small {
+  display: block;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  color: #6f91a6;
+}
+
+.snow-hud strong {
+  display: block;
+  font-size: 21px;
+  color: #274458;
+  margin-top: 2px;
+}
+
+.mountain {
+  position: relative;
+  border: 3px solid rgba(255, 255, 255, 0.96);
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow:
+    0 8px 0 rgba(164, 198, 220, 0.4),
+    0 18px 34px rgba(42, 79, 108, 0.12);
+}
+
+#mountain {
+  display: block;
+  width: 100%;
+  height: clamp(320px, 54vh, 560px);
+  touch-action: none;
+  outline-offset: -5px !important;
+}
+
+.snow-overlay {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: rgba(240, 248, 255, 0.84);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  text-align: center;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.snow-overlay > div {
+  width: 100%;
+  max-width: 390px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.94);
+  border: 2px solid #ffffff;
+  border-radius: 24px;
+  padding: 18px 18px 16px;
+  box-shadow: 0 8px 0 rgba(168, 199, 218, 0.32), 0 16px 32px rgba(42, 79, 108, 0.12);
+}
+
+.hero-card {
+  width: 100%;
+  max-width: 240px;
+  aspect-ratio: 4 / 3;
+  margin: 0 auto 12px;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 2px solid #e3eff7;
+  box-shadow: 0 5px 14px rgba(45, 86, 117, 0.14);
+}
+
+.hero-card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.snow-overlay h2 {
+  font-size: 24px;
+  margin: 4px 0 6px;
+  line-height: 1.12;
+  letter-spacing: -0.6px;
+  color: #254256;
+}
+
+.snow-overlay p {
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 8px auto;
+  max-width: 310px;
+  color: #547285;
+}
+
+.snow-overlay .hint {
+  font-size: 11px;
+  color: #718fa3;
+  margin-bottom: 0;
+}
+
+.goodies {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: #edf6fc;
+  color: #365f7a !important;
+  font-weight: 800;
+}
+
+.snow-primary {
+  background: linear-gradient(180deg, #5798c4 0%, #417da8 100%) !important;
+  color: #ffffff !important;
+  border: 0 !important;
+  min-height: 52px !important;
+  min-width: 200px;
+  font-size: 17px !important;
+  box-shadow: 0 5px 0 #2e5f84, 0 10px 20px rgba(65, 125, 168, 0.28);
+}
+
+.steering {
+  display: flex;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.steering button {
+  flex: 1;
+  background: linear-gradient(180deg, #5d9bc6 0%, #4582ad 100%);
+  color: #ffffff;
+  border: 0;
+  min-height: 60px;
+  font-size: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 0 #316286, 0 10px 20px rgba(65, 125, 168, 0.22);
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.steering span {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.run-tools {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.run-tools button {
+  flex: 1;
+  font-size: 13px;
+  box-shadow: 0 3px 0 rgba(169, 200, 219, 0.45);
+}
+
+.snow-note {
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+  color: #6c8ca0;
+  margin: 12px 0 0;
+}
+
+.finish-friends {
+  font-size: 30px;
+}
+
+#final-score {
+  display: block;
+  font-size: 44px;
+  color: #cf8a38;
+  margin: 4px 0;
+}
+
+#skip-tally {
+  min-height: 36px;
+  font-size: 12px;
+}
+
+#breakdown {
+  margin: 10px auto;
+  max-width: 280px;
+  font-size: 13px;
+  background: #f3f9fd;
+  border-radius: 14px;
+  padding: 8px 10px;
+}
+
+#breakdown div {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 6px;
+}
+
+#breakdown dd {
+  margin: 0;
+  font-weight: 800;
+}
+
+.finish-home {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.snow-body:has(#finish:not([hidden])) #mountain {
+  height: max(450px, 54vh);
+}
+
+.confetti {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.confetti i {
+  position: absolute;
+  top: -20px;
+  left: calc(var(--n) * 4.2%);
+  width: 6px;
+  height: 11px;
+  background: #f0b454;
+  animation: snow-confetti 3s linear infinite;
+  animation-delay: calc(var(--n) * -0.19s);
+}
+
+.confetti i:nth-child(3n) {
+  background: #e382a3;
+}
+
+.confetti i:nth-child(3n + 1) {
+  background: #6bc0b8;
+}
+
+@keyframes snow-confetti {
+  to {
+    transform: translateY(570px) rotate(260deg);
+  }
+}
+
+@media (max-height: 740px) {
+  .snow-game {
+    padding-top: 9px;
+  }
+  .snow-game header {
+    min-height: 50px;
+  }
+  .snow-game h1 {
+    font-size: 24px;
+  }
+  .snow-hud {
+    margin: 5px 0 8px;
+  }
+  .snow-hud div {
+    padding: 6px 4px;
+  }
+  .snow-hud strong {
+    font-size: 18px;
+  }
+  #mountain {
+    height: 46vh;
+    min-height: 270px;
+  }
+  .hero-card {
+    max-width: 170px;
+    margin-bottom: 8px;
+  }
+  .steering button {
+    min-height: 52px;
+  }
+  .steering {
+    margin-top: 10px;
+  }
+  .run-tools {
+    margin-top: 10px;
+  }
+  .snow-note {
+    margin-top: 8px;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 600px) {
+  .snow-game {
+    max-width: 880px;
+    padding-right: 125px;
+    padding-left: 125px;
+  }
+  #mountain {
+    height: 52vh;
+    min-height: 190px;
+  }
+  .steering {
+    position: fixed;
+    inset: auto 12px 20px;
+    pointer-events: none;
+    justify-content: space-between;
+  }
+  .steering button {
+    flex: 0 0 92px;
+    pointer-events: auto;
+  }
+  .snow-note,
+  .hero-card,
+  .snow-overlay .hint,
+  .snow-game header p {
+    display: none;
+  }
+  .snow-game header {
+    min-height: 40px;
+  }
+  .snow-overlay {
+    padding: 8px;
+  }
+  .snow-overlay > div {
+    padding: 12px;
+  }
+  .snow-overlay h2 {
+    font-size: 20px;
+  }
+  .snow-overlay p {
+    margin: 4px auto;
+    font-size: 11px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .snow-body * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

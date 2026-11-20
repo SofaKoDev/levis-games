@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for not"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><rect x="88" y="74" width="104" height="80" rx="12" fill="#a8c4ba"/><circle cx="140" cy="109" r="78" fill="none" stroke="#c8857b" stroke-width="12"/><path d="M87 53l106 112" stroke="#c8857b" stroke-width="12"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A clear red circle with a diagonal line for not"><defs><linearGradient id="bg-not" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff6f7"/><stop offset="100%" stop-color="#fae4e7"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-not)"/>
+    <ellipse cx="140" cy="184" rx="62" ry="10" fill="#7c5d3e" opacity=".18"/>
+    <circle cx="140" cy="106" r="64" fill="#fff5f6" stroke="#e65364" stroke-width="16"/>
+    <line x1="96" y1="62" x2="184" y2="150" stroke="#e65364" stroke-width="16" stroke-linecap="round"/>
+  </svg>

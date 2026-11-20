@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for Sam"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><circle cx="140" cy="58" r="28" fill="#f0c79f"/><path d="M115 46q24-29 50 0" fill="#8a6854"/><path d="M111 112q29-22 58 0v44h-58z" fill="#7cb8ad"/><path d="M111 120l-22 24m80-24 23 24" fill="none"/><path d="M122 156v35m36-35v35" fill="none"/><circle cx="131" cy="61" r="2" fill="#65766c"/><circle cx="150" cy="61" r="2" fill="#65766c"/><path d="M132 75q9 8 18 0" fill="none"/><rect x="115" y="118" width="50" height="25" rx="7" fill="#fff9e9"/><text x="140" y="136" text-anchor="middle" stroke="none" fill="#475c58" font-family="sans-serif" font-size="15">Sam</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A cheerful smiling kid named Sam wearing a cap"><defs><linearGradient id="bg-sam" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f4faf6"/><stop offset="100%" stop-color="#e3f2e8"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-sam)"/>
+    <ellipse cx="140" cy="190" rx="58" ry="9" fill="#7c5d3e" opacity=".18"/>
+    <path d="M92 190 Q100 132 140 132 Q180 132 188 190 Z" fill="#63b584" stroke="#418a5f" stroke-width="2.5"/>
+    <circle cx="140" cy="88" r="42" fill="#f7cfa8" stroke="#d49e72" stroke-width="2.5"/>
+    <path d="M96 74 Q100 36 140 36 Q180 36 184 74 Z" fill="#4e94e4" stroke="#316db3" stroke-width="2.5"/>
+    <path d="M92 74 H204 Q204 84 180 82 H96 Z" fill="#316db3"/>
+    <circle cx="125" cy="92" r="4.5" fill="#2e2119"/><circle cx="155" cy="92" r="4.5" fill="#2e2119"/>
+    <ellipse cx="112" cy="102" rx="7" ry="4" fill="#f59898" opacity=".6"/><ellipse cx="168" cy="102" rx="7" ry="4" fill="#f59898" opacity=".6"/>
+    <path d="M126 108 Q140 119 154 108" fill="none" stroke="#2e2119" stroke-width="3.8" stroke-linecap="round"/>
+  </svg>

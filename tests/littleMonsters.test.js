@@ -25,7 +25,7 @@ it('decays gently, clamps after a long absence, and ignores a backward clock',()
 it('applies each care action without exceeding bounds, and play uses a little energy',()=>{
  let monster=newMonster('tidefin','Bloo',1000);
  monster=act(monster,'feed',1000);expect(monster.needs.fullness).toBe(100);
- monster=act(monster,'play',1000);expect(monster.needs.happiness).toBe(100);expect(monster.needs.energy).toBe(79);
+ monster=act(monster,'play',1000);expect(monster.needs.happiness).toBe(100);expect(monster.needs.energy).toBe(79);expect(monster.needs.cleanliness).toBe(79);expect(monster.needs.fullness).toBe(95);
  monster=act(monster,'clean',1000);expect(monster.needs.cleanliness).toBe(100);
  monster=act(monster,'rest',1000);expect(monster.needs.energy).toBe(100);
  expect(()=>act(monster,'unknown')).toThrow();

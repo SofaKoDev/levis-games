@@ -27,7 +27,7 @@ $('#app').innerHTML=`<main class="monster-app">
   <section id="home" class="home" hidden>
     <div class="name-row"><h2 id="pet-name"></h2><div class="name-tools"><span class="saved-note">Saved on this device</span><button id="journal-open" class="journal-button" type="button">${uiUtilityIcon('journal')}<span>Journal</span></button></div></div>
     <div class="needs">${NEEDS.map(key=>`<div class="need"><label for="need-${key}">${uiNeedIcon(key)}<span>${labels[key]}</span></label><div class="need-meter"><progress id="need-${key}" max="100" value="85"></progress></div></div>`).join('')}</div>
-    <div class="room"><div class="window" aria-hidden="true"><span class="sun"></span></div><div class="shelf" aria-hidden="true"></div><div class="rug" aria-hidden="true"></div><div id="pet" class="pet"></div><div id="effect" class="effect" aria-hidden="true"></div></div>
+    <div class="room"><div id="pet" class="pet"></div><div id="effect" class="effect" aria-hidden="true"></div></div>
     <p id="message" class="message" role="status">Your little friend is happy to see you!</p>
     <div class="actions">${['feed','play','clean','rest'].map(action=>`<button type="button" class="action ${action}" data-action="${action}">${uiActionSprite(action)}<span class="action-label">${action[0].toUpperCase()+action.slice(1)}</span></button>`).join('')}</div>
     <details class="parent"><summary>${uiUtilityIcon('settings')}<span>Grown-up settings</span></summary><div class="parent-tools"><button type="button" id="export">Export Pet</button><button type="button" id="export-journal">Export Journal</button><label class="import-label" for="import">Import Pet</label><input id="import" type="file" accept="application/json,.json"></div><div class="rename-tools"><label for="rename-input">Pet name</label><input id="rename-input" maxlength="20"><button type="button" id="rename">Save Name</button></div><p>Saves stay in this browser. Export files to keep a backup.</p><p id="parent-status" role="status"></p></details>
@@ -43,7 +43,7 @@ function update(){
  if(!state)return;
  $('#pet-name').textContent=state.name;
  $('#rename-input').value=state.name;
- for(const key of NEEDS) $(`#need-${key}`).value=Math.round(key==='fullness'?100-state.needs.fullness:state.needs[key]);
+ for(const key of NEEDS) $(`#need-${key}`).value=Math.round(state.needs[key]);
  if(animator){animator.setSpecies(state.species);if(!reactionActive&&['idle','sleep'].includes(animator.action)&&animator.action!==restingPose())animator.play(restingPose());}
 }
 function selectMonster(species){
@@ -156,5 +156,11 @@ $('#import').onchange=async event=>{
  }catch{setStatus('#parent-status','That file is not a valid Little Monsters save, or storage is unavailable.');}
  finally{event.target.value='';}
 };
-setInterval(()=>{if(state){state=applyElapsed(state);if(!writeSave(state))setStatus('#parent-status','This browser could not save changes. Export a backup.');update();}},60_000);
+function tickElapsed(){if(!state)return;state=applyElapsed(state);if(!writeSave(state))setStatus('#parent-status','This browser could not save changes. Export a backup.');update();}
+setInterval(()=>{if(!document.hidden)tickElapsed();},60_000);
+document.addEventListener('visibilitychange',()=>{
+ if(document.hidden){animator?.stop();return;}
+ tickElapsed();
+ if(state&&!$('#home').hidden&&!reactionActive)animator?.play(restingPose());
+});
 if(state)showHome();else showAdoption();

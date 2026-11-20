@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for pot"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M69 96h142v65q-71 46-142 0z" fill="#a2bcb3"/><path d="M68 107H43v32h26m143-32h25v32h-25" fill="none"/><path d="M61 91q79-40 158 0z" fill="#d1d9cd"/><path d="M127 68V57h26v11" fill="none"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A cozy teal cooking pot with a lid"><defs><linearGradient id="bg-pot" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f3faf9"/><stop offset="100%" stop-color="#e2f1ef"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-pot)"/>
+    <ellipse cx="140" cy="184" rx="78" ry="10" fill="#7c5d3e" opacity=".18"/>
+    <path d="M120 44 Q114 30 124 20 M160 44 Q154 30 164 20" fill="none" stroke="#b8c9d4" stroke-width="4" stroke-linecap="round"/>
+    <path d="M74 104 H54 Q46 104 46 114 Q46 124 54 124 H74 M206 104 H226 Q234 104 234 114 Q234 124 226 124 H206" fill="none" stroke="#427a73" stroke-width="7" stroke-linecap="round"/>
+    <rect x="74" y="88" width="132" height="90" rx="20" fill="#5ca89e" stroke="#3c7a72" stroke-width="3"/>
+    <path d="M90 104 V160" stroke="#a0ded5" stroke-width="7" stroke-linecap="round" opacity=".6"/>
+    <path d="M68 88 Q140 54 212 88 Z" fill="#70bdb3" stroke="#3c7a72" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="140" cy="64" r="10" fill="#ffd269" stroke="#c9952c" stroke-width="2.5"/>
+  </svg>

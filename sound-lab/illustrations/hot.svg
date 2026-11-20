@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for hot"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M77 110h119v51q-61 38-119 0z" fill="#d6ab93"/><path d="M105 89q-15-17 0-33m34 33q-15-17 0-33m34 33q-15-17 0-33" fill="none" stroke="#c58377"/><path d="M44 113l-14-10m201 10 14-10" stroke="#e2ae62"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A steaming hot mug of cocoa"><defs><linearGradient id="bg-hot" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff5ef"/><stop offset="100%" stop-color="#fce4d6"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-hot)"/>
+    <ellipse cx="140" cy="184" rx="62" ry="10" fill="#7c5d3e" opacity=".18"/>
+    <g fill="none" stroke="#f09a6e" stroke-width="5" stroke-linecap="round" opacity=".8">
+      <path d="M114 74 Q104 54 118 36"/><path d="M140 68 Q130 48 144 30"/><path d="M166 74 Q156 54 170 36"/>
+    </g>
+    <path d="M182 104 H198 Q216 104 212 130 Q208 152 180 148" fill="none" stroke="#d9594c" stroke-width="11" stroke-linecap="round"/>
+    <rect x="88" y="88" width="98" height="90" rx="18" fill="#ef6d5e" stroke="#bf4739" stroke-width="3"/>
+    <ellipse cx="137" cy="92" rx="46" ry="12" fill="#6b422d" stroke="#bf4739" stroke-width="2.5"/>
+    <path d="M104 112 V160" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity=".38"/>
+  </svg>

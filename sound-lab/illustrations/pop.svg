@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for pop"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><circle cx="129" cy="109" r="39" fill="#d4e5eb"/><path d="M168 64l14-23m4 58 37-2m-43 37 26 23m-51-8 5 31M94 65 77 44m6 64-37-5" fill="none" stroke="#e8bb6b"/><path d="M109 92q9-14 22-14" fill="none" stroke="#fffdf6"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A colorful swirl lollipop"><defs><linearGradient id="bg-pop" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff6f8"/><stop offset="100%" stop-color="#f9e5ee"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-pop)"/>
+    <ellipse cx="140" cy="190" rx="42" ry="8" fill="#7c5d3e" opacity=".18"/>
+    <rect x="134" y="124" width="12" height="66" rx="6" fill="#fff8eb" stroke="#d4c3a7" stroke-width="2"/>
+    <circle cx="140" cy="84" r="52" fill="#ff7a94" stroke="#d94e6a" stroke-width="3"/>
+    <path d="M140 84 m0-38 a38 38 0 1 1-30 15 a28 28 0 1 1 22 44 a18 18 0 1 1-14-28 a8 8 0 1 1 8 10" fill="none" stroke="#fff6e0" stroke-width="9" stroke-linecap="round"/>
+    <path d="M104 60 Q114 44 134 42" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity=".65"/>
+  </svg>

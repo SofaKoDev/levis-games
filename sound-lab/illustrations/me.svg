@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for me"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><circle cx="140" cy="58" r="28" fill="#f0c79f"/><path d="M115 46q24-29 50 0" fill="#8a6854"/><path d="M111 112q29-22 58 0v44h-58z" fill="#7cb8ad"/><path d="M111 120l-22 24m80-24 23 24" fill="none"/><path d="M122 156v35m36-35v35" fill="none"/><circle cx="131" cy="61" r="2" fill="#65766c"/><circle cx="150" cy="61" r="2" fill="#65766c"/><path d="M132 75q9 8 18 0" fill="none"/><rect x="115" y="118" width="50" height="25" rx="7" fill="#fff9e9"/><text x="140" y="136" text-anchor="middle" stroke="none" fill="#475c58" font-family="sans-serif" font-size="15">me</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A smiling kid with stars for the word me"><defs><linearGradient id="bg-me" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff8f5"/><stop offset="100%" stop-color="#f7e6e4"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-me)"/>
+    <ellipse cx="140" cy="190" rx="56" ry="9" fill="#7c5d3e" opacity=".18"/>
+    <path d="M96 190 Q104 132 140 132 Q176 132 184 190 Z" fill="#f0877a" stroke="#c96155" stroke-width="2.5"/>
+    <circle cx="140" cy="86" r="42" fill="#f7cfa8" stroke="#d49e72" stroke-width="2.5"/>
+    <path d="M98 84 Q100 38 140 38 Q180 38 182 84 Q168 62 140 62 Q112 62 98 84 Z" fill="#8c5a3c"/>
+    <circle cx="96" cy="76" r="14" fill="#8c5a3c"/><circle cx="184" cy="76" r="14" fill="#8c5a3c"/>
+    <circle cx="125" cy="88" r="4.5" fill="#3a2a1e"/><circle cx="155" cy="88" r="4.5" fill="#3a2a1e"/>
+    <ellipse cx="112" cy="98" rx="7" ry="4" fill="#f59898" opacity=".65"/><ellipse cx="168" cy="98" rx="7" ry="4" fill="#f59898" opacity=".65"/>
+    <path d="M128 104 Q140 114 152 104" fill="none" stroke="#3a2a1e" stroke-width="3.8" stroke-linecap="round"/>
+    <g fill="#ffd25a"><path d="M56 58 l4 10 10 4-10 4-4 10-4-10-10-4 10-4Z"/><path d="M224 68 l3 8 8 3-8 3-3 8-3-8-8-3 8-3Z"/></g>
+  </svg>

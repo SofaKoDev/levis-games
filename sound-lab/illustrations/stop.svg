@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="An original illustration for stop"><g stroke="#65766c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M99 27h82l57 57v67l-57 40H99l-57-40V84z" fill="#ce8c82"/><text x="140" y="123" stroke="none" text-anchor="middle" fill="#fff9e9" font-family="sans-serif" font-weight="bold" font-size="42">STOP</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 215" role="img" aria-label="A bright red octagon stop sign"><defs><linearGradient id="bg-stop" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff6f6"/><stop offset="100%" stop-color="#fae5e5"/></linearGradient></defs><rect width="280" height="215" rx="22" fill="url(#bg-stop)"/>
+    <ellipse cx="140" cy="192" rx="42" ry="8" fill="#7c5d3e" opacity=".18"/>
+    <rect x="133" y="144" width="14" height="48" rx="4" fill="#9aa8b3" stroke="#6d7c87" stroke-width="2"/>
+    <polygon points="112,34 168,34 206,72 206,128 168,166 112,166 74,128 74,72" fill="#e64553" stroke="#ffffff" stroke-width="7" stroke-linejoin="round"/>
+    <polygon points="112,34 168,34 206,72 206,128 168,166 112,166 74,128 74,72" fill="none" stroke="#b52a36" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M140 72 V114 M124 84 V112 M156 80 V112 M110 94 V116 Q110 134 138 134 H146 Q168 134 168 114 V94" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
