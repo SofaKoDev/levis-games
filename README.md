@@ -84,18 +84,20 @@ To add a game, create a directory with its `index.html` entry and independent so
 
 The public repository uses free GitHub Pages hosting. Settings → Pages → Source must be **GitHub Actions**. Pushes to `main` and manual workflow dispatches run locked dependency installation, all tests, a multi-page build, generated-page/asset checks, and deployment. The production base path derives from the actual repository name, so a rename does not require hardcoding a username or path in the workflow. Deployment waits for successful tests and build; concurrent deployments are serialized. Runtime dependencies and their MIT notices are bundled locally.
 
-After editing:
+After editing, open a Pull Request from a feature branch (avoid pushing directly to `main`):
 
 ```powershell
 pnpm run test
 pnpm run build
+git checkout -b describe-your-update
 git add .
 git diff --cached
 git commit -m "Describe the update"
-git push origin main
+git push -u origin describe-your-update
+gh pr create --base main
 ```
 
-Follow the run in the repository's Actions tab. If Git uses a different credential manager from GitHub CLI, authenticate that manager or use `git -c credential.helper= -c 'credential.helper=!gh auth git-credential' push origin main` after `gh auth login`. Never put credentials in files or remote URLs.
+Once the Pull Request is reviewed and merged into `main`, follow the deployment run in the repository's Actions tab. If Git uses a different credential manager from GitHub CLI, authenticate that manager or use `git -c credential.helper= -c 'credential.helper=!gh auth git-credential' push -u origin describe-your-update` after `gh auth login`. Never put credentials in files or remote URLs.
 
 For a custom domain, configure it in Pages, add `public/CNAME`, and change the workflow base path to `/`. For 404s, verify the full repository subpath, trailing slash, Pages source and successful workflow. For blank pages, inspect asset URLs and rebuild with the right base. For lockfile errors, update the lockfile intentionally with the pinned pnpm; CI must retain `--frozen-lockfile`. GitHub may redirect a renamed repository's source URL, but old Pages bookmarks should be updated explicitly.
 
@@ -123,7 +125,7 @@ New route: `christmas-tree/`. Source modules are in `src/games/christmas-tree/`:
 
 Progress saves to browser localStorage under `levis-tree`. Invalid/unavailable storage falls back safely. Only saved normalized positions and customization persist, not undo history. Save Picture renders a standalone SVG into a 1200×1500 PNG and opens a preview/download dialog; on iPhone, touch and hold the preview if downloads are restricted. System emoji artwork may look different across devices. Audio is not implemented. Desktop PNG preview/export and save restoration were checked; physical iPhone/Android download and touchscreen behavior still require device testing.
 
-Run `pnpm run dev` and open `/christmas-tree/`, or build with `PAGES_BASE_PATH=/levis-games/` and preview `/levis-games/christmas-tree/`. Publishing uses the existing Actions workflow after review: `git add .`, `git commit -m "Add Christmas Tree Decorator"`, then `git push origin main`. The approved Christmas game is published through this same workflow.
+Run `pnpm run dev` and open `/christmas-tree/`, or build with `PAGES_BASE_PATH=/levis-games/` and preview `/levis-games/christmas-tree/`. Publishing uses the existing Actions workflow once your Pull Request is reviewed and merged into `main`.
 
 ## Snow Run
 
