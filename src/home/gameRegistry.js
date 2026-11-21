@@ -6,5 +6,12 @@ export const games = [
   {id:'smoothie-station',title:'Smoothie Station',description:'Mix fruit and make silly smoothies!',label:"Play Levi's Smoothie Station",accent:'peach',art:'smoothie'},
   {id:'snow-run',title:'Snow Run',description:'Ski down the mountain and collect winter goodies!',label:"Play Levi's Snow Run",accent:'snow',art:'snow'},
   {id:'christmas-tree',title:'Christmas Tree',description:'Decorate your own magical Christmas tree!',label:"Play Levi's Christmas Tree",accent:'mint',art:'christmas',category:'Creative Play',icon:'🎄'},
+  {id:'bowling',title:'Bouncy Bowling',description:'Roll the ball, bounce off bumpers, and knock down the pins!',label:"Play Levi's Bouncy Bowling",accent:'peach',art:'bowling',href:'https://sofakodev.github.io/bowling/'},
+  {id:'holeo',title:'Holeo',description:'Grow your cozy hole bigger and gobble up the whole town!',label:"Play Levi's Holeo",accent:'snow',art:'holeo',href:'https://sofakodev.github.io/holeo/'},
 ];
-export const gameUrl=id=>`${import.meta.env.BASE_URL}${id}/`;
+export const gameUrl = (gameOrId) => {
+  if (typeof gameOrId === 'object' && gameOrId !== null) {
+    return gameOrId.href ?? `${import.meta.env.BASE_URL}${gameOrId.id}/`;
+  }
+  return `${import.meta.env.BASE_URL}${gameOrId}/`;
+};
