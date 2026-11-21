@@ -4,7 +4,7 @@ import {MONSTERS,monsterSprite} from './art.js';
 import {createMonsterAnimator} from './animation.js';
 import {uiNeedIcon,uiActionSprite,uiUtilityIcon} from './uiArt.js';
 import {NEEDS,newMonster,renameMonster,applyElapsed,act,readSave,writeSave,exportSave,importSave} from './state.js';
-import {readJournal,archiveAndAdopt} from './journal.js';
+import {readJournal,archiveAndAdopt,restoreFromJournal} from './journal.js';
 
 const $=selector=>document.querySelector(selector);
 const labels={fullness:'Hunger',happiness:'Happy',cleanliness:'Clean',energy:'Rested'};
@@ -76,7 +76,17 @@ function renderJournal(){
   const species=document.createElement('p');species.className='journal-species';species.textContent=MONSTERS.find(monster=>monster.id===entry.species)?.label??entry.species;
   const dates=document.createElement('p');dates.textContent=`Adopted ${entry.adoptionDateEstimated?'by ':''}${dateLabel(entry.adoptedAt)} · Archived ${dateLabel(entry.archivedAt)}`;
   const stats=document.createElement('p');stats.className='journal-stats';stats.textContent=`Fed ${entry.stats.feed} · Played ${entry.stats.play} · Cleaned ${entry.stats.clean} · Rested ${entry.stats.rest}`;
-  details.append(title,species,dates,stats);card.append(portrait,details);gallery.append(card);
+  const restore=document.createElement('button');restore.type='button';restore.className='journal-restore';restore.dataset.restore=entry.id;restore.textContent='Bring Back';
+  restore.onclick=()=>showReplaceDialog(`Bring back ${entry.name}?`,`${state.name} will rest safely in your Monster Journal while you play with ${entry.name}.`,()=>{
+   const result=restoreFromJournal(applyElapsed(state),entry.id,journal);
+   if(!result.ok){
+    if(result.journal)journal=result.journal;
+    setStatus('#journal-status',result.reason==='journal-invalid'?'The Journal needs repair before switching monsters.':'Could not switch monsters. Your current friend is still here.');
+    return;
+   }
+   journal=result.journal;state=result.active;showHome();setStatus('#message',`Welcome back, ${state.name}!`);
+  });
+  details.append(title,species,dates,stats,restore);card.append(portrait,details);gallery.append(card);
  }
 }
 function showJournal(){

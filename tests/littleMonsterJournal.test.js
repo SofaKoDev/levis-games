@@ -1,6 +1,6 @@
 import {it,expect} from 'vitest';
 import {SAVE_KEY,LEGACY_SAVE_KEY,newMonster,readSave,writeSave,act} from '../src/games/little-monsters/state.js';
-import {JOURNAL_KEY,emptyJournal,readJournal,archiveAndAdopt} from '../src/games/little-monsters/journal.js';
+import {JOURNAL_KEY,emptyJournal,readJournal,archiveAndAdopt,restoreFromJournal} from '../src/games/little-monsters/journal.js';
 
 function storage(failKey){
  const data=new Map();let writes=0;
@@ -74,4 +74,29 @@ it('keeps optional progression and customization data in saves and journal entri
  const result=archiveAndAdopt(pet,next,emptyJournal(),store,2000);
  expect(result.ok).toBe(true);
  expect(readJournal(store).entries[0]).toMatchObject({progression:{visits:4},customization:{ribbon:'gold'}});
+});
+
+it('brings back a monster from the journal, archives the current pet, and rolls back if active save fails',()=>{
+ const store=storage();
+ const first=act(newMonster('sparkfox','Pip',1000),'feed',1000);
+ const second=act(newMonster('moonmoth','Luna',2000),'play',2000);
+ const adopted=archiveAndAdopt(first,second,emptyJournal(),store,2000);
+ expect(adopted.ok).toBe(true);
+ const restored=restoreFromJournal(adopted.active,first.id,adopted.journal,store,999_000);
+ expect(restored.ok).toBe(true);
+ expect(restored.active).toMatchObject({id:first.id,name:'Pip',species:'sparkfox',adoptedAt:1000,savedAt:999_000,needs:first.needs,stats:{feed:1}});
+ expect('archivedAt' in restored.active).toBe(false);
+ expect(restored.journal.entries).toHaveLength(1);
+ expect(restored.journal.entries[0]).toMatchObject({id:second.id,name:'Luna',species:'moonmoth',archivedAt:999_000,stats:{play:1}});
+ expect(readSave(store,999_000).id).toBe(first.id);
+ expect(readJournal(store).entries[0].id).toBe(second.id);
+
+ // Active write failure rolls back the journal so neither pet is lost
+ const failActive=storage(SAVE_KEY);
+ failActive.data.set(SAVE_KEY,JSON.stringify(restored.active));
+ failActive.data.set(JOURNAL_KEY,JSON.stringify(restored.journal));
+ const failed=restoreFromJournal(restored.active,second.id,restored.journal,failActive,1_500_000);
+ expect(failed).toMatchObject({ok:false,reason:'active-write'});
+ expect(readSave(failActive,1_500_000).id).toBe(first.id);
+ expect(readJournal(failActive).entries[0].id).toBe(second.id);
 });

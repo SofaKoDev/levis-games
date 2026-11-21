@@ -39,6 +39,15 @@ it('renames, archives, and adopts through the journal while keeping the old pet'
   expect(document.querySelectorAll('.journal-card')).toHaveLength(1);
   expect(document.querySelector('.journal-card h3').textContent).toBe('Fern');
   expect(readJournal(localStorage).entries).toHaveLength(1);
+  document.querySelector('.journal-restore').click();
+  expect(dialog.open).toBe(true);
+  document.querySelector('#replace-confirm').click();
+  expect(document.querySelector('#home').hidden).toBe(false);
+  expect(document.querySelector('#pet-name').textContent).toBe('Fern');
+  expect(document.querySelector('#message').textContent).toContain('Welcome back, Fern!');
+  expect(readSave(localStorage)).toMatchObject({id:firstId,name:'Fern',species:'leafsprite',stats:{feed:1}});
+  expect(readJournal(localStorage).entries).toHaveLength(1);
+  expect(readJournal(localStorage).entries[0]).toMatchObject({name:'Luna',species:'moonmoth'});
   writes.mockRestore();
  }finally{vi.clearAllTimers();vi.useRealTimers()}
 });
