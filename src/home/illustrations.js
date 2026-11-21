@@ -7,6 +7,7 @@ import snowArt from './art/snow-run.jpg';
 import christmasArt from './art/christmas-tree.jpg';
 import bowlingArt from './art/bowling.jpg';
 import holeoArt from './art/holeo.jpg';
+import pipeGardenArt from './art/pipe-garden.jpg';
 
 export const illustrations = {
   number: numberArt,
@@ -18,4 +19,5 @@ export const illustrations = {
   christmas: christmasArt,
   bowling: bowlingArt,
   holeo: holeoArt,
+  pipeGarden: pipeGardenArt,
 };

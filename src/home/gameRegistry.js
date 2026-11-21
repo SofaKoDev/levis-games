@@ -8,6 +8,7 @@ export const games = [
   {id:'christmas-tree',title:'Christmas Tree',description:'Decorate your own magical Christmas tree!',label:"Play Levi's Christmas Tree",accent:'mint',art:'christmas',category:'Creative Play',icon:'🎄'},
   {id:'bowling',title:'Bouncy Bowling',description:'Roll the ball, bounce off bumpers, and knock down the pins!',label:"Play Levi's Bouncy Bowling",accent:'peach',art:'bowling',href:'https://sofakodev.github.io/bowling/'},
   {id:'holeo',title:'Holeo',description:'Grow your cozy hole bigger and gobble up the whole town!',label:"Play Levi's Holeo",accent:'snow',art:'holeo',href:'https://sofakodev.github.io/holeo/'},
+  {id:'pipe-garden',title:'Pipe Garden',description:'Turn the garden pipes and send sparkling water to the frog pond!',label:"Play Levi's Pipe Garden",accent:'mint',art:'pipeGarden',href:'https://sofakodev.github.io/pipe-garden/'},
 ];
 export const gameUrl = (gameOrId) => {
   if (typeof gameOrId === 'object' && gameOrId !== null) {
