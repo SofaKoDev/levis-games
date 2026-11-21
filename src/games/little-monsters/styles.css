@@ -60,6 +60,8 @@ body.monster-body{background:radial-gradient(circle at 12% 8%,rgba(255,224,166,.
 .journal-details h3{margin:0;color:#59442e;font-size:20px;overflow-wrap:anywhere}
 .journal-details p{margin:3px 0;font-size:12px;line-height:1.35;color:#665b4e}
 .journal-details .journal-species{font-size:14px;font-weight:900;color:#6d8767}
+.journal-restore{margin-top:8px;min-height:40px;padding:6px 14px;border:0;border-radius:12px;background:#6ca78b;color:#fff;font-size:13px;font-weight:900;box-shadow:0 3px 0 #4d8169}
+.journal-restore:active{transform:translateY(2px);box-shadow:0 1px 0 #4d8169}
 .journal-empty{grid-column:1/-1;text-align:center;padding:30px 10px;color:#758578;font-weight:800}
 .journal-adopt{display:block;margin:18px auto 0;padding:0 20px}
 .rename-tools{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin-top:12px}

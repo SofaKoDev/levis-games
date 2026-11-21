@@ -42,3 +42,23 @@ export function archiveAndAdopt(active,next,journal,storage=globalThis.localStor
  if(!writeSave(newPet,storage))return {ok:false,reason:'active-write',journal:updated};
  return {ok:true,active:newPet,journal:updated};
 }
+
+/** Swap an archived monster back into the active room and tuck the current pet into the journal. */
+export function restoreFromJournal(active,entryId,journal,storage=globalThis.localStorage,now=Date.now()){
+ const oldPet=validateSave(active);
+ const validJournal=validateJournal(journal);
+ if(!oldPet||!validJournal||typeof entryId!=='string'||!entryId)return {ok:false,reason:validJournal?'invalid':'journal-invalid'};
+ const target=validJournal.entries.find(entry=>entry.id===entryId);
+ if(!target)return {ok:false,reason:'not-found'};
+ const {archivedAt:_archivedAt,...rest}=target;
+ const restored=validateSave({...rest,savedAt:now});
+ if(!restored)return {ok:false,reason:'invalid'};
+ const remaining=validJournal.entries.filter(entry=>entry.id!==entryId&&entry.id!==oldPet.id);
+ const updated={version:1,entries:[...remaining,{...oldPet,archivedAt:now}]};
+ if(!writeJournal(updated,storage))return {ok:false,reason:'journal-write'};
+ if(!writeSave(restored,storage)){
+  writeJournal(validJournal,storage);
+  return {ok:false,reason:'active-write',journal:validJournal};
+ }
+ return {ok:true,active:restored,journal:updated};
+}
