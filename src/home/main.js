@@ -46,7 +46,7 @@ document.querySelector('#app').innerHTML = `
       ${games
         .map(
           (game, index) => `
-        <a class="game-card ${game.accent} ${game.id}" href="${gameUrl(game.id)}" aria-label="${game.label}">
+        <a class="game-card ${game.accent} ${game.id}" href="${gameUrl(game)}" aria-label="${game.label}">
           <div class="card-art">
             <img src="${illustrations[game.art]}" alt="" width="800" height="597" ${index < 2 ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">
           </div>
