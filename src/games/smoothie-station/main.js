@@ -2,9 +2,16 @@ import "./styles.css";
 import { addHomeLink } from "../../shared/navigation.js";
 import {
   formatSmoothieAnnouncement,
-  speak,
+  playVoiceClip,
+  primeVoicePlayer,
   stopSpeaking,
+  voiceSlug,
 } from "../../shared/speech.js";
+const voiceAssets = import.meta.glob("/smoothie-station/audio/*.mp3", {
+  eager: true,
+  query: "?url",
+  import: "default",
+});
 import { ingredients } from "./ingredients.js";
 import { createRecipe } from "./recipe.js";
 import { fruitArt, fruitShape, kitchenArt } from "./art.js";
@@ -109,11 +116,14 @@ for (const button of document.querySelectorAll("[data-fruit]"))
     decorateDrop(button.dataset.fruit);
   });
 $("#blend").addEventListener("click", () => {
+  primeVoicePlayer();
   recipe.blend();
   render();
   animateScene("is-blending");
   if (recipe.phase === "blended") {
-    speak(formatSmoothieAnnouncement(recipe.name));
+    const url =
+      voiceAssets[`/smoothie-station/audio/${voiceSlug(recipe.name)}.mp3`];
+    playVoiceClip(url, formatSmoothieAnnouncement(recipe.name));
   }
 });
 $("#undo-ingredient").addEventListener("click", () => {

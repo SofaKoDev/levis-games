@@ -54,35 +54,33 @@ it("late decorative animation events cannot repopulate an emptied blender", asyn
 it("announces the smoothie name when blended and stops speech on reset", async () => {
   vi.resetModules();
   document.body.innerHTML = '<div id="app"></div>';
-  const speakMock = vi.fn();
-  const cancelMock = vi.fn();
-  class MockUtterance {
-    constructor(text) {
-      this.text = text;
+  const players = [];
+  class MockAudio {
+    constructor() {
+      this.src = "";
+      this.currentTime = 0;
+      this.load = vi.fn();
+      this.play = vi.fn(() => Promise.resolve());
+      this.pause = vi.fn();
+      players.push(this);
     }
   }
   vi.stubGlobal("matchMedia", () => ({ matches: true }));
-  vi.stubGlobal("speechSynthesis", {
-    speak: speakMock,
-    cancel: cancelMock,
-    getVoices: () => [],
-  });
-  vi.stubGlobal("SpeechSynthesisUtterance", MockUtterance);
+  vi.stubGlobal("Audio", MockAudio);
 
   await import("../src/games/smoothie-station/main.js");
   const $ = (s) => document.querySelector(s);
   $('[data-fruit="banana"]').click();
   $('[data-fruit="strawberry"]').click();
-  expect(speakMock).not.toHaveBeenCalled();
+  expect(players).toHaveLength(0);
 
   $("#blend").click();
-  expect(speakMock).toHaveBeenCalledTimes(1);
-  expect(speakMock.mock.calls[0][0].text).toBe(
-    "You made Strawberry Banana Swirl Smoothie",
-  );
+  expect(players).toHaveLength(1);
+  expect(players[0].play).toHaveBeenCalledTimes(1);
+  expect(players[0].src).toContain("strawberry-banana-swirl.mp3");
 
-  cancelMock.mockClear();
+  players[0].pause.mockClear();
   $("#empty-blender").click();
-  expect(cancelMock).toHaveBeenCalledTimes(1);
+  expect(players[0].pause).toHaveBeenCalledTimes(1);
   vi.unstubAllGlobals();
 });
