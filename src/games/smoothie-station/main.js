@@ -1,5 +1,17 @@
 import "./styles.css";
 import { addHomeLink } from "../../shared/navigation.js";
+import {
+  formatSmoothieAnnouncement,
+  playVoiceClip,
+  primeVoicePlayer,
+  stopSpeaking,
+  voiceSlug,
+} from "../../shared/speech.js";
+const voiceAssets = import.meta.glob("/smoothie-station/audio/*.mp3", {
+  eager: true,
+  query: "?url",
+  import: "default",
+});
 import { ingredients } from "./ingredients.js";
 import { createRecipe } from "./recipe.js";
 import { fruitArt, fruitShape, kitchenArt } from "./art.js";
@@ -98,16 +110,24 @@ function render() {
 }
 for (const button of document.querySelectorAll("[data-fruit]"))
   button.addEventListener("click", () => {
+    stopSpeaking();
     recipe.add(button.dataset.fruit);
     render();
     decorateDrop(button.dataset.fruit);
   });
 $("#blend").addEventListener("click", () => {
+  primeVoicePlayer();
   recipe.blend();
   render();
   animateScene("is-blending");
+  if (recipe.phase === "blended") {
+    const url =
+      voiceAssets[`/smoothie-station/audio/${voiceSlug(recipe.name)}.mp3`];
+    playVoiceClip(url, formatSmoothieAnnouncement(recipe.name));
+  }
 });
 $("#undo-ingredient").addEventListener("click", () => {
+  stopSpeaking();
   recipe.undo();
   render();
 });
@@ -116,6 +136,7 @@ function clearDecorations() {
   $(".fruit-drop-layer").replaceChildren();
 }
 $("#empty-blender").addEventListener("click", () => {
+  stopSpeaking();
   recipe.empty();
   render();
   clearDecorations();
@@ -127,9 +148,13 @@ $("#serve-smoothie").addEventListener("click", () => {
   $("#make-another").focus({ preventScroll: true });
 });
 $("#make-another").addEventListener("click", () => {
+  stopSpeaking();
   recipe.makeAnother();
   render();
   clearDecorations();
   document.querySelector("[data-fruit]").focus({ preventScroll: true });
+});
+document.addEventListener("visibilitychange", () => {
+  if (document.hidden) stopSpeaking();
 });
 render();

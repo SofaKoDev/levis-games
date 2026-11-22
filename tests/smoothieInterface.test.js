@@ -50,3 +50,37 @@ it("late decorative animation events cannot repopulate an emptied blender", asyn
   expect($("#recipe-status").textContent).toBe("Your blender is ready");
   expect($("#blend").disabled).toBe(true);
 });
+
+it("announces the smoothie name when blended and stops speech on reset", async () => {
+  vi.resetModules();
+  document.body.innerHTML = '<div id="app"></div>';
+  const players = [];
+  class MockAudio {
+    constructor() {
+      this.src = "";
+      this.currentTime = 0;
+      this.load = vi.fn();
+      this.play = vi.fn(() => Promise.resolve());
+      this.pause = vi.fn();
+      players.push(this);
+    }
+  }
+  vi.stubGlobal("matchMedia", () => ({ matches: true }));
+  vi.stubGlobal("Audio", MockAudio);
+
+  await import("../src/games/smoothie-station/main.js");
+  const $ = (s) => document.querySelector(s);
+  $('[data-fruit="banana"]').click();
+  $('[data-fruit="strawberry"]').click();
+  expect(players).toHaveLength(0);
+
+  $("#blend").click();
+  expect(players).toHaveLength(1);
+  expect(players[0].play).toHaveBeenCalledTimes(1);
+  expect(players[0].src).toContain("strawberry-banana-swirl.mp3");
+
+  players[0].pause.mockClear();
+  $("#empty-blender").click();
+  expect(players[0].pause).toHaveBeenCalledTimes(1);
+  vi.unstubAllGlobals();
+});

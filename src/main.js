@@ -4,6 +4,8 @@ import {colorName} from './colorNames.js';
 import {createBowl} from './colorMixing.js';
 import {animatePaint} from './animations.js';
 import {addHomeLink} from './shared/navigation.js';
+import {formatColorAnnouncement,playVoiceClip,primeVoicePlayer,stopSpeaking,voiceSlug} from './shared/speech.js';
+const voiceAssets=import.meta.glob('/color-lab/audio/*.mp3',{eager:true,query:'?url',import:'default'});
 document.querySelector('#app').innerHTML=`
 <main class="lab"><header><span class="brand-mark" aria-hidden="true">✳</span><h1>Levi's <span>Color Lab</span></h1><p>A little paint. A big discovery.</p></header>
 <section class="mixing" aria-label="Mixing bowl"><div class="eyebrow">LOOK WHAT YOU MADE</div><h2 id="result" aria-live="polite">Let's make a color!</h2>
@@ -74,15 +76,18 @@ document.querySelector('#app').innerHTML=`
 <div class="presets">${presets.map(p=>`<button class="preset" data-color="${p.hex}" aria-label="${p.name}" aria-pressed="false"><span style="background:${p.hex}"></span><small>${p.name}</small></button>`).join('')}</div></section>
 <div class="controls"><button id="add">＋ <span>Add Paint</span></button><div class="secondary"><button id="undo" disabled><span class="btn-icon" aria-hidden="true">↶</span> Undo Last Drop</button><button id="empty" disabled><span class="btn-icon" aria-hidden="true">↻</span> Empty Bowl</button></div></div>
 <footer>Made for curious little hands <span aria-hidden="true">✦</span></footer></main>`;
-const $=s=>document.querySelector(s),bowl=createBowl();
-let selected=presets[0].hex;
+const $=s=>document.querySelector(s),bowl=createBowl(),ANNOUNCE_DELAY_MS=5000;
+let selected=presets[0].hex,announceTimer=null;
+function cancelAnnouncement(){if(announceTimer!==null){clearTimeout(announceTimer);announceTimer=null;}stopSpeaking();}
+function scheduleAnnouncement(){cancelAnnouncement();if(!bowl.color)return;announceTimer=setTimeout(()=>{announceTimer=null;if(bowl.color){const name=colorName(bowl.color);playVoiceClip(voiceAssets[`/color-lab/audio/${voiceSlug(name)}.mp3`],formatColorAnnouncement(name));}},ANNOUNCE_DELAY_MS);}
 function select(hex){selected=hex;$('#swatch').style.background=hex;const name=colorName(hex);$('#selected-name').textContent=name;$('#rainbow').value=hueOf(hex);$('#rainbow').setAttribute('aria-valuetext',name);for(const b of document.querySelectorAll('.preset'))b.setAttribute('aria-pressed',String(b.dataset.color===hex));}
-function addDrop(hex){bowl.add(hex);render();animatePaint($('.bowl-stage'),hex);}
+function addDrop(hex){primeVoicePlayer();bowl.add(hex);render();animatePaint($('.bowl-stage'),hex);scheduleAnnouncement();}
 function render(){const color=bowl.color,drops=bowl.drops,n=drops.length;$('#result').textContent=color?colorName(color):"Let's make a color!";$('#count').textContent=`${n} ${n===1?'drop':'drops'}`;$('#hex').textContent=color?color.toUpperCase():'Ready to play';document.querySelectorAll('.paint').forEach(p=>p.setAttribute('fill',color||'#f4edde'));$('.bowl').setAttribute('aria-label',color?`Bowl of ${colorName(color)} paint`:'An empty mixing bowl');$('#undo').disabled=$('#empty').disabled=!n;const list=$('#mix-list');list.hidden=!n;if(n){const counts=new Map();for(const d of drops){const k=d.toLowerCase();counts.set(k,(counts.get(k)||0)+1);}list.innerHTML=[...counts].map(([hex,count])=>`<span class="mix-chip"><i style="background:${hex}" aria-hidden="true"></i><span>${colorName(hex)}</span><strong>×${count}</strong></span>`).join('');}else list.innerHTML='';}
 $('#rainbow').addEventListener('input',e=>select(hueToHex(Number(e.target.value))));
 document.querySelectorAll('.preset').forEach(b=>b.addEventListener('click',()=>{select(b.dataset.color);addDrop(b.dataset.color);}));
 $('#add').addEventListener('click',()=>addDrop(selected));
-$('#undo').addEventListener('click',()=>{bowl.undo();render()});$('#empty').addEventListener('click',()=>{bowl.empty();render()});select(selected);
+$('#undo').addEventListener('click',()=>{bowl.undo();render();scheduleAnnouncement();});$('#empty').addEventListener('click',()=>{bowl.empty();render();cancelAnnouncement();});select(selected);
+document.addEventListener('visibilitychange',()=>{if(document.hidden)cancelAnnouncement();});
 addHomeLink($('.lab'));
 // Browsers can restore a range value after loading a page from history.
 window.addEventListener('pageshow',()=>select(selected));
