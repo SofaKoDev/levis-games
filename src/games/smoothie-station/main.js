@@ -1,5 +1,10 @@
 import "./styles.css";
 import { addHomeLink } from "../../shared/navigation.js";
+import {
+  formatSmoothieAnnouncement,
+  speak,
+  stopSpeaking,
+} from "../../shared/speech.js";
 import { ingredients } from "./ingredients.js";
 import { createRecipe } from "./recipe.js";
 import { fruitArt, fruitShape, kitchenArt } from "./art.js";
@@ -98,6 +103,7 @@ function render() {
 }
 for (const button of document.querySelectorAll("[data-fruit]"))
   button.addEventListener("click", () => {
+    stopSpeaking();
     recipe.add(button.dataset.fruit);
     render();
     decorateDrop(button.dataset.fruit);
@@ -106,8 +112,12 @@ $("#blend").addEventListener("click", () => {
   recipe.blend();
   render();
   animateScene("is-blending");
+  if (recipe.phase === "blended") {
+    speak(formatSmoothieAnnouncement(recipe.name));
+  }
 });
 $("#undo-ingredient").addEventListener("click", () => {
+  stopSpeaking();
   recipe.undo();
   render();
 });
@@ -116,6 +126,7 @@ function clearDecorations() {
   $(".fruit-drop-layer").replaceChildren();
 }
 $("#empty-blender").addEventListener("click", () => {
+  stopSpeaking();
   recipe.empty();
   render();
   clearDecorations();
@@ -127,9 +138,13 @@ $("#serve-smoothie").addEventListener("click", () => {
   $("#make-another").focus({ preventScroll: true });
 });
 $("#make-another").addEventListener("click", () => {
+  stopSpeaking();
   recipe.makeAnother();
   render();
   clearDecorations();
   document.querySelector("[data-fruit]").focus({ preventScroll: true });
+});
+document.addEventListener("visibilitychange", () => {
+  if (document.hidden) stopSpeaking();
 });
 render();
