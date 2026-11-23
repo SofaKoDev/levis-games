@@ -95,6 +95,48 @@ describe("speech helpers", () => {
     expect(utterance.voice).toBe(jennyVoice);
   });
 
+  it("falls back to speechSynthesis only once when both onerror and play rejection fire", async () => {
+    vi.resetModules();
+    const speakMock = vi.fn();
+    const cancelMock = vi.fn();
+    class MockUtterance {
+      constructor(text) {
+        this.text = text;
+      }
+    }
+    let lastAudio = null;
+    class FailingAudio {
+      constructor() {
+        this.src = "";
+        this.currentTime = 0;
+        this.onerror = null;
+        this.load = vi.fn();
+        this.pause = vi.fn();
+        this.play = vi.fn(() => {
+          this.onerror?.(new Event("error"));
+          return Promise.reject(new Error("decode failed"));
+        });
+        lastAudio = this;
+      }
+    }
+    vi.stubGlobal("Audio", FailingAudio);
+    vi.stubGlobal("speechSynthesis", {
+      speak: speakMock,
+      cancel: cancelMock,
+      getVoices: () => [],
+    });
+    vi.stubGlobal("SpeechSynthesisUtterance", MockUtterance);
+
+    const mod = await import("../src/shared/speech.js");
+    expect(mod.playVoiceClip("/missing/clip.mp3", "Fallback phrase")).toBe(true);
+    await Promise.resolve();
+    await Promise.resolve();
+
+    expect(lastAudio).not.toBeNull();
+    expect(speakMock).toHaveBeenCalledTimes(1);
+    expect(speakMock.mock.calls[0][0].text).toBe("Fallback phrase");
+  });
+
   it("safely no-ops when Audio and speechSynthesis are unavailable", () => {
     vi.stubGlobal("Audio", undefined);
     vi.stubGlobal("speechSynthesis", undefined);
