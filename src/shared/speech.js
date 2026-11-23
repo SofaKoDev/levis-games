@@ -87,20 +87,18 @@ export function playVoiceClip(url, fallbackText = "") {
   if (url) {
     const audio = getVoicePlayer();
     if (audio && typeof audio.play === "function") {
+      let fellBack = false;
+      const fallback = () => {
+        if (fellBack || token !== playGeneration || !fallbackText) return;
+        fellBack = true;
+        speak(fallbackText);
+      };
       try {
-        audio.onerror = () => {
-          if (token === playGeneration && fallbackText) {
-            speak(fallbackText);
-          }
-        };
+        audio.onerror = fallback;
         audio.src = url;
         audio.load?.();
         const result = audio.play();
-        result?.catch?.(() => {
-          if (token === playGeneration && fallbackText) {
-            speak(fallbackText);
-          }
-        });
+        result?.catch?.(fallback);
         return true;
       } catch {
         // Fall back to speechSynthesis below.

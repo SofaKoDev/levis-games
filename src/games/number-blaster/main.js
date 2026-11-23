@@ -1,5 +1,6 @@
 import './styles.css';
 import {addHomeLink} from '../../shared/navigation.js';
+import {playVoiceClip,primeVoicePlayer,stopSpeaking} from '../../shared/speech.js';
 import {createJourney,voiceFile} from './game.js';
 const voiceAssets=import.meta.glob('/number-blaster/audio/*.wav',{eager:true,query:'?url',import:'default'});
 
@@ -47,9 +48,7 @@ const $=selector=>document.querySelector(selector);
 document.body.className='blaster-body';
 $('#app').innerHTML=`<main class="blaster"><header><p class="eyebrow">A LITTLE SPACE ADVENTURE</p><h1>Levi's <span>Number Blaster</span></h1><div class="hud"><div id="hearts" aria-label="3 hearts remaining"></div><button id="replay" aria-label="Hear the math question again">Hear it again</button></div><div class="question"><p id="instruction"></p><strong id="equation"></strong></div></header><section class="space" aria-label="Choose the asteroid with the answer"><div class="stars" aria-hidden="true"></div><div class="planet planet-one" aria-hidden="true"></div><div class="planet planet-two" aria-hidden="true"></div><div id="destinations" class="destinations"></div><div class="home-rock"><span class="here">YOU ARE HERE</span><div class="ship" id="ship">${ship}</div><div class="rock-face"></div><strong id="current"></strong></div><div id="flight" class="flight" aria-hidden="true" hidden>${ship}</div><div id="spark" class="spark" aria-hidden="true">✦</div></section><p class="tip" id="status" role="status">Tap the asteroid with the answer!</p></main>`;
 addHomeLink($('.blaster'));
-const journey=createJourney();let busy=false,audioContext,voicePlayer=null;
-function getVoicePlayer(){if(!voicePlayer)voicePlayer=new Audio();return voicePlayer;}
-function stopVoice(){if(voicePlayer){voicePlayer.pause();try{voicePlayer.currentTime=0;}catch{}}}
+const journey=createJourney();let busy=false,audioContext;
 function sound(kind){
  try{audioContext ||= new (window.AudioContext||window.webkitAudioContext)();audioContext.resume();const now=audioContext.currentTime;
   for(const [i,note] of (kind==='good'?[523,659,784]:[330,294]).entries()){
@@ -58,10 +57,8 @@ function sound(kind){
  }catch{}
 }
 function speak(){
- stopVoice();const q=journey.question,url=voiceAssets[`/number-blaster/audio/${voiceFile(q)}`];
- if(!url){$('#status').textContent='This recording is missing.';return;}
- const audio=getVoicePlayer();audio.src=url;audio.load();
- audio.play().catch(()=>{$('#status').textContent='Tap Hear it again to play the question.';});
+ const q=journey.question,url=voiceAssets[`/number-blaster/audio/${voiceFile(q)}`];
+ if(!playVoiceClip(url,q.instruction)){$('#status').textContent='Tap Hear it again to play the question.';}
 }
 function render(){const q=journey.question;
  $('#hearts').innerHTML=Array.from({length:3},(_,i)=>`<span class="heart ${i<journey.hearts?'full':''}" aria-hidden="true">♥</span>`).join('');$('#hearts').setAttribute('aria-label',`${journey.hearts} hearts remaining`);
@@ -70,7 +67,7 @@ function render(){const q=journey.question;
 }
 function wait(ms){return new Promise(resolve=>setTimeout(resolve,ms));}
 async function choose(button){if(busy)return;const value=Number(button.dataset.answer),correct=value===journey.question.answer;
- stopVoice();getVoicePlayer();
+ stopSpeaking();primeVoicePlayer();
  if(!correct){busy=true;const result=journey.choose(value);sound('oops');button.classList.add('wobble');$('#status').textContent=result==='restart'?'New journey! Let’s try another one.':'Try another asteroid!';renderHearts();
   if(result==='restart'){$('#ship').classList.add('restart');await wait(500);$('#ship').classList.remove('restart');render();busy=false;speak();}else{await wait(450);button.classList.remove('wobble');busy=false;}return;
  }
@@ -87,5 +84,5 @@ async function choose(button){if(busy)return;const value=Number(button.dataset.a
 function renderHearts(){[...$('#hearts').children].forEach((heart,i)=>heart.classList.toggle('full',i<journey.hearts));$('#hearts').setAttribute('aria-label',`${journey.hearts} hearts remaining`);}
 $('#destinations').addEventListener('click',event=>{const button=event.target.closest('.destination');if(button)choose(button);});
 $('#replay').addEventListener('click',()=>{if(!busy)speak();});
-document.addEventListener('visibilitychange',()=>{if(document.hidden)stopVoice();});
+document.addEventListener('visibilitychange',()=>{if(document.hidden)stopSpeaking();});
 render();
